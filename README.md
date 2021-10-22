@@ -1,6 +1,6 @@
 # The Little Book of Little Books
 
-This is the source of, yes.
+This is the source of _The Little Book of Little Books_.
 
 Official description:
 
