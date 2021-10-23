@@ -145,13 +145,13 @@ I> We don’t cover compilation frameworks in more detail because they expand on
 There are many dozens of HTML/CSS frameworks that developers have found useful. Here is a representative selection, to give you an impression of what the world of external frameworks feels like:
 
 * [960 Grid System](https://960.gs/)
-* [1140 CSS Grid](@@)
+* [1140 CSS Grid](https://www.ramotion.com/agency/web-design/cssgrid/)
 * [Base](https://getbase.org/)
 * [Bijou](https://andhart.github.io/bijou/)
 * [Blueprint](http://www.blueprintcss.org/)
 * [Bootstrap](https://getbootstrap.com/)
-* [Cascade Framework](@@)
-* [Columnal](@@)
+* [Cascade Framework](https://web.archive.org/web/20150810101841/http://www.cascade-framework.com/)
+* [Columnal](https://web.archive.org/web/20141219115531/http://www.columnal.com/)
 * [Compass](http://compass-style.org/)
 * [CSS Smart Grid](http://origin.css.gd/)
 * [Fluid Baseline Grid](@@)
