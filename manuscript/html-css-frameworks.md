@@ -144,101 +144,55 @@ I> We don’t cover compilation frameworks in more detail because they expand on
 
 There are many dozens of HTML/CSS frameworks that developers have found useful. Here is a representative selection, to give you an impression of what the world of external frameworks feels like:
 
+* [960 Grid System](https://960.gs/)
+* [1140 CSS Grid](@@)
+* [Base](https://getbase.org/)
+* [Bijou](https://andhart.github.io/bijou/)
+* [Blueprint](http://www.blueprintcss.org/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Cascade Framework](@@)
+* [Columnal](@@)
+* [Compass](http://compass-style.org/)
+* [CSS Smart Grid](http://origin.css.gd/)
+* [Fluid Baseline Grid](@@)
+* [Foundation](https://foundation.zurb.com/)
+* [Gantry](http://gantry.org/)
+* [Golden Grid System](https://goldengridsystem.com/)
+* [Goldilocks](@@)
+* [Gridiculo.us](@@)
+* [Gridless](https://thatcoolguy.github.io/gridless-boilerplate/)
+* [Gridlock](@@)
+* [Groundwork](@@)
+* [Gumby](@@)
+* [HTML KickStart](http://www.99lime.com/elements/)
+* [HTML5 Boilerplate](https://html5boilerplate.com/)
+* [IceCream](http://html5-ninja.com/icecream/)
+* [Ingrid](http://piira.se/projects/ingrid/)
+* [InuitCSS](@@)
+* [IVORY Framework](@@)
+* [KNACSS](https://www.knacss.com/)
+* [kouto swiss](https://web.archive.org/web/20200220061116/http://kouto-swiss.io/)
+* [Kube](https://imperavi.com/kube/)
+* [Layers CSS](http://labs.jerryjappinen.com/layers/)
+* [Less Framework](https://lessframework.com/)
+* [Metro UI CSS](@@)
+* [Mueller Grid System](https://muellergridsystem.com/)
+* [Profound Grid](https://www.profoundgrid.com/)
+* [Pure](https://purecss.io/)
+* [Responsee](https://www.myresponsee.com/)
+* [ResponsiveAeon](@@)
+* [Responsive Grid System](https://www.bigdropinc.com/blog/responsive-gs/)
+* [Salsa](@@)
+* [Semantic Grid System](@@)
+* [Simple Grid](https://thisisdallas.github.io/Simple-Grid/)
+* [Skeleton](http://getskeleton.com/)
+* [Susy](https://www.oddbird.net/susy/)
+* [Titan](@@)
+* [Toast](@@)
+* [Tuktuk](@@)
+* [YAML](http://www.yaml.de/)
+
 @@
-
-960 Grid System
-
-1140 CSS Grid
-
-Base
-
-Bijou
-
-Bootstrap
-
-Blueprint
-
-Cascade Framework
-
-Columnal
-
-Compass
-
-CSS Smart Grid
-
-Fluid Baseline Grid
-
-Foundation
-
-Gantry
-
-Golden Grid System
-
-Goldilocks
-
-Gridiculo.us
-
-Gridless
-
-Gridlock
-
-Gumby
-
-Groundwork
-
-HTML KickStart
-
-HTML5 Boilerplate
-
-IceCream
-
-Ingrid
-
-InuitCSS
-
-IVORY Framework
-
-KNACSS
-
-kouto swiss
-
-Kube
-
-Layers CSS
-
-Less Framework
-
-Metro UI CSS
-
-Mueller Grid System
-
-Profound Grid
-
-Pure
-
-Responsee
-
-ResponsiveAeon
-
-Responsive Grid System
-
-Salsa
-
-Semantic Grid System
-
-Simple Grid
-
-Skeleton
-
-Susy
-
-Titan
-
-Toast
-
-Tuktuk
-
-YAML
 
 (Some readers will remember Choke, too, although that humor may have been rather crude.)
 
