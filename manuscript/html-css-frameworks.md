@@ -192,15 +192,14 @@ There are many dozens of HTML/CSS frameworks that developers have found useful. 
 * [Tuktuk](https://web.archive.org/web/20150613115431/http://tuktuk.tapquo.com/)
 * [YAML](http://www.yaml.de/)
 
-@@
-
-(Some readers will remember Choke, too, although that humor may have been rather crude.)
+(Some readers will remember [Choke](https://meiert.com/en/blog/choke/), too, although that humor may have been rather crude.)
 
 These frameworks all vary in functionality and scope. Some focus on base layouts, while others go all the way into comprehensive print and mobile themes.
 
-Such a list of frameworks is the type of information that goes stale quickly. While some frameworks, most notably YAML (not to be confused with YAML Ain’t Markup Language), have been around for many years, other frameworks come and go. It’s more useful to obtain said impression from this list, regard it as a snapshot, and, perhaps, make it a starting point to experiment.
+Such a list of frameworks is the type of information that goes stale quickly. While some frameworks, most notably YAML (not to be confused with [YAML Ain’t Markup Language](https://en.wikipedia.org/wiki/YAML)), have been around for many years, other frameworks come and go. It’s more useful to obtain said impression from this list, regard it as a snapshot, and, perhaps, make it a starting point to experiment.
 
-Attributes of a Good Framework
+## Attributes of a Good Framework
+
 Now, what is a “good” framework? What does a framework have that we want to use? What constitutes the framework we may want to build? I’ve thought about and worked with and discussed this question many times.
 
 In a professional or expert context, “good” usually refers to quality. We can establish this for frameworks as well. A framework should, especially when it’s an external one, meet the highest applicable quality standards.
@@ -215,51 +214,35 @@ And then, requirements change just as the times: how do we work with the framewo
 
 We’re just being professional and reasonable when we demand quality. We gain extra confidence, then, by wanting frameworks that are also tailored, usable, and extensible. Let’s look at these three special attributes a little closer and point out the options developers have to get frameworks to that state.
 
-On Quality
-It’s easy to just say “quality,” and, “Yes, I’ll have that, too.” But what exactly is quality? Or, for our purposes, what is quality code? When we think about it—consider lifting our eyes from these pages, and think code quality—we won’t struggle to find more than just the ideals of tailored, usable, and extensible. There’s also:
+I> ### On Quality
+I>
+I> It’s easy to just say “quality,” and, “Yes, I’ll have that, too.” But what exactly is quality? Or, for our purposes, what is quality code? When we think about it—consider lifting our eyes from these pages, and think code quality—we won’t struggle to find more than just the ideals of tailored, usable, and extensible. There’s also:
+I>
+I> * Fast
+I> * Accessible
+I> * Semantic
+I> * Robust
+I> * Scalable
+I> * Documented
+I> * Maintainable
+I> * Valid
+I> * Self-explaining
+I> * Consistent
+I> * “Automagical”
+I> * State-of-the-art
+I> * Simple
+I> * Compact
+I> * Flexible
+I> * Tested
+I> * Fault-tolerant
+I> * Self-correcting
+I> * And more!
+I>
+I> This doesn’t even include anything emotional we may want to attach to quality, like “pleasant” or “fun.” But what we see is that quality has many different faces.
 
-Fast
+### 1. A Framework Should Be Tailored
 
-Accessible
-
-Semantic
-
-Robust
-
-Scalable
-
-Documented
-
-Maintainable
-
-Valid
-
-Self-explaining
-
-Consistent
-
-“Automagical”
-
-State of the art
-
-Simple
-
-Compact
-
-Flexible
-
-Tested
-
-Fault-tolerant
-
-Self-correcting
-
-And more!
-
-This doesn’t even include anything emotional we may want to attach to quality, like “pleasant” or “fun.” But what we see is that quality has many different faces.
-
-1. A Framework Should Be Tailored
-   We defined tailoring as “producing and adjusting to precise dimensions and needs.” Producing refers to developing a framework—whether internal or external—while adjusting commonly means fitting an external framework. The key here is “precise dimensions and needs.” We need to know our needs—otherwise we can neither produce nor adjust something to fit.
+We defined tailoring as “producing and adjusting to precise dimensions and needs.” Producing refers to developing a framework—whether internal or external—while adjusting commonly means fitting an external framework. The key here is “precise dimensions and needs.” We need to know our needs—otherwise we can neither produce nor adjust something to fit.
 
 One view of tailored code, by the way, is to compare needed code with overall code. That can be hard to measure, because the number of characters or lines in our code doesn’t do the trick. But conceptually, tailoring means using as little and yet as effective code as possible, and not more.
 
@@ -277,51 +260,47 @@ By the way, there’s another problem we need to consider: while we’re benefit
 
 To tailor internal frameworks:
 
-Be clear about needs.
-
-Build the framework to these needs.
+* Be clear about needs.
+* Build the framework to these needs.
 
 To tailor external frameworks:
 
-Be clear about needs.
+* Be clear about needs.
+* Customize or modify the framework to these needs (or abstain from the framework).
 
-Customize or modify the framework to these needs (or abstain from the framework).
+### 2. A Framework Should Be Usable
 
-2. A Framework Should Be Usable
-   A good framework is not only tailored but also usable. But what is usability for frameworks? It starts with applying the common definition of usability: ease of use and learnability. And with a universal rule: keep it simple. Simplicity helps everything.
+A good framework is not only tailored but also usable. But what is usability for frameworks? It starts with applying the [common definition of usability](https://en.wikipedia.org/wiki/Usability): ease of use and learnability. And with a universal rule: keep it simple. Simplicity helps everything.
 
 But that’s not quite a complete answer, and so we need to differentiate again. The distinction that serves us here is not one between frameworks, but between roles: framework users and framework developers.
 
-For the framework user (who may be a developer himself but is now concerned with working with the framework), a usable framework is also easy to understand. That ease of understanding is primarily achieved through clear framework documentation and, where applicable, concise code.
+For the framework user (who may be a developer himself but is now concerned with working _with_ the framework), a usable framework is also easy to understand. That ease of understanding is primarily achieved through clear framework documentation and, where applicable, concise code.
 
-For the framework developer, there’s much more emphasis on usable code. Luckily, there are two things we can firmly link with helping code usability: maintainability practices and code conventions (coding guidelines). Adherence to maintainability practices and consistent style are the backbone for usable code.
+For the framework developer, there’s much more emphasis on usable code. Luckily, there are two things we can firmly link with helping code usability: [maintainability practices](https://meiert.com/en/blog/maintainability-guide/) and code conventions (coding guidelines). Adherence to maintainability practices and consistent style are the backbone for usable code.
 
-With slightly smaller boundaries than developer experience, I generally believe there is a subfield of usability: developer usability. It could be defined as “the ease of use and learnability of code.” Perhaps this field doesn’t get much attention because usable code goes under different names, as we just found, but perhaps it would benefit from being treated separately.
+With slightly smaller boundaries than [developer experience](https://web.archive.org/web/20150801063134/http://developerexperience.org/), I generally believe there is a subfield of usability: _developer usability._ It could be defined as “the ease of use and learnability of code.” Perhaps this field doesn’t get much attention because usable code goes under different names, as we just found, but perhaps it would benefit from being treated separately.
 
 To make frameworks more usable for users:
 
-Keep it simple.
-
-Follow usability conventions.
-
-Perform usability tests.
-
-Provide documentation for framework users.
+* Keep it simple.
+* Follow usability conventions.
+* Perform usability tests.
+* Provide documentation for framework users.
 
 To make frameworks more usable for developers:
 
-Keep it simple.
-
-Aim for self-explanatory code.
-
-Format code legibly and consistently.
-
-Follow maintainability best practices.
+* Keep it simple.
+* Aim for self-explanatory code.
+* Format code legibly and consistently.
+* Follow maintainability best practices.
 
 Provide documentation for framework developers.
 
-3. A Framework Should Be Extensible
-   The final attribute to underscore is extensibility. Extensibility for a framework means that it’s not just possible, but well-defined and easy to extend it.
+### 3. A Framework Should Be Extensible
+
+@@
+
+The final attribute to underscore is extensibility. Extensibility for a framework means that it’s not just possible, but well-defined and easy to extend it.
 
 Extensibility is necessary for two reasons. First, external frameworks in particular won’t offer everything we need, so there needs to be a way to add functionality. Second, especially in large projects, there’s a tendency for new patterns to pop up. The problem with these is their uncertainty and uniqueness: they may only be used once or twice and don't warrant a place in the framework core or even near more common extensions. Both their location and handling have to be thought of.
 
