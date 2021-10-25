@@ -100,7 +100,7 @@ Frameworks promise to save both development and design time. The thinking goes t
 
 If frameworks come with this promise, the question arises whether or not they live up to it. The answer boils down to a cost calculation that is, unfortunately, different for every framework and project. How much development cost was saved? How much was, in turn, spent on training, customization, and upgrades?
 
-Apart from suggesting that we do the math and think through every project, the following pages cover frameworks in the necessary detail to empower everyone to form their own theory about the raisons d'être of frameworks.
+Apart from suggesting that we do the math and _think_ through every project, the following pages cover frameworks in the necessary detail to empower everyone to form their own theory about the raisons d'être of frameworks.
 
 ### Types and Uses of Frameworks
 
@@ -216,7 +216,7 @@ We’re just being professional and reasonable when we demand quality. We gain e
 
 I> ### On Quality
 I>
-I> It’s easy to just say “quality,” and, “Yes, I’ll have that, too.” But what exactly is quality? Or, for our purposes, what is quality code? When we think about it—consider lifting our eyes from these pages, and think code quality—we won’t struggle to find more than just the ideals of tailored, usable, and extensible. There’s also:
+I> It’s easy to just say “quality,” and, “Yes, I’ll have that, too.” But what exactly _is_ quality? Or, for our purposes, what is quality code? When we think about it—consider lifting our eyes from these pages, and think code quality—we won’t struggle to find more than just the ideals of tailored, usable, and extensible. There’s also:
 I>
 I> * Fast
 I> * Accessible
@@ -302,7 +302,7 @@ The final attribute to underscore is extensibility. Extensibility for a framewor
 
 Extensibility is necessary for two reasons. First, external frameworks in particular won’t offer everything we need, so there needs to be a way to add functionality. Second, especially in large projects, there’s a tendency for new patterns to pop up. The problem with these is their uncertainty and uniqueness: they may only be used once or twice and don't warrant a place in the framework core or even near more common extensions. Both their location and handling have to be thought of.
 
-To make up for lacking functionality in a framework, users typically help themselves by pretending they don’t use a framework in the first place. That is, they have a style sheet or script that handles everything the framework doesn’t cover. That’s actually quite OK; the point here is to be clear about how such “non-framework functionality” or extensions are handled (and we notice how extensibility is also a user responsibility). If nothing else, extensibility stresses the need for the most basic of all code safeties: a namespace (a framework-specific ID and class name prefix, and the same namespace in JavaScript).
+To make up for lacking functionality in a framework, users typically help themselves by pretending they don’t use a framework in the first place. That is, they have a style sheet or script that handles everything the framework doesn’t cover. That’s actually quite OK; the point here is to _be clear_ about how such “non-framework functionality” or extensions are handled (and we notice how extensibility is also a user responsibility). If nothing else, extensibility stresses the need for the most basic of all code safeties: a namespace (a framework-specific ID and class name prefix, and the same namespace in JavaScript).
 
 Next, new and rarely used patterns are a challenge that runs in the best families. There tends to always be a need for something new, and there are always document types or elements that are used infrequently. They’re one of the biggest contributing factors to code bloat. They are hard to control if they don’t get watched and reigned in vigorously. Though I could give a longer dissertation about the matter, an effective counter-practice is to either designate style sheet and script sections for new and experimental code, as well as rare elements—or to even put aside a separate style sheet and script for such purposes. The framework developers should anticipate this and make recommendations, but users should come up with their own guidelines if this piece has not been covered. A documented standard for new code allows better monitoring and better decisions on whether to keep (and relocate) the code, or to remove it.
 
@@ -317,26 +317,26 @@ To make frameworks more extensible:
 
 D> Please note that despite all my experience and convictions, I’ve phrased these rules as strong suggestions. I was tempted to say “must,” “must,” “must.” Whenever we like more dogma in our web development life, we use this verb.
 D>
-D> Another thing before we move on: note that no matter the quality of the framework, the goal for its use is always on the owners and developers. Frameworks can be likened to cars: a good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored and usable and extensible. But just as we look at the driver to know the destination for her car, we look at the developer to know the goals for the framework she’s using. We can drive a framework against the wall just as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: a framework doesn’t drive itself.
+D> Another thing before we move on: note that no matter the quality of the framework, the _goal_ for its use is always on the owners and developers. Frameworks can be likened to cars: a good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored and usable and extensible. But just as we look at the driver to know the destination for her car, we look at the developer to know the goals for the framework she’s using. We can drive a framework against the wall just as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: a framework doesn’t drive itself.
 
 ## Using Frameworks
 
-Two ways we’ve been exposed to frameworks are by using and developing them (with some inherent overlap). Our initial definition gives this an interesting spin, as we have seen that we can regard any style sheet or script as a “framework.” So anyone who has worked with style sheets and scripts already has a basic idea of how to use frameworks.
+Two ways we’ve been exposed to frameworks are by using and developing them (with some inherent overlap). Our initial definition gives this an interesting spin, as we have seen that we can regard any style sheet or script as a “framework.” So anyone who has worked with style sheets and scripts already has a _basic_ idea of how to use frameworks.
 
 After all that we’ve learned, using can’t be as complicated as developing, and must mostly depend on the framework. It requires a choice of framework, and then demands two ground rules.
 
 ### Choosing a Framework
 
-The “pro-quality” choice has been explained as using or developing an internal framework, and choosing a framework generally applies to external ones. The choice of an external framework depends on two factors:
+The “pro-quality” choice has been explained as using or developing an _internal_ framework, and choosing a framework generally applies to external ones. The choice of an external framework depends on two factors:
 
 1. Which one meets our needs the best?
 2. Which one is of the best quality (that is, which one is as tailored/customizable, usable, and extensible as possible)?
 
-These questions underline the importance of knowing our precise needs. It is even important in order to pick a framework, as knowing our needs helps determine which framework fits better (tailoring) and comes closer to our extensibility needs (though simple needs don't require extensibility as frequently as comprehensive needs).
+These questions underline the importance of knowing our precise needs. It is even important in order to _pick_ a framework, as knowing our needs helps determine which framework fits better (tailoring) and comes closer to our extensibility needs (though simple needs don't require extensibility as frequently as comprehensive needs).
 
 ### The Two Ground Rules of Using a Framework
 
-And of any framework at that. These two rules are golden:
+And of _any_ framework at that. These two rules are golden:
 
 #### 1. Follow the Documentation
 
@@ -383,7 +383,7 @@ The example, simplified as it is, shows how a seemingly innocent change can have
 
 The remedy: For internal frameworks, update the framework, or leave things as they are (as in, no overwriting). For external frameworks, leave things as they are, or create a separate pattern that does the job (like an alternative header, with different markup). Stay away from forking or “patch improvements”; solve issues at the core, or not at all.
 
-The more complex the project and the bigger the organization, the harder it can be to display the necessary discipline. Everyone working with a framework needs to follow these two rules, however, to achieve the highest levels of quality and consistency possible.
+D> The more complex the project and the bigger the organization, the harder it can be to display the necessary discipline. Everyone working with a framework needs to follow these two rules, however, to achieve the highest levels of quality and consistency possible.
 
 I> [This used to be a longer section about overwriting vs. extending. An edited conclusion seemed to suffice:]
 I>
@@ -462,7 +462,7 @@ To take a page out of Google's book, it’s best to automate such checks. Review
 
 We’ve so far noted how principles, a prototype, and quality management are important in framework development. The last key item to stress is maintenance. Maintenance here primarily means (similar to prototypes) a strong commitment to move forward with a framework. This is important for two reasons.
 
-For one, in the case of external frameworks, maintenance is crucial because publishing a framework is a promise to the user base. That promise is precisely that it’s going to be maintained. It’s also a promise in how it’s going to be maintained, in that we do everything in our power not to change any structure, but only the framework style sheets and scripts.
+For one, in the case of external frameworks, maintenance is crucial because publishing a framework is a promise to the user base. That promise is precisely that it’s going to be maintained. It’s also a promise in _how_ it’s going to be maintained, in that we do everything in our power not to change any structure, but only the framework style sheets and scripts.
 
 For another, in any framework, a commitment to maintenance acts like another form of safety. The general idea in web development is that the [HTML is most important to get right](https://meiert.com/en/blog/get-the-html-right/), because it’s more expensive—think our cost definition—to change than style sheets and scripts. An explicit commitment to maintenance will keep us from discarding a framework to just “build another,” and thus lives up to the vision of CSS-only design iterations and refactorings. (Of course, true structural changes will still always require HTML changes, and with that, eventually, CSS and JavaScript edits.)
 
@@ -478,140 +478,143 @@ I> I believe that this advice is still sound. Code can’t afford anxiety. If we
 
 #### Updates
 
-@@
-
 The handling of framework updates is delicate enough to deserve a separate section. Updates are generally easier to manage for internal frameworks than for external ones, though updates in a large organization with many developers spread out over many places can be challenging, too.
 
 Here are a few tricks to make framework updates easier:
 
-Try to avoid HTML changes because of their comparatively high cost. An update should only consist of styling or scripting changes and impart no actual work for users (which, to counter the aforementioned definition blurriness, also means developers who work with the framework). The update of framework references can be OK.
+* Try to avoid HTML changes because of their comparatively high cost. An update should only consist of styling or scripting changes and impart _no_ actual work for users (which, to counter the aforementioned definition blurriness, also means developers who work with the framework). The update of framework references can be OK.
 
-Announce updates in advance.
+* Announce updates in advance.
 
-Provide a way to test whether the update would have any ill effects. This can happen through something simple like bookmarklets, or something more sophisticated like proxying (using a proxy to intercept and change requests to framework files in order to feed updated files for testing).
+* Provide a way to test whether the update would have any ill effects. This can happen through something simple like bookmarklets, or something more sophisticated like proxying (using a proxy to intercept and change requests to framework files in order to feed updated files for testing).
 
-Inform users about possible side effects (and use this as an opportunity to educate them about, for example, the problems of overwrites).
+* Inform users about possible side effects (and use this as an opportunity to educate them about, for example, the problems of overwrites).
 
-Communicate the status of ongoing updates.
+* Communicate the status of ongoing updates.
 
-What we’re assuming here is that we’re not just “versioning” frameworks. That’s the practice of shipping a framework—let’s say, foo—and when the first changes come, not updating foo, but shipping foo-2. And then foo-3. And so on. This practice may be an option for us, but not a rule. The rule should be to update the framework itself, per the ideas listed here. The reason is that versioning defeats the purpose and advantage of CSS (similarly for JavaScript), which are immediate changes, supported by separation of concerns (HTML for structure, CSS for presentation, and JavaScript for behavior). We’ll touch on the vision behind this shortly, but we should strive to do all updates through what we already have. And only for major changes do we look into our toolbox and, always carefully, reconsider versioning.
+What we’re assuming here is that we’re not just “versioning” frameworks. That’s the practice of shipping a framework—let’s say, _foo_—and when the first changes come, not updating _foo_, but shipping _foo-2_. And then _foo-3_. And so on. This practice may be an _option_ for us, but not a rule. The rule should be to update the framework itself, per the ideas listed here. The reason is that versioning defeats the purpose and [advantage of CSS](https://meiert.com/en/blog/advantage-of-css/) (similarly for JavaScript), which are immediate changes, supported by separation of concerns (HTML for structure, CSS for presentation, and JavaScript for behavior). We’ll touch on the vision behind this shortly, but we should strive to do all updates through what we already have. And only for major changes do we look into our toolbox and, always carefully, reconsider versioning.
 
-Test Bookmarklets
-CSS bookmarklets are a great low-tech way of allowing users to test framework changes. A short example:
+I> ### Test Bookmarklets
+I>
+I> CSS bookmarklets are a great low-tech way of allowing users to test framework changes. A short example:
+I>
+I> Framework:
+I>
+I> ```css
+I> article {
+I>   margin: auto;
+I>   width: 50%;
+I> }
+I> ```
+I>
+I> Framework after update:
+I>
+I> ```css
+I> article {
+I>   width: 90%;
+I> }
+I> ```
+I>
+I> To prepare a test for the update and make sure everything keeps working as intended, take all the changed declarations and all the _removed_ declarations, set the removed declarations’ properties to their defaults, and on that basis, generate the testing rules:
+I>
+I> Test style sheet:
+I>
+I> ```css
+I> article {
+I>   margin: 0;
+I>   width: 90%;
+I> }
+I> ```
+I>
+I> We’re simplifying here by assuming that `<article>` doesn’t pick up other margin values from anywhere else. `margin` has to be set because while it’s been removed from the new framework, it would still be applied through the old framework, which is in effect on the pages where we want to test the new code. So the test style sheet needs to neutralize all old code—something we could in really tricky cases, as a last resort, also attempt through [the `all` property](https://www.w3.org/TR/css3-cascade/#all-shorthand).
+I>
+I> Jesse Ruderman’s [bookmarklet generator](https://www.squarefree.com/userstyles/make-bookmarklet.html) is minimal but a fine tool to turn test code into a bookmarklet (by pasting the test CSS and copying bookmarklet code). That bookmarklet can then be provided to any framework user, along with a way to report problems.
 
-Framework:
+### Documentation
 
-article {
-margin: auto;
-width: 50%;
-}
-Framework after update:
-
-article {
-width: 90%;
-}
-To prepare a test for the update and make sure everything keeps working as intended, take all the changed declarations and all the removed declarations, set the removed declarations’ properties to their defaults, and on that basis, generate the testing rules:
-
-Test style sheet:
-
-article {
-margin: 0;
-width: 90%;
-}
-We’re simplifying here by assuming that <article> doesn’t pick up other margin values from anywhere else. margin has to be set because while it’s been removed from the new framework, it would still be applied through the old framework, which is in effect on the pages where we want to test the new code. So the test style sheet needs to neutralize all old code—something we could in really tricky cases, as a last resort, also attempt through the all property.
-
-Jesse Ruderman’s bookmarklet generator is minimal but a fine tool to turn test code into a bookmarklet (by pasting the test CSS and copying bookmarklet code). That bookmarklet can then be provided to any framework user, along with a way to report problems.
-
-Documentation
 Though not technically a part of the development process, documentation must be discussed. Anchoring documentation where the development happens has many advantages, from increasing the chances that it’s actually done, to being more comprehensive and accurate because it’s fresh on the mind.
 
-There are several ways to document, but one of the more effective ones is using a prototype for this purpose too. Sample contents can be turned into documentation describing the page types and elements they’re forming, but it’s also possible to use hover-style info boxes that share background information and explain the code. (A properly maintained prototype enriched this way may even do most of the lifting of any framework site!)
+There are several ways to document, but one of the more effective ones is using a prototype for this purpose too. Sample contents can be turned into documentation describing the page types and elements they’re forming, but it’s also possible to use hover-style info boxes that share background information and explain the code. (A properly maintained prototype enriched this way may even do most of the lifting of any framework _site_!)
 
-Documentation begins in the code, however, and there, too, we need to exercise discipline. Our coding guidelines should underline this; documentation standards like CSSDOC and JSDOC, as well as tools that automatically pull such documentation from our code, can be of great help.
+Documentation begins in the code, however, and there, too, we need to exercise discipline. Our coding guidelines should underline this; documentation standards like [CSSDOC](https://web.archive.org/web/20130701094049/http://cssdoc.net/) and [JSDOC](https://jsdoc.app/), as well as tools that automatically pull such documentation from our code, can be of great help.
 
 The idea behind documentation is to make life easier for ourselves, our colleagues, framework users, and any people interested in the work. Thus, making it part of the development process goes a long way.
 
-Logistics
+### Logistics
+
 Our journey, now that we diligently worked through everything relevant to frameworks, is soon over. A bonus aspect concerns logistics. We have covered a few pieces that can be considered logistics:
 
-Coding guidelines
-
-Quality-control tools
-
-Documentation
+* Coding guidelines
+* Quality-control tools
+* Documentation
 
 What we haven’t touched are:
 
-Framework development plans or roadmaps
-
-Version control systems (like Git, Mercurial, or Subversion)
-
-Request and bug management systems (like Bugzilla)
-
-Framework sites (public for external frameworks) with news feeds
-
-Mailing lists for
-
-Developers (framework development team)
-
-Users (open to everyone interested)
-
-Announcements (low-volume essentials which should go to the developers and users lists, too)
-
-Trackers for live implementations
+* Framework development plans or roadmaps
+* Version control systems (like [Git](https://git-scm.com/), [Mercurial](https://mercurial.selenic.com/), or [Subversion](https://subversion.apache.org/))
+* Request and bug management systems (like [Bugzilla](https://www.bugzilla.org/))
+* Framework sites (public for external frameworks) with news feeds
+* Mailing lists for
+  - Developers (framework development team)
+  - Users (open to everyone interested)
+  - Announcements (low-volume essentials which should go to the developers and users lists, too)
+* Trackers for live implementations
 
 A framework site and an announcements list are particularly noteworthy, as they can pay good dividends to framework owners and developers. The site serves as a hub for information and documentation. An announcements list is indispensable to inform customers about new releases and guide framework users.
 
 Support also falls into the logistics category. It does not get more attention here because, for one, we “embed” support at several landmarks along the way—in quality goals and principles, in documentation and logistics—and for another, support is more of a tangential topic that depends on the complexity and circumstances of the framework and the problems it tries to solve.
 
-To repeat, for expert framework development, we need to pay special attention to:
+D> To repeat, for expert framework development, we need to pay special attention to:
+D>
+D> * Principles
+D> * A prototype
+D> * Quality management
+D> * Maintenance
+D> * Documentation
+D> * Logistics
+D>
+D> As these are ordered in descending order of importance, our frameworks can probably survive with poor support and gaping docs, but sacrifices in vision, testing, and commitment will break their necks.
 
-Principles
+## Common Problems
 
-A prototype
-
-Quality management
-
-Maintenance
-
-Documentation
-
-Logistics
-
-As these are ordered in descending order of importance, our frameworks can probably survive with poor support and gaping docs, but sacrifices in vision, testing, and commitment will break their necks.
-
-Common Problems
 Since frameworks are most useful in larger projects, problems involving frameworks tend to be bigger, too. Here are a few of the most common and gravest issues, along with ideas on how to address them.
 
-Lack of Discipline
+### Lack of Discipline
+
 One of the most severe issues is lack of discipline. For the user, this most commonly means not using frameworks as intended and violating the two ground rules (following documentation and not overwriting framework code). For the developer, this usually means becoming sloppy with quality standards, the prototype, or documentation. The result is the same: sabotage, just from opposite sides of the table.
 
 The solution is not easy to come by. Users of external frameworks are free to do what they want anyway; they may not even notice that an external framework is very difficult to ride in the first place. It’s a bit easier internally, where rules can be established, communicated, and enforced. Personally, while I have observed many issues in practice, I haven’t found a cure for this one yet. People are just very creative, and watching how frameworks end up being used is like looking right into the face of human nature (and Murphy’s Law).
 
-Lack of a Prototype
+### Lack of a Prototype
+
 Not having a prototype is an equally critical problem, for all their benefits. Apart from the fact that framework development is so much harder without a contained environment, maintenance complexity increases by the minute if there is no prototype. A framework without a prototype is essentially freewheeling, out of control. As suggested earlier, a mere collection of static pages—as long as it's complete, current, and realistic—does help.
 
-Lack of Maintenance
+### Lack of Maintenance
+
 If we do not maintain (or stop to maintain), outside of major structural changes or prolonged resource shortages, we miss great opportunities. In the case of external frameworks, it can damage the reputation of those providing the framework. In the case of internal frameworks, it can mean giving up control over the framework-managed docs and apps, and thus slowly being forced into a costly, full-blown relaunch.
 
-Maintenance doesn’t mean we should continuously change a framework—that may even be hurtful, especially for external frameworks because of the nuisance it creates. Rather, we should regularly monitor, test, and tweak the framework to keep it current. Such care pays off in many ways, be it because it reduces the need for more drastic changes (relaunches, which are pricey) or because everyone’s staying in touch and familiar with the framework.
+Maintenance doesn’t mean we should continuously _change_ a framework—that may even be hurtful, especially for external frameworks because of the nuisance it creates. Rather, we should regularly monitor, test, and tweak the framework to keep it current. Such care pays off in many ways, be it because it reduces the need for more drastic changes (relaunches, which are pricey) or because everyone’s staying in touch and familiar with the framework.
 
-A Vision of Web Development
-There is one thing every web developer should aspire to: writing the most minimal, semantically appropriate, valid HTML, and then never changing it. “Never” not in a sense of denial and refusal, since structural changes can always require modifications, but in the sense of a guiding light. The idea of minimal, semantically appropriate, valid markup brings the most out of us as web developers. It leads us not only to supreme markup quality, but pushes us to acquire and exhibit bigger powers in our style sheets and scripts.
+I> ### A Vision of Web Development
+I>
+I> There is one thing every web developer should aspire to: writing the most minimal, semantically appropriate, valid HTML, and then never changing it. “Never” not in a sense of denial and refusal, since structural changes can always require modifications, but in the sense of a guiding light. The idea of minimal, semantically appropriate, valid markup brings the most out of us as web developers. It leads us not only to supreme markup quality, but pushes us to acquire and exhibit bigger powers in our style sheets and scripts.
+I>
+I> The vision is one of highest efficiency, to handle presentational changes only through CSS updates and behavioral ones only through JavaScript updates. Writing HTML, design-agnostic as it should be, has always been underestimated; it’s the hardest to write well.
 
-The vision is one of highest efficiency, to handle presentational changes only through CSS updates and behavioral ones only through JavaScript updates. Writing HTML, design-agnostic as it should be, has always been underestimated; it’s the hardest to write well.
+### Lack of Accuracy
 
-Lack of Accuracy
 An assumption we’ve made thus far is that what our frameworks do is accurate—that is, that they match the underlying needs and designs. That latter part can be a potential source of error if the frameworks we coded or found ourselves using don't match the specs our designer friends sent us (if we’re not the designers ourselves). This can lead to all kinds of issues: from not being able to accommodate the original plan (no use for our external framework) to needing structural changes (ouch) to asking the designer folks to rationalize and Photoshop the differences away instead of fixing the framework. We need to watch out for design and style guide divergence.
 
-Lack of Guts
+### Lack of Guts
+
 The last big issue is to not have what it takes—even if that’s manager support—to pull the plug. Clinging on to something that’s not relevant anymore. Something that’s not used anymore. That’s used wrong. That’s a construction ruin. That can’t be maintained or extended. Something like that.
 
 Sticking with a broken framework, a failed one, or perhaps a glorious one that has just reached the end of its lifetime can be a challenge. When that happens to us, we need to get over it. As professionals, we have big goals and we want our code to last—but sometimes we fail, and then we need to…suck it up.
 
 Fortunately, there’s always more code to write. The next framework—or style sheet, or script—is already waiting for us.
 
-Summary
+## Summary
+
 Frameworks are deceptive. They seem easy. They look like a pretty isolated special topic. And now we’ve seen how common and complicated they are, like a not-entirely-small meteoroid that passes every single planetary object in our web development solar system. Frameworks are not trivial. If I may distract from the speed with which I typed this down, with brevity as an excuse goal, then any question still open is due to that very fact that they’re not.
 
 But I want to recap. Professional web development is about quality. Quality is not easy to define, but one part of it is tailored code. External frameworks without customization options are impossible for users to tailor, and a pain for developers. Internal frameworks are much easier to handle and generally the way to go. Good frameworks aim for the highest quality—to be tailored, usable, and extensible. Framework users should follow the documentation and not overwrite framework code. Framework developers should have principles, a prototype, quality management tools, a maintenance plan, and healthy interest in documentation. And still, things can go wrong.
