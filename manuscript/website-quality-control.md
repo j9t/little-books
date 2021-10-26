@@ -6,26 +6,28 @@
 
 —Colonel Pickering, in George Bernard Shaw’s _Pygmalion_
 
-@@
-
 What is a good website? For us web professionals, this is a most important question. Building good websites is part of our professional ethics, stemming from a code of honor that asserts that we can be professionals only if our work is good.
 
-But how do we know that our work—that our websites—are good? Many criteria and examinations come to mind, but there is actually an entire field dedicated to informing us: quality management.
+But how do we know that our work—that our websites—are good? Many criteria and examinations come to mind, but there is actually an entire field dedicated to informing us: _quality management._
 
 Quality management, which can be broken down into quality planning, quality control, quality assurance, and quality improvement, comes with a host of methods to not just identify (control) and fix (improvement) defects, but to avoid them systematically (planning, assurance).
 
-This little book, which is the third in a series of books that cover important components of modern web development (after web frameworks and coding standards), focuses mostly on the quality control piece, for if we can’t “see” what’s wrong, we won’t fix or plan to avoid what’s wrong. Still, it’s going to share advice on how to tie quality to our processes, for it is more useful to learn how to fish than to hope to be fed every day. The book will do all of this in a loose and relaxed manner, however, and not to the extent ISO standards would cover quality.
+This little book, which is the third in a series of books that cover important components of modern web development (after [web frameworks](https://www.oreilly.com/library/view/the-little-book/9781492048121/) and [coding standards[(https://www.oreilly.com/library/view/the-little-book/9781492048459/)]), focuses mostly on the quality control piece, for if we can’t “see” what’s wrong, we won’t fix or plan to avoid what’s wrong. Still, it’s going to share advice on how to tie quality to our processes, for it _is_ more useful to learn how to fish than to hope to be fed every day. The book will do all of this in a loose and relaxed manner, however, and not to the extent ISO standards would cover quality.
 
-Finally, and although this should matter only in few instances, the book hinges more on websites rather than web apps. That distinction is usually relevant when it comes to standards and development best practices, but there are some differences in how one should go about quality checking of sites as opposed to apps. What follows will work slightly better and allow for more complete quality control of websites.
+Finally, and although this should matter only in few instances, the book hinges more on websites rather than web apps. That [distinction](https://meiert.com/en/blog/docs-and-apps/) is usually relevant when it comes to standards and development best practices, but there are some differences in how one should go about quality checking of sites as opposed to apps. What follows will work slightly better and allow for more complete quality control of web_sites_.
 
 This is a little book, then, because it’s short. Let’s leave the intro behind.
 
-Acknowledgments
-Quality, as this book aims to show, is such an important matter that it would be surprising if I, writing about the very subject, could not name the people to whom I’m indebted. Lars Röwekamp and Jens Schumann, executives of Open Knowledge GmbH in Oldenburg, Germany—where I learned to improve my code—are the first to come to my mind. Yet, as an important goal and a sign of professionalism, the mindset of quality comes close to ideas like “if something’s worth doing, it’s worth doing well,” too.
+### Acknowledgments
+
+Quality, as this book aims to show, is such an important matter that it would be surprising if I, writing about the very subject, could not name the people to whom I’m indebted. Lars Röwekamp and Jens Schumann, executives of [Open Knowledge GmbH](https://www.openknowledge.de/) in Oldenburg, Germany—where I learned to improve my code—are the first to come to my mind. Yet, as an important goal and a sign of professionalism, the mindset of quality comes close to ideas like “if something’s worth doing, it’s worth doing well,” too.
 
 This little book would not exist were it not for old role models and old sayings, as well as for all the people who have made it reality. For that, I want to thank very much my former colleague, manager, and (still) good friend Kevin Khaw for the Foreword. Finally, I want to recognize the entire O’Reilly team for their swift, competent, and kind help. When this book turns out well, it will have been because of them. Thank you all.
 
-What Is Quality Control?
+## What Is Quality Control?
+
+@@
+
 Wikipedia defines quality control (often, but rarely in this book, abbreviated as “QC”) as “a process by which entities review the quality of all factors involved in production.” ISO 9000, also through Wikipedia, is said to define quality control as “a part of quality management focused on fulfilling quality requirements.” Google, without offering attribution, understands quality control to be “a system of maintaining standards in manufactured products by testing a sample of the output against the specification.”
 
 We want to use a definition that is stricter on the one end and more lenient on the other: “Website quality control entails the means to determine (a) whether they meet our expectations and (b) to what degree our websites meet professional best practices.”
