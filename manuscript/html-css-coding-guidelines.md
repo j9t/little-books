@@ -38,6 +38,7 @@ Let’s imagine a world without coding guidelines. Or a company without coding g
 
 For example, consider the following heap of HTML code:
 
+```html
 <table cellpadding="0" cellspacing="0" border="0" summary="">
 <tr valign="middle">
 <td width="1" height="21" class="nav-border"><img src="/img/pool/transparent.gif" width="1" height="1" alt="" border="0" /></td>
@@ -66,189 +67,221 @@ For example, consider the following heap of HTML code:
 <td height="1" class="nav-border-hrz" colspan="21"><img src="/img/pool/transparent.gif" width="1" height="1" alt="" border="0" /></td>
 </tr>
 </table>
+```
+
 Then compare it to this:
 
+```html
 <ul class="nav">
-    <li>Startseite</li>
-    <li><a href="/de/publications/">Publikationen</a></li>
-    <li><a href="/de/biography/">Biographie</a></li>
-    <li><a href="/de/contact/">Kontakt</a></li>
+  <li>Startseite</li>
+  <li><a href="/de/publications/">Publikationen</a></li>
+  <li><a href="/de/biography/">Biographie</a></li>
+  <li><a href="/de/contact/">Kontakt</a></li>
 </ul>
+```
+
 Or compare this CSS code:
 
+```css
 table { background-color: #FFC; border-bottom: 1px solid #CCCC9D; border-top: 1px solid #CCCC9D; empty-cells: show; font-size: 1em; margin: 1em 0 0; width: 100%; }
 caption, form div label { display: none; }
 th, td { vertical-align: baseline; }
 th { font-weight: 700; padding: .5em .7em; text-align: left; white-space: nowrap; }
 td { border-top: 1px solid #E6E6B1; padding: .2em .7em; }
 td a { line-height: 150%; }
+```
+
 to the code shown here:
 
+```css
 .nav {
-border-bottom: 2px solid;
-line-height: 1.5;
-padding: 71px 8.75em 2px 6.75em;
+  border-bottom: 2px solid;
+  line-height: 1.5;
+  padding: 71px 8.75em 2px 6.75em;
 }
 
 .nav li,
 .nav li a {
-padding: 0 4px;
+  padding: 0 4px;
 }
 
 .nav li {
-margin: 0 2px;
+  margin: 0 2px;
 }
 
 .nav li a {
-margin: 0 -4px;
+  margin: 0 -4px;
 }
+```
+
 That is code from the same person: the author in 2002, and the author in 2005.
 
-What do we notice? The first thing we see is that the code is written completely differently. It’s inconsistent. Would we want to work on it? Probably not. Would we be able to work on it? Maybe.
+What do we notice? The first thing we see is that the code is written completely differently. It’s inconsistent. Would we want to work on it? Probably not. Would we be _able_ to work on it? Maybe.
 
 What would change this? Focusing on high quality and an intelligible, consistent formatting of all this code.
 
 That is the job of coding guidelines.
 
-Coding guidelines should yield quality, produce consistency, and through that, indirectly, assist usability, collaboration, and maintainability. They may not need to do all of this—which we’ll cover under #approaches_to_coding_guidelines—and they may not succeed, but that’s their purpose.
+Coding guidelines should yield quality, produce consistency, and through that, indirectly, assist usability, collaboration, and maintainability. They may not need to do all of this—and they may not succeed, but that’s their purpose.
 
 Let’s look at all of these points in detail.
 
-Consistency
-The major, direct benefit of coding guidelines is improved consistency. Why? Because with comprehensive coding guidelines all code gets formatted the same way. Rules are always indented the same way. Declarations appear in the same order. Element names are always lowercase.
+### Consistency
+
+The major, direct benefit of coding guidelines is improved consistency. Why? Because with comprehensive coding guidelines _all code gets formatted the same way_. Rules are always indented the same way. Declarations appear in the same order. Element names are always lowercase.
 
 Consider this example:
 
+```css
 #intro {
-background: #fff;
-color: #000;
+  background: #fff;
+  color: #000;
 }
 
 .note {
-color: gray;
-background: white
+  color: gray;
+  background: white
 }
-Suppose you need to edit this style sheet. How do you specify and order the colors for a new author section? Meet inconsistency.
+```
+
+Suppose you need to edit this style sheet. How do you specify and order the colors for a new author section? Meet _inconsistency_.
 
 While one might argue that keeping the guidelines in mind makes the process of writing code itself a little slower, locating and refactoring code becomes much easier and faster.
 
-Usability
-An indirect benefit that follows consistency is improved usability. Improved developer usability, that is. Improved “ease of use and learnability of code,” then, as I described in The Little Book of HTML/CSS Frameworks. Why? Because through coding guidelines, developers are able to set and trust expectations, which again helps locating and refactoring code.
+### Usability
 
-Collaboration
+An indirect benefit that follows consistency is improved usability. Improved developer usability, that is. Improved “ease of use and learnability of code,” then, as I described in _The Little Book of HTML/CSS Frameworks_. Why? Because through coding guidelines, developers are able to set and trust expectations, which again helps locating and refactoring code.
+
+### Collaboration
+
 More importantly, yet also consequentially, coding guidelines facilitate collaboration. They make it easier for you to understand your colleagues' code (and vice versa), and to hand over code to someone you haven't work with previously. They don’t require as much time adjusting to someone else’s coding style, especially not when one follows the otherwise laudable habit of sticking to the code style a given project is using.
 
-Maintainability
+### Maintainability
+
 Lastly, coding guidelines and the consistency they bring to our code help maintainability. They do so because guidelines constitute a form of organization, a lower degree of entropy, which makes it easier to order, or keep things in order. Although often forgotten, maintainability important, as there's no code in existence that will only be touched once. Even if it’s not going to be edited or updated again, eventually it must be decommissioned. And that falls under maintenance, too.
 
-Anatomy of a Coding Guideline
-What exactly is in a coding guideline? Isn’t that just a command like, “do x”? In its simplest form, yes. But coding guidelines can and should entail more detail, and then it’s on the purpose and importance of the rule to prove value.
+## Anatomy of a Coding Guideline
 
-Structure
+What exactly is in a coding guideline? Isn’t that just a command like, “do _x_”? In its simplest form, yes. But coding guidelines can and should entail more detail, and then it’s on the purpose and importance of the rule to prove value.
+
+### Structure
+
 At this point, we should work with a few examples. Let’s look at a few random coding guidelines, without judgment nor endorsement:
 
-Harry Roberts’ CSS Guidelines recommend hyphens:
+Harry Roberts’ CSS Guidelines [recommend hyphens](https://cssguidelin.es/#hyphen-delimited):
 
-Hyphen Delimited
+> ### Hyphen Delimited
+> 
+> All strings in classes are delimited with a hyphen (-), like so:
+> 
+> ```css
+> .page-head {}
+> 
+> .sub-content {}
+> ```
+>
+> Camel case and underscores are not used for regular classes; the following are incorrect:
+> 
+> ```css
+> .pageHead {}
+> 
+> .sub_content {}
 
-All strings in classes are delimited with a hyphen (-), like so:
+Dan Hay’s coding standards say the following [about “verbose” HTML code](http://www.onepointed.com/dan/computing/CodeStandard/htmlStandard.shtml#html-stadn):
 
-.page-head {}
-
-.sub-content {}
-Camel case and underscores are not used for regular classes; the following are incorrect:
-
-.pageHead {}
-
-.sub_content {}
-Dan Hay’s coding standards say the following about “verbose” HTML code:
-
-Don’t use tags that STADN (sit there and do nothing)
-
-STADN tags do just that—they don’t actually contribute much to the content or layout of a page. An example of a STADN tag would be:
-
-<FONT SIZE=2><B>&nbsp;</B></FONT>
-The bold and font tags do not contribute to the layout or appearance of the non-breaking space. We could add as many surrounding tags to the non-breaking space and it still wouldn’t affect the appearance of the page.
-
-Most HTML editors liberally insert STADN tags. This behavior is yet another reason why HTML editors must not be used.
+> ### Don’t use tags that STADN (sit there and do nothing)
+> 
+> STADN tags do just that—they don’t actually contribute much to the content or layout of a page. An example of a STADN tag would be:
+> 
+> ```html
+> <FONT SIZE=2><B>&nbsp;</B></FONT>
+> ```
+> 
+> The bold and font tags do not contribute to the layout or appearance of the non-breaking space. We could add as many surrounding tags to the non-breaking space and it still wouldn’t affect the appearance of the page.
+> 
+> Most HTML editors liberally insert STADN tags. This behavior is yet another reason why HTML editors must not be used.
 
 (A comment, “tag” should rather say “element” here.)
 
-And for WordPress, vendor-specific extensions are worth special attention:
+And for WordPress, [vendor-specific extensions](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/#vendor-prefixes) are worth special attention:
 
-We use grunt-autoprefixer as a pre-commit tool to easily manage necessary browser prefixes, thus making the majority of this section moot. For those interested in following that output without using Grunt, vendor prefixes should go longest (-webkit-) to shortest (unprefixed). All other spacing remains as per the rest of standards.
+> We use grunt-autoprefixer as a pre-commit tool to easily manage necessary browser prefixes, thus making the majority of this section moot. For those interested in following that output without using Grunt, vendor prefixes should go longest (`-webkit-`) to shortest (unprefixed). All other spacing remains as per the rest of standards.
+> 
+> ```css
+> .sample-output {
+>   -webkit-box-shadow: inset 0 0 1px 1px #eee;
+>   -moz-box-shadow: inset 0 0 1px 1px #eee;
+>   box-shadow: inset 0 0 1px 1px #eee;
+> }
+> ```
 
-.sample-output {
--webkit-box-shadow: inset 0 0 1px 1px #eee;
--moz-box-shadow: inset 0 0 1px 1px #eee;
-box-shadow: inset 0 0 1px 1px #eee;
-}
-(Legal note: This coding guideline has been quoted from the CSS Coding Standards by WordPress, used under GPLv2.)
+(Legal note: This coding guideline has been quoted from the [CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/) by [WordPress](https://wordpress.org/), used under [GPLv2](https://wordpress.org/about/license/).)
 
 These guidelines, and guidelines in general, are very differently written, but we find similarities:
 
-What (not) to do
-
-Scope
-
-Examples
-
-Explanation
+* What (not) to do
+* Scope
+* Examples
+* Explanation
 
 These are the main ingredients of a coding guideline.
 
 Let’s have a closer look at this structure:
 
 What (not) to do
-We’ve seen with our suspicion whether “do x” already suffices, the key part of a guideline. We cannot do without it.
+: We’ve seen with our suspicion whether “do x” already suffices, the key part of a guideline. We cannot do without it.
+
 Scope
-Knowing what the guideline applies to is sometimes evident (“sort all CSS declarations alphabetically” already clarifies the scope), sometimes not (“indent by two spaces”—indent what, when, where?). For that uncertainty the scope is generally important, too.
+: Knowing what the guideline applies to is sometimes evident (“sort all CSS declarations alphabetically” already clarifies the scope), sometimes not (“indent by two spaces”—indent what, when, where?). For that uncertainty the scope is generally important, too.
+
 Examples
-Here things get more blurry in that a well-written rule may not need examples; however, in practice we observe that examples do help. Glancing at a rule and an example clarifies and helps colleagues with less experience to get a solid enough idea to know when to apply a rule “when they see it.” Examples may need counter-examples—that is, we should show what is expected and correct according to the rule, and then what would be incorrect.
+: Here things get more blurry in that a well-written rule may not need examples; however, in practice we observe that examples do help. Glancing at a rule and an example clarifies and helps colleagues with less experience to get a solid enough idea to know when to apply a rule “when they see it.” Examples may need counter-examples—that is, we should show what is expected and correct according to the rule, and then what would be incorrect.
+
 Implementation help
-Ideally, a coding guideline comes with a tip on how to use it, to make following it easier. For example, “use configuration file x for your editor to enforce indentation,” “include script y to have your code validated,” or “covered by linter.” Although this is a very useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
+: Ideally, a coding guideline comes with a tip on how to use it, to make following it easier. For example, “use configuration file x for your editor to enforce indentation,” “include script y to have your code validated,” or “covered by linter.” Although this is a very useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
+
 Explanation
-Although this is not always required, an explanation allows us to help our colleagues understand what the context and purpose is, and facilitate improving or vetoing the rule in question. In a very authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain why we do what we do, as with imposing guidelines.
+: Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitate improving or vetoing the rule in question. In a very authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain why we do what we do, as with imposing guidelines.
+
 What else
-Finally, a complete coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the ideal ID or class name—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it's better to err on the side of adding enough detail so that the team can understand the guideline and its rationale.
-With that, we should have an idea of the minima and maxima of a coding guideline:
+: Finally, a complete coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it's better to err on the side of adding enough detail so that the team can understand the guideline and its rationale.
 
-Minima
-What (not) to do
+With that, we should have an idea of the _minima_ and _maxima_ of a coding guideline:
 
-Scope
+#### Minima
 
-Example
+* What (not) to do
+* Scope
+* Example
+* Detail: brief
 
-Detail: brief
+#### Maxima
 
-Maxima
-What (not) to do
+* What (not) to do
+* Scope
+* Examples
+* Implementation help
+* Explanation
+* Detail: verbose
 
-Scope
+### Priority
 
-Examples
-
-Implementation help
-
-Explanation
-
-Detail: verbose
-
-Priority
-But is the structure all that makes a coding guideline? Let’s consider the ever-popular order to indent by x as well as the ever-beloved idea to use “semantic markup.” What makes them different?
+But is the structure all that makes a coding guideline? Let’s consider the ever-popular order to indent by _x_ as well as the ever-beloved idea to use “semantic markup.” What makes them different?
 
 I believe we will soon discern a difference in terms of preference versus quality.
 
-The indentation rule is first and foremost preference, especially when noting that tab characters can be configured to be displayed with n spaces, meaning that every team member could produce code that’s indented the same way while still enjoying their own individual preferences.
+The indentation rule is first and foremost preference, especially when noting that tab characters can be configured to be displayed with _n_ spaces, meaning that every team member could produce code that’s indented the same way while still enjoying their own individual preferences.
 
 The semantic markup rule, however, has a qualitative bearing, for if we understand the use of markup according to its meaning paramount to it being parsed correctly and accessibly, then this rule results in a difference in quality of code, depending on whether and how it’s followed.
 
-For coding guidelines, then, this difference results in a sense of priority. Though preference-based rules are still relevant because they lead to consistency, which in turn gives us all the benefits we discussed earlier (usability, collaboration, maintainability), the quality rules, when sound, make code more consistent and better.
+For coding guidelines, then, this difference results in a sense of priority. Though preference-based rules are still relevant because they lead to consistency, which in turn gives us all the benefits we discussed earlier (usability, collaboration, maintainability), the quality rules, when sound, make code more consistent _and_ better.
 
 The suspicion grows that preference rules are easier to define and spot than quality rules, but the jury’s still out on that.
 
-Approaches to Coding Guidelines
+## Approaches to Coding Guidelines
+
+@@
+
 How do we then set up and promote coding guidelines?
 
 That approach is best based on the difference between reality and goals. How does our code currently look? How should it look going forward?
