@@ -59,7 +59,7 @@ For example, consider the following heap of HTML code:
 <td class="nav-1">&nbsp;</td>
 <td width="1" class="nav-border"><img src="/img/pool/transparent.gif" width="1" height="1" alt="" border="0" /></td>
 <td class="nav-1">&nbsp;</td>
-<td class="nav-1"><a href="/de/about/" class="nav">&Uuml;ber ...</a></td>
+<td class="nav-1"><a href="/de/about/" class="nav">&Uuml;ber …</a></td>
 <td class="nav-1">&nbsp;</td>
 <td width="1" class="nav-border"><img src="/img/pool/transparent.gif" width="1" height="1" alt="" border="0" /></td>
 </tr>
@@ -280,26 +280,27 @@ The suspicion grows that preference rules are easier to define and spot than qua
 
 ## Approaches to Coding Guidelines
 
-@@
-
 How do we then set up and promote coding guidelines?
 
 That approach is best based on the difference between reality and goals. How does our code currently look? How should it look going forward?
 
-We can learn from the approach taken by linguists: they call grammars prescribing how people ought to speak or write prescriptive grammars, and those describing what people actually use descriptive grammars.
+We can learn from the approach taken by linguists: they call grammars prescribing how people ought to speak or write _prescriptive grammars_, and those describing what people actually use _descriptive grammars_.
 
 Let’s see how this can be applied to coding guidelines, and what else is involved.
 
-Descriptive
-The descriptive approach works if the difference between code reality and our goals is minor. Then we can simply outline how things are done now, let the whole mélange sit for a few minutes, and reap the reward when we onboard new team members.
+### Descriptive
+
+The descriptive approach works if the difference between code reality and our goals is minor. Then we can simply outline how things are done now, let the whole _mélange_ sit for a few minutes, and reap the reward when we onboard new team members.
 
 For example, if everyone on the team is validating their HTML code, as it should be done (there’s no need and no excuse for not using HTML correctly), we say:
 
-Release only valid HTML code
-Prescriptive
+> Release only valid HTML code
+
+### Prescriptive
+
 If the reality/goal difference is bigger, we want to take a prescriptive (i.e., normative) approach, meaning to tell what to do:
 
-Release only valid HTML code
+> Release only valid HTML code
 
 But isn't that the same rule?
 
@@ -307,199 +308,266 @@ It is the same rule on the surface, yet a different one when looking at the cont
 
 The prescriptive approach, then, depends on enforcement: when everything’s good already and we only describe, there’s little need to enforce.
 
-Once there’s something to prescribe, there’s also something to enforce. We’ll look at this #coding_guidelines_in_practice.
+Once there’s something to prescribe, there’s also something to enforce.
 
-Mixed
+### Mixed
+
 Yet then, in everyday coding life, we face coding practices we want to document (describe), and others we want to achieve (prescribe). This means that most coding guidelines and standards include rules that are mixed, using both approaches.
 
-Decision Process
-How do we decide when to use which coding guidelines? The flowchart in #process_flowchart can help us:
+## Decision Process
 
-Image
-A flowchart for choosing an approach to coding guidelines
-What we can see is that for a team of one, we don't strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the Google HTML/CSS Style Guide with the exception of two-space indentation (even after leaving Google, I still follow these guidelines for my personal projects).
+How do we decide when to use which coding guidelines? The flowchart can help us:
+
+![A flowchart for choosing an approach to coding guidelines.](resources/images/guideline-decision-making.png)
+
+What we can see is that for a team of one, we don't strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) with the exception of two-space indentation (even after leaving Google, I still follow these guidelines for my personal projects).
 
 Whenever two or more people work together, however, coding guidelines become useful, and really important. And there the question is one of goals, and existing quality, to say whether we need a descriptive or prescriptive approach, considered for each guideline.
 
-Coding Guidelines in Practice
+## Coding Guidelines in Practice
+
 This section briefly outlines special aspects of coding guidelines that we must consider when setting them up.
 
-Communication
-The larger the organization we’re working in, the more important is the point of communicating our guidelines: Everyone writing code should know about them.
+### Communication
+
+The larger the organization we’re working in, the more important is the point of _communicating_ our guidelines: Everyone writing code should know about them.
 
 Fortunately, in most modern companies, teams have mailing lists to communicate guidelines to. It makes sense to share updates the same way, or to add all relevant people to a special mailing list related to coding style.
 
-Compliance
+### Compliance
+
 The next important aspect is achieving compliance—that is, enforcing the guidelines. This is normally a two-fold process.
 
-First, we need to measure whether coding guidelines are followed or not. For that, we need to set up the necessary infrastructure and tools, though manually probing for compliance, as with code reviews, does work, too. In practice, this piece is neglected rather frequently, and organizations don’t know much about their actual compliance rates. Automation, which we will look at momentarily, is crucial here. How to automate the whole compliance part is not subject of this booklet, however.
+First, we need to _measure_ whether coding guidelines are followed or not. For that, we need to set up the necessary infrastructure and tools, though manually probing for compliance, as with code reviews, does work, too. In practice, this piece is neglected rather frequently, and organizations don’t know much about their actual compliance rates. Automation, which we will look at momentarily, is crucial here. _How_ to automate the whole compliance part is not subject of this booklet, however.
 
-Second, we need to enforce the code style we want to see. Here, too, automation is desirable, but we also need a way to track and score offenders. Tying coding style compliance to performance metrics that got communicated in advance is an effective approach. For example, a team member who repeatedly violates coding standards could get a lower performance rating than one who does keep with it.
+Second, we need to _enforce_ the code style we want to see. Here, too, automation is desirable, but we also need a way to track and score offenders. Tying coding style compliance to performance metrics that got communicated in advance is an effective approach. For example, a team member who repeatedly violates coding standards could get a lower performance rating than one who does keep with it.
 
-Reviews
+### Reviews
+
 Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so too should our guidelines be reviewed from time to time—it's important to update the documentation to reflect changes to guidelines as they arise.
 
 It is something that gets maintained (as much as the affected code—we should not forget to update it when guidelines change). It is therefore recommended to not only assign a primary contact (or perhaps a small team of experienced volunteers) to be guideline owners, but to also schedule at least quarterly reviews that check whether updates are needed.
 
-Automation
+### Automation
+
 Lastly, a particularly useful habit—and a key for future handling of coding guidelines—is automation. The assessment of code quality should be automated as much as possible and we should also automate improving and fixing code.
 
-At the moment, there is no single out-of-the-box solution for this (only small scripts abound), but our vision overall should be that our development environment shows us local coding preferences, highlights violations and fixes them for us; that then, when we stage our code, additional checks are run that likewise report issues and fix them, and that at the end, optimized, minified, compressed, our code goes live in the shape we had envisioned it.
+At the moment, there is no single out-of-the-box solution for this (only [small scripts](https://robertnyman.com/2010/01/19/tools-for-concatenating-and-minifying-css-and-javascript-files-in-different-development-environments/) abound), but our vision overall should be that our development environment shows us local coding preferences, highlights violations and fixes them for us; that then, when we stage our code, additional checks are run that likewise report issues and fix them, and that at the end, optimized, minified, compressed, our code goes live in the shape we had envisioned it.
 
-Proven HTML/CSS Coding Guidelines
-After this short run through coding guidelines, I want to make recommendations for what I consider solid, useful, proven coding guidelines. Much of what follows can also be found in the Google HTML/CSS Style Guide, but that shouldn’t be surprising given Google’s care in most matters engineering.
+## Proven HTML/CSS Coding Guidelines
+
+After this short run through coding guidelines, I want to make recommendations for what I consider solid, useful, proven coding guidelines. Much of what follows can also be found in the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html), but that shouldn’t be surprising given Google’s care in most matters engineering.
 
 Many of these guidelines are quality rather than preference guidelines. We’ll keep with a bit more than just the minima: with what (not) to do in what scope, examples that illustrate each point, a rationale, and that with just the detail we need.
 
-(Legal note: The following guidelines are a derivative of the HTML/CSS Style Guide by Google, used under CC BY 3.0 by Jens Oliver Meiert.)
+(Legal note: The following guidelines are a derivative of the [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) by [Google](https://www.google.com/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) by Jens Oliver Meiert.)
 
-General
-Use UTF-8 (No Byte Order Mark)
+### General
+
+#### Use UTF-8 (No Byte Order Mark)
+
 Make sure your editor uses UTF-8 as character encoding, without a byte order mark.
 
-Specify the encoding in HTML templates and documents via <meta charset="utf-8">. Do not specify the encoding of stylesheets, for these assume UTF-8 by default.
+Specify the encoding in HTML templates and documents via `<meta charset="utf-8">`. Do not specify the encoding of stylesheets, for these assume UTF-8 by default.
 
-Omit the Protocol from Embedded Resources
-Omit the protocol portion (http:, https:) from URLs unless the respective files are not available over both protocols.
+#### Omit the Protocol from Embedded Resources
+
+Omit the protocol portion (`http:`, `https:`) from URLs unless the respective files are not available over both protocols.
 
 Omitting the protocol—which makes the URL relative—prevents mixed content issues and results in (albeit tiny) extra file size savings.
 
 Correct:
 
-<script src="//www.google.com/js/gweb/analytics/
-autotrack.js"></script>
-Indent by One Tab
+```html
+<script src="//www.google.com/js/gweb/analytics/autotrack.js"></script>
+```
+
+#### Indent by One Tab
+
 Only use tab characters for indentation. [Except for in this book ;)]
 
 Correct:
 
+```html
 <ul>
-    <li>HTML
-    <li>CSS
+	<li>HTML
+	<li>CSS
 </ul>
-Use Only Lowercase
-Where possible, code should be lowercase: this includes HTML element names, attributes, attribute values (unless text/CDATA), CSS selectors, properties, and property values (with the exception of strings, because case can be relevant here).
+```
+
+#### Use Only Lowercase
+
+Where possible, code should be lowercase: this includes HTML element names, attributes, attribute values (unless `text/CDATA`), CSS selectors, properties, and property values (with the exception of strings, because case can be relevant here).
 
 Correct:
 
+```css
 color: #cc0078;
+```
+
 Incorrect:
 
+```html
 <A HREF="/">Home</A>
-Remove Trailing Whitespace
+```
+
+#### Remove Trailing Whitespace
+
 Trailing whitespace is unnecessary, as it can complicate diffs.
 
 Incorrect:
 
+```html
 <p>What?_
-(...where “_” signifies a space character.)
+```
 
-Mark TODOs and Action Items with TODO
-Highlight TODOs by using the keyword TODO only.
+(…where “_” signifies a space character.)
 
-Append a contact (username or mailing list) in parentheses as in TODO(contact).
+#### Mark TODOs and Action Items with TODO
+
+Highlight TODOs by using the keyword `TODO` only.
+
+Append a contact (username or mailing list) in parentheses as in `TODO(contact)`.
 
 Correct:
 
+```html
 <!-- TODO(john.doe): revisit centering -->
 <center>Test</center>
-HTML
-Use HTML 5
-Use HTML 5 (HTML syntax) for all HTML documents: <!DOCTYPE html>.(this spelling is for historical reasons).
+```
 
-Although technically correct, do not close void elements—write <br>, not <br />.
+### HTML
 
-Use HTML According to Purpose
-Use elements for what they have been designed for. For example, use heading elements for headings, p elements for paragraphs, a elements for anchors, and so on.
+#### Use HTML 5
+
+Use HTML 5 (HTML syntax) for all HTML documents: `<!DOCTYPE html>` (this spelling is for historical reasons).
+
+Although technically correct, do not close void elements—write `<br>`, not `<br />`.
+
+#### Use HTML According to Purpose
+
+Use elements for what they have been designed for. For example, use heading elements for headings, `p` elements for paragraphs, `a` elements for anchors, and so on.
 
 Using HTML according to its purpose is important for accessibility, reuse, and code efficiency reasons.
 
-Use Valid HTML
+#### Use Valid HTML
+
 Dto.: Use valid HTML.
 
-Use tools such as the W3C HTML validator to test.
+Use tools such as the [W3C HTML validator](https://validator.w3.org/) to test.
 
 Using valid HTML is a baseline quality attribute that ensures proper HTML use and contributes to learning about technical constraints.
 
 Correct:
 
+```html
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Test</title>
 <article>This is only a test.</article>
-Provide Alternative Contents for Multimedia
-For multimedia, such as images, videos and animated objects via canvas, make sure to offer alternative access. For images, that means use of meaningful alternative text (alt); video and audio transcripts or captions should also be provided, if available.
+```
+
+#### Provide Alternative Contents for Multimedia
+
+For multimedia, such as images, videos and animated objects via `canvas`, make sure to offer alternative access. For images, that means use of meaningful alternative text (`alt`); video and audio transcripts or captions should also be provided, if available.
 
 Providing alternative contents is important for accessibility reasons, for not all multimedia contents are equally accessible to users.
 
 Correct:
 
+```html
 <img src="muscles.jpg" alt="Medical illustration of the muscles in the leg.">
-Separate Structure from Presentation from Behavior
+```
+
+#### Separate Structure from Presentation from Behavior
+
 Strictly keep structure (markup), presentation (styling), and behavior (scripting) apart, and keep the interaction between the three to an absolute minimum.
 
 That is, make sure documents and templates contain only HTML and HTML that is solely serving structural purposes. Move everything presentational into style sheets, and everything behavioral into scripts. Link as few style sheets and scripts as possible from documents and templates.
 
 Separating structure from presentation from behavior is important for maintenance reasons. It is always more expensive to change HTML documents and templates than it is to update style sheets and scripts.
 
-Do Not Use Entity References
-There is no need to use entity references like &mdash;, &rdquo;, or &#x263a;, assuming the same encoding (UTF-8) is used for files and editors as well as among teams.
+#### Do Not Use Entity References
 
-The only exceptions apply to characters with special meaning in HTML (like < and &) as well as control or “invisible” characters (like no-break spaces).
+There is no need to use entity references like `&mdash;`, `&rdquo;`, or `&#x263a;`, assuming the same encoding (UTF-8) is used for files and editors as well as among teams.
+
+The only exceptions apply to characters with special meaning in HTML (like `<` […]) as well as control or “invisible” characters (like no-break spaces).
 
 Correct:
 
+```html
 <p>The currency symbol for the Euro is "€".
-Omit Optional Tags
-For file size optimization and scannability purposes, omit optional tags. (Refer to the HTML 5 specification for what tags can be omitted.)
+```
+
+#### Omit Optional Tags
+
+For file size optimization and scannability purposes, omit optional tags. (Refer to the [HTML 5 specification](https://html.spec.whatwg.org/multipage/syntax.html#syntax-tag-omission) for what tags can be omitted.)
 
 Correct:
 
+```html
 <!DOCTYPE html>
 <title>Saving Space</title>
 <p>Qed.
-Omit type Attributes for Style Sheets and Scripts
-Do not use type attributes for style sheets (unless not using CSS) and scripts (unless not using JavaScript).
+```
 
-Specifying type attributes in these contexts is not necessary as HTML5 implies text/css and text/javascript as defaults. This can be safely done even for older browsers.
+#### Omit `type` Attributes for Style Sheets and Scripts
+
+Do not use `type` attributes for style sheets (unless not using CSS) and scripts (unless not using JavaScript).
+
+Specifying `type` attributes in these contexts is not necessary as HTML5 implies `text/css` and `text/javascript` as defaults. This can be safely done even for older browsers.
 
 Correct:
 
+```html
 <link rel="stylesheet" href="//example.com/default.css">
-Use a New Line for Every Block, List, or Table Element, and Indent Every Such Child Element
+```
+
+#### Use a New Line for Every Block, List, or Table Element, and Indent Every Such Child Element
+
 Independent of the styling of an element (as CSS allows elements to assume a different role per display property), put every block, list, or table element on a new line.
 
 Also, indent them if they are child elements of a block, list, or table element.
 
-(If you run into issues around whitespace between list items, it’s acceptable to put all li elements in one line. A linter is encouraged to throw a warning instead of an error.)
+(If you run into issues around whitespace between list items, it’s acceptable to put all `li` elements in one line. A linter is encouraged to throw a warning instead of an error.)
 
 Correct:
 
+```html
 <table>
-    <thead>
-          <tr>
-               <th scope="col">Income
-               <th scope="col">Taxes
-    <tbody>
-          <tr>
-               <td>$ 5.00
-               <td>$ 4.50
+  <thead>
+    <tr>
+      <th scope="col">Income
+      <th scope="col">Taxes
+  <tbody>
+    <tr>
+      <td>$ 5.00
+      <td>$ 4.50
 </table>
-When Quoting Attribute Values, Use Double Quotation Marks
-Use double (""), not single quotation marks (''), around attribute values.
+```
+
+#### When Quoting Attribute Values, Use Double Quotation Marks
+
+Use double (`""`), not single quotation marks (`''`), around attribute values.
 
 Correct:
 
+```html
 <a class="action promo">Sign in</a>
-CSS
-Use Valid CSS Where Possible
+```
+
+### CSS
+
+#### Use Valid CSS Where Possible
+
 Unless dealing with CSS validator bugs or requiring proprietary syntax, use valid CSS code.
 
-Use tools such as the W3C CSS validator to test.
+Use tools such as the [W3C CSS validator](https://jigsaw.w3.org/css-validator/) to test.
 
 Using valid CSS is a baseline quality attribute that allows us to spot CSS code that may not have any effect and can be removed, and ensures proper CSS usage.
 
-Avoid User Agent Detection and CSS “Hacks”
+#### Avoid User Agent Detection and CSS “Hacks”
+
 It’s tempting to address styling differences over user agent detection or special CSS filters, workarounds, and hacks. Both approaches should be considered as a last resort in order to achieve and maintain an efficient and manageable code base. Put another way, giving detection and hacks a free pass will hurt projects in the long run as projects tend to take the way of least resistance. That is, allowing and making it easy to use detection and hacks means using detection and hacks more frequently—and more frequently is too frequently.
 
 Use Functional or Generic ID and Class Names
@@ -513,14 +581,18 @@ Using functional or generic names reduces the probability of unnecessary documen
 
 Incorrect:
 
+```css
 /* Meaningless */
 #yee-1901 {}
 
 /* Presentational */
 .button-green {}
 .clear {}
+```
+
 Correct:
 
+```css
 /* Specific */
 #login {}
 .video {}
@@ -528,35 +600,50 @@ Correct:
 /* Generic */
 .aux {}
 .alt {}
-Use ID and Class Names that Are as Short as Possible but as Long as Necessary
+```
+
+#### Use ID and Class Names that Are as Short as Possible but as Long as Necessary
+
 Try to convey what an ID or class is about while being as brief as possible.
 
 Using ID and class names this way contributes to acceptable levels of understandability and code efficiency.
 
 Incorrect:
 
+```css
 #navigation {}
 .atr {}
+```
+
 Correct:
 
+```css
 #nav {}
 .author {}
-Prefix Selectors with an Application-Specific Prefix Where Safer
+```
+
+#### Prefix Selectors with an Application-Specific Prefix Where Safer
+
 In large projects and for all code that gets embedded in other projects or on external sites, use prefixes (as namespaces) for ID and class names. Use short, unique identifiers followed by a dash.
 
 Using namespaces helps prevent naming conflicts and can make maintenance easier (e.g., in search-and-replace operations).
 
 Correct:
 
+```css
 .foo-help {}
 #bar-note {}
-Use Shorthand Properties Where Possible
-CSS offers a variety of shorthand properties (like font) that should be used whenever possible, even in cases where only one value is explicitly set.
+```
+
+#### Use Shorthand Properties Where Possible
+
+CSS offers a variety of shorthand properties (like `font`) that should be used whenever possible, even in cases where only one value is explicitly set.
 
 Using shorthand properties is useful for code efficiency and understandability.
 
 Incorrect:
 
+```css
 border-top-style: none;
 font-family: palatino, georgia, serif;
 font-size: 100%;
@@ -565,48 +652,74 @@ padding-bottom: 2em;
 padding-left: 1em;
 padding-right: 1em;
 padding-top: 0;
+```
+
 Correct:
 
+```css
 border-top: 0;
 font: 100%/1.6 palatino, georgia, serif;
 padding: 0 1em 2em;
-Omit Units After 0 Values
-Do not use units after 0 values unless they are required.
+```
+
+#### Omit Units After `0` Values
+
+Do not use units after `0` values unless they are required.
 
 Correct:
 
+```css
 margin: 0;
 padding: 0;
-Omit Leading 0s in Values
-Do not use put 0s in front of values or lengths between –1 and 1.
+```
+
+#### Omit Leading `0`s in Values
+
+Do not use put `0`s in front of values or lengths between –1 and 1.
 
 Correct:
 
+```css
 font-size: .8em;
-Use Three-Character Hexadecimal Notation Where Possible
+```
+
+#### Use Three-Character Hexadecimal Notation Where Possible
+
 For hexadecimal color values, three-character hexadecimal notation is shorter and more succinct.
 
 Correct:
 
+```css
 color: #ebc;
-Separate Words in ID and Class Names by a Hyphen
+```
+
+#### Separate Words in ID and Class Names by a Hyphen
+
 Do not concatenate words and abbreviations in selectors by any characters (including none at all) other than hyphens, in order to improve understanding and scannability.
 
 Incorrect:
 
+```css
 .demoimage {}
+```
+
 Correct:
 
+```css
 .ad-sample {}
-Alphabetize Declarations
+```
+
+#### Alphabetize Declarations
+
 Put declarations in alphabetical order in order to achieve consistent code in a way that is easy to remember and maintain.
 
-Ignore vendor-specific prefixes for sorting purposes. However, multiple vendor-specific prefixes for a certain CSS property should be kept sorted as well (e.g., -moz prefix comes before -webkit).
+Ignore vendor-specific prefixes for sorting purposes. However, multiple vendor-specific prefixes for a certain CSS property should be kept sorted as well (e.g., `-moz` prefix comes before `-webkit`).
 
 (Exceptions prove the rule, so in the event of the cascade pushing order on us, that’s fine.)
 
 Correct:
 
+```css
 background: fuchsia;
 border: 1px solid;
 -moz-border-radius: 4px;
@@ -615,102 +728,142 @@ border-radius: 4px;
 color: black;
 text-align: center;
 text-indent: 2em;
-Indent All Block Content
+```
+
+#### Indent All Block Content
+
 Indent all block content—that is, rules within rules as well as declarations, so to reflect hierarchy and improve understanding.
 
 Correct:
 
+```css
 @media screen, projection {
 
-    html {
-          background: #fff;
-          color: #444;
-    }
+  html {
+    background: #fff;
+    color: #444;
+  }
 
 }
-Use a Semicolon After Every Declaration
+```
+
+#### Use a Semicolon After Every Declaration
+
 End every declaration with a semicolon for consistency and extensibility reasons.
 
 Incorrect:
 
+```css
 .test {
-display: block;
-height: 100px
+  display: block;
+  height: 100px
 }
+```
+
 Correct:
 
+```css
 .test {
-display: block;
-height: 100px;
+  display: block;
+  height: 100px;
 }
-Use a Space After a Property Name’s Colon
+```
+
+#### Use a Space After a Property Name’s Colon
+
 Always use a single space between property and value (but no space between property and colon) for consistency reasons.
 
 Incorrect:
 
+```css
 h3 {
-font-weight:bold;
+  font-weight:bold;
 }
+```
+
 Correct:
 
+```css
 h3 {
-font-weight: bold;
+  font-weight: bold;
 }
-Use a Space Between the Last Selector and the Declaration Block
+```
+
+#### Use a Space Between the Last Selector and the Declaration Block
+
 Always use a single space between the last selector and the opening brace that begins the declaration block. The opening brace should be on the same line as the last selector in a given rule.
 
 Incorrect:
 
+```css
 #video{
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 #video
 {
-margin-top: 1em;
+  margin-top: 1em;
 }
+```
+
 Correct:
 
+```css
 #video {
-    margin-top: 1em;
+  margin-top: 1em;
 }
-Separate Selectors and Declarations by New Lines
+```
+
+#### Separate Selectors and Declarations by New Lines
+
 Always start a new line for each selector and declaration.
 
 Correct:
 
+```css
 h1,
 h2,
 h3 {
-font-weight: normal;
-line-height: 1.2;
+  font-weight: normal;
+  line-height: 1.2;
 }
-Separate Rules by New Lines
+```
+
+#### Separate Rules by New Lines
+
 Always put a blank line (two line breaks) between rules.
 
 Correct:
 
+```css
 html {
-background: #fff;
+  background: #fff;
 }
 
 body {
-margin: auto;
-width: 50%;
+  margin: auto;
+  width: 50%;
 }
-Use Single Quotation Marks for Attribute Selectors and Property Values
-Use single ('') rather than double ("") quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (url()).
+```
 
-Exception: If you do need to use the @charset rule, use double quotation marks, as single quotation marks are not permitted.
+#### Use Single Quotation Marks for Attribute Selectors and Property Values
+
+Use single (`''`) rather than double (`""`) quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (`url()`).
+
+Exception: If you do need to use the `@charset` rule, use double quotation marks, as single quotation marks are not permitted.
 
 Correct:
 
+```css
 @import url(//example.com/default.css);
 
 html {
-font-family: 'helvetica neue', helvetica, sans-serif;
+  font-family: 'helvetica neue', helvetica, sans-serif;
 }
-Summary
+```
+
+## Summary
+
 This has been a little, rather tiny, treatise on coding guidelines. Although short, it covered several key ideas:
 
 Coding guidelines govern how we write code.
