@@ -32,8 +32,6 @@ Thanks, too, go to [Harry Roberts](https://csswizardry.com/), [Dan Hay](http://w
 
 ## The Purpose of Coding Guidelines
 
-@@
-
 Let’s imagine a world without coding guidelines. Or a company without coding guidelines. Or, perhaps, ourselves without coding guidelines.
 
 For example, consider the following heap of HTML code:
@@ -229,7 +227,7 @@ These are the main ingredients of a coding guideline.
 Let’s have a closer look at this structure:
 
 What (not) to do
-: We’ve seen with our suspicion whether “do x” already suffices, the key part of a guideline. We cannot do without it.
+: We’ve seen with our suspicion whether “do _x_” already suffices, the key part of a guideline. We cannot do without it.
 
 Scope
 : Knowing what the guideline applies to is sometimes evident (“sort all CSS declarations alphabetically” already clarifies the scope), sometimes not (“indent by two spaces”—indent what, when, where?). For that uncertainty the scope is generally important, too.
@@ -238,10 +236,10 @@ Examples
 : Here things get more blurry in that a well-written rule may not need examples; however, in practice we observe that examples do help. Glancing at a rule and an example clarifies and helps colleagues with less experience to get a solid enough idea to know when to apply a rule “when they see it.” Examples may need counter-examples—that is, we should show what is expected and correct according to the rule, and then what would be incorrect.
 
 Implementation help
-: Ideally, a coding guideline comes with a tip on how to use it, to make following it easier. For example, “use configuration file x for your editor to enforce indentation,” “include script y to have your code validated,” or “covered by linter.” Although this is a very useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
+: Ideally, a coding guideline comes with a tip on how to use it, to make following it easier. For example, “use configuration file _x_ for your editor to enforce indentation,” “include script _y_ to have your code validated,” or “covered by linter.” Although this is a very useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
 
 Explanation
-: Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitate improving or vetoing the rule in question. In a very authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain why we do what we do, as with imposing guidelines.
+: Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitate improving or vetoing the rule in question. In a very authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
 
 What else
 : Finally, a complete coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it's better to err on the side of adding enough detail so that the team can understand the guideline and its rationale.
@@ -298,7 +296,7 @@ For example, if everyone on the team is validating their HTML code, as it should
 
 ### Prescriptive
 
-If the reality/goal difference is bigger, we want to take a prescriptive (i.e., normative) approach, meaning to tell what to do:
+If the reality/goal difference is bigger, we want to take a _prescriptive_ (i.e., _normative_) approach, meaning to tell what to do:
 
 > Release only valid HTML code
 
@@ -397,7 +395,7 @@ Correct:
 
 #### Use Only Lowercase
 
-Where possible, code should be lowercase: this includes HTML element names, attributes, attribute values (unless `text/CDATA`), CSS selectors, properties, and property values (with the exception of strings, because case can be relevant here).
+Where possible, code should be lowercase: this includes HTML element names, attributes, attribute values (unless `text/CDATA`), CSS selectors, properties, and property values (with the exception of [strings](https://www.w3.org/TR/CSS21/syndata.html#strings), because case can be relevant here).
 
 Correct:
 
@@ -732,7 +730,7 @@ text-indent: 2em;
 
 #### Indent All Block Content
 
-Indent all block content—that is, rules within rules as well as declarations, so to reflect hierarchy and improve understanding.
+Indent all [block](https://www.w3.org/TR/CSS21/syndata.html#block) content—that is, rules within rules as well as declarations, so to reflect hierarchy and improve understanding.
 
 Correct:
 
@@ -850,7 +848,7 @@ body {
 
 Use single (`''`) rather than double (`""`) quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (`url()`).
 
-Exception: If you do need to use the `@charset` rule, use double quotation marks, as single quotation marks are not permitted.
+Exception: If you do need to use the `@charset` rule, use double quotation marks, as [single quotation marks are not permitted](https://www.w3.org/TR/CSS21/syndata.html#charset).
 
 Correct:
 
