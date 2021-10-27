@@ -190,319 +190,219 @@ Today, test tools abound for performance measuring. Here are some of them:
 
 @@
 
-Another user-centered matter concerns site functionality and workflows: can we get from A to B? Fortunately, even though this is important to ensure, it’s easy to verify—so easy in fact, that most of the time functionality testing is “implied.”
+Another user-centered matter concerns site functionality and workflows: can we get from _A_ to _B_? Fortunately, even though this is important to ensure, it’s easy to verify—so easy in fact, that most of the time functionality testing is “implied.”
 
 How so? What have we just said? Essentially, that we’d know whether when building and extending our sites and their functionality, we can’t get to what we just built and extended. Whether we’d add a new registration page or post a new press release, we typically notice as part of the testing and launch process whether it actually made it live and can be found.
 
 Thus, it’s advantageous to tell by other means whether everything’s where we expect it to be, and whether it works as we expect it to work. Here are some tools to do that:
 
-Accessibility, HTML, and Link Check (WebKit and Gecko browser extension)
+* [Accessibility, HTML, and Link Check (WebKit and Gecko browser extension)](@@)
+* [Browser Test Automation (Sahi; browser extension)](@@)
+* [Browser Test Automation (Selenium; browser extension)](@@)
+* [Browser Test Automation (Squish)](@@)
+* [Browser Test Automation (Watir; browser extension)](@@)
+* [“Cognitive Walkthrough for the Web” Tools](@@)
+* [Image and Link Analysis](@@)
+* [Link Analysis](@@)
+* [Link Check (LinkTiger)](@@)
+* [Link Check (Site Valet)](@@)
+* [Link Check (W3C)](@@)
+* [Responsiveness Test](@@)
+* [UI Test Automation (Ghost Inspector; browser extension)](@@)
+* [UI Test Automation (Screenster)](@@)
+* [Universal Validator](@@)
+* [Web App Test Automation (command-line tool)](@@)
 
-Browser Test Automation (Sahi; browser extension)
+### Maintainability
 
-Browser Test Automation (Selenium; browser extension)
-
-Browser Test Automation (Squish)
-
-Browser Test Automation (Watir; browser extension)
-
-“Cognitive Walkthrough for the Web” Tools
-
-Image and Link Analysis
-
-Link Analysis
-
-Link Check (LinkTiger)
-
-Link Check (Site Valet)
-
-Link Check (W3C)
-
-Responsiveness Test
-
-UI Test Automation (Ghost Inspector; browser extension)
-
-UI Test Automation (Screenster)
-
-Universal Validator
-
-Web App Test Automation (command-line tool)
-
-Maintainability
 The first, rather technical item to watch out and test for is maintainability. Maintainability? Yes, the degree of our ability to efficiently make changes to our design and code. This degree, this efficiency, makes for one of the most crucial aspects of web development—and at the same time it’s regularly among the most neglected ones.
 
-What is maintainability, what does this ability and efficiency really refer to? That is a valid question in light of the fact that many long years of neglect have yielded little documentation and few best practices pertaining to maintainability and maintenance. “One cannot not maintain”—that is the “law” I’ve coined in despair. One cannot not maintain originates in the fact that anything we produce must at some point be dealt with again, whether by us or by others.
+What is maintainability, what does this ability and efficiency really refer to? That is a valid question in light of the fact that many long years of neglect have yielded little documentation and few best practices pertaining to maintainability and maintenance. [“One cannot not maintain”](https://meiert.com/en/blog/law-of-maintainability/)—that is the “law” I’ve coined in despair. One cannot not maintain originates in the fact that anything we produce must at some point be dealt with again, whether by us or by others.
 
 (As for tools, only sadness seems to be available as of yet.)
 
-QA Style Sheet (bookmarklet)
+* [QA Style Sheet (bookmarklet)](https://github.com/j9t/qa-style-sheet)
 
-Semantics
+### Semantics
+
 Semantics was one of the hot topics of the last decade, when the field of web development went through its first stage of maturation and developed a better sense for how HTML markup should be written. This awareness was motivated in part by a higher and closer regard for web standards—mostly in relation to the underlying specifications—and in part by stronger emphasis on the need for websites to be more accessible.
 
-Today, the hype has long moved on to web apps, and tolerance has stretched a bit again to “anything goes.” WAI-ARIA has grown and matured as both tool and excuse. Microdata and web components have, so far, also done their share to allow a mindset of “semantics is not important anymore” to flourish.
+Today, the hype has long moved on to web apps, and tolerance has stretched a bit again to “anything goes.” [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) has grown and matured as both tool and excuse. [Microdata](https://html.spec.whatwg.org/multipage/microdata.html) and [web components](https://www.webcomponents.org/) have, so far, also done their share to allow a mindset of “semantics is not important anymore” to flourish.
 
 Is this all justified? No. But the situation is complex. To make a bit more sense of it, we should break things apart.
 
-For semantics, we should look at where it’s coming from and what people mean when they talk about it. Semantics in HTML refers to authority—and consensus-based meaning. The W3C or the WHATWG—the authorities—define in specifications what each element and attribute means. Vendors and the web development community buy into these definitions. Sometimes, as for consensus, they disagree (voiced in standard controversies) or they add their own solutions (as with microformats). ID and class names represent the most minimal form of consensus on meaning, sometimes just brought forth by a single developer.
+For semantics, we should look at where it’s coming from and what people mean when they talk about it. [Semantics in HTML](https://meiert.com/en/blog/on-semantics-in-html/) refers to authority—and consensus-based meaning. The W3C or the WHATWG—the authorities—define in specifications what each element and attribute means. Vendors and the web development community buy into these definitions. Sometimes, as for consensus, they disagree (voiced in standard controversies) or they add their own solutions (as with [microformats](http://microformats.org/)). ID and class names represent the most minimal form of consensus on meaning, sometimes just brought forth by a single developer.
 
-For new technology and techniques, we find ourselves in a conflict. The standards community has given in to a form of arms race against itself. After years of slow progress, low output, and seeming indifference to the user and vendor community, suddenly those involved in standards want to micromanage everything. This has led the specifications to grow in number and size, and we’ve still not been able to take inventory of everything we’re now capable of doing. With that growing complexity, we risk losing it all, http://bit.ly/2cUCbZB, or so I feel. But with respect to semantics, we’re right at the seam, and things have become loose there. No one focuses any longer on the meaning of what documents and templates describe anymore.
+For new technology and techniques, we find ourselves in a conflict. The standards community has given in to a form of arms race against itself. After years of slow progress, low output, and seeming indifference to the user and vendor community, suddenly those involved in standards want to micromanage _everything_. This has led the specifications to grow in number and size, and we’ve still not been able to take inventory of everything we’re now capable of doing. With that growing complexity, we risk losing it all, or [so I feel](https://meiert.com/en/blog/fing-up-standards/). But with respect to semantics, we’re right at the seam, and things have become loose there. No one focuses any longer on the _meaning_ of what documents and templates describe anymore.
 
 Semantics will make it back to our agendas for the following reason: we can only get the most out of code and information within code, ensure best access to that code, and work best together on code if the code has meaning, or is used according to the meaning it had been assigned.
 
 There are a number of semantics checks and generators for enriched markup available:
 
-hCalendar Generator
-
-hCard Generator
-
-HTML Outline Extractor
-
-Microformat Extractor and Transformer
-
-Open Graph and Semantics Extractor
-
-Schema Generator
-
-Semantics Check (Gecko browser extension)
-
-Semantics Extractor
-
-Semantics Parser and Extractor
-
-Structured Data Test (Google)
-
-Structured Data Test (Yandex)
-
-Twitter Card Test
+* [hCalendar Generator](@@)
+* [hCard Generator](@@)
+* [HTML Outline Extractor](@@)
+* [Microformat Extractor and Transformer](@@)
+* [Open Graph and Semantics Extractor](@@)
+* [Schema Generator](@@)
+* [Semantics Check (Gecko browser extension)](@@)
+* [Semantics Extractor](@@)
+* [Semantics Parser and Extractor](@@)
+* [Structured Data Test (Google)](@@)
+* [Structured Data Test (Yandex)](@@)
+* [Twitter Card Test](@@)
 
 (Some accessibility and validation tools cover aspects of semantics, too; to avoid repetition and not distort the view on the “purely semantic” testing options, these have not been duplicated here.)
 
-Validation
+### Validation
+
 Validation as a measurable priority had peaked, too, before falling from grace. But popularity does not correlate with validity (hah!), accuracy, or quality, and one can argue well how validation is a relevant factor for website quality. It is such an important factor for that reason that only validation ensures we’ve been coding according to the different specs—a condition that corresponds with professionalism, or at least professional ethics.
 
 Although this is almost all there is to say about validation, the web development landscape begs to differ, most notably when it comes to HTML and CSS. HTML is more stable and used in more places than CSS. CSS is under heavier development and occasionally experimental, yet style sheets live in relatively few places (CSS being “orthogonal” to HTML makes for its relevance in maintainability). That means that validation for HTML is far more important than for CSS. Because HTML is stable, it is easier to validate, and because it’s so prevalent—all over the place in templates and documents—it’s also much more critical to validate.
 
 We are in the envious situation of having a great many, good-quality validators at our disposal:
 
-Accessibility, HTML, and Link Check (WebKit and Gecko browser extension)
+* [Accessibility, HTML, and Link Check (WebKit and Gecko browser extension)](@@)
+* [ARIA Validator (WebKit browser extension)](@@)
+* [CSS Validator (W3C)](@@)
+* [CSS Validator (WDG)](@@)
+* [DAML Validator](@@)
+* [hCard Validator](@@)
+* [.htaccess Validator](@@)
+* [HTML Validator (W3C)](@@)
+* [HTML Validator (WDG)](@@)
+* [HTML 5 Validator](@@)
+* [HTML, CSS, and Conformance Validator](@@)
+* [Internationalization Check](@@)
+* [JSON Validator](@@)
+* [Markup Validator](@@)
+* [P3P Validator](@@)
+* [Rich Pin Validator](@@)
+* [RDF Validator](@@)
+* [robots.txt Syntax Check](@@)
+* [RSS and Atom Feed Validator](@@)
+* [SADiC Validator](@@)
+* [SBML Validator](@@)
+* [Sitemap Validator](@@)
+* [SQL Validator](@@)
+* [SVG Validator](@@)
+* [Universal Validator](@@)
+* [XHTML 1.0 Schema Validator](@@)
+* [XML Schema Validator](@@)
+* [XML Validator](@@)
+* [XML Well-Formedness Check and Validator](@@)
 
-ARIA Validator (WebKit browser extension)
+### Layout and Design Consistency
 
-CSS Validator (W3C)
-
-CSS Validator (WDG)
-
-DAML Validator
-
-hCard Validator
-
-.htaccess Validator
-
-HTML Validator (W3C)
-
-HTML Validator (WDG)
-
-HTML 5 Validator
-
-HTML, CSS, and Conformance Validator
-
-Internationalization Check
-
-JSON Validator
-
-Markup Validator
-
-P3P Validator
-
-Rich Pin Validator
-
-RDF Validator
-
-robots.txt Syntax Check
-
-RSS and Atom Feed Validator
-
-SADiC Validator
-
-SBML Validator
-
-Sitemap Validator
-
-SQL Validator
-
-SVG Validator
-
-Universal Validator
-
-XHTML 1.0 Schema Validator
-
-XML Schema Validator
-
-XML Validator
-
-XML Well-Formedness Check and Validator
-
-Layout and Design Consistency
 Normally filed under other categories, consistency-checking is also a key factor in website quality control. What is it normally filed under? Browser-testing. That is, as we’ve just noticed, a misnomer: we’re not testing browsers, we’re testing the layout and design of our websites for consistency across browsers and devices.
 
-Making this little differentiation makes clear what tools we can use: browser and device emulators, of which there are plenty. The testing landscape has changed significantly over the years, and although it’s become a big issue to test for the slew of devices, web-based tools that allow quick comparisons have matured to the extent that we have to install fewer user agents than we used to. (The normalization and unification of rendering engines has contributed to improvements, too, considering that WebKit is now by far the most common engine.)
+Making this little differentiation makes clear what tools we can use: browser and device emulators, of which there are plenty. The testing landscape has changed significantly over the years, and although it’s become a big issue to test for the slew of devices, web-based tools that allow quick comparisons have matured to the extent that we have to install fewer user agents than we used to. (The normalization and unification of rendering engines has contributed to improvements, too, considering that [WebKit](https://www.webkit.org/) is now by far the most common engine.)
 
 To test layout and design, we can use tools and services like the following:
 
-Android Emulators
+* [Android Emulators](@@)
+* [Browser Screenshots (Windows, Mac OS, Android, iOS)](@@)
+* [Browser Screenshots (Windows, Mac OS, Linux)](@@)
+* [Browser Test Automation (Sahi; browser extension)](@@)
+* [Browser Test Automation (Selenium; browser extension)](@@)
+* [Browser Test Automation (Squish)](@@)
+* [Browser Test Automation (Watir; browser extension)](@@)
+* [Design Diff (script)](@@)
+* [Edge Compatibility Test](@@)
+* [Internet Explorer Viewer (IE NetRenderer)](@@)
+* [Internet Explorer Viewer (URL2PNG)](@@)
+* [iPhone Emulator](@@)
+* [Layout Bug Test (script)](@@)
+* [Lynx Viewer](@@)
+* [Mobile Emulator](@@)
+* [Opera Mini Emulator](@@)
+* [User Agent Detector](@@)
+* [Viewport Size Determiner](@@)
+* [Website Design History (DomainTools)](@@)
+* [Website Design History (Screenshots.com)](@@)
 
-Browser Screenshots (Windows, Mac OS, Android, iOS)
+### Typography
 
-Browser Screenshots (Windows, Mac OS, Linux)
-
-Browser Test Automation (Sahi; browser extension)
-
-Browser Test Automation (Selenium; browser extension)
-
-Browser Test Automation (Squish)
-
-Browser Test Automation (Watir; browser extension)
-
-Design Diff (script)
-
-Edge Compatibility Test
-
-Internet Explorer Viewer (IE NetRenderer)
-
-Internet Explorer Viewer (URL2PNG)
-
-iPhone Emulator
-
-Layout Bug Test (script)
-
-Lynx Viewer
-
-Mobile Emulator
-
-Opera Mini Emulator
-
-User Agent Detector
-
-Viewport Size Determiner
-
-Website Design History (DomainTools)
-
-Website Design History (Screenshots.com)
-
-Typography
 Typography is not what the common website owner will connect to website quality—and, sadly, neither might every designer—but it is, of course, an important aspect of every website. Typography is all the more important, as the amount of content a website actually has increases—we remind ourselves of Robert Bringhurst, who taught us that “typography exists to honor content.”
 
 But why test? Obviously, for the reasons that typography matters—and so we’re not just running into William Bruce Cameron’s (and apparently not Albert Einstein’s) famous statement, “Not everything that counts can be counted, and not everything that can be counted counts.” Typography can be counted—the surprise of this section, perhaps—and typography does count. Not many tools are available to test for good typography, but still there are some that make our typographic jobs easier:
 
-Font Combinator
+* [Font Combinator](@@)
+* [Font Comparison](@@)
+* [Font Determiner (WhatFont; WebKit browser extension)](@@)
+* [Font Determiner (WhatTheFont)](@@)
+* [Font Fallback Determiner (bookmarklet)](@@)
+* [Golden Ratio Typography Calculator](@@)
+* [Type Diff](@@)
+* [Type Live Test](@@)
+* [Type Scale](@@)
+* [Type Scale (Modular)](@@)
+* [Web Font Generator](@@)
 
-Font Comparison
+### Code Quality
 
-Font Determiner (WhatFont; WebKit browser extension)
-
-Font Determiner (WhatTheFont)
-
-Font Fallback Determiner (bookmarklet)
-
-Golden Ratio Typography Calculator
-
-Type Diff
-
-Type Live Test
-
-Type Scale
-
-Type Scale (Modular)
-
-Web Font Generator
-
-Code Quality
-Venturing again into the realm that’s invisible to the users of our sites, code quality has many attributes, some of which we’ve already addressed. Here, code quality will touch on general overall checks, as well as on linting—that is, analyzing code for potential programmatic and stylistic errors (which we’ll focus on separately in the next section).
+Venturing again into the realm that’s invisible to the users of our sites, code quality has many attributes, some of which we’ve already addressed. Here, code quality will touch on general overall checks, as well as on _linting_—that is, analyzing code for potential programmatic and stylistic errors (which we’ll focus on separately in the next section).
 
 Linting comes out of computer programming, something we don’t file web development under, but linters are by now available for pretty much anything, including CSS. Some general quality-related tools include the following:
 
-Accessibility Linter
+* [Accessibility Linter](@@)
+* [CMS Detector](@@)
+* [CSS Linter](@@)
+* [Google Webmaster Guidelines Check](@@)
+* [HTML Compatibility Check for XHTML](@@)
+* [JavaScript Linter (JSHint)](@@)
+* [JavaScript Linter (JSLint)](@@)
+* [Reputation and Safety Check](@@)
+* [Trustworthiness Check](@@)
+* [Website Analysis (Alexa)](@@)
+* [Website Analysis (Nibbler)](@@)
+* [Website Analysis (RankFlex)](@@)
+* [Website Analysis (Site Analyzer)](@@)
+* [Website Analysis (StatsCrop)](@@)
+* [Website Analysis (UITest.com)](@@)
+* [Website Grader](@@)
+* [Website Review](@@)
+* [Website Technology Analysis](@@)
 
-CMS Detector
+### Coding Standard Compliance
 
-CSS Linter
-
-Google Webmaster Guidelines Check
-
-HTML Compatibility Check for XHTML
-
-JavaScript Linter (JSHint)
-
-JavaScript Linter (JSLint)
-
-Reputation and Safety Check
-
-Trustworthiness Check
-
-Website Analysis (Alexa)
-
-Website Analysis (Nibbler)
-
-Website Analysis (RankFlex)
-
-Website Analysis (Site Analyzer)
-
-Website Analysis (StatsCrop)
-
-Website Analysis (UITest.com)
-
-Website Grader
-
-Website Review
-
-Website Technology Analysis
-
-Coding Standard Compliance
-Last but not least and not to be missed: we want to and can measure the conformity and consistency of our code. For that—and you might remember The Little Book of HTML/CSS Coding Guidelines (or want to check it out)—we look at common coding practices, and, notably, our coding guidelines.
+Last but not least and not to be missed: we want to and can measure the conformity and consistency of our code. For that—and you might remember _The Little Book of HTML/CSS Coding Guidelines_ (or want to check it out)—we look at common coding practices, and, notably, our coding guidelines.
 
 The listed quality checks, now, simply look at compliance, comparing code strings against a predefined catalog of rules. Only lowercase element names in HTML? Only single quotes in CSS? No global variables in JavaScript, if the more experienced scripter fancies? No BOM in text files? This is done by website quality checks against code standards, such as the following:
 
-Code Formatter (Code Beautifier)
-
-Code Formatter (Pretty Printer)
-
-CSS Formatter (CSS Portal)
-
-CSS Formatter (Lonnie Best)
-
-CSS Optimizer and Formatter (CSS Beautifier)
-
-CSS Optimizer and Formatter (CSScomb)
-
-HTML Formatter
-
-HTML, CSS, and JS Formatter
-
-JSON Formatter
+* [Code Formatter (Code Beautifier)](@@)
+* [Code Formatter (Pretty Printer)](@@)
+* [CSS Formatter (CSS Portal)](@@)
+* [CSS Formatter (Lonnie Best)](@@)
+* [CSS Optimizer and Formatter (CSS Beautifier)](@@)
+* [CSS Optimizer and Formatter (CSScomb)](@@)
+* [HTML Formatter](@@)
+* [HTML, CSS, and JS Formatter](@@)
+* [JSON Formatter](@@)
 
 After we have properly formatted our code and made it consistent, however, we might still want to make it production-ready by compressing and minifying it. Our work files should be easy (to understand) for us and our production files should be easy (to parse and transfer) for others. For this there are additional tools.
 
-CSS Compressor
+* [CSS Compressor](@@)
+* [HTML Compressor](@@)
+* [HTML Compressor (html-minifier)](@@)
+* [JavaScript Compressor](@@)
 
-HTML Compressor
+## Quality Control in Practice
 
-HTML Compressor (html-minifier)
-
-JavaScript Compressor
-
-Quality Control in Practice
 With the overview and tools we’ve now gathered, what does quality control of websites look like in practice? Is this all we need? What pitfalls are there? What do we need to watch out for? There are indeed a few things to consider.
 
-Training
+### Training
+
 Training is a first, very important step toward successfully implementing quality control practices. Training should be understood very generally here, for any professional training that teaches people how to produce better work will at the same time help quality. In that sense, training will not be elaborated on here.
 
 However, training can also be offered and attended specifically to establish a quality mindset, to improve the associated skills, and to promote tools that measure and improve quality. (As such, training will also be linked to the following points, but not be called out again.)
 
-Mindset
+### Mindset
+
 The most important factor when it comes to practical quality is the mindset. The greatest quality initiative is not worth much if it’s not clear to the team and enterprise why quality matters, and how quality is beneficial for them. The key to a conducive mindset is communication; a potential trap is rewards.
 
-Communication
+#### Communication
+
 Communication is the primary way to spread and instill a mindset of quality, with quality as the goal and guiding principle.
 
 This communication should sporadically repeat, but doesn’t need to consist of overt reminders on why quality matters and how it benefits everybody. If we want to repeat the essence of both answers here, then: quality is important to deliver work that is good by professional standards and benefits everyone, because products of quality are easier and more pleasant to consume and work with.
@@ -511,17 +411,22 @@ Communication is, for that reason, important because we all benefit from being r
 
 Based on this, communication can now range from bylines in regular company and team communications, thanking everyone for the vigilance to produce good work, to dedicated emails emphasizing the goal and importance of quality.
 
-Rewards
-Rewards, then, are no key for a quality mindset. We should avoid rewards. Rewards might compel people to participate in quality-related events—see #logistics—but they don’t necessarily compel people to embrace quality (in fact, they rarely do). They seem to distract from, rather than point to the message.
+#### Rewards
+
+Rewards, then, are _no_ key for a quality mindset. We should avoid rewards. Rewards might compel people to participate in quality-related events, but they don’t necessarily compel people to embrace quality (in fact, they rarely do). They seem to distract from, rather than point to the message.
 
 I’ve had some such experiences with international teams, whereby rewards did help draw attention to quality-related initiatives, but they didn’t lead to a better understanding of, or a higher motivation, for more quality. What was more effective was communication, notably through managers. Hierarchy and authority can, of course, be great facilitators in our quest to improve the quality of our work.
 
-Automation
-Insist on automation. Insist—on automation. Of course, we’re inclined to say—once we’ve automated all quality-relevant tasks and processes, what’s there to be missed, how could we get anything wrong? But we haven’t progressed quite yet to the point that we’re able to automate everything. Our reality is that not enough is being automated, and sensitizing for that is what this very practical recommendation aims at. We must automate as much as we can; we must insist on automation.
+### Automation
 
-We have discussed many tools so far and are going to summarize them again (it follows a section listing all our tools)—some of those are very easy to implement and automate, but for others, per our now-defined goal to automate and insist to automate, will require a bit of an effort. A discussion on how to write and run automation scripts on different platforms is beyond the scope of this little book, but if you’d like to see what that can look like, read complementary books like Learning Linux Shell Scripting, Network Programmability and Automation, or Learn AppleScript.
+Insist on automation. Insist—on automation. _Of course_, we’re inclined to say—once we’ve automated all quality-relevant tasks and processes, what’s there to be missed, how could we get anything wrong? But we haven’t progressed quite yet to the point that we’re able to automate everything. Our reality is that not enough is being automated, and sensitizing for that is what this very practical recommendation aims at. We must automate as much as we can; we must insist on automation.
 
-Enforcement
+We have discussed many tools so far and are going to summarize them again (it follows a section listing all our tools)—some of those are very easy to implement and automate, but for others, per our now-defined goal to automate and insist to automate, will require a bit of an effort. A discussion on how to write and run automation scripts on different platforms is beyond the scope of this little book, but if you’d like to see what that can look like, read complementary books like [_Learning Linux Shell Scripting_](https://www.amazon.com/dp/B013WWYVHK/?tag=j9t-21-20), [_Network Programmability and Automation_](https://www.amazon.com/dp/1491931256/?tag=j9t-21-20), or [_Learn AppleScript_](https://www.amazon.com/dp/1430223618/?tag=j9t-21-20).
+
+### Enforcement
+
+@@
+
 In the context of coding guidelines, we’ve learned to differentiate between descriptive or positive guidelines and those that are prescriptive or normative (see The Little Book of HTML/CSS Coding Guidelines). The difference is mostly practical—when code quality is at a high level, we merely document (describe) what everyone’s already doing; when code quality is low, we tell everyone what to do (prescribe). However, as it pertains to much of what we’ve discussed so far, this requires some way of enforcement.
 
 How do we enforce quality? This is still a difficult question; so difficult, in fact, that in practice we often see it dodged. Why? Because enforcement easily upsets people, and we don’t want to upset people, not even—or especially—when they report to us. But we’re on the right track here.
