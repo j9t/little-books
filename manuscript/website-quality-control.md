@@ -62,121 +62,64 @@ Let’s go over some tools that are available to us (again primarily with a focu
 
 @@
 
-AES Encrypter
-
-Bandwidth Speed Test
-
-Blowfish Hash Generator
-
-Cookie Editor (WebKit browser extension)
-
-CSR Decoder
-
-DNS Analysis
-
-DNS Propagation Check
-
-Download Time Calculator
-
-Email Blacklist Check
-
-FTP Server Test
-
-HTTP Header Editor (Request Maker; WebKit browser extension)
-
-HTTP Header Editor (Tamper Data; Gecko browser extension)
-
-HTTP Header Test
-
-HTTP Header Test (Advanced)
-
-IP Address Trace
-
-IP Determiner (DSLReports)
-
-IP Determiner
-
-IP Spam Check
-
-Malware and Security Scanner
-
-MD5 and SHA Hash Generator
-
-MD5 Encrypter
-
-MX Lookup
-
-Network Intrusion Prevention and Analysis (Kismet; command-line tool)
-
-Network Intrusion Prevention and Analysis (Snort; command-line tool)
-
-Password Generator (Arantius.com)
-
-Password Generator (GRC)
-
-Password Generator (Packetizer)
-
-Password Security Check
-
-Password Security Check (GRC)
-
-PGP Decrypter
-
-PGP Encrypter
-
-PGP Key Generator
-
-Ping Tool
-
-Ping Tool (Regional)
-
-Reverse IP Lookup
-
-Security Breach Victim Check
-
-Security Analysis (OWASP Mantra; browser extension)
-
-SHA-512 Hash Generator
-
-SPDY Implementation Check
-
-SQL Injection and Database Check (command-line tool)
-
-SQL Injection Scanner (command-line tool)
-
-SSL Certificate Check (DigiCert)
-
-SSL Certificate Check (SSL Shopper)
-
-SSL Client Check
-
-SSL Scanner (command-line tool)
-
-SSL Server Test
-
-Traceroute Tool
-
-Traceroute Tool (Visualized)
-
-User Identity Generator
-
-Virus Scanner
-
-Wake-on-LAN Service
-
-Web Application Security Analysis (Canoo; command-line tool)
-
-Web Application Security Analysis (OWASP; server application)
-
-Web Application Security Analysis (Skipfish; command-line tool)
-
-Website Blockade Check for China
-
-Website Blockade Check for England
-
-Website Fingerprint Check
-
-Website Monitoring Service
+* [AES Encrypter](@@)
+* [Bandwidth Speed Test](@@)
+* [Blowfish Hash Generator](@@)
+* [Cookie Editor (WebKit browser extension)](@@)
+* [CSR Decoder](@@)
+* [DNS Analysis](@@)
+* [DNS Propagation Check](@@)
+* [Download Time Calculator](@@)
+* [Email Blacklist Check](@@)
+* [FTP Server Test](@@)
+* [HTTP Header Editor (Request Maker; WebKit browser extension)](@@)
+* [HTTP Header Editor (Tamper Data; Gecko browser extension)](@@)
+* [HTTP Header Test](@@)
+* [HTTP Header Test (Advanced)](@@)
+* [IP Address Trace](@@)
+* [IP Determiner (DSLReports)](@@)
+* [IP Determiner](@@)
+* [IP Spam Check](@@)
+* [Malware and Security Scanner](@@)
+* [MD5 and SHA Hash Generator](@@)
+* [MD5 Encrypter](@@)
+* [MX Lookup](@@)
+* [Network Intrusion Prevention and Analysis (Kismet; command-line tool)](@@)
+* [Network Intrusion Prevention and Analysis (Snort; command-line tool)](@@)
+* [Password Generator (Arantius.com)](@@)
+* [Password Generator (GRC)](@@)
+* [Password Generator (Packetizer)](@@)
+* [Password Security Check](@@)
+* [Password Security Check (GRC)](@@)
+* [PGP Decrypter](@@)
+* [PGP Encrypter](@@)
+* [PGP Key Generator](@@)
+* [Ping Tool](@@)
+* [Ping Tool (Regional)](@@)
+* [Reverse IP Lookup](@@)
+* [Security Breach Victim Check](@@)
+* [Security Analysis (OWASP Mantra; browser extension)](@@)
+* [SHA-512 Hash Generator](@@)
+* [SPDY Implementation Check](@@)
+* [SQL Injection and Database Check (command-line tool)](@@)
+* [SQL Injection Scanner (command-line tool)](@@)
+* [SSL Certificate Check (DigiCert)](@@)
+* [SSL Certificate Check (SSL Shopper)](@@)
+* [SSL Client Check](@@)
+* [SSL Scanner (command-line tool)](@@)
+* [SSL Server Test](@@)
+* [Traceroute Tool](@@)
+* [Traceroute Tool (Visualized)](@@)
+* [User Identity Generator](@@)
+* [Virus Scanner](@@)
+* [Wake-on-LAN Service](@@)
+* [Web Application Security Analysis (Canoo; command-line tool)](@@)
+* [Web Application Security Analysis (OWASP; server application)](@@)
+* [Web Application Security Analysis (Skipfish; command-line tool)](@@)
+* [Website Blockade Check for China](@@)
+* [Website Blockade Check for England](@@)
+* [Website Fingerprint Check](@@)
+* [Website Monitoring Service](@@)
 
 Accessibility
 Per Wikipedia, accessibility “refers to the design of products, devices, services, or environments for people with disabilities”; “the concept of accessible design ensures both ‘direct access’ (i.e., unassisted) and ‘indirect access,’ meaning compatibility with a person’s assistive technology (for example, computer screen readers).” Accessibility is one of the most important ideas to understand, for the Web is all about accessibility—accessibility is, in fact, the Web’s biggest promise. Accessibility has often been linked to making data available to machines—like search engine bots—but it is, first and foremost, about making information available to people.
