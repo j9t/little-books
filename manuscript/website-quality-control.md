@@ -26,15 +26,14 @@ This little book would not exist were it not for old role models and old sayings
 
 ## What Is Quality Control?
 
-@@
-
 Wikipedia defines quality control (often, but rarely in this book, abbreviated as “QC”) as “a process by which entities review the quality of all factors involved in production.” ISO 9000, also through Wikipedia, is said to define quality control as “a part of quality management focused on fulfilling quality requirements.” Google, without offering attribution, understands quality control to be “a system of maintaining standards in manufactured products by testing a sample of the output against the specification.”
 
 We want to use a definition that is stricter on the one end and more lenient on the other: “Website quality control entails the means to determine (a) whether they meet our expectations and (b) to what degree our websites meet professional best practices.”
 
 “Means,” then, will refer largely to infrastructure—that is, tools. Also, as stated a moment ago, we’ll look at some processes and methods useful to improve, not just measure, the quality of our work.
 
-Why Is Quality Control Important?
+## Why Is Quality Control Important?
+
 Quality control is—for that decisive reason—important, because without it we have no robust way of determining whether what we do and produce is any good.
 
 Quality control, therefore, is a key differentiator between professional and amateur work. Consistent quality is the mark of the professional.
@@ -43,21 +42,25 @@ Quality control, finally, saves time and money and sometimes nerves, particularl
 
 But what are our options to control the quality of our websites? We’ll look at that now in more detail.
 
-The Great Website Quality Control Rundown
+## The Great Website Quality Control Rundown
+
 When you think about the quality of websites, what comes to your mind? How would you test—and what would you test for? Take a moment to ponder this question.
 
-We should readily recall some tools and tests known to us from our everyday work. Some of us might remember validators; some might think of linters; and for others, security suites pop into their minds.
+We should readily recall _some_ tools and tests known to us from our everyday work. Some of us might remember validators; some might think of linters; and for others, security suites pop into their minds.
 
 What do we test for? Not only spec compliance as with validation, or code formatting with linters, we can—and should, as professionals—test for everything we can get our hands on. Going through what we can get our hands on and showing what tools we have at our disposal is the purpose of this section. For each area, in descending order of importance, we’ll go over why quality control matters and look at available tools and automation options.
 
 The tools are mostly web-based; applications have been left out, and exceptions noted. The idea was not to shoulder the probably impossible task of listing and evaluating all tools, but to give the interested reader a starting point to evaluate production sites instantly. (Note that despite all diligence exercised in retrieving and evaluating these tools, neither the author nor O’Reilly Media assumes responsibility for the usefulness, reliability, or accuracy of the tools listed.)
 
-Security
+### Security
+
 Security can be considered the most important thing to test for because whatever it is we and our users are doing, if the security of it is compromised, we and our users are compromised and can be harmed in a number of ways, from losing data (and privacy) to losing the service itself, and possibly much more. We stand and fall with the security of the services that we offer.
 
 Security is critical, but it’s also tricky in the light of website quality control. For one, websites—rather than apps—might or might not deal with any personal and sensitive information or even ask their users to provide such information. For another, security is not trivial to test and not necessarily to be evaluated all from the outside. This leads us to the situation in which, although security is so crucial, there’s not that much to add outside the context of dedicated information security.
 
 Let’s go over some tools that are available to us (again primarily with a focus on web-based tools). The responsible website owner should—and will—employ additional, notably inner-organizational means to ensure that his services and the data those services gather are secure.
+
+@@
 
 AES Encrypter
 
