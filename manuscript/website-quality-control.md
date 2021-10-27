@@ -60,8 +60,6 @@ Security is critical, but it’s also tricky in the light of website quality con
 
 Let’s go over some tools that are available to us (again primarily with a focus on web-based tools). The responsible website owner should—and will—employ additional, notably inner-organizational means to ensure that his services and the data those services gather are secure.
 
-@@
-
 * [AES Encrypter](@@)
 * [Bandwidth Speed Test](@@)
 * [Blowfish Hash Generator](@@)
@@ -121,114 +119,77 @@ Let’s go over some tools that are available to us (again primarily with a focu
 * [Website Fingerprint Check](@@)
 * [Website Monitoring Service](@@)
 
-Accessibility
-Per Wikipedia, accessibility “refers to the design of products, devices, services, or environments for people with disabilities”; “the concept of accessible design ensures both ‘direct access’ (i.e., unassisted) and ‘indirect access,’ meaning compatibility with a person’s assistive technology (for example, computer screen readers).” Accessibility is one of the most important ideas to understand, for the Web is all about accessibility—accessibility is, in fact, the Web’s biggest promise. Accessibility has often been linked to making data available to machines—like search engine bots—but it is, first and foremost, about making information available to people.
+### Accessibility
 
-Legislation exists in many countries—like Section 508 in the United States, BITV in Germany, or RGAA in France—that supports and presses for worldwide accessibility. The key standards, Web Content Accessibility Guidelines (WCAG), published by the World Wide Web Consortium (W3C) have gone through two versions and are, though not perfect, robust. There are a good number of tools, as we shall see. And still, accessibility remains one of the industry’s stepchildren.
+[Per Wikipedia](https://en.wikipedia.org/wiki/Accessibility), accessibility “refers to the design of products, devices, services, or environments for people with disabilities”; “the concept of accessible design ensures both ‘direct access’ (i.e., unassisted) and ‘indirect access,’ meaning compatibility with a person’s assistive technology (for example, computer screen readers).” Accessibility is one of the most important ideas to understand, for the Web is all about accessibility—accessibility is, in fact, the Web’s biggest promise. Accessibility has often been linked to making data available to machines—like search engine bots—but it is, first and foremost, about making information available to _people_.
+
+Legislation exists in many countries—like [Section 508](https://www.section508.gov/) in the United States, [BITV](https://www.gesetze-im-internet.de/bitv_2_0/) in Germany, or [RGAA](https://web.archive.org/web/20151122054135/http://references.modernisation.gouv.fr/rgaa-3-0) in France—that supports and presses for worldwide accessibility. The key standards, the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/), published by the World Wide Web Consortium (W3C) have gone through two versions and are, though not perfect, robust. There are a good number of tools, as we shall see. And still, accessibility remains one of the industry’s stepchildren.
 
 Independent of whether we would be held accountable legally, accessibility is one of the most important things that we should cater to on our sites.
 
-Accessibility Analysis (Gecko browser extension)
+* [Accessibility Analysis (Gecko browser extension)](@@)
+* [Accessibility Check (AATT; Automated; command-line tool)](@@)
+* [Accessibility Check (FAE)](@@)
+* [Accessibility Check (WAEX)](@@)
+* [Accessibility Check (WAVE 3.0)](@@)
+* [Accessibility Developer Tools (WebKit browser extension)](@@)
+* [Accessibility, HTML, and Link Check (WebKit and Gecko browser extension)](@@)
+* [Accessibility Linter](@@)
+* [Accessibility Visualization (script)](@@)
+* [ARIA Validator (WebKit browser extension)](@@)
+* [Colorblind Web Page Filter](@@)
+* [Color Contrast Analysis (Jonathan Snook)](@@)
+* [Color Contrast Analysis (WCAG Contrast Checker; Gecko browser extension)](@@)
+* [Color Contrast Analysis (WebAIM)](@@)
+* [Color Deficit Emulation](@@)
+* [Color Selector](@@)
+* [CSS Accessibility Analysis](@@)
+* [Design Responsiveness Test](@@)
+* [Mobile-Friendliness Check](@@)
+* [Section 508 Check](@@)
+* [Section 508 and WCAG 1.0 Check (Site Valet)](@@)
+* [Section 508 and WCAG 2.0 Check (Cynthia Says)](@@)
+* [Section 508, WCAG 2.0, and BITV 1.0 Check](@@)
+* [WCAG 1.0 Check (SIDAR)](@@)
+* [WCAG 1.0 Check (TAW)](@@)
+* [WCAG 2.0 Check (BOIA)](@@)
+* [WCAG 2.0 Check (Evaluera)](@@)
 
-Accessibility Check (AATT; Automated; command-line tool)
+### Usability
 
-Accessibility Check (FAE)
+Usability is one of the most critical areas to focus on when running a website, hence it deserves special mention here. Because it is not a technical concern, however, it’s only mentioned in passing. If you are interested in this and not already familiar with designing and keeping a usable website, you might want to check out some key resources for further information, like [Usability.gov](https://www.usability.gov/), [Nielsen Norman Group](https://www.nngroup.com/articles/), or [UXmatters](https://www.uxmatters.com/).
 
-Accessibility Check (WAEX)
+### Performance
 
-Accessibility Check (WAVE 3.0)
+For the longest time, Google has worked following the mantras, [“every millisecond counts”](https://www.youtube.com/watch?v=aXJklICrFJI) and, though weaker, [“fast is better than slow.”](https://web.archive.org/web/20150823063537/https://www.google.com/about/company/philosophy/) And for good reason! Speed is a key factor for a positive user experience—so crucial, in fact, that it’s one of the determinants for customer satisfaction and conversion.
 
-Accessibility Developer Tools (WebKit browser extension)
-
-Accessibility, HTML, and Link Check (WebKit and Gecko browser extension)
-
-Accessibility Linter
-
-Accessibility Visualization (script)
-
-ARIA Validator (WebKit browser extension)
-
-Colorblind Web Page Filter
-
-Color Contrast Analysis (Jonathan Snook)
-
-Color Contrast Analysis (WCAG Contrast Checker; Gecko browser extension)
-
-Color Contrast Analysis (WebAIM)
-
-Color Deficit Emulation
-
-Color Selector
-
-CSS Accessibility Analysis
-
-Design Responsiveness Test
-
-Mobile-Friendliness Check
-
-Section 508 Check
-
-Section 508 and WCAG 1.0 Check (Site Valet)
-
-Section 508 and WCAG 2.0 Check (Cynthia Says)
-
-Section 508, WCAG 2.0, and BITV 1.0 Check
-
-WCAG 1.0 Check (SIDAR)
-
-WCAG 1.0 Check (TAW)
-
-WCAG 2.0 Check (BOIA)
-
-WCAG 2.0 Check (Evaluera)
-
-Usability
-Usability is one of the most critical areas to focus on when running a website, hence it deserves special mention here. Because it is not a technical concern, however, it’s only mentioned in passing. If you are interested in this and not already familiar with designing and keeping a usable website, you might want to check out some key resources for further information, like Usability.gov, Nielsen Norman Group, or UXmatters.
-
-Performance
-For the longest time, Google has worked following the mantras, “every millisecond counts” and, though weaker, “fast is better than slow” . And for good reason! Speed is a key factor for a positive user experience—so crucial, in fact, that it’s one of the determinants for customer satisfaction and conversion.
-
-There are many studies that back performance up as important for quality websites, and Six Revisions (with Why Website Speed is Important), Impressive Webs (with The Importance of Page Speed), and WebSiteOptimization.com (with Empirical Study of Web Site Speed on Search Engine Rankings) provide pointers for a good number of them.
+There are many studies that back performance up as important for quality websites, and Six Revisions (with [_Why Website Speed is Important_](https://www.webfx.com/blog/web-design/why-website-speed-is-important/)), Impressive Webs (with [_The Importance of Page Speed_](https://www.impressivewebs.com/importance-of-page-speed-sources/)), and WebSiteOptimization.com (with [_Empirical Study of Web Site Speed on Search Engine Rankings_](http://www.websiteoptimization.com/speed/tweak/website-speed-search-rankings-study/)) provide pointers for a good number of them.
 
 Today, test tools abound for performance measuring. Here are some of them:
 
-Availability Check (CurrentlyDown.com)
+* [Availability Check (CurrentlyDown.com)](@@)
+* [Availability Check (Is It Down Right Now)](@@)
+* [Availability Check (Regional; InternetSupervision.com)](@@)
+* [Availability Check (Regional; Site24x7)](@@)
+* [CSS Analysis](@@)
+* [Load Time and Object Check](@@)
+* [Load Time Check](@@)
+* [Performance and Scalability Test (Pylot; command-line tool)](@@)
+* [Performance and Scalability Test (Tsung; command-line tool)](@@)
+* [Website Browser and Location Speed Test](@@)
+* [Website Performance Analysis (GTmetrix)](@@)
+* [Website Performance Analysis (IISpeed)](@@)
+* [Website Performance Analysis (Page Performance; WebKit browser extension)](@@)
+* [Website Performance Analysis (PageSpeed)](@@)
+* [Website Performance Analysis (Pingdom)](@@)
+* [Website Performance Analysis (WebPagetest)](@@)
+* [Website Performance Analysis (YSlow; browser extension)](@@)
+* [Website Timer](@@)
 
-Availability Check (Is It Down Right Now)
+### Functionality
 
-Availability Check (Regional; InternetSupervision.com)
+@@
 
-Availability Check (Regional; Site24x7)
-
-CSS Analysis
-
-Load Time and Object Check
-
-Load Time Check
-
-Performance and Scalability Test (Pylot; command-line tool)
-
-Performance and Scalability Test (Tsung; command-line tool)
-
-Website Browser and Location Speed Test
-
-Website Performance Analysis (GTmetrix)
-
-Website Performance Analysis (IISpeed)
-
-Website Performance Analysis (Page Performance; WebKit browser extension)
-
-Website Performance Analysis (PageSpeed)
-
-Website Performance Analysis (Pingdom)
-
-Website Performance Analysis (WebPagetest)
-
-Website Performance Analysis (YSlow; browser extension)
-
-Website Timer
-
-Functionality
 Another user-centered matter concerns site functionality and workflows: can we get from A to B? Fortunately, even though this is important to ensure, it’s easy to verify—so easy in fact, that most of the time functionality testing is “implied.”
 
 How so? What have we just said? Essentially, that we’d know whether when building and extending our sites and their functionality, we can’t get to what we just built and extended. Whether we’d add a new registration page or post a new press release, we typically notice as part of the testing and launch process whether it actually made it live and can be found.
