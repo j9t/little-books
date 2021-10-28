@@ -23,11 +23,11 @@ Available at [Amazon](https://www.amazon.com/dp/B094W54R2N/?tag=j9t-21-20), [App
 
 Available at [Amazon](https://www.amazon.com/dp/B07TVW1ZT8/?tag=j9t-21-20), [Apple Books](https://books.apple.com/us/book/css-optimization-basics/id1571260941?ls=1), [Kobo](https://www.kobo.com/us/en/ebook/css-optimization-basics), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_CSS_Optimization_Basics?id=xgTfDwAAQBAJ), and [Leanpub](https://leanpub.com/css-optimization-basics).
 
-## [_The Little Book of HTML/CSS Frameworks_](https://meiert.com/en/blog/the-book-of-frameworks/) (2015)
+## @@
 
-> With the speed of web development today, it’s little wonder that so many frameworks are available, since they come with a promise of saving development and design time. But using the wrong framework, or wrongly using the right framework, can be costly. This concise book shares higher-level ideas around web development frameworks that govern HTML and CSS code, whether you’re looking at an external option or planning to build your own.
+> @@
 
-Available at [O’Reilly](https://www.oreilly.com/library/view/the-little-book/9781492048121/).
+Available at @@.
 
 ## [_On Web Development_](https://meiert.com/en/blog/on-web-development/) (2015)
 

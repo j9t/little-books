@@ -150,7 +150,7 @@ Independent of whether we would be held accountable legally, accessibility is on
 * [Section 508 and WCAG 1.0 Check (Site Valet)](@@)
 * [Section 508 and WCAG 2.0 Check (Cynthia Says)](@@)
 * [Section 508, WCAG 2.0, and BITV 1.0 Check](@@)
-* [WCAG 1.0 Check (SIDAR)](@@)
+* [WCAG 1.0 Check (SIDAR)](https://web.archive.org/web/20150726041535/http://www.sidar.org/hera/)
 * [WCAG 1.0 Check (TAW)](@@)
 * [WCAG 2.0 Check (BOIA)](@@)
 * [WCAG 2.0 Check (Evaluera)](@@)
@@ -206,7 +206,7 @@ Thus, it’s advantageous to tell by other means whether everything’s where we
 * [Link Analysis](@@)
 * [Link Check (LinkTiger)](@@)
 * [Link Check (Site Valet)](@@)
-* [Link Check (W3C)](@@)
+* [Link Check (W3C)](https://validator.w3.org/checklink)
 * [Responsiveness Test](@@)
 * [UI Test Automation (Ghost Inspector; browser extension)](@@)
 * [UI Test Automation (Screenster)](@@)
@@ -425,475 +425,265 @@ We have discussed many tools so far and are going to summarize them again (it fo
 
 ### Enforcement
 
-@@
-
-In the context of coding guidelines, we’ve learned to differentiate between descriptive or positive guidelines and those that are prescriptive or normative (see The Little Book of HTML/CSS Coding Guidelines). The difference is mostly practical—when code quality is at a high level, we merely document (describe) what everyone’s already doing; when code quality is low, we tell everyone what to do (prescribe). However, as it pertains to much of what we’ve discussed so far, this requires some way of enforcement.
+In the context of coding guidelines, we’ve learned to differentiate between descriptive or positive guidelines and those that are prescriptive or normative (see _The Little Book of HTML/CSS Coding Guidelines_). The difference is mostly practical—when code quality is at a high level, we merely document (describe) what everyone’s already doing; when code quality is low, we tell everyone what to do (prescribe). However, as it pertains to much of what we’ve discussed so far, this requires some way of enforcement.
 
 How do we enforce quality? This is still a difficult question; so difficult, in fact, that in practice we often see it dodged. Why? Because enforcement easily upsets people, and we don’t want to upset people, not even—or especially—when they report to us. But we’re on the right track here.
 
-Enforcement happens top-down. Executives and managers are to be looked at to emphasize and live quality, to reward good quality, and to—in one way or another—discourage poor quality. How? By doing what we surprisingly forget frequently: measuring quality and tying related metrics to performance evaluations.
+Enforcement happens top-down. Executives and managers are to be looked at to emphasize and _live_ quality, to reward good quality, and to—in one way or another—discourage poor quality. How? By doing what we surprisingly forget frequently: measuring quality and tying related metrics to performance evaluations.
 
 Two anecdotes illustrate that approach. There’s one tale of a manager who has, despite efforts of his team to up the ante and increase quality in his department, never endorsed, let alone supported or encouraged those team members’ efforts in team communications or goals. That quality initiative’s efforts, witnessed at one point at a major corporation, suffered a significant blowback.
 
-At the same firm at another time, managers called out the importance of quality and used available data points, like performance scores as measured by Google’s PageSpeed tools, accessibility problems as measured by Sidar’s HERA, or the number of validation errors as measured by W3C’s Link Checker. Although the team in question never got to tie metrics like these to performance evaluations, that precise step was on the table as to have strong encouragement and—ultimately enforce—higher quality.
+At the same firm at another time, managers called out the importance of quality and used available data points, like performance scores as measured by [Google’s PageSpeed tools](https://developers.google.com/speed), accessibility problems as measured by [Sidar’s HERA](https://web.archive.org/web/20150726041535/http://www.sidar.org/hera/), or the number of validation errors as measured by [W3C’s Link Checker](https://validator.w3.org/checklink). Although the team in question never got to tie metrics like these to performance evaluations, that precise step was on the table as to have strong encouragement and—ultimately enforce—higher quality.
 
+### 
 Logistics
 In broad terms, our efforts around quality require logistics. These might consist of the following, listed briefly for inspiration:
 
 Standards and guidelines documentation
-No quality effort can succeed without standards and guidelines. These can be external, but wherever they can be found, they must still be documented.
+: No quality effort can succeed without standards and guidelines. These can be external, but wherever they can be found, they must still be documented.
 
 Meta documentation
-What our quality efforts entail and require must also be documented. That…
+: What our quality efforts entail and require must also be documented. That…
 
 Internal websites or wikis
-…is best done on some internal website or wiki. Here, we should gather everything we want, know, do, and plan.
+: …is best done on some internal website or wiki. Here, we should gather everything we want, know, do, and plan.
 
 Dedicated contacts
-Quality stands and falls with people. At least one among them should serve as a primary contact, and that person must not just be responsible and accountable (and laudable), but also discoverable and available.
+: Quality stands and falls with people. At least one among them should serve as a primary contact, and that person must not just be responsible and accountable (and laudable), but also discoverable and available.
 
 Mailing lists
-To coordinate quality efforts, communicate new and updated documentation, and so on, mailing lists are a crucial tool. There might be lists for quality-related teams to lists for the entire enterprise.
+: To coordinate quality efforts, communicate new and updated documentation, and so on, mailing lists are a crucial tool. There might be lists for quality-related teams to lists for the entire enterprise.
 
 Events
-Google has a practice to host “fix-its” or “fixlets,” events that let the company or departments clean up and improve their work and code base, but quality events can really range from a toast on quality at the daily scrum meeting to external conferences (with company representation) talking about quality.
+: Google has a practice to host “fix-its” or “fixlets,” events that let the company or departments clean up and improve their work and code base, but quality events can really range from a toast on quality at the daily scrum meeting to external conferences (with company representation) talking about quality.
 
 The more a quality initiative grows and matures, the more tools and methods it might employ, and yet what we describe here is about showing some of the basic items that we can turn to.
 
-Tools
+## Tools
+
 The following serves as an index of a range of web-based tools, browser extensions, command-line tools, scripts, and bookmarklets. It is not complete; it might lack some important tools; but many tools come with my endorsement, and the promise to also serve others well.
 
-(By the way, my UITest.com site is a hub for web-based testing tools, generators, and anything else web-based that’s useful for web developers and designers. You can find many of the tools listed in this book and more there.)
+(By the way, my [UITest.com](https://uitest.com/) site is a hub for web-based testing tools, generators, and anything else web-based that’s useful for web developers and designers. You can find many of the tools listed in this book and more there.)
+
+@@
+
+* [Accessibility Analysis (Gecko browser extension)](http://mzl.la/2cqOkkH)
+* [Accessibility Check (AATT; Automated; command-line tool)](http://github.com/paypal/AATT)
+* [Accessibility Check (FAE)](http://fae20.cita.illinois.edu/)
+* [Accessibility Check (WAEX)](http://www.it.uc3m.es/vlc/waex.html)
+* [Accessibility Check (WAVE 3.0)](http://wave.webaim.org/)
+* [Accessibility Developer Tools (WebKit browser extension)](http://bit.ly/2cI92xl)
+* [Accessibility, HTML, and Link Check (WebKit and Gecko browser extension)](http://www.totalvalidator.com/)
+* [Accessibility Linter](http://accesslint.com/)
+* [Accessibility Visualization (script)](http://github.com/Khan/tota11y)
+* [AES Encrypter](http://www.infoencrypt.com/)
+* [Android Emulators](http://www.manymo.com/emulators)
+* [ARIA Validator (WebKit browser extension)](http://bit.ly/2cqQccO)
+* [Availability Check (CurrentlyDown.com)](http://www.currentlydown.com/)
+* [Availability Check (Is It Down Right Now)](http://www.isitdownrightnow.com/)
+* [Availability Check (Regional; InternetSupervision.com)](http://bit.ly/2cRSwiS)
+* [Availability Check (Regional; Site24x7)](http://bit.ly/2caFmL3)
+* [Bandwidth Speed Test](http://www.bandwidthplace.com/)
+* [Blowfish Hash Generator](http://hash.online-convert.com/blowfish-generator)
+* [Browser Screenshots (Windows, Mac OS, Android, iOS)](http://www.browserstack.com/screenshots)
+* [Browser Screenshots (Windows, Mac OS, Linux)](http://browsershots.org/)
+* [Browser Test Automation (Sahi; browser extension)](http://sahipro.com/docs/introduction/)
+* [Browser Test Automation (Selenium; browser extension)](http://bit.ly/1JVDVIY)
+* [Browser Test Automation (Squish)](http://www.froglogic.com/)
+* [Browser Test Automation (Watir; browser extension)](http://watirwebdriver.com/)
+* [CMS Detector](http://guess.scritch.org/)
+* [Code Formatter (Code Beautifier)](http://ctrlq.org/beautifier/)
+* [Code Formatter (Pretty Printer)](http://www.prettyprinter.de/)
+* [“Cognitive Walkthrough for the Web” Tools](http://bit.ly/2cBu5ED)
+* [Colorblind Web Page Filter](http://colorfilter.wickline.org/)
+* [Color Contrast Analysis (Jonathan Snook)](http://bit.ly/2cmljIc)
+* [Color Contrast Analysis (WCAG Contrast Checker; Gecko browser extension)](http://mzl.la/2cmVY1A)
+* [Color Contrast Analysis (WebAIM)](http://webaim.org/resources/contrastchecker/)
+* [Color Deficit Emulation](http://www.vischeck.com/vischeck/vischeckURL.php)
+* [Color Selector](http://bit.ly/2cGbe9P)
+* [Cookie Editor (WebKit browser extension)](http://bit.ly/2ctdnGQ)
+* [CSR Decoder](http://www.sslshopper.com/csr-decoder.html)
+* [CSS Accessibility Analysis](http://bit.ly/2cWIADz)
+* [CSS Analysis](http://cssstats.com/)
+* [CSS Compressor](http://hell.meiert.org/aux/compress/css/gui/)
+* [CSS Formatter (CSS Portal)](http://bit.ly/2cl8H2K)
+* [CSS Formatter (Lonnie Best)](http://bit.ly/2cKq91z)
+* [CSS Linter](http://csslint.net/)
+* [CSS Optimizer and Formatter (CSS Beautifier)](http://bit.ly/2ccoJ1v)
+* [CSS Optimizer and Formatter (CSScomb)](http://csscomb.com/online/)
+* [CSS Validator (W3C)](http://jigsaw.w3.org/css-validator/)
+* [CSS Validator (WDG)](http://www.htmlhelp.com/tools/csscheck/)
+* [DAML Validator](http://www.daml.org/validator/)
+* [Design Responsiveness Test](http://responsivepx.com/)
+* [DNS Analysis](http://cloudmonitor.ca.com/en/dnstool.php)
+* [DNS Propagation Check](http://www.whatsmydns.net/)
+* [Download Time Calculator](http://www.whytehouse.com/opener.html)
+* [Edge Compatibility Test](http://doesitworkonedge.com/)
+* [Email Blacklist Check](http://mxtoolbox.com/blacklists.aspx)
+* [Font Combinator](http://font-combinator.com/)
+* [Font Comparison](http://www.typetester.org/)
+* [Font Determiner (WhatFont; WebKit browser extension)](http://bit.ly/2cUTmY6)
+* [Font Determiner (WhatTheFont)](http://www.myfonts.com/WhatTheFont/)
+* [Font Fallback Determiner (bookmarklet)](http://ffffallback.com/)
+* [FTP Server Test](http://www.dotcom-tools.com/ftp-server-test.aspx)
+* [Golden Ratio Typography Calculator](http://www.pearsonified.com/typography/)
+* [Google Webmaster Guidelines Check](http://varvy.com/)
+* [hCalendar Generator](http://microformats.org/code/hcalendar/creator)
+* [hCard Generator](http://microformats.org/code/hcard/creator)
+* [hCard Validator](http://hcard.geekhood.net/)
+* [.htaccess Validator](http://bit.ly/2cqOs3D)
+* [HTML Compatibility Check for XHTML](http://qa-dev.w3.org/appc/)
+* [HTML Compressor](http://htmlcompressor.com/compressor/)
+* [HTML Compressor (html-minifier)](http://bit.ly/2cUUjQ8)
+* [HTML Formatter](http://bit.ly/2cpa6qj)
+* [HTML, CSS, and Conformance Validator](http://validator.w3.org/unicorn/)
+* [HTML, CSS, and JS Formatter](http://www.dirtymarkup.com/)
+* [HTML Outline Extractor](http://gsnedders.html5.org/outliner/)
+* [HTML Validator (W3C)](http://validator.w3.org/)
+* [HTML Validator (WDG)](http://bit.ly/2cBBH9X)
+* [HTML 5 Validator](http://html5.validator.nu/)
+* [HTTP Header Editor (Request Maker; WebKit browser extension)](http://bit.ly/2cWGNOH)
+* [HTTP Header Editor (Tamper Data; Gecko browser extension)](http://mzl.la/2coxG7D)
+* [HTTP Header Test](http://www.rexswain.com/httpview.html)
+* [HTTP Header Test (Advanced)](http://bit.ly/2ctczOY)
+* [Image and Link Analysis](http://bit.ly/2cKgyaV)
+* [Internationalization Check](http://bit.ly/2ccmF9Q)
+* [Internet Explorer Viewer (IE NetRenderer)](http://netrenderer.com/)
+* [Internet Explorer Viewer (URL2PNG)](http://www.url2png.com/)
+* [IP Address Trace](http://www.ip-tracker.org/)
+* [IP Determiner (DSLReports)](http://www.dslreports.com/whois)
+* [IP Determiner](http://www.ipdatabase.com/)
+* [IP Spam Check](http://www.spamhaus.org/lookup.lasso)
+* [iPhone Emulator](http://iphone4simulator.com/)
+* [JavaScript Compressor](http://dean.edwards.name/packer/)
+* [JavaScript Linter (JSHint)](http://jshint.com/)
+* [JavaScript Linter (JSLint)](http://www.jslint.com/)
+* [JSON Formatter](http://bit.ly/2cX1dXT)
+* [JSON Validator](http://pro.jsonlint.com/)
+* [Layout Bug Test (script)](http://bit.ly/2czWyeT)
+* [Link Analysis](http://juicystudio.com/services/linktest.php)
+* [Link Check (LinkTiger)](http://www.linktiger.com/)
+* [Link Check (Site Valet)](http://valet.webthing.com/link/)
+* [Link Check (W3C)](http://validator.w3.org/checklink)
+* [Load Time and Object Check](http://bit.ly/2cl1DDw)
+* [Load Time Check](http://bit.ly/2cRR4N7)
+* [Lynx Viewer](http://www.delorie.com/web/lynxview.html)
+* [Malware and Security Scanner](http://sitecheck.sucuri.net/)
+* [Markup Validator](http://www.validome.org/)
+* [MD5 and SHA Hash Generator](http://onlinemd5.com/)
+* [MD5 Encrypter](http://www.md5online.org/md5-encrypt.html)
+* [Microformat Extractor and Transformer](http://microform.at/)
+* [Mobile Emulator](http://mtld.mobi/emulator.php)
+* [Mobile-Friendliness Check](http://bit.ly/1TaiOL0)
+* [MX Lookup](http://mxtoolbox.com/)
+* [Network Intrusion Prevention and Analysis (Kismet; command-line tool)](http://kismetwireless.net/)
+* [Network Intrusion Prevention and Analysis (Snort; command-line tool)](http://www.snort.org/)
+* [Open Graph and Semantics Extractor](http://developers.facebook.com/tools/debug)
+* [Opera Mini Emulator](http://opr.as/2cKpahy)
+* [Password Generator (Arantius.com)](http://tools.arantius.com/password)
+* [Password Generator (GRC)](http://www.grc.com/passwords.htm)
+* [Password Generator (Packetizer)](http://secure.packetizer.com/pwgen/)
+* [Password Security Check https://howsecureismypassword.net/
+* [Password Security Check (GRC)](http://www.grc.com/haystack.htm)
+* [Performance and Scalability Test (Pylot; command-line tool)](http://www.pylot.org/)
+* [Performance and Scalability Test (Tsung; command-line tool)](http://tsung.erlang-projects.org/)
+* [PGP Decrypter](http://www.igolder.com/pgp/decryption/)
+* [PGP Encrypter](http://www.igolder.com/pgp/encryption/)
+* [PGP Key Generator](http://www.igolder.com/pgp/generate-key/)
+* [Ping Tool](http://tools.pingdom.com/ping/)
+* [Ping Tool (Regional)](http://bit.ly/2coze1f)
+* [P3P Validator](http://www.w3.org/P3P/validator.html)
+* [QA Style Sheet (bookmarklet)](http://github.com/j9t/qa-style-sheet)
+* [RDF Validator](http://www.w3.org/RDF/Validator/)
+* [Reputation and Safety Check](http://www.mywot.com/)
+* [Responsiveness Test](http://www.viewlike.us/)
+* [Reverse IP Lookup](http://mxtoolbox.com/ReverseLookup.aspx)
+* [Rich Pin Validator](http://bit.ly/2cBCh7x)
+* [robots.txt Syntax Check](http://bit.ly/2cl6HYm)
+* [RSS and Atom Feed Validator](http://validator.w3.org/feed/)
+* [SADiC Validator](http://bit.ly/2cUCpzP)
+* [SBML Validator](http://sbml.org/Facilities/Validator/)
+* [Schema Generator](http://schema-creator.org/)
+* [Section 508 Check](http://www.508checker.com/)
+* [Section 508 and WCAG 1.0 Check (Site Valet)](http://valet.webthing.com/access/url.html)
+* [Section 508 and WCAG 2.0 Check (Cynthia Says)](http://www.cynthiasays.com/)
+* [Section 508, WCAG 2.0, and BITV 1.0 Check](http://achecker.ca/checker/)
+* [Security Breach Victim Check](http://haveibeenpwned.com/)
+* [Security Analysis (OWASP Mantra; browser extension)](http://sourceforge.net/projects/getmantra/)
+* [Semantics Check (Gecko browser extension)](http://mzl.la/2cjC31A)
+* [Semantics Extractor](http://bit.ly/2cp0MTp)
+* [Semantics Parser and Extractor](http://buzzword.org.uk/swignition/try)
+* [SHA-512 Hash Generator](http://bit.ly/2cWHLKX)
+* [Sitemap Validator](http://www.validome.org/google/validate)
+* [SPDY Implementation Check](http://spdycheck.org/)
+* [SQL Injection and Database Check (command-line tool)](http://sqlmap.org/)
+* [SQL Injection Scanner (command-line tool)](http://bit.ly/2ctd5fN)
+* [SQL Validator](http://developer.mimer.se/validator/index.htm)
+* [SSL Certificate Check (DigiCert)](http://www.digicert.com/help/)
+* [SSL Certificate Check (SSL Shopper)](http://www.sslshopper.com/ssl-checker.html)
+* [SSL Client Check](http://www.howsmyssl.com/)
+* [SSL Scanner (command-line tool)](http://github.com/iSECPartners/sslyze)
+* [SSL Server Test](http://www.ssllabs.com/ssltest/)
+* [Traceroute Tool](http://cloudmonitor.ca.com/en/traceroute.php)
+* [Structured Data Test (Google)](http://search.google.com/structured-data/testing-tool)
+* [Structured Data Test (Yandex)](http://webmaster.yandex.com/microtest.xml)
+* [SVG Validator](http://bit.ly/2ctwMr0)
+* [Traceroute Tool (Visualized)](http://traceroute.monitis.com/)
+* [Trustworthiness Check](http://www.scamadviser.com/)
+* [Twitter Card Test](http://cards-dev.twitter.com/validator)
+* [Type Diff](http://tiff.herokuapp.com/)
+* [Type Live Test](http://typewonder.com/)
+* [Type Scale](http://type-scale.com/)
+* [Type Scale (Modular)](http://www.modularscale.com/)
+* [UI Test Automation (Ghost Inspector; browser extension)](http://ghostinspector.com/)
+* [UI Test Automation (Screenster)](http://screenster.io/)
+* [Universal Validator](http://watson.addy.com/)
+* [User Agent Detector](http://ua.met.cz/)
+* [User Identity Generator](http://bit.ly/2c84dAz)
+* [Viewport Size Determiner](http://bit.ly/2cScuWp)
+* [Virus Scanner](http://www.virustotal.com/)
+* [Wake-on-LAN Service](http://www.dslreports.com/wakeup)
+* [WCAG 1.0 Check (SIDAR)](http://www.sidar.org/hera/)
+* [WCAG 1.0 Check (TAW)](http://www.tawdis.net/)
+* [WCAG 2.0 Check (BOIA)](http://www.boia.org/)
+* [WCAG 2.0 Check (Evaluera)](http://www.evaluera.co.uk/)
+* [Web Application Security Analysis (Canoo; command-line tool)](http://bit.ly/2cT9wFm)
+* [Web Application Security Analysis (OWASP; server application)](http://sourceforge.net/projects/owasp/)
+* [Web Application Security Analysis (Skipfish; command-line tool)](http://github.com/spinkham/skipfish)
+* [Web App Test Automation (command-line tool)](http://github.com/svenfuchs/steam)
+* [Web Font Generator](http://bit.ly/2cWYrlz)
+* [Website Analysis (Alexa)](http://www.alexa.com/)
+* [Website Analysis (Nibbler)](http://nibbler.silktide.com/)
+* [Website Analysis (RankFlex)](http://www.rankflex.com/en/)
+* [Website Analysis (Site Analyzer)](http://www.site-analyzer.com/)
+* [Website Analysis (StatsCrop)](http://www.statscrop.com/)
+* [Website Analysis (UITest.com)](http://uitest.com/en/check/)
+* [Website Blockade Check for China](http://www.blockedinchina.net/)
+* [Website Blockade Check for England](http://www.blocked.org.uk/)
+* [Website Browser and Location Speed Test](http://bit.ly/2cGeYrO)
+* [Design Diff (script)](http://percy.io/)
+* [Website Design History (DomainTools)](http://bit.ly/2cjC0mD)
+* [Website Design History (Screenshots.com)](http://www.screenshots.com/)
+* [Website Fingerprint Check](http://www.grc.com/fingerprints.htm)
+* [Website Grader (Website Grader)
+* [Website Monitoring Service](http://www.montastic.com/)
+* [Website Performance Analysis (GTmetrix)](http://gtmetrix.com/)
+* [Website Performance Analysis (IISpeed)](http://www.iispeed.com/pagespeed/insights)
+* [Website Performance Analysis (Page Performance; WebKit browser extension) http://bit.ly/2cqOoRk)
+* [Website Performance Analysis (PageSpeed)](http://bit.ly/2coEeD8)
+* [Website Performance Analysis (Pingdom)](http://tools.pingdom.com/fpt/)
+* [Website Performance Analysis (WebPagetest)](http://www.webpagetest.org/)
+* [Website Performance Analysis (YSlow; browser extension)](http://yslow.org/)
+* [Website Review](http://www.reviewmyweb.com/)
+* [Website Technology Analysis](http://builtwith.com/)
+* [Website Timer](http://www.octagate.com/service/SiteTimer/)
+* [XHTML 1.0 Schema Validator](http://schneegans.de/sv/)
+* [XML Schema Validator](http://bit.ly/2ctvqJZ)
+* [XML Validator](http://www.xmlvalidation.com/)
+* [XML Well-Formedness Check and Validator](http://bit.ly/2cTlfnh)
+
+## Summary
 
-Accessibility Analysis (Gecko browser extension) (https://mzl.la/2cqOkkH)
-
-Accessibility Check (AATT; Automated; command-line tool) (https://github.com/paypal/AATT)
-
-Accessibility Check (FAE) (http://fae20.cita.illinois.edu/)
-
-Accessibility Check (WAEX) (http://www.it.uc3m.es/vlc/waex.html)
-
-Accessibility Check (WAVE 3.0) (http://wave.webaim.org/)
-
-Accessibility Developer Tools (WebKit browser extension) (http://bit.ly/2cI92xl)
-
-Accessibility, HTML, and Link Check (WebKit and Gecko browser extension) (https://www.totalvalidator.com/)
-
-Accessibility Linter (http://accesslint.com/)
-
-Accessibility Visualization (script) (https://github.com/Khan/tota11y)
-
-AES Encrypter (https://www.infoencrypt.com/)
-
-Android Emulators (http://www.manymo.com/emulators)
-
-ARIA Validator (WebKit browser extension) (http://bit.ly/2cqQccO)
-
-Availability Check (CurrentlyDown.com) (http://www.currentlydown.com/)
-
-Availability Check (Is It Down Right Now) (http://www.isitdownrightnow.com/)
-
-Availability Check (Regional; InternetSupervision.com) (http://bit.ly/2cRSwiS)
-
-Availability Check (Regional; Site24x7) (http://bit.ly/2caFmL3)
-
-Bandwidth Speed Test (http://www.bandwidthplace.com/)
-
-Blowfish Hash Generator (http://hash.online-convert.com/blowfish-generator)
-
-Browser Screenshots (Windows, Mac OS, Android, iOS) (http://www.browserstack.com/screenshots)
-
-Browser Screenshots (Windows, Mac OS, Linux) (http://browsershots.org/)
-
-Browser Test Automation (Sahi; browser extension) (http://sahipro.com/docs/introduction/)
-
-Browser Test Automation (Selenium; browser extension) (http://bit.ly/1JVDVIY)
-
-Browser Test Automation (Squish) (https://www.froglogic.com/)
-
-Browser Test Automation (Watir; browser extension) (https://watirwebdriver.com/)
-
-CMS Detector (http://guess.scritch.org/)
-
-Code Formatter (Code Beautifier) (https://ctrlq.org/beautifier/)
-
-Code Formatter (Pretty Printer) (http://www.prettyprinter.de/)
-
-“Cognitive Walkthrough for the Web” Tools (http://bit.ly/2cBu5ED)
-
-Colorblind Web Page Filter (http://colorfilter.wickline.org/)
-
-Color Contrast Analysis (Jonathan Snook) (http://bit.ly/2cmljIc)
-
-Color Contrast Analysis (WCAG Contrast Checker; Gecko browser extension) (https://mzl.la/2cmVY1A)
-
-Color Contrast Analysis (WebAIM) (http://webaim.org/resources/contrastchecker/)
-
-Color Deficit Emulation (http://www.vischeck.com/vischeck/vischeckURL.php)
-
-Color Selector (http://bit.ly/2cGbe9P)
-
-Cookie Editor (WebKit browser extension) (http://bit.ly/2ctdnGQ)
-
-CSR Decoder (https://www.sslshopper.com/csr-decoder.html)
-
-CSS Accessibility Analysis (http://bit.ly/2cWIADz)
-
-CSS Analysis (http://cssstats.com/)
-
-CSS Compressor (http://hell.meiert.org/aux/compress/css/gui/)
-
-CSS Formatter (CSS Portal) (http://bit.ly/2cl8H2K)
-
-CSS Formatter (Lonnie Best) (http://bit.ly/2cKq91z)
-
-CSS Linter (http://csslint.net/)
-
-CSS Optimizer and Formatter (CSS Beautifier) (http://bit.ly/2ccoJ1v)
-
-CSS Optimizer and Formatter (CSScomb) (http://csscomb.com/online/)
-
-CSS Validator (W3C) (http://jigsaw.w3.org/css-validator/)
-
-CSS Validator (WDG) (http://www.htmlhelp.com/tools/csscheck/)
-
-DAML Validator (http://www.daml.org/validator/)
-
-Design Responsiveness Test (http://responsivepx.com/)
-
-DNS Analysis (https://cloudmonitor.ca.com/en/dnstool.php)
-
-DNS Propagation Check (https://www.whatsmydns.net/)
-
-Download Time Calculator (http://www.whytehouse.com/opener.html)
-
-Edge Compatibility Test (http://doesitworkonedge.com/)
-
-Email Blacklist Check (http://mxtoolbox.com/blacklists.aspx)
-
-Font Combinator (http://font-combinator.com/)
-
-Font Comparison (http://www.typetester.org/)
-
-Font Determiner (WhatFont; WebKit browser extension) (http://bit.ly/2cUTmY6)
-
-Font Determiner (WhatTheFont) (http://www.myfonts.com/WhatTheFont/)
-
-Font Fallback Determiner (bookmarklet) (http://ffffallback.com/)
-
-FTP Server Test (https://www.dotcom-tools.com/ftp-server-test.aspx)
-
-Golden Ratio Typography Calculator (http://www.pearsonified.com/typography/)
-
-Google Webmaster Guidelines Check (https://varvy.com/)
-
-hCalendar Generator (http://microformats.org/code/hcalendar/creator)
-
-hCard Generator (http://microformats.org/code/hcard/creator)
-
-hCard Validator (http://hcard.geekhood.net/)
-
-.htaccess Validator (http://bit.ly/2cqOs3D)
-
-HTML Compatibility Check for XHTML (http://qa-dev.w3.org/appc/)
-
-HTML Compressor (http://htmlcompressor.com/compressor/)
-
-HTML Compressor (html-minifier) (http://bit.ly/2cUUjQ8)
-
-HTML Formatter (http://bit.ly/2cpa6qj)
-
-HTML, CSS, and Conformance Validator (http://validator.w3.org/unicorn/)
-
-HTML, CSS, and JS Formatter (https://www.dirtymarkup.com/)
-
-HTML Outline Extractor (http://gsnedders.html5.org/outliner/)
-
-HTML Validator (W3C) (http://validator.w3.org/)
-
-HTML Validator (WDG) (http://bit.ly/2cBBH9X)
-
-HTML 5 Validator (http://html5.validator.nu/)
-
-HTTP Header Editor (Request Maker; WebKit browser extension) (http://bit.ly/2cWGNOH)
-
-HTTP Header Editor (Tamper Data; Gecko browser extension) (https://mzl.la/2coxG7D)
-
-HTTP Header Test (http://www.rexswain.com/httpview.html)
-
-HTTP Header Test (Advanced) (http://bit.ly/2ctczOY)
-
-Image and Link Analysis (http://bit.ly/2cKgyaV)
-
-Internationalization Check (http://bit.ly/2ccmF9Q)
-
-Internet Explorer Viewer (IE NetRenderer) (http://netrenderer.com/)
-
-Internet Explorer Viewer (URL2PNG) (https://www.url2png.com/)
-
-IP Address Trace (http://www.ip-tracker.org/)
-
-IP Determiner (DSLReports) (https://www.dslreports.com/whois)
-
-IP Determiner (http://www.ipdatabase.com/)
-
-IP Spam Check (http://www.spamhaus.org/lookup.lasso)
-
-iPhone Emulator (http://iphone4simulator.com/)
-
-JavaScript Compressor (http://dean.edwards.name/packer/)
-
-JavaScript Linter (JSHint) (http://jshint.com/)
-
-JavaScript Linter (JSLint) (http://www.jslint.com/)
-
-JSON Formatter (http://bit.ly/2cX1dXT)
-
-JSON Validator (http://pro.jsonlint.com/)
-
-Layout Bug Test (script) (http://bit.ly/2czWyeT)
-
-Link Analysis (http://juicystudio.com/services/linktest.php)
-
-Link Check (LinkTiger) (http://www.linktiger.com/)
-
-Link Check (Site Valet) (http://valet.webthing.com/link/)
-
-Link Check (W3C) (http://validator.w3.org/checklink)
-
-Load Time and Object Check (http://bit.ly/2cl1DDw)
-
-Load Time Check (http://bit.ly/2cRR4N7)
-
-Lynx Viewer (http://www.delorie.com/web/lynxview.html)
-
-Malware and Security Scanner (http://sitecheck.sucuri.net/)
-
-Markup Validator (http://www.validome.org/)
-
-MD5 and SHA Hash Generator (http://onlinemd5.com/)
-
-MD5 Encrypter (http://www.md5online.org/md5-encrypt.html)
-
-Microformat Extractor and Transformer (http://microform.at/)
-
-Mobile Emulator (http://mtld.mobi/emulator.php)
-
-Mobile-Friendliness Check (http://bit.ly/1TaiOL0)
-
-MX Lookup (http://mxtoolbox.com/)
-
-Network Intrusion Prevention and Analysis (Kismet; command-line tool) (https://kismetwireless.net/)
-
-Network Intrusion Prevention and Analysis (Snort; command-line tool) (https://www.snort.org/)
-
-Open Graph and Semantics Extractor (https://developers.facebook.com/tools/debug)
-
-Opera Mini Emulator (http://opr.as/2cKpahy)
-
-Password Generator (Arantius.com) (http://tools.arantius.com/password)
-
-Password Generator (GRC) (https://www.grc.com/passwords.htm)
-
-Password Generator (Packetizer) (https://secure.packetizer.com/pwgen/)
-
-Password Security Check https://howsecureismypassword.net/
-
-Password Security Check (GRC) (https://www.grc.com/haystack.htm)
-
-Performance and Scalability Test (Pylot; command-line tool) (http://www.pylot.org/)
-
-Performance and Scalability Test (Tsung; command-line tool) (http://tsung.erlang-projects.org/)
-
-PGP Decrypter (http://www.igolder.com/pgp/decryption/)
-
-PGP Encrypter (http://www.igolder.com/pgp/encryption/)
-
-PGP Key Generator (http://www.igolder.com/pgp/generate-key/)
-
-Ping Tool (https://tools.pingdom.com/ping/)
-
-Ping Tool (Regional) (http://bit.ly/2coze1f)
-
-P3P Validator (http://www.w3.org/P3P/validator.html)
-
-QA Style Sheet (bookmarklet) (https://github.com/j9t/qa-style-sheet)
-
-RDF Validator (http://www.w3.org/RDF/Validator/)
-
-Reputation and Safety Check (https://www.mywot.com/)
-
-Responsiveness Test (http://www.viewlike.us/)
-
-Reverse IP Lookup (http://mxtoolbox.com/ReverseLookup.aspx)
-
-Rich Pin Validator (http://bit.ly/2cBCh7x)
-
-robots.txt Syntax Check (http://bit.ly/2cl6HYm)
-
-RSS and Atom Feed Validator (http://validator.w3.org/feed/)
-
-SADiC Validator (http://bit.ly/2cUCpzP)
-
-SBML Validator (http://sbml.org/Facilities/Validator/)
-
-Schema Generator (http://schema-creator.org/)
-
-Section 508 Check (http://www.508checker.com/)
-
-Section 508 and WCAG 1.0 Check (Site Valet) (http://valet.webthing.com/access/url.html)
-
-Section 508 and WCAG 2.0 Check (Cynthia Says) (http://www.cynthiasays.com/)
-
-Section 508, WCAG 2.0, and BITV 1.0 Check (http://achecker.ca/checker/)
-
-Security Breach Victim Check (https://haveibeenpwned.com/)
-
-Security Analysis (OWASP Mantra; browser extension) (https://sourceforge.net/projects/getmantra/)
-
-Semantics Check (Gecko browser extension) (https://mzl.la/2cjC31A)
-
-Semantics Extractor (http://bit.ly/2cp0MTp)
-
-Semantics Parser and Extractor (http://buzzword.org.uk/swignition/try)
-
-SHA-512 Hash Generator (http://bit.ly/2cWHLKX)
-
-Sitemap Validator (http://www.validome.org/google/validate)
-
-SPDY Implementation Check (http://spdycheck.org/)
-
-SQL Injection and Database Check (command-line tool) (http://sqlmap.org/)
-
-SQL Injection Scanner (command-line tool) (http://bit.ly/2ctd5fN)
-
-SQL Validator (http://developer.mimer.se/validator/index.htm)
-
-SSL Certificate Check (DigiCert) (https://www.digicert.com/help/)
-
-SSL Certificate Check (SSL Shopper) (https://www.sslshopper.com/ssl-checker.html)
-
-SSL Client Check (https://www.howsmyssl.com/)
-
-SSL Scanner (command-line tool) (https://github.com/iSECPartners/sslyze)
-
-SSL Server Test (https://www.ssllabs.com/ssltest/)
-
-Traceroute Tool (https://cloudmonitor.ca.com/en/traceroute.php)
-
-Structured Data Test (Google) (https://search.google.com/structured-data/testing-tool)
-
-Structured Data Test (Yandex) (https://webmaster.yandex.com/microtest.xml)
-
-SVG Validator (http://bit.ly/2ctwMr0)
-
-Traceroute Tool (Visualized) (http://traceroute.monitis.com/)
-
-Trustworthiness Check (http://www.scamadviser.com/)
-
-Twitter Card Test (https://cards-dev.twitter.com/validator)
-
-Type Diff (https://tiff.herokuapp.com/)
-
-Type Live Test (http://typewonder.com/)
-
-Type Scale (http://type-scale.com/)
-
-Type Scale (Modular) (http://www.modularscale.com/)
-
-UI Test Automation (Ghost Inspector; browser extension) (https://ghostinspector.com/)
-
-UI Test Automation (Screenster) (http://screenster.io/)
-
-Universal Validator (http://watson.addy.com/)
-
-User Agent Detector (http://ua.met.cz/)
-
-User Identity Generator (http://bit.ly/2c84dAz)
-
-Viewport Size Determiner (http://bit.ly/2cScuWp)
-
-Virus Scanner (http://www.virustotal.com/)
-
-Wake-on-LAN Service (http://www.dslreports.com/wakeup)
-
-WCAG 1.0 Check (SIDAR) (http://www.sidar.org/hera/)
-
-WCAG 1.0 Check (TAW) (http://www.tawdis.net/)
-
-WCAG 2.0 Check (BOIA) (http://www.boia.org/)
-
-WCAG 2.0 Check (Evaluera) (http://www.evaluera.co.uk/)
-
-Web Application Security Analysis (Canoo; command-line tool) (http://bit.ly/2cT9wFm)
-
-Web Application Security Analysis (OWASP; server application) (https://sourceforge.net/projects/owasp/)
-
-Web Application Security Analysis (Skipfish; command-line tool) (https://github.com/spinkham/skipfish)
-
-Web App Test Automation (command-line tool) (https://github.com/svenfuchs/steam)
-
-Web Font Generator (http://bit.ly/2cWYrlz)
-
-Website Analysis (Alexa) (http://www.alexa.com/)
-
-Website Analysis (Nibbler) (http://nibbler.silktide.com/)
-
-Website Analysis (RankFlex) (http://www.rankflex.com/en/)
-
-Website Analysis (Site Analyzer) (https://www.site-analyzer.com/)
-
-Website Analysis (StatsCrop) (http://www.statscrop.com/)
-
-Website Analysis (UITest.com) (http://uitest.com/en/check/)
-
-Website Blockade Check for China (http://www.blockedinchina.net/)
-
-Website Blockade Check for England (https://www.blocked.org.uk/)
-
-Website Browser and Location Speed Test (http://bit.ly/2cGeYrO)
-
-Design Diff (script) (https://percy.io/)
-
-Website Design History (DomainTools) (http://bit.ly/2cjC0mD)
-
-Website Design History (Screenshots.com) (https://www.screenshots.com/)
-
-Website Fingerprint Check (https://www.grc.com/fingerprints.htm)
-
-Website Grader (Website Grader)
-
-Website Monitoring Service (http://www.montastic.com/)
-
-Website Performance Analysis (GTmetrix) (https://gtmetrix.com/)
-
-Website Performance Analysis (IISpeed) (https://www.iispeed.com/pagespeed/insights)
-
-Website Performance Analysis (Page Performance; WebKit browser extension) http://bit.ly/2cqOoRk)
-
-Website Performance Analysis (PageSpeed) (http://bit.ly/2coEeD8)
-
-Website Performance Analysis (Pingdom) (https://tools.pingdom.com/fpt/)
-
-Website Performance Analysis (WebPagetest) (http://www.webpagetest.org/)
-
-Website Performance Analysis (YSlow; browser extension) (http://yslow.org/)
-
-Website Review (http://www.reviewmyweb.com/)
-
-Website Technology Analysis (http://builtwith.com/)
-
-Website Timer (http://www.octagate.com/service/SiteTimer/)
-
-XHTML 1.0 Schema Validator (http://schneegans.de/sv/)
-
-XML Schema Validator (http://bit.ly/2ctvqJZ)
-
-XML Validator (http://www.xmlvalidation.com/)
-
-XML Well-Formedness Check and Validator (http://bit.ly/2cTlfnh)
-
-Summary
 This was a brief treatise on the subject of website quality control. What have we learned?
 
 Quality management consists of quality planning, quality control, quality assurance, and quality improvement, and it comes with a number of methods to identify (control), fix (improvement), and avoid defects (planning, assurance).
