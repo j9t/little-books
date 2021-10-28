@@ -12,7 +12,7 @@ But how do we know that our work—that our websites—are good? Many criteria a
 
 Quality management, which can be broken down into quality planning, quality control, quality assurance, and quality improvement, comes with a host of methods to not just identify (control) and fix (improvement) defects, but to avoid them systematically (planning, assurance).
 
-This little book, which is the third in a series of books that cover important components of modern web development (after [web frameworks](https://www.oreilly.com/library/view/the-little-book/9781492048121/) and [coding standards[(https://www.oreilly.com/library/view/the-little-book/9781492048459/)]), focuses mostly on the quality control piece, for if we can’t “see” what’s wrong, we won’t fix or plan to avoid what’s wrong. Still, it’s going to share advice on how to tie quality to our processes, for it _is_ more useful to learn how to fish than to hope to be fed every day. The book will do all of this in a loose and relaxed manner, however, and not to the extent ISO standards would cover quality.
+This little book, which is the third in a series of books that cover important components of modern web development (after web frameworks and coding standards), focuses mostly on the quality control piece, for if we can’t “see” what’s wrong, we won’t fix or plan to avoid what’s wrong. Still, it’s going to share advice on how to tie quality to our processes, for it _is_ more useful to learn how to fish than to hope to be fed every day. The book will do all of this in a loose and relaxed manner, however, and not to the extent ISO standards would cover quality.
 
 Finally, and although this should matter only in few instances, the book hinges more on websites rather than web apps. That [distinction](https://meiert.com/en/blog/docs-and-apps/) is usually relevant when it comes to standards and development best practices, but there are some differences in how one should go about quality checking of sites as opposed to apps. What follows will work slightly better and allow for more complete quality control of web_sites_.
 
@@ -44,13 +44,13 @@ But what are our options to control the quality of our websites? We’ll look at
 
 ## The Great Website Quality Control Rundown
 
-When you think about the quality of websites, what comes to your mind? How would you test—and what would you test for? Take a moment to ponder this question.
+When _you_ think about the quality of websites, what comes to your mind? How would you test—and what would you test for? Take a moment to ponder this question.
 
 We should readily recall _some_ tools and tests known to us from our everyday work. Some of us might remember validators; some might think of linters; and for others, security suites pop into their minds.
 
 What do we test for? Not only spec compliance as with validation, or code formatting with linters, we can—and should, as professionals—test for everything we can get our hands on. Going through what we can get our hands on and showing what tools we have at our disposal is the purpose of this section. For each area, in descending order of importance, we’ll go over why quality control matters and look at available tools and automation options.
 
-The tools are mostly web-based; applications have been left out, and exceptions noted. The idea was not to shoulder the probably impossible task of listing and evaluating all tools, but to give the interested reader a starting point to evaluate production sites instantly. (Note that despite all diligence exercised in retrieving and evaluating these tools, neither the author nor O’Reilly Media assumes responsibility for the usefulness, reliability, or accuracy of the tools listed.)
+The tools are mostly web-based; applications have been left out, and exceptions noted. The idea was not to shoulder the probably impossible task of listing and evaluating _all_ tools, but to give the interested reader a starting point to evaluate production sites instantly. (Note that despite all diligence exercised in retrieving and evaluating these tools, neither author nor publisher assumes responsibility for the usefulness, reliability, or accuracy of the tools listed.)
 
 ### Security
 
@@ -60,35 +60,35 @@ Security is critical, but it’s also tricky in the light of website quality con
 
 Let’s go over some tools that are available to us (again primarily with a focus on web-based tools). The responsible website owner should—and will—employ additional, notably inner-organizational means to ensure that his services and the data those services gather are secure.
 
-* [AES Encrypter](@@)
-* [Bandwidth Speed Test](@@)
-* [Blowfish Hash Generator](@@)
-* [Cookie Editor (WebKit browser extension)](@@)
-* [CSR Decoder](@@)
+* [AES Encrypter](https://www.infoencrypt.com/)
+* [Bandwidth Speed Test](https://www.bandwidthplace.com/)
+* [Blowfish Hash Generator](https://hash.online-convert.com/blowfish-generator)
+* [Cookie Editor (WebKit browser extension)](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)
+* [CSR Decoder](https://www.sslshopper.com/csr-decoder.html)
 * [DNS Analysis](@@)
-* [DNS Propagation Check](@@)
-* [Download Time Calculator](@@)
-* [Email Blacklist Check](@@)
-* [FTP Server Test](@@)
-* [HTTP Header Editor (Request Maker; WebKit browser extension)](@@)
+* [DNS Propagation Check](https://www.whatsmydns.net/)
+* [Download Time Calculator](http://www.whytehouse.com/opener.html)
+* [Email Blacklist Check](https://mxtoolbox.com/blacklists.aspx)
+* [FTP Server Test](https://www.dotcom-tools.com/ftp-test)
+* [HTTP Header Editor (Request Maker; WebKit browser extension)](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp)
 * [HTTP Header Editor (Tamper Data; Gecko browser extension)](@@)
-* [HTTP Header Test](@@)
-* [HTTP Header Test (Advanced)](@@)
-* [IP Address Trace](@@)
+* [HTTP Header Test](https://www.rexswain.com/httpview.html)
+* [HTTP Header Test (Advanced)](https://www.askapache.com/online-tools/http-headers-tool/)
+* [IP Address Trace](https://www.ip-tracker.org/)
 * [IP Determiner (DSLReports)](@@)
-* [IP Determiner](@@)
-* [IP Spam Check](@@)
-* [Malware and Security Scanner](@@)
-* [MD5 and SHA Hash Generator](@@)
-* [MD5 Encrypter](@@)
-* [MX Lookup](@@)
-* [Network Intrusion Prevention and Analysis (Kismet; command-line tool)](@@)
-* [Network Intrusion Prevention and Analysis (Snort; command-line tool)](@@)
-* [Password Generator (Arantius.com)](@@)
-* [Password Generator (GRC)](@@)
-* [Password Generator (Packetizer)](@@)
-* [Password Security Check](@@)
-* [Password Security Check (GRC)](@@)
+* [IP Determiner](http://www.ipdatabase.com/)
+* [IP Spam Check](https://check.spamhaus.org/)
+* [Malware and Security Scanner](https://sitecheck.sucuri.net/)
+* [MD5 and SHA Hash Generator](http://onlinemd5.com/)
+* [MD5 Encrypter](https://www.md5online.org/md5-encrypt.html)
+* [MX Lookup](https://mxtoolbox.com/)
+* [Network Intrusion Prevention and Analysis (Kismet; command-line tool)](https://kismetwireless.net/)
+* [Network Intrusion Prevention and Analysis (Snort; command-line tool)](https://www.snort.org/)
+* [Password Generator (Arantius.com)](https://tools.arantius.com/password)
+* [Password Generator (GRC)](https://www.grc.com/passwords.htm)
+* [Password Generator (Packetizer)](https://secure.packetizer.com/pwgen/)
+* [Password Security Check](https://howsecureismypassword.net/)
+* [Password Security Check (GRC)](https://www.grc.com/haystack.htm)
 * [PGP Decrypter](@@)
 * [PGP Encrypter](@@)
 * [PGP Key Generator](@@)
@@ -421,7 +421,7 @@ I’ve had some such experiences with international teams, whereby rewards did h
 
 Insist on automation. Insist—on automation. _Of course_, we’re inclined to say—once we’ve automated all quality-relevant tasks and processes, what’s there to be missed, how could we get anything wrong? But we haven’t progressed quite yet to the point that we’re able to automate everything. Our reality is that not enough is being automated, and sensitizing for that is what this very practical recommendation aims at. We must automate as much as we can; we must insist on automation.
 
-We have discussed many tools so far and are going to summarize them again (it follows a section listing all our tools)—some of those are very easy to implement and automate, but for others, per our now-defined goal to automate and insist to automate, will require a bit of an effort. A discussion on how to write and run automation scripts on different platforms is beyond the scope of this little book, but if you’d like to see what that can look like, read complementary books like [_Learning Linux Shell Scripting_](https://www.amazon.com/dp/B013WWYVHK/?tag=j9t-21-20), [_Network Programmability and Automation_](https://www.amazon.com/dp/1491931256/?tag=j9t-21-20), or [_Learn AppleScript_](https://www.amazon.com/dp/1430223618/?tag=j9t-21-20).
+We have discussed many tools so far and are going to summarize them again (it follows a section listing all our tools)—some of those are very easy to implement and automate, but for others, per our now-defined goal to automate and _insist_ to automate, will require a bit of an effort. A discussion on how to write and run automation scripts on different platforms is beyond the scope of this little book, but if you’d like to see what that can look like, read complementary books like [_Learning Linux Shell Scripting_](https://www.amazon.com/dp/B013WWYVHK/?tag=j9t-21-20), [_Network Programmability and Automation_](https://www.amazon.com/dp/1491931256/?tag=j9t-21-20), or [_Learn AppleScript_](https://www.amazon.com/dp/1430223618/?tag=j9t-21-20).
 
 ### Enforcement
 
