@@ -60,6 +60,8 @@ Security is critical, but it’s also tricky in the light of website quality con
 
 Let’s go over some tools that are available to us (again primarily with a focus on web-based tools). The responsible website owner should—and will—employ additional, notably inner-organizational means to ensure that his services and the data those services gather are secure.
 
+W> These tools were collected in 2016. Some of them are not around anymore. Where possible, links have been corrected, otherwise restored to point to a previous version available on the [Internet Archive](https://archive.org/). You find similar and more tools on the author’s website, [UITest.com](https://uitest.com/), or on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
+
 * [AES Encrypter](https://www.infoencrypt.com/)
 * [Bandwidth Speed Test](https://www.bandwidthplace.com/)
 * [Blowfish Hash Generator](https://hash.online-convert.com/blowfish-generator)
@@ -462,6 +464,8 @@ The more a quality initiative grows and matures, the more tools and methods it m
 The following serves as an index of a range of web-based tools, browser extensions, command-line tools, scripts, and bookmarklets. It is not complete; it might lack some important tools; but many tools come with my endorsement, and the promise to also serve others well.
 
 (By the way, my [UITest.com](https://uitest.com/) site is a hub for web-based testing tools, generators, and anything else web-based that’s useful for web developers and designers. You can find many of the tools listed in this book and more there.)
+
+W> These tools were collected in 2016. Some of them are not around anymore. Where possible, links have been corrected, otherwise restored to point to a previous version available on the [Internet Archive](https://archive.org/). You find similar and more tools on the author’s website, [UITest.com](https://uitest.com/), or on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
 
 @@
 
