@@ -316,6 +316,7 @@ Yet then, in everyday coding life, we face coding practices we want to document 
 
 How do we decide when to use which coding guidelines? The flowchart can help us:
 
+{width: 66%}
 ![A flowchart for choosing an approach to coding guidelines.](resources/images/guideline-decision-making.png)
 
 What we can see is that for a team of one, we don't strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) with the exception of two-space indentation (even after leaving Google, I still follow these guidelines for my personal projects).
