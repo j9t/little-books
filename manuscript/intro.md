@@ -1,4 +1,16 @@
 {sample: true}
 # Introduction
 
-@@
+This is one little book containing three little books: one about HTML/CSS frameworks, one about HTML/CSS coding guidelines, and one about website quality control.
+
+These books have all been published before, in 2015 and 2016, by the same author (me, Jens), but with a different publisher, [O’Reilly](https://www.oreilly.com/). You can still access the originals: [_The Little Book of HTML/CSS Frameworks_](https://www.oreilly.com/library/view/the-little-book/9781492048121/), [_The Little Book of HTML/CSS Coding Guidelines_](https://www.oreilly.com/library/view/the-little-book/9781492048459/), and [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/).
+
+But just as O’Reilly was so kind to allow me to publish a [German translation](https://meiert.com/de/publications/books/das-kleine-buch-der-html-css-frameworks/) of _The Little Book of HTML/CSS Frameworks_ back in 2019, they now also allowed me to re-publish these books on my own. I asked about this because I like to [maintain books](https://meiert.com/en/blog/living-websites-living-books/), to keep them alive for a little while, and the three little books in question have been aging.
+
+This _Little Book of Little Books_ here does not mean new editions of the three books. For a start, it’s much the same content than before. (That’s why the cover proudly points back to 2015.) But in the spirit of keeping books alive, there were some first improvements: All links should be working (if only to point to the Internet Archive), and my editor and I applied a little bit of polish (thank you, @@). There has been one regression: For this combined edition I left out the forewords, by the venerable [Eric A. Meyer](https://meyerweb.com/), [Lindsey Simon](http://www.idreamofuni.com/), and [Kevin Khaw](http://kevthedev.com/). I did so because this is these books’ afterlife, something we didn’t take into account when we spoke worked on the original editions.
+
+When I say “start” I cannot yet promise where the journey goes. I’m likely to improve this three-in-one book a little further, and maintain it as mentioned. (On some platforms where you get this book you will be able to download updated versions, if not receive them automatically.) What’s likely is that I’ll at some point rewrite and republish one, two, or all three of the _Little Books_. I admit that I haven’t done my best with _The Little Book of Website Quality Control_, which has turned into a badly aging link replica of [UITest.com](https://uitest.com/); yet on the other hand I believe that _The Little Book of HTML/CSS Frameworks_ is an underrated book on the topic of frameworks that deserves sustenance, and perhaps a few additional pages.
+
+I like to share liberally and freely, so I’m sure you won’t mind the uncertainty; I thank you for picking up this book—these books—now, a few years after their release. Please enjoy.
+
+—Jens
