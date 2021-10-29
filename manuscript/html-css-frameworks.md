@@ -470,7 +470,7 @@ A framework, solving widespread and complex development and design issues, comes
 
 I> ### Maintaining and Breaking
 I>
-I> A word of caution: while we, as framework developers, need to show responsibility and exercise thorough care not to break anything with framework updates, we must also not worry too much about breaking something. On the question what the most important thing was when creating and maintaining frameworks, I [responded a few years ago](http://bit.ly/meiert-maint-framework):
+I> A word of caution: while we, as framework developers, need to show responsibility and exercise thorough care not to break anything with framework updates, we must also not worry too much about breaking something. On the question what the most important thing was when creating and maintaining frameworks, I [responded a few years ago](https://plus.google.com/+JensOMeiert/posts/4aVAQhJvnh6):
 I>
 I> > The more used and hence successful a framework is, the more likely it is that things will break over regular maintenance. […] maintenance is key, yet avoiding things to break is impossible, and the attempt alone unbelievably expensive. And then, while things go wrong, things never go wrong badly. And that leads back to setting expectations: […] people should embrace, not fear, updates to them.”
 I>
