@@ -583,7 +583,7 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 * [Password Generator (Arantius.com)](http://tools.arantius.com/password)
 * [Password Generator (GRC)](http://www.grc.com/passwords.htm)
 * [Password Generator (Packetizer)](http://secure.packetizer.com/pwgen/)
-* [Password Security Check https://howsecureismypassword.net/
+* [Password Security Check](https://howsecureismypassword.net/)
 * [Password Security Check (GRC)](http://www.grc.com/haystack.htm)
 * [Performance and Scalability Test (Pylot; command-line tool)](https://web.archive.org/web/20150619155406/http://www.pylot.org/)
 * [Performance and Scalability Test (Tsung; command-line tool)](http://tsung.erlang-projects.org/)
