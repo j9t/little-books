@@ -1,4 +1,4 @@
-# _The Little Book of HTML and CSS Coding Guidelines_ (2015)
+# _The Little Book of HTML/CSS Coding Guidelines_ (2015)
 
 C> For Michael Sage—
 C>
