@@ -4,15 +4,17 @@ C> For Michael Sage—
 C>
 C> “Organization is not everything, but without organization, everything is nothing.”
 
+{pagebreak}
+
 ## Introduction
 
 > It turns out that style matters in programming for the same reason that it matters in writing. It makes for better reading.
 
 —Douglas Crockford
 
-Coding guidelines govern how we write code.Throughout the book, I keep with the term _coding guidelines_, and use it liberally. I also apply it holistically—that is, I use this term to denote serious sets of guidelines that try to comprehensively define the formatting of all respective code, and not just represent a weak recommendation to “please indent.” Normally, coding guidelines will apply to non-minified, non-compressed working code. Live code (i.e., production code) constitutes an exception to most formatting guidelines.
+Coding guidelines govern how we write code. Throughout the book, I keep with the term _coding guidelines_, and use it liberally. I also apply it holistically—that is, I use this term to denote sets of guidelines that try to comprehensively define the formatting of all respective code, and not just represent a weak recommendation to “please indent.” Normally, coding guidelines will apply to non-minified, non-compressed working code. Live code (i.e., production code) constitutes an exception to some formatting guidelines.
 
-Sometimes called standards, sometimes conventions, they can govern many code-related things. Wikipedia, for example, tells us that
+Sometimes called standards, sometimes conventions, they can govern many code-related things. Wikipedia, for example, [tells us that](https://en.wikipedia.org/wiki/Coding_conventions)
 
 > Coding conventions are a set of guidelines for a specific programming language that recommend programming style, practices, and methods for each aspect of a piece program written in this language. These conventions usually cover file organization, indentation, comments, declarations, statements, whitespace, naming conventions, programming practices, programming principles, programming rules of thumb, architectural best practices, etc.
 
@@ -22,11 +24,11 @@ As Wikipedia suggests, coding guidelines go beyond formatting; they can also cov
 
 In this _Little Book_, I share my experience with HTML and CSS coding guidelines. Why me and why guidelines for HTML and CSS? A web developer by trade, and one who’s closely following the development of web standards, I’m most familiar with HTML and CSS. And I’m similarly familiar with coding guidelines. Ten years ago, I introduced [HTML/CSS rules](https://meiert.com/de/publications/articles/20060326/) at [GMX](https://www.gmx.net/), the largest email provider in Germany. When I joined top agency [Aperto](https://www.aperto.com/), I did the same thing and created, together with [Timo Wirth](https://web.archive.org/web/20181019181036/http://www.vorsprungdurchwebstandards.de/), [guidelines that ruled all frontend code](https://web.archive.org/web/20140814054548/http:/blog.aperto.de/html-und-css-code-richtlinien-bei-aperto/), including Aperto’s large commercial and governmental customers. And later, I took the opportunity at Google to found a team and with that team revise [Google’s CSS guidelines and create all new HTML guidelines](https://google.github.io/styleguide/htmlcssguide.html).
 
-The two most fundamental lessons I learned were that coding guidelines absolutely are a cornerstone of professional web development, and second (and in contrast to this), that it’s easier to set them up than to get them followed. And this brings us into a good position to start.
+The two most fundamental lessons I learned were that coding guidelines absolutely are a cornerstone of professional web development, and, in contrast to this, that it’s easier to set them up than to get them followed. And this brings us into a good position to start.
 
 ### Acknowledgments
 
-I’d like to thank [Tony Ruscoe](http://ruscoe.net/) for his always friendly and professional help checking and improving my technical writing. I thank the O’Reilly team, notably Simon St. Laurent and Meg Foley, for their advice and help on getting another _Little Book_ out (following _The Little Book of HTML/CSS Frameworks_ [now part of this larger book]). And, regarding the matter at hand, I like to thank all the many people I’ve worked with who showed and taught me how (not to) work with coding standards.
+I’d like to thank [Tony Ruscoe](http://ruscoe.net/) for his always friendly and professional help checking and improving my technical writing. I thank the O’Reilly team, notably Simon St. Laurent and Meg Foley, for their advice and help on getting another _Little Book_ out (following _The Little Book of HTML/CSS Frameworks_ [now part of this larger book]). And, regarding the matter at hand, I like to thank all the many people I’ve worked with who showed and taught me how (not) to work with coding standards.
 
 Thanks, too, go to [Harry Roberts](https://csswizardry.com/), [Dan Hay](http://www.onepointed.com/dan/), as well as [Google’s](https://www.google.com/) and [WordPress’s](https://wordpress.org/) developers for all their work on coding standards (and permission to quote within this book).
 
@@ -144,7 +146,7 @@ Consider this example:
 
 Suppose you need to edit this style sheet. How do you specify and order the colors for a new author section? Meet _inconsistency_.
 
-While one might argue that keeping the guidelines in mind makes the process of writing code itself a little slower, locating and refactoring code becomes much easier and faster.
+While one might argue that keeping the guidelines in mind makes the process of writing code itself a little slower, locating and refactoring code still becomes easier and faster.
 
 ### Usability
 
