@@ -152,11 +152,11 @@ An indirect benefit that follows consistency is improved usability. Improved dev
 
 ### Collaboration
 
-More importantly, yet also consequentially, coding guidelines facilitate collaboration. They make it easier for you to understand your colleagues' code (and vice versa), and to hand over code to someone you haven't work with previously. They don’t require as much time adjusting to someone else’s coding style, especially not when one follows the otherwise laudable habit of sticking to the code style a given project is using.
+More importantly, yet also consequentially, coding guidelines facilitate collaboration. They make it easier for you to understand your colleagues’ code (and vice versa), and to hand over code to someone you haven’t work with previously. They don’t require as much time adjusting to someone else’s coding style, especially not when one follows the otherwise laudable habit of sticking to the code style a given project is using.
 
 ### Maintainability
 
-Lastly, coding guidelines and the consistency they bring to our code help maintainability. They do so because guidelines constitute a form of organization, a lower degree of entropy, which makes it easier to order, or keep things in order. Although often forgotten, maintainability important, as there's no code in existence that will only be touched once. Even if it’s not going to be edited or updated again, eventually it must be decommissioned. And that falls under maintenance, too.
+Lastly, coding guidelines and the consistency they bring to our code help maintainability. They do so because guidelines constitute a form of organization, a lower degree of entropy, which makes it easier to order, or keep things in order. Although often forgotten, maintainability important, as there’s no code in existence that will only be touched once. Even if it’s not going to be edited or updated again, eventually it must be decommissioned. And that falls under maintenance, too.
 
 ## Anatomy of a Coding Guideline
 
@@ -242,7 +242,7 @@ Explanation
 : Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitate improving or vetoing the rule in question. In a very authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
 
 What else
-: Finally, a complete coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it's better to err on the side of adding enough detail so that the team can understand the guideline and its rationale.
+: Finally, a complete coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it’s better to err on the side of adding enough detail so that the team can understand the guideline and its rationale.
 
 With that, we should have an idea of the _minima_ and _maxima_ of a coding guideline:
 
@@ -300,7 +300,7 @@ If the reality/goal difference is bigger, we want to take a _prescriptive_ (i.e.
 
 > Release only valid HTML code
 
-But isn't that the same rule?
+But isn’t that the same rule?
 
 It is the same rule on the surface, yet a different one when looking at the context. Whether we describe or prescribe coding standards doesn’t depend on the rule, but on the situation. In both cases, we want to anchor, in writing, what code we expect.
 
@@ -319,7 +319,7 @@ How do we decide when to use which coding guidelines? The flowchart can help us:
 {width: 66%}
 ![A flowchart for choosing an approach to coding guidelines.](resources/images/guideline-decision-making.png)
 
-What we can see is that for a team of one, we don't strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) with the exception of two-space indentation (even after leaving Google, I still follow these guidelines for my personal projects).
+What we can see is that for a team of one, we don’t strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) with the exception of two-space indentation (even after leaving Google, I still follow these guidelines for my personal projects).
 
 Whenever two or more people work together, however, coding guidelines become useful, and really important. And there the question is one of goals, and existing quality, to say whether we need a descriptive or prescriptive approach, considered for each guideline.
 
@@ -343,7 +343,7 @@ Second, we need to _enforce_ the code style we want to see. Here, too, automatio
 
 ### Reviews
 
-Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so too should our guidelines be reviewed from time to time—it's important to update the documentation to reflect changes to guidelines as they arise.
+Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so too should our guidelines be reviewed from time to time—it’s important to update the documentation to reflect changes to guidelines as they arise.
 
 It is something that gets maintained (as much as the affected code—we should not forget to update it when guidelines change). It is therefore recommended to not only assign a primary contact (or perhaps a small team of experienced volunteers) to be guideline owners, but to also schedule at least quarterly reviews that check whether updates are needed.
 

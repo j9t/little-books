@@ -58,7 +58,7 @@ Security can be considered the most important thing to test for because whatever
 
 Security is critical, but it’s also tricky in the light of website quality control. For one, websites—rather than apps—might or might not deal with any personal and sensitive information or even ask their users to provide such information. For another, security is not trivial to test and not necessarily to be evaluated all from the outside. This leads us to the situation in which, although security is so crucial, there’s not that much to add outside the context of dedicated information security.
 
-Let’s go over some tools that are available to us (again primarily with a focus on web-based tools). The responsible website owner should—and will—employ additional, notably inner-organizational means to ensure that his services and the data those services gather are secure.
+Let’s go over some tools that are available to us (again primarily with a focus on web-based tools). The responsible website owner should—and will—employ additional, notably inner-organizational means to ensure that their services and the data those services gather are secure.
 
 W> These tools were collected in 2016. Some of them are not around anymore. Where possible, links have been corrected, otherwise restored to point to a previous version available on the [Internet Archive](https://archive.org/). You find similar and more tools on the author’s website, [UITest.com](https://uitest.com/), or on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
 
@@ -431,7 +431,7 @@ How do we enforce quality? This is still a difficult question; so difficult, in 
 
 Enforcement happens top-down. Executives and managers are to be looked at to emphasize and _live_ quality, to reward good quality, and to—in one way or another—discourage poor quality. How? By doing what we surprisingly forget frequently: measuring quality and tying related metrics to performance evaluations.
 
-Two anecdotes illustrate that approach. There’s one tale of a manager who has, despite efforts of his team to up the ante and increase quality in his department, never endorsed, let alone supported or encouraged those team members’ efforts in team communications or goals. That quality initiative’s efforts, witnessed at one point at a major corporation, suffered a significant blowback.
+Two anecdotes illustrate that approach. There’s one tale of a manager who has, despite efforts of their team to up the ante and increase quality in their department, never endorsed, let alone supported or encouraged those team members’ efforts in team communications or goals. That quality initiative’s efforts, witnessed at one point at a major corporation, suffered a significant blowback.
 
 At the same firm at another time, managers called out the importance of quality and used available data points, like performance scores as measured by [Google’s PageSpeed tools](https://developers.google.com/speed), accessibility problems as measured by [Sidar’s HERA](https://web.archive.org/web/20150726041535/http://www.sidar.org/hera/), or the number of validation errors as measured by [W3C’s Link Checker](https://validator.w3.org/checklink). Although the team in question never got to tie metrics like these to performance evaluations, that precise step was on the table as to have strong encouragement and—ultimately enforce—higher quality.
 

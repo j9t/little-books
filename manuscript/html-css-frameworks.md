@@ -14,7 +14,7 @@ While the book attempts to cover all bases, it glosses over some of them, too. W
 
 Although written in simple language, the book is geared toward expert web developers, the people who decide about whether and how to use, or whether or not to develop a framework.
 
-It has likewise been written by a web developer. I, Jens, have during my career architected frameworks for [OpenKnowledge](https://www.openknowledge.de/), [GMX](https://www.gmx.net/), [Aperto](https://www.aperto.com/) with their government and business clients, as well as [Google](https://www.google.com/). In that time, I’ve not quite managed to outwit the fast pace of our industry, but I’ve found that some principles, methods, and practices contribute to longer-lasting code. That has benefited the frameworks I wrote, and I hope it will benefit you through this book, too.
+It has likewise been written by a web developer. I, Jens, have during my career architected frameworks for [OpenKnowledge](https://www.openknowledge.de/), [GMX](https://www.gmx.net/), [Aperto](https://www.aperto.com/) with their government and business clients, as well as [Google](https://www.google.com/). In that time, I haven’t managed to outwit the fast pace of our industry, but I’ve found that some principles, methods, and practices contribute to longer-lasting code. That has benefited the frameworks I wrote, and I hope it will benefit you through this book, too.
 
 ### Acknowledgments
 
@@ -62,11 +62,10 @@ High-quality code can be said to be tailored, but it doesn’t follow that high-
 For example, the [Pure framework](https://purecss.io/) knows, with overlap, the following button types:
 
 * Default
-* Primary
-* Icon
-* Active
 * Disabled
-* Customized
+* Active
+* Primary
+* (Customized)
 
 Functionality usually means presentation (styling via CSS) and sometimes also behavior (scripting via JavaScript). The advantage of using a library is that we don’t have to code this functionality ourselves, or do so repeatedly. We instead follow the library’s instructions for the structural side (markup via HTML).
 
@@ -100,7 +99,7 @@ Frameworks promise to save both development and design time. The thinking goes t
 
 If frameworks come with this promise, the question arises whether or not they live up to it. The answer boils down to a cost calculation that is, unfortunately, different for every framework and project. How much development cost was saved? How much was, in turn, spent on training, customization, and upgrades?
 
-Apart from suggesting that we do the math and _think_ through every project, the following pages cover frameworks in the necessary detail to empower everyone to form their own theory about the raisons d'être of frameworks.
+Apart from suggesting that we do the math and _think_ through every project, the following pages cover frameworks in the necessary detail to empower everyone to form their own theory about the _raisons d’être_ of frameworks.
 
 ### Types and Uses of Frameworks
 
@@ -128,11 +127,11 @@ Please note that developing an internal framework and making it public, as we co
 
 Reflected in the table is the idea that frameworks can be used and developed liberally, with two exceptions. One exception is that _experts shouldn’t use external frameworks_; the other is that _beginners shouldn’t develop external frameworks_.
 
-The two exceptions stem from a violation of quality standards: while the external framework violates the ideals of the expert (which I will later describe), it is the beginner who would not even know the necessary ideals to create a quality framework.
+The two exceptions stem from a violation of quality standards: while the external framework violates the ideals of the expert (which I will later describe), it is the beginner who would not know the necessary ideals to create a quality framework.
 
 The internal framework is safe to use or develop in every case because that’s the preferred way of developing web documents and apps. Internal beats external every time because external cannot, by definition, know all the needs of the organization and fails many quality standards. Second, internal solutions are the better route for both experts and beginners to stay sharp and to learn, since their mistakes have a smaller impact.
 
-The development of an external framework is safest only with an experienced web developer, who can, following the principles outlined in this book, skillfully build and document it so that it has a better chance to be useful, at a low cost-benefit ratio. For the less experienced developer or the one in a hurry, use of an external framework is thought to be more viable simply because things matter a lot less for him; he may discern few impacts in quality, and he may not yet have a long-term vision for his project.
+The development of an external framework is safest only with an experienced web developer, who can, following the principles outlined in this book, skillfully build and document it so that it has a better chance to be useful, at a low cost-benefit ratio. For the less experienced developer or the one in a hurry, use of an external framework is thought to be more viable simply because things matter a lot less for him; they may discern few impacts in quality, and they may not yet have a long-term vision for their project.
 
 I> ### Compilation Frameworks
 I>
@@ -300,7 +299,7 @@ Provide documentation for framework developers.
 
 The final attribute to underscore is extensibility. Extensibility for a framework means that it’s not just possible, but well-defined and easy to extend it.
 
-Extensibility is necessary for two reasons. First, external frameworks in particular won’t offer everything we need, so there needs to be a way to add functionality. Second, especially in large projects, there’s a tendency for new patterns to pop up. The problem with these is their uncertainty and uniqueness: they may only be used once or twice and don't warrant a place in the framework core or even near more common extensions. Both their location and handling have to be thought of.
+Extensibility is necessary for two reasons. First, external frameworks in particular won’t offer everything we need, so there needs to be a way to add functionality. Second, especially in large projects, there’s a tendency for new patterns to pop up. The problem with these is their uncertainty and uniqueness: they may only be used once or twice and don’t warrant a place in the framework core or even near more common extensions. Both their location and handling have to be thought of.
 
 To make up for lacking functionality in a framework, users typically help themselves by pretending they don’t use a framework in the first place. That is, they have a style sheet or script that handles everything the framework doesn’t cover. That’s actually quite OK; the point here is to _be clear_ about how such “non-framework functionality” or extensions are handled (and we notice how extensibility is also a user responsibility). If nothing else, extensibility stresses the need for the most basic of all code safeties: a namespace (a framework-specific ID and class name prefix, and the same namespace in JavaScript).
 
@@ -332,7 +331,7 @@ The “pro-quality” choice has been explained as using or developing an _inter
 1. Which one meets our needs the best?
 2. Which one is of the best quality (that is, which one is as tailored/customizable, usable, and extensible as possible)?
 
-These questions underline the importance of knowing our precise needs. It is even important in order to _pick_ a framework, as knowing our needs helps determine which framework fits better (tailoring) and comes closer to our extensibility needs (though simple needs don't require extensibility as frequently as comprehensive needs).
+These questions underline the importance of knowing our precise needs. It is even important in order to _pick_ a framework, as knowing our needs helps determine which framework fits better (tailoring) and comes closer to our extensibility needs (though simple needs don’t require extensibility as frequently as comprehensive needs).
 
 ### The Two Ground Rules of Using a Framework
 
@@ -350,7 +349,7 @@ When using frameworks, always follow the documentation.
 
 For reasons that will become clearer in the next section, never overwrite framework code.
 
-Contributing to the expert’s dilemma with external frameworks, overwriting framework code can have unforeseen consequences and break things with future updates. Here's an example:
+Contributing to the expert’s dilemma with external frameworks, overwriting framework code can have unforeseen consequences and break things with future updates. Here’s an example:
 
 Framework:
 
@@ -456,7 +455,7 @@ For quality control, test:
 
 (Incidentally, I run a website hub dedicated to web development testing tools. Check [uitest.com/analysis](https://uitest.com/analysis/) for a large selection of them.)
 
-To take a page out of Google's book, it’s best to automate such checks. Reviewing tool documentation can give valuable pointers, as a number of tools can be installed locally or come with an API. In addition, there are instruments like [Selenium](https://www.selenium.dev/) and [ChromeDriver](https://bugs.chromium.org/p/chromedriver/) that facilitate automated browser testing. As with many of the more complex topics, this book will resort to just showing directions.
+To take a page out of Google’s book, it’s best to automate such checks. Reviewing tool documentation can give valuable pointers, as a number of tools can be installed locally or come with an API. In addition, there are instruments like [Selenium](https://www.selenium.dev/) and [ChromeDriver](https://bugs.chromium.org/p/chromedriver/) that facilitate automated browser testing. As with many of the more complex topics, this book will resort to just showing directions.
 
 ### Maintenance
 
@@ -587,7 +586,7 @@ The solution is not easy to come by. Users of external frameworks are free to do
 
 ### Lack of a Prototype
 
-Not having a prototype is an equally critical problem, for all their benefits. Apart from the fact that framework development is so much harder without a contained environment, maintenance complexity increases by the minute if there is no prototype. A framework without a prototype is essentially freewheeling, out of control. As suggested earlier, a mere collection of static pages—as long as it's complete, current, and realistic—does help.
+Not having a prototype is an equally critical problem, for all their benefits. Apart from the fact that framework development is so much harder without a contained environment, maintenance complexity increases by the minute if there is no prototype. A framework without a prototype is essentially freewheeling, out of control. As suggested earlier, a mere collection of static pages—as long as it’s complete, current, and realistic—does help.
 
 ### Lack of Maintenance
 
@@ -603,7 +602,7 @@ I> The vision is one of highest efficiency, to handle presentational changes onl
 
 ### Lack of Accuracy
 
-An assumption we’ve made thus far is that what our frameworks do is accurate—that is, that they match the underlying needs and designs. That latter part can be a potential source of error if the frameworks we coded or found ourselves using don't match the specs our designer friends sent us (if we’re not the designers ourselves). This can lead to all kinds of issues: from not being able to accommodate the original plan (no use for our external framework) to needing structural changes (ouch) to asking the designer folks to rationalize and Photoshop the differences away instead of fixing the framework. We need to watch out for design and style guide divergence.
+An assumption we’ve made thus far is that what our frameworks do is accurate—that is, that they match the underlying needs and designs. That latter part can be a potential source of error if the frameworks we coded or found ourselves using don’t match the specs our designer friends sent us (if we’re not the designers ourselves). This can lead to all kinds of issues: from not being able to accommodate the original plan (no use for our external framework) to needing structural changes (ouch) to asking the designer folks to rationalize and Photoshop the differences away instead of fixing the framework. We need to watch out for design and style guide divergence.
 
 ### Lack of Guts
 
