@@ -141,7 +141,7 @@ I> We don’t cover compilation frameworks in more detail because they expand on
 
 ### Popular Frameworks
 
-There are many dozens of HTML/CSS frameworks that developers have found useful. Here is a representative selection, to give you an impression of what the world of external frameworks feels like:
+There are many dozens of HTML/CSS frameworks that developers have found useful. Here is a selection, to give you an impression of what the world of external frameworks feels like:
 
 * [960 Grid System](https://960.gs/)
 * [1140 CSS Grid](https://www.ramotion.com/agency/web-design/cssgrid/)
@@ -199,7 +199,7 @@ Such a list of frameworks is the type of information that goes stale quickly. Wh
 
 ## Attributes of a Good Framework
 
-Now, what is a “good” framework? What does a framework have that we want to use? What constitutes the framework we may want to build? I’ve thought about and worked with and discussed this question many times.
+Now, what is a “good” framework? What does a framework have that we want to use? What constitutes the framework we want to build? I’ve thought about and worked with and discussed this question many times.
 
 In a professional or expert context, “good” usually refers to quality. We can establish this for frameworks as well. A framework should, especially when it’s an external one, meet the highest applicable quality standards.
 
@@ -227,7 +227,6 @@ I> * Maintainable
 I> * Valid
 I> * Self-explaining
 I> * Consistent
-I> * “Automagical”
 I> * State-of-the-art
 I> * Simple
 I> * Compact
@@ -235,15 +234,15 @@ I> * Flexible
 I> * Tested
 I> * Fault-tolerant
 I> * Self-correcting
-I> * And more!
+I> * “Automagical”
 I>
-I> This doesn’t even include anything emotional we may want to attach to quality, like “pleasant” or “fun.” But what we see is that quality has many different faces.
+I> …and this doesn’t even include anything emotional we may want to attach to quality, like “pleasant” or “fun.” But what we see is that quality has many different faces.
 
 ### 1. A Framework Should Be Tailored
 
 We defined tailoring as “producing and adjusting to precise dimensions and needs.” Producing refers to developing a framework—whether internal or external—while adjusting commonly means fitting an external framework. The key here is “precise dimensions and needs.” We need to know our needs—otherwise we can neither produce nor adjust something to fit.
 
-One view of tailored code, by the way, is to compare needed code with overall code. That can be hard to measure, because the number of characters or lines in our code doesn’t do the trick. But conceptually, tailoring means using as little and yet as effective code as possible, and not more.
+One view of tailored code is to compare needed code with overall code. That can be hard to measure, because the number of characters or lines in our code doesn’t do the trick. But conceptually, tailoring means using as little and yet as effective code as possible, and not more.
 
 What can we do to tailor? The approach depends on the origin of the framework, and that origin makes for a big difference.
 
@@ -251,11 +250,11 @@ An internal framework is relatively simple to tailor: We develop to the needs of
 
 An external framework, however, is much more difficult to tailor (by the receiving side, because it’s impossible for the originator). In a basic sense, we need to deduct all needed functionality from all offered functionality, and then remove the code that remains. That leads us to the key issues with external frameworks: removing code may not even be possible, and tailoring then depends on the quality of the framework code and its documentation (e.g., tailoring will require testing, might break the framework, and could make the same work necessary for later updates, if not outright thwarting the ability to move to newer frameworks).
 
-These are big issues that make for good reasons why few people actually go to the length of customizing or tailoring external frameworks (or any external code, for that matter). Yet the outcome—non-tailored and lower-quality code—is not very expert-like, and inferior. And so we see with more clarity why in a professional context, external frameworks shouldn’t be preferred. They promise to save cost, only to come with a stiff hidden tax or else bring down the quality of our work.
+These are big issues that make for good reasons why few people actually go to the length of customizing or tailoring external frameworks (or any external code, for that matter). Yet the outcome—non-tailored and lower-quality code—is not expert-like, but inferior. And so we see with more clarity why in a professional context, external frameworks shouldn’t be preferred. They promise to save cost, only to come with a stiff hidden tax—or to bring down the quality of our work.
 
 Now, some frameworks like Bootstrap or Gumby have begun to address these problems by offering sophisticated customization wizards. This is smart, because it significantly alleviates the issues of non-tailored solutions. Framework developers should offer and users use such functionality.
 
-By the way, there’s another problem we need to consider: while we’re benefiting from either our decision to save cost or to improve quality, our end users benefit mostly from quality. Technically speaking, they are rarely on the list of beneficiaries if we decide to deploy a framework that’s bloated but easy to churn out.
+By the way, there’s another problem we need to consider: while we’re benefiting from either our decision to save cost or to improve quality, our end users benefit mostly from quality. Technically speaking, they are rarely on the list of beneficiaries if we decide to deploy a framework that’s easy to ship but bloated.
 
 To tailor internal frameworks:
 
