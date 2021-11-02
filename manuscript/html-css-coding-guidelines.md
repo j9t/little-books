@@ -154,11 +154,11 @@ An indirect benefit that follows consistency is improved usability. Improved dev
 
 ### Collaboration
 
-More importantly, yet also consequentially, coding guidelines facilitate collaboration. They make it easier for you to understand your colleagues’ code (and vice versa), and to hand over code to someone you haven’t work with previously. They don’t require as much time adjusting to someone else’s coding style, especially not when one follows the otherwise laudable habit of sticking to the code style a given project is using.
+More importantly, yet also consequentially, coding guidelines facilitate collaboration. They make it easier for you to understand your colleagues’ code (and vice versa), and to hand over code to someone you haven’t worked with previously. They don’t require as much time adjusting to someone else’s coding style, especially not when one follows the otherwise laudable habit of sticking to the code style a given project is using.
 
 ### Maintainability
 
-Lastly, coding guidelines and the consistency they bring to our code help maintainability. They do so because guidelines constitute a form of organization, a lower degree of entropy, which makes it easier to order, or keep things in order. Although often forgotten, maintainability important, as there’s no code in existence that will only be touched once. Even if it’s not going to be edited or updated again, eventually it must be decommissioned. And that falls under maintenance, too.
+Lastly, coding guidelines and the consistency they bring to our code help maintainability. They do so because guidelines constitute a form of organization, a lower degree of entropy, which literally means it’s easier to order, and to keep things in order. Although often neglected, maintainability is important, as there’s no code in existence that will only be touched once. Even if it’s not going to be edited or updated again, eventually it must be decommissioned. And that falls under maintenance, too.
 
 ## Anatomy of a Coding Guideline
 
@@ -186,6 +186,7 @@ Harry Roberts’ CSS Guidelines [recommend hyphens](https://cssguidelin.es/#hyph
 > .pageHead {}
 > 
 > .sub_content {}
+> ```
 
 Dan Hay’s coding standards say the following [about “verbose” HTML code](http://www.onepointed.com/dan/computing/CodeStandard/htmlStandard.shtml#html-stadn):
 
@@ -201,7 +202,7 @@ Dan Hay’s coding standards say the following [about “verbose” HTML code](h
 > 
 > Most HTML editors liberally insert STADN tags. This behavior is yet another reason why HTML editors must not be used.
 
-(A comment, “tag” should rather say “element” here.)
+(“Tag” should say “element” here.)
 
 And for WordPress, [vendor-specific extensions](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/#vendor-prefixes) are worth special attention:
 
@@ -241,7 +242,7 @@ Implementation help
 : Ideally, a coding guideline comes with a tip on how to use it, to make following it easier. For example, “use configuration file _x_ for your editor to enforce indentation,” “include script _y_ to have your code validated,” or “covered by linter.” Although this is a very useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
 
 Explanation
-: Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitate improving or vetoing the rule in question. In a very authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
+: Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitate improving or vetoing the rule in question. In an authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
 
 What else
 : Finally, a complete coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it’s better to err on the side of adding enough detail so that the team can understand the guideline and its rationale.
@@ -266,17 +267,15 @@ With that, we should have an idea of the _minima_ and _maxima_ of a coding guide
 
 ### Priority
 
-But is the structure all that makes a coding guideline? Let’s consider the ever-popular order to indent by _x_ as well as the ever-beloved idea to use “semantic markup.” What makes them different?
-
-I believe we will soon discern a difference in terms of preference versus quality.
+But is this structure all that makes a coding guideline? Let’s consider the ever-popular order to indent by _x_ as well as the ever-beloved idea to use “semantic markup.” What makes them different?
 
 The indentation rule is first and foremost preference, especially when noting that tab characters can be configured to be displayed with _n_ spaces, meaning that every team member could produce code that’s indented the same way while still enjoying their own individual preferences.
 
-The semantic markup rule, however, has a qualitative bearing, for if we understand the use of markup according to its meaning paramount to it being parsed correctly and accessibly, then this rule results in a difference in quality of code, depending on whether and how it’s followed.
+The semantic markup rule, however, has a qualitative bearing, for if we understand the use of markup according to its meaning paramount to it being parsed correctly and accessibly, then this rule results in a difference in _quality_ of code.
 
 For coding guidelines, then, this difference results in a sense of priority. Though preference-based rules are still relevant because they lead to consistency, which in turn gives us all the benefits we discussed earlier (usability, collaboration, maintainability), the quality rules, when sound, make code more consistent _and_ better.
 
-The suspicion grows that preference rules are easier to define and spot than quality rules, but the jury’s still out on that.
+We may suspect that preference rules are easier to define and spot than quality rules, but the jury’s still out on that.
 
 ## Approaches to Coding Guidelines
 
@@ -290,9 +289,9 @@ Let’s see how this can be applied to coding guidelines, and what else is invol
 
 ### Descriptive
 
-The descriptive approach works if the difference between code reality and our goals is minor. Then we can simply outline how things are done now, let the whole _mélange_ sit for a few minutes, and reap the reward when we onboard new team members.
+The descriptive approach works if the difference between code reality and our goals is minor. Then we can simply outline how things are done now, let the whole _mélange_ sit, and reap the reward when we onboard new team members.
 
-For example, if everyone on the team is validating their HTML code, as it should be done (there’s no need and no excuse for not using HTML correctly), we say:
+For example, if everyone on the team is validating their HTML code, as it [should be done](https://meiert.com/en/blog/the-frontend-developer-test/) (there’s no need and no excuse for not using HTML correctly), we say:
 
 > Release only valid HTML code
 
@@ -310,20 +309,20 @@ The prescriptive approach, then, depends on enforcement: when everything’s goo
 
 Once there’s something to prescribe, there’s also something to enforce.
 
-### Mixed
+### Descriptive and Prescriptive
 
 Yet then, in everyday coding life, we face coding practices we want to document (describe), and others we want to achieve (prescribe). This means that most coding guidelines and standards include rules that are mixed, using both approaches.
 
 ## Decision Process
 
-How do we decide when to use which coding guidelines? The flowchart can help us:
+How do we decide when to use which coding guidelines? The following flowchart can help us:
 
 {width: 66%}
 ![A flowchart for choosing an approach to coding guidelines.](resources/images/guideline-decision-making.png)
 
-What we can see is that for a team of one, we don’t strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) with the exception of two-space indentation (even after leaving Google, I still follow these guidelines for my personal projects).
+What we can see is that for a team of one, we don’t strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) (personally, even after leaving Google I follow these guidelines for my personal projects).
 
-Whenever two or more people work together, however, coding guidelines become useful, and really important. And there the question is one of goals, and existing quality, to say whether we need a descriptive or prescriptive approach, considered for each guideline.
+Whenever two or more people work together, however, coding guidelines become useful, and really important. And there the question is one of goals, and existing quality, to say whether for a given guideline, we need a descriptive or a prescriptive approach.
 
 ## Coding Guidelines in Practice
 
@@ -339,15 +338,15 @@ Fortunately, in most modern companies, teams have mailing lists to communicate g
 
 The next important aspect is achieving compliance—that is, enforcing the guidelines. This is normally a two-fold process.
 
-First, we need to _measure_ whether coding guidelines are followed or not. For that, we need to set up the necessary infrastructure and tools, though manually probing for compliance, as with code reviews, does work, too. In practice, this piece is neglected rather frequently, and organizations don’t know much about their actual compliance rates. Automation, which we will look at momentarily, is crucial here. _How_ to automate the whole compliance part is not subject of this booklet, however.
+First, we need to _measure_ whether coding guidelines are followed or not. For that, we need to set up the necessary infrastructure and tools, though manually probing for compliance, as with code reviews, does work, too. In practice, this piece is frequently neglected, and organizations don’t know much about their actual compliance rates. Automation, which we will look at momentarily, is crucial here. _How_ to automate the whole compliance part is not subject of this booklet, however.
 
 Second, we need to _enforce_ the code style we want to see. Here, too, automation is desirable, but we also need a way to track and score offenders. Tying coding style compliance to performance metrics that got communicated in advance is an effective approach. For example, a team member who repeatedly violates coding standards could get a lower performance rating than one who does keep with it.
 
 ### Reviews
 
-Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so too should our guidelines be reviewed from time to time—it’s important to update the documentation to reflect changes to guidelines as they arise.
+Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so, too, should our guidelines be reviewed from time to time—it’s important to update the documentation to reflect changes to guidelines as they arise.
 
-It is something that gets maintained (as much as the affected code—we should not forget to update it when guidelines change). It is therefore recommended to not only assign a primary contact (or perhaps a small team of experienced volunteers) to be guideline owners, but to also schedule at least quarterly reviews that check whether updates are needed.
+It is something that gets maintained (as much as the affected code—we should not forget to update it when guidelines change). It is therefore recommended not only to assign a primary contact (or a small team of volunteers) to be guideline owners, but to also schedule at least quarterly reviews that check whether updates are needed.
 
 ### Automation
 
@@ -361,7 +360,7 @@ After this short run through coding guidelines, I want to make recommendations f
 
 Many of these guidelines are quality rather than preference guidelines. We’ll keep with a bit more than just the minima: with what (not) to do in what scope, examples that illustrate each point, a rationale, and that with just the detail we need.
 
-(Legal note: The following guidelines are a derivative of the [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) by [Google](https://www.google.com/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) by Jens Oliver Meiert.)
+(Legal note: The following guidelines are a derivative of the [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) by [Google](https://www.google.com/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).)
 
 ### General
 
@@ -424,7 +423,7 @@ Incorrect:
 
 (…where “_” signifies a space character.)
 
-#### Mark TODOs and Action Items with TODO
+#### Mark TODOs and Action Items with `TODO`
 
 Highlight TODOs by using the keyword `TODO` only.
 
@@ -484,7 +483,7 @@ Correct:
 
 Strictly keep structure (markup), presentation (styling), and behavior (scripting) apart, and keep the interaction between the three to an absolute minimum.
 
-That is, make sure documents and templates contain only HTML and HTML that is solely serving structural purposes. Move everything presentational into style sheets, and everything behavioral into scripts. Link as few style sheets and scripts as possible from documents and templates.
+That is, make sure documents and templates contain only HTML, and HTML that is solely serving structural purposes. Move everything presentational into style sheets, and everything behavioral into scripts. Link as few style sheets and scripts as possible from documents and templates.
 
 Separating structure from presentation from behavior is important for maintenance reasons. It is always more expensive to change HTML documents and templates than it is to update style sheets and scripts.
 
@@ -497,7 +496,7 @@ The only exceptions apply to characters with special meaning in HTML (like `<` [
 Correct:
 
 ```html
-<p>The currency symbol for the Euro is "€".
+<p>The currency symbol for the Euro is “€”.
 ```
 
 #### Omit Optional Tags
@@ -542,8 +541,8 @@ Correct:
       <th scope="col">Taxes
   <tbody>
     <tr>
-      <td>$ 5.00
-      <td>$ 4.50
+      <td>$5.00
+      <td>$4.50
 </table>
 ```
 
@@ -571,12 +570,13 @@ Using valid CSS is a baseline quality attribute that allows us to spot CSS code 
 
 It’s tempting to address styling differences over user agent detection or special CSS filters, workarounds, and hacks. Both approaches should be considered as a last resort in order to achieve and maintain an efficient and manageable code base. Put another way, giving detection and hacks a free pass will hurt projects in the long run as projects tend to take the way of least resistance. That is, allowing and making it easy to use detection and hacks means using detection and hacks more frequently—and more frequently is too frequently.
 
-Use Functional or Generic ID and Class Names
+#### Use Functional or Generic ID and Class Names
+
 Instead of presentational or cryptic names, always use ID and class names that reflect the purpose of the element in question, or that are otherwise generic.
 
 Names that are specific and reflect the purpose of the element should be preferred, as these are most understandable and the least likely to change.
 
-Generic names are simply a fallback for elements that have no particular or no meaning different from their siblings. They are typically needed as “helpers.”
+Generic names are a fallback for elements that have no particular or no meaning different from their siblings. They are typically needed as “helpers.”
 
 Using functional or generic names reduces the probability of unnecessary document or template changes.
 
@@ -714,7 +714,7 @@ Correct:
 
 Put declarations in alphabetical order in order to achieve consistent code in a way that is easy to remember and maintain.
 
-Ignore vendor-specific prefixes for sorting purposes. However, multiple vendor-specific prefixes for a certain CSS property should be kept sorted as well (e.g., `-moz` prefix comes before `-webkit`).
+Ignore vendor-specific prefixes for sorting purposes. However, multiple vendor-specific prefixes for a certain CSS property should be kept sorted as well (e.g., the `-moz` prefix comes before `-webkit`).
 
 (Exceptions prove the rule, so in the event of the cascade pushing order on us, that’s fine.)
 
@@ -800,7 +800,9 @@ Incorrect:
 #video{
   margin-top: 1em;
 }
+```
 
+```css
 #video
 {
   margin-top: 1em;
@@ -865,22 +867,22 @@ html {
 
 ## Summary
 
-This has been a little, rather tiny, treatise on coding guidelines. Although short, it covered several key ideas:
+This has been a brief treatise on coding guidelines. Although short, it covers several key ideas:
 
 Coding guidelines govern how we write code.
 
-Coding guidelines directly help consistency, and through that, indirectly, impact usability, collaboration, and maintainability.
+Coding guidelines help consistency, and through that, indirectly, impact usability, collaboration, and maintainability.
 
 Coding guidelines are important.
 
 The main ingredients of a coding guideline are: what (not) to do within a particular scope, examples, and an explanation.
 
-Coding guidelines can deal with preference or with quality.
+Coding guidelines can target preference or quality.
 
 Coding guidelines can be descriptive, prescriptive, or both.
 
-Coding guidelines must be communicated, enforced and reviewed.
+Coding guidelines must be communicated, enforced, and reviewed.
 
 And, there are some solid coding guidelines out there.
 
-At Google we used to say, “the point of having style guidelines is to have a common vocabulary so people can concentrate on what you’re saying rather than on how you’re saying it.” I hope that despite the brevity of this pamphlet, you, too, can now help your team concentrate on what you’re saying, a little better.
+At Google we used to say, “the point of having style guidelines is to have a common vocabulary so people can concentrate on _what_ you’re saying rather than on _how_ you’re saying it.” I hope that despite the brevity of this pamphlet, you, too, can now help your team concentrate on what you’re saying, a little better.
