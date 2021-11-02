@@ -22,6 +22,8 @@ It has likewise been written by a web developer. I, Jens, have during my career 
 
 I’d like to thank the following people for their help with this book: Tony Ruscoe for reviewing and advising to the first draft. Asim Janjua, my good friend, for sharing some of his thoughts. Eric Meyer for the generous foreword; if it wasn’t for Eric’s work, a huge part of the web development world would look grim today, technically speaking. Simon St.Laurent and Meg Foley for guiding the book down the right track at O’Reilly. The O’Reilly staff, particularly Kristen Brown, and the many other friendly, supportive people involved in making this information accessible and enjoyable. Julia Tang for her always loving support. The W3C and WHATWG groups, the Google Webmaster Team, and the people I’ve worked with over time who made me a better web developer. Thank you.
 
+{pagebreak}
+
 ## Key Concepts
 
 Before we dive into frameworks, let’s first go over a few general ideas. We don’t have to agree on everything; all we want is to prevent misunderstandings over the course of this book.
@@ -54,6 +56,8 @@ Second, some assumptions:
 * Good code is code that is of measurably or arguably high quality, where arguably means conforming to common best practices.
 
 High-quality code can be said to be tailored, but it doesn’t follow that high-quality code saves cost, at least not as a general rule. Tailored code itself, however, always saves cost. With this first insight, let’s begin.
+
+{pagebreak}
 
 ## Understanding Frameworks
 
@@ -199,6 +203,8 @@ These frameworks all vary in functionality and scope. Some focus on base layouts
 
 Such a list of frameworks is the type of information that goes stale quickly. While some frameworks, most notably YAML (not to be confused with [YAML Ain’t Markup Language](https://en.wikipedia.org/wiki/YAML)), have been around for many years, other frameworks come and go. It’s more useful to obtain said impression from this list, regard it as a snapshot, and, perhaps, make it a starting point to experiment.
 
+{pagebreak}
+
 ## Attributes of a Good Framework
 
 Now, what is a “good” framework? What does a framework have that we want to use? What constitutes the framework we want to build? I’ve thought about and worked with and discussed this question many times.
@@ -319,6 +325,8 @@ D> Please note that despite all my experience and convictions, I’ve phrased th
 D>
 D> Another thing before we move on: no matter the quality of the framework, the _goal_ for its use is always on the owners and developers. Frameworks can be likened to cars: a good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored and usable and extensible. But just as we look at the driver to know the destination for their car, we look at the developer to know the goals for the framework they’re using. We can drive a framework against the wall just as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: a framework doesn’t drive itself.
 
+{pagebreak}
+
 ## Using Frameworks
 
 Two ways we’ve been exposed to frameworks are by using and developing them (with some inherent overlap). Our initial definition gives this an interesting spin, as we have seen that we can regard any style sheet or script as a “framework.” So anyone who has worked with style sheets and scripts already has a _basic_ idea of how to use frameworks.
@@ -388,6 +396,8 @@ D> The more complex the project and the bigger the organization, the harder it c
 I> [This used to be a longer section about overwriting vs. extending. An edited conclusion seems to suffice:]
 I>
 I> Overwriting styling in other places of our style sheets can not only have side effects and introduce inconsistencies, but make our work extremely complicated. We may face two challenges on debugging: first, what happens exactly, and second, where does it happen?
+
+{pagebreak}
 
 ## Developing Frameworks
 
@@ -575,6 +585,8 @@ D> * Logistics
 D>
 D> As these are ordered in descending order of importance, our frameworks can probably survive with poor support and gaping docs, but sacrifices in vision, testing, and commitment will break their necks.
 
+{pagebreak}
+
 ## Common Problems
 
 Since frameworks are most useful in larger projects, problems involving frameworks tend to be bigger, too. Here are a few of the most common and gravest issues, along with ideas on how to address them.
@@ -612,6 +624,8 @@ The last big issue is to not have what it takes—even if that’s manager suppo
 Sticking with a broken framework, a failed one, or perhaps a glorious one that has just reached the end of its lifetime can be a challenge. When that happens to us, we need to get over it. As professionals, we have big goals and we want our code to last—but sometimes we fail, and then we need to… suck it up.
 
 Fortunately, there’s always more code to write. The next framework—or style sheet, or script—is already waiting for us.
+
+{pagebreak}
 
 ## Summary
 

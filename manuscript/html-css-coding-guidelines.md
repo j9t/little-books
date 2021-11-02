@@ -32,6 +32,8 @@ I’d like to thank [Tony Ruscoe](http://ruscoe.net/) for his always friendly an
 
 Thanks, too, go to [Harry Roberts](https://csswizardry.com/), [Dan Hay](http://www.onepointed.com/dan/), as well as [Google’s](https://www.google.com/) and [WordPress’s](https://wordpress.org/) developers for all their work on coding standards (and permission to quote within this book).
 
+{pagebreak}
+
 ## The Purpose of Coding Guidelines
 
 Let’s imagine a world without coding guidelines. Or a company without coding guidelines. Or, perhaps, ourselves without coding guidelines.
@@ -160,6 +162,8 @@ More importantly, yet also consequentially, coding guidelines facilitate collabo
 
 Lastly, coding guidelines and the consistency they bring to our code help maintainability. They do so because guidelines constitute a form of organization, a lower degree of entropy, which literally means it’s easier to order, and to keep things in order. Although often neglected, maintainability is important, as there’s no code in existence that will only be touched once. Even if it’s not going to be edited or updated again, eventually it must be decommissioned. And that falls under maintenance, too.
 
+{pagebreak}
+
 ## Anatomy of a Coding Guideline
 
 What exactly is in a coding guideline? Isn’t that just a command like, “do _x_”? In its simplest form, yes. But coding guidelines can and should entail more detail, and then it’s on the purpose and importance of the rule to prove value.
@@ -277,6 +281,8 @@ For coding guidelines, then, this difference results in a sense of priority. Tho
 
 We may suspect that preference rules are easier to define and spot than quality rules, but the jury’s still out on that.
 
+{pagebreak}
+
 ## Approaches to Coding Guidelines
 
 How do we then set up and promote coding guidelines?
@@ -313,6 +319,8 @@ Once there’s something to prescribe, there’s also something to enforce.
 
 Yet then, in everyday coding life, we face coding practices we want to document (describe), and others we want to achieve (prescribe). This means that most coding guidelines and standards include rules that are mixed, using both approaches.
 
+{pagebreak}
+
 ## Decision Process
 
 How do we decide when to use which coding guidelines? The following flowchart can help us:
@@ -323,6 +331,8 @@ How do we decide when to use which coding guidelines? The following flowchart ca
 What we can see is that for a team of one, we don’t strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) (personally, even after leaving Google I follow these guidelines for my personal projects).
 
 Whenever two or more people work together, however, coding guidelines become useful, and really important. And there the question is one of goals, and existing quality, to say whether for a given guideline, we need a descriptive or a prescriptive approach.
+
+{pagebreak}
 
 ## Coding Guidelines in Practice
 
@@ -353,6 +363,8 @@ It is something that gets maintained (as much as the affected code—we should n
 Lastly, a particularly useful habit—and a key for future handling of coding guidelines—is automation. The assessment of code quality should be automated as much as possible and we should also automate improving and fixing code.
 
 At the moment, there is no single out-of-the-box solution for this (only [small scripts](https://robertnyman.com/2010/01/19/tools-for-concatenating-and-minifying-css-and-javascript-files-in-different-development-environments/) abound), but our vision overall should be that our development environment shows us local coding preferences, highlights violations and fixes them for us; that then, when we stage our code, additional checks are run that likewise report issues and fix them, and that at the end, optimized, minified, compressed, our code goes live in the shape we had envisioned it.
+
+{pagebreak}
 
 ## Proven HTML/CSS Coding Guidelines
 
@@ -864,6 +876,8 @@ html {
   font-family: 'helvetica neue', helvetica, sans-serif;
 }
 ```
+
+{pagebreak}
 
 ## Summary
 
