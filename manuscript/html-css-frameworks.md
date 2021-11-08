@@ -8,13 +8,13 @@ C> Dedicated to the Google Webmaster Team under Dennis Hwang
 
 Many commercial websites these days are based on frameworks, and many personal websites use them, too. Yet what are frameworks, why and when do we need them, and how do we best use or build them?
 
-This little book explores frameworks that govern HTML and CSS (and JavaScript) code. It focuses on HTML and CSS because these are at the heart of every web project. The principles outlined in the book, however, can also be applied to other forms of frameworks.
+This little book explores frameworks that govern HTML and CSS (and JavaScript) code. It focuses on HTML and CSS because these are at the heart of every web project. The principles outlined in the book, however, can also apply to other forms of frameworks.
 
 The goal of the book is to share solid, higher-level ideas around frameworks, trading some specificity for long-term usefulness. We could analyze all the different frameworks that are out right now, but if you wanted to make up your own mind or write a framework yourself, how useful would such review be if you picked this book up again in five years?
 
-While the book attempts to cover all bases, it glosses over some of them, too. Web development has become a large field. Also, as we’ll see shortly, framework development pivots around tailoring, and tailoring depends on circumstances. We don’t know every project’s circumstances, and so we can’t generalize everything.
+While the book attempts to cover all bases, it glosses over some of them, too. Web development has become a large field. Also, as we’ll see shortly, framework development pivots around tailoring, and tailoring depends on circumstances. We don’t know every project’s circumstances, so we can’t generalize everything.
 
-Although written in simple language, the book is geared toward expert web developers, the people who decide about whether and how to use, or whether or not to develop a framework.
+Although written in simple language, the book is geared toward expert web developers; the people who decide whether to use a framework, how to use it, and whether to develop one.
 
 It has likewise been written by a web developer. I, Jens, have during my career architected frameworks for [OpenKnowledge](https://www.openknowledge.de/), [GMX](https://www.gmx.net/), [Aperto](https://www.aperto.com/) with their government and business clients, as well as [Google](https://www.google.com/). In that time, I haven’t managed to outwit the fast pace of our industry, but I’ve found that some principles, methods, and practices contribute to longer-lasting code. That has benefited the frameworks I wrote, and I hope it will benefit you through this book, too.
 
@@ -65,7 +65,7 @@ High-quality code can be said to be tailored, but it doesn’t follow that high-
 
 “Framework” is a broad term, often misunderstood. Conceptually, a framework in the web development sense can be likened to a library: a library not of books but of design patterns, complete with all needed functionality.
 
-For example, the [Pure framework](https://purecss.io/) knows, with overlap, the following button types:
+For example, the [Pure framework](https://purecss.io/) features the following button types:
 
 * Default
 * Disabled
@@ -310,7 +310,9 @@ Extensibility is necessary for two reasons. First, external frameworks in partic
 
 To make up for lacking functionality in a framework, users typically help themselves by pretending they don’t use a framework in the first place. That is, they have a style sheet or script that handles everything the framework doesn’t cover. That’s actually quite okay; the point here is to _be clear_ about how such “non-framework functionality” or extensions are handled (and we notice how extensibility is also a user responsibility). If nothing else, extensibility stresses the need for the most basic of all code safeties: a namespace (a framework-specific ID and class name prefix, and the same namespace in JavaScript).
 
-Next, new and rarely used patterns are a challenge that runs in the best families. There tends to always be a need for something new, and there are always document types or elements that are used infrequently. They’re one of the biggest contributing factors to code bloat. They are hard to control if they don’t get watched and reigned in vigorously. Though I could give a longer dissertation about the matter, an effective counter-practice is to either designate style sheet and script sections for new and experimental code, as well as rare elements—or to even put aside a separate style sheet and script for such purposes. The framework developers should anticipate this and make recommendations, but users should come up with their own guidelines if this piece has not been covered. A documented standard for new code allows better monitoring and better decisions on whether to keep (and relocate) the code, or to remove it.
+Next, new and rarely used patterns are a challenge that runs in the best families. There tends to always be a need for something new, and there are always document types or elements that are used infrequently. They’re one of the biggest contributing factors to code bloat. They are hard to control if they don’t get watched and reigned in vigorously.
+
+Though I could give a longer dissertation about the matter, an effective counter-practice is to either designate style sheet and script sections for new and experimental code, as well as rare elements—or to even put aside a separate style sheet and script for such purposes. The framework developers should anticipate this and make recommendations, but users should come up with their own guidelines if this piece has not been covered. A documented standard for new code allows better monitoring and better decisions on whether to keep (and relocate) the code, or to remove it.
 
 We’ve successfully applied this principle with Google’s HTML/CSS framework Go—not to be confused with the programming language, which was conceived two years later. Go came with a “backpack” library, Go X, which included elements that we used only occasionally. This kept the core very small—[4,250 bytes](https://www.google.com/css/go.css) including the Google logo—but offered the use of additional, common-enough elements. Project-specific code made for a third layer that had to be carried by each project style sheet itself.
 
