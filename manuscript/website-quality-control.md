@@ -14,9 +14,9 @@ But how do we know that our work—that our websites—are good? Many criteria a
 
 Quality management, which can be broken down into quality planning, quality assurance, quality control, and quality improvement, comes with a host of methods to not just identify (control) and fix (improvement) defects, but to avoid them systematically (planning, assurance).
 
-This little book, which is the third in a series of books that cover important components of modern web development (after web frameworks and coding standards), focuses mostly on the quality control piece, for if we can’t “see” what’s wrong, we won’t fix or plan to avoid what’s wrong. Still, it’s going to share advice on how to tie quality to our processes, for it _is_ more useful to learn how to fish than to hope to be fed every day. The book will do all of this in a loose and relaxed manner, however, and not to the extent ISO standards would cover quality.
+This little book focuses mostly on the quality control piece, for if we can’t “see” what’s wrong, we won’t fix or plan to avoid what’s wrong. Still, it’s going to share advice on how to tie quality to our processes, for it _is_ more useful to learn how to fish than to hope to be fed every day. The book will do all of this in a loose and relaxed manner, however, and not to the extent ISO standards would cover quality.
 
-Finally, and although this should matter only in few instances, the book hinges more on websites rather than web apps. That [distinction](https://meiert.com/en/blog/docs-and-apps/) is usually relevant when it comes to standards and development best practices, but there are some differences in how one should go about quality checking of sites as opposed to apps. What follows will work slightly better and allow for more complete quality control of _websites_.
+Finally, and although this should matter only in few instances, the book hinges more on websites than web apps. That [distinction](https://meiert.com/en/blog/docs-and-apps/) is usually relevant when it comes to standards and development best practices, but there are some differences in how one should go about quality checking of sites as opposed to apps. What follows will work slightly better and allow for more complete quality control of _websites_.
 
 This is a little book, then, because it’s short. Let’s leave the intro behind.
 
@@ -24,13 +24,13 @@ This is a little book, then, because it’s short. Let’s leave the intro behin
 
 Quality, as this book aims to show, is such an important matter that it would be surprising if I, writing about the very subject, could not name the people from whom I learned to improve my work. Lars Röwekamp and Jens Schumann, executives of [Open Knowledge GmbH](https://www.openknowledge.de/) in Oldenburg, Germany, are the first to come to my mind.
 
-Many more people inspired my work, and many more people helped make this book reality. I thank my former colleague, manager, and friend Kevin Khaw for the foreword, and I thank the entire O’Reilly team for their swift, competent, and kind support. If this book turns out well, it will have been because of them. Thank you.
+Many more people inspired my work, and many more people helped make this book reality. I thank my former colleague, manager, and friend, Kevin Khaw, for the foreword [for the original edition], and I thank the entire O’Reilly team for their swift, competent, and kind support. If this book turns out well, it will have been because of them. Thank you.
 
 {pagebreak}
 
 ## What Is Quality Control?
 
-Wikipedia defines [quality control](https://en.wikipedia.org/wiki/Quality_control) (often, but rarely in this book, abbreviated as “QC”) as “a process by which entities review the quality of all factors involved in production.” ISO 9000, also through Wikipedia, is said to define quality control as “a part of quality management focused on fulfilling quality requirements.” Google, without attribution, understands quality control to be “a system of maintaining standards in manufactured products by testing a sample of the output against the specification.”
+Wikipedia defines [quality control](https://en.wikipedia.org/wiki/Quality_control) (often abbreviated as “QC,” but rarely in this book) as “a process by which entities review the quality of all factors involved in production.” ISO 9000, also through Wikipedia, is said to define quality control as “a part of quality management focused on fulfilling quality requirements.” Google, without attribution, understands quality control to be “a system of maintaining standards in manufactured products by testing a sample of the output against the specification.”
 
 We want to use a definition that is stricter on the one end and more lenient on the other: “Website quality control entails the means to determine (a) whether our websites meet our expectations and (b) to what degree they meet professional best practices.”
 
@@ -130,7 +130,9 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 
 ### Accessibility
 
-[Per Wikipedia](https://en.wikipedia.org/wiki/Accessibility), accessibility “refers to the design of products, devices, services, or environments for people with disabilities”; “the concept of accessible design ensures both ‘direct access’ (i.e., unassisted) and ‘indirect access,’ meaning compatibility with a person’s assistive technology (for example, computer screen readers).” Accessibility is one of the most important ideas to understand, for the Web is all about accessibility. Accessibility is, in fact, the Web’s biggest promise. Accessibility has often been linked to making data available to machines—like search engine bots—but it is, first and foremost, about making information available to _people_.
+[Per Wikipedia](https://en.wikipedia.org/wiki/Accessibility), accessibility “refers to the design of products, devices, services, or environments for people with disabilities”; “the concept of accessible design ensures both ‘direct access’ (i.e., unassisted) and ‘indirect access,’ meaning compatibility with a person’s assistive technology (for example, computer screen readers).”
+
+Accessibility is one of the most important ideas to understand, for the Web is all about accessibility. Accessibility is, in fact, the Web’s biggest promise. Accessibility has often been linked to making data available to machines—like search engine bots—but it is, first and foremost, about making information available to _people_.
 
 Accessibility legislation exists in many countries, like [Section 508](https://www.section508.gov/) in the United States, [BITV](https://www.gesetze-im-internet.de/bitv_2_0/) in Germany, or [RGAA](https://web.archive.org/web/20151122054135/http://references.modernisation.gouv.fr/rgaa-3-0) in France. The key standards, the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/), published by the World Wide Web Consortium (W3C), have gone through two versions and are, though not perfect, robust. There are a good number of tools, as we shall see. And still, accessibility remains one of the industry’s stepchildren.
 
@@ -387,7 +389,7 @@ The listed quality checks, now, look at compliance, comparing code strings again
 * [HTML, CSS, and JS Formatter](https://www.10bestdesign.com/dirtymarkup/)
 * [JSON Formatter](https://jsonformatter.curiousconcept.com/)
 
-After we have properly formatted our code and made it consistent, however, we still want to make it production-ready by compressing and minifying it. Our work files should be easy (to understand) for us, and our production files should be easy (to parse and transfer) for others. For this there are additional tools.
+After we have properly formatted our code and made it consistent, we still want to make it production-ready by compressing and minifying it. Our work files should be easy (to understand) for us, and our production files should be easy (to parse and transfer) for others. For this there are additional tools.
 
 * [CSS Compressor](https://hell.meiert.org/aux/compress/css/gui/)
 * [HTML Compressor](http://htmlcompressor.com/compressor/)
@@ -699,7 +701,7 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 
 This was a brief treatise on the subject of website quality control. What have we learned?
 
-Quality management consists of quality planning, quality assurance, quality control, and quality improvement, and it comes with a number of methods to identify (control), fix (improvement), and avoid defects (planning, assurance).
+Quality management consists of quality planning, quality assurance, quality control, and quality improvement. It comes with a number of methods to identify (control), fix (improvement), and avoid defects (planning, assurance).
 
 Website quality control entails the means to determine (a) whether websites meet our own expectations and (b) to what degree our websites meet professional best practices.
 

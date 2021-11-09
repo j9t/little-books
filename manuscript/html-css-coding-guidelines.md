@@ -20,9 +20,11 @@ Sometimes called standards, sometimes conventions, they can govern many code-rel
 
 Most of the time, we find coding guidelines in big organizations and large projects. As individual developers, perhaps even hobbyist developers, we don’t need and perhaps appreciate them that much. But in those big organizations and large projects, coding guidelines are critical. Software and web development leave a lot of room for preference, and preference makes for a lot of inconsistency and confusion, if not kept at bay.
 
-As Wikipedia suggests, coding guidelines go beyond formatting; they can also cover development principles, and with that direct development with an even firmer grip.
+As Wikipedia suggests, coding guidelines go beyond formatting; they can also cover development principles and, with that, direct development with an even firmer grip.
 
-In this _Little Book_, I share my experience with HTML and CSS coding guidelines. Why me and why guidelines for HTML and CSS? A web developer by trade, and one who’s closely following the development of web standards, I’m most familiar with HTML and CSS. And I’m similarly familiar with coding guidelines. Ten years ago, I introduced [HTML/CSS rules](https://meiert.com/de/publications/articles/20060326/) at [GMX](https://www.gmx.net/), the largest email provider in Germany. When I joined top agency [Aperto](https://www.aperto.com/), I did the same thing and created, together with [Timo Wirth](https://web.archive.org/web/20181019181036/http://www.vorsprungdurchwebstandards.de/), [guidelines that ruled all frontend code](https://web.archive.org/web/20140814054548/http:/blog.aperto.de/html-und-css-code-richtlinien-bei-aperto/), including Aperto’s large commercial and governmental customers. And later, I took the opportunity at Google to found a team and with that team revise [Google’s CSS guidelines and create all new HTML guidelines](https://google.github.io/styleguide/htmlcssguide.html).
+In this _Little Book_, I share my experience with HTML and CSS coding guidelines. Why me and why guidelines for HTML and CSS? A web developer by trade, and one who’s closely following the development of web standards, I’m most familiar with HTML and CSS. And I’m similarly familiar with coding guidelines.
+
+Ten years ago, I introduced [HTML/CSS rules](https://meiert.com/de/publications/articles/20060326/) at [GMX](https://www.gmx.net/), the largest email provider in Germany. When I joined top agency [Aperto](https://www.aperto.com/), I did the same thing and created, together with [Timo Wirth](https://web.archive.org/web/20181019181036/http://www.vorsprungdurchwebstandards.de/), [guidelines that ruled all frontend code](https://web.archive.org/web/20140814054548/http:/blog.aperto.de/html-und-css-code-richtlinien-bei-aperto/), including Aperto’s large commercial and governmental customers. And later, I took the opportunity at Google to found a team and with that team revise [Google’s CSS guidelines and create all new HTML guidelines](https://google.github.io/styleguide/htmlcssguide.html).
 
 The two most fundamental lessons I learned were that coding guidelines absolutely are a cornerstone of professional web development, and, in contrast to this, that it’s easier to set them up than to get them followed. And this brings us into a good position to start.
 
@@ -206,7 +208,7 @@ Dan Hay’s coding standards say the following [about “verbose” HTML code](h
 > 
 > Most HTML editors liberally insert STADN tags. This behavior is yet another reason why HTML editors must not be used.
 
-(“Tag” should say “element” here.)
+(“Tag” means “element” here.)
 
 And for WordPress, [vendor-specific extensions](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/#vendor-prefixes) are worth special attention:
 
@@ -289,7 +291,7 @@ How do we then set up and promote coding guidelines?
 
 That approach is best based on the difference between reality and goals. How does our code currently look? How should it look going forward?
 
-We can learn from the approach taken by linguists: they call grammars prescribing how people ought to speak or write _prescriptive grammars_, and those describing what people actually use _descriptive grammars_.
+We can learn from the approach taken by linguists: they call grammars prescribing how people ought to speak or write _prescriptive grammars_, and those describing what people actually say and write _descriptive grammars_.
 
 Let’s see how this can be applied to coding guidelines, and what else is involved.
 
@@ -348,13 +350,13 @@ Fortunately, in most modern companies, teams have mailing lists to communicate g
 
 The next important aspect is achieving compliance—that is, enforcing the guidelines. This is normally a two-fold process.
 
-First, we need to _measure_ whether coding guidelines are followed or not. For that, we need to set up the necessary infrastructure and tools, though manually probing for compliance, as with code reviews, does work, too. In practice, this piece is frequently neglected, and organizations don’t know much about their actual compliance rates. Automation, which we will look at momentarily, is crucial here. _How_ to automate the whole compliance part is not subject of this booklet, however.
+First, we need to _measure_ whether coding guidelines are followed or not. For that, we need to set up the necessary infrastructure and tools. Manually probing for compliance, as with code reviews, does work, too. In practice, this piece is frequently neglected, and organizations don’t know much about their actual compliance rates. Automation, which we will look at momentarily, is crucial here. _How_ to automate the whole compliance part is not subject of this booklet, however.
 
 Second, we need to _enforce_ the code style we want to see. Here, too, automation is desirable, but we also need a way to track and score offenders. Tying coding style compliance to performance metrics that got communicated in advance is an effective approach. For example, a team member who repeatedly violates coding standards could get a lower performance rating than one who does keep with it.
 
 ### Reviews
 
-Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so, too, should our guidelines be reviewed from time to time—it’s important to update the documentation to reflect changes to guidelines as they arise.
+Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so, too, should we review our guidelines from time to time—it’s important to update the documentation to reflect changes to guidelines as they arise.
 
 It is something that gets maintained (as much as the affected code—we should not forget to update it when guidelines change). It is therefore recommended not only to assign a primary contact (or a small team of volunteers) to be guideline owners, but to also schedule at least quarterly reviews that check whether updates are needed.
 

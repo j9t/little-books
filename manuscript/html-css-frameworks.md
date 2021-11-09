@@ -20,7 +20,7 @@ It has likewise been written by a web developer. I, Jens, have during my career 
 
 ### Acknowledgments
 
-I’d like to thank the following people for their help with this book: Tony Ruscoe for reviewing and advising to the first draft. Asim Janjua, my good friend, for sharing some of his thoughts. Eric Meyer for the generous foreword; if it wasn’t for Eric’s work, a huge part of the web development world would look grim today, technically speaking. Simon St.Laurent and Meg Foley for guiding the book down the right track at O’Reilly. The O’Reilly staff, particularly Kristen Brown, and the many other friendly, supportive people involved in making this information accessible and enjoyable. Julia Tang for her always loving support. The W3C and WHATWG groups, the Google Webmaster Team, and the people I’ve worked with over time who made me a better web developer. Thank you.
+I’d like to thank the following people for their help with this book: Tony Ruscoe for reviewing and advising to the first draft. Asim Janjua, my good friend, for sharing some of his thoughts. Eric Meyer for the generous foreword [for the original edition]; if it wasn’t for Eric’s work, a huge part of the web development world would look grim today, technically speaking. Simon St.Laurent and Meg Foley for guiding the book down the right track at O’Reilly. The O’Reilly staff, particularly Kristen Brown, and the many other friendly, supportive people involved in making this information accessible and enjoyable. Julia Tang for her always loving support. The W3C and WHATWG groups, the Google Webmaster Team, and the people I’ve worked with over time who made me a better web developer. Thank you.
 
 {pagebreak}
 
@@ -560,7 +560,7 @@ Our journey, now that we diligently worked through everything relevant to framew
 * Quality-control tools
 * Documentation
 
-What we haven’t touched are:
+What we have _not_ touched are:
 
 * Framework development plans or roadmaps
 * Version control systems (like [Git](https://git-scm.com/), [Mercurial](https://mercurial.selenic.com/), or [Subversion](https://subversion.apache.org/))
