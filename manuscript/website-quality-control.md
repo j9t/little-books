@@ -62,7 +62,7 @@ The tools are mostly web-based; applications have been left out, and exceptions 
 
 ### Security
 
-Security can be considered the most important thing to test for because whatever it is we (or our users) are doing, if the security of it is compromised, we (or our users) are compromised and can be harmed in a number of ways, from losing data (and privacy) to losing the service itself, and possibly much more. We stand and fall with the security of the services we offer.
+Security can be considered the most important thing to test for. Whatever it is we (or our users) are doing, if the security of it is compromised, we (or our users) are compromised and can be harmed in a number of ways. This can go from losing data (and privacy) to losing the service itself, and possibly much more. We stand and fall with the security of the services we offer.
 
 Security is critical, but it’s also tricky in the light of website quality control. For one, websites—rather than apps—may or may not deal with personal and sensitive information, or ask their users to give such information. For another, security is not trivial to test and not necessarily to be evaluated all from the outside. This leads us to the situation in which, although security is so crucial, there’s not that much to add outside the context of dedicated information security.
 
@@ -404,7 +404,7 @@ With the overview and tools we’ve now gathered, what does quality control of w
 
 ### Training
 
-Training is a first important step toward successfully implementing quality control practices. Training should be understood generally here, for any professional training that teaches people how to produce better work will at the same time benefit quality. In that sense, training will not be elaborated on here.
+Training is an important first step toward successfully implementing quality control practices. Training should be understood generally here, for any professional training that teaches people how to produce better work will at the same time benefit quality. In that sense, training will not be elaborated on here.
 
 However, training can also be offered and attended specifically to establish a quality mindset, to improve the associated skills, and to promote tools that measure and improve quality. (As such, training will also be linked to the following points, but not be called out again.)
 
@@ -416,7 +416,7 @@ The most important factor when it comes to quality in practice is the mindset. T
 
 Communication is the primary way to spread and instill a mindset of quality, with quality as the goal and guiding principle.
 
-This communication should sporadically be repeated, but doesn’t need to consist of overt reminders on why quality matters and how it benefits everybody. If we want to repeat the essence of both answers here, then: quality is important to deliver work that is good by professional standards and that benefits everyone, because products of quality are easier and more pleasant to consume and work with.
+This communication should sporadically be repeated, but doesn’t need to consist of overt reminders on why quality matters and how it benefits everybody. If we want to repeat the essence of both answers here, then: quality is important in order to deliver work that is good by professional standards and that benefits everyone, because products of quality are easier and more pleasant to consume and work with.
 
 Communication is, for that reason, important because we all benefit from being reminded of our priorities.
 
@@ -440,7 +440,7 @@ In the context of coding guidelines, we’ve learned to differentiate between de
 
 How do we enforce quality? This is still a difficult question; so difficult, in fact, that in practice we often see it dodged. Why? Because enforcement easily upsets people, and we don’t want to upset people, not even—or especially—when they report to us. But we’re on the right track here.
 
-Enforcement happens top-down. Executives and managers are to be looked at to emphasize and _live_ quality, to reward good quality, and to—in one way or another—discourage poor quality. How? By doing what we frequently miss: measuring quality and tying related metrics to performance evaluations.
+Enforcement happens top-down. Executives and managers are to emphasize and _live_ quality, to reward good quality, and to—in one way or another—discourage poor quality. How? By doing what we frequently miss: measuring quality and tying related metrics to performance evaluations.
 
 Two anecdotes illustrate that approach. There’s one tale of a manager who has, despite efforts of their team to up the ante and increase quality in their department, never endorsed, let alone supported or encouraged those team members’ efforts in team communications or goals. That quality initiative’s efforts, witnessed at one point at a major corporation, suffered a significant blowback.
 
@@ -472,7 +472,7 @@ The more a quality initiative grows and matures, the more tools and methods it m
 
 {pagebreak}
 
-## Tools
+## Tools Overview
 
 The following serves as an overview of web-based tools, browser extensions, command-line tools, scripts, and bookmarklets. It is not complete; it will lack important tools; but many tools come with my endorsement, and the promise to serve you.
 
