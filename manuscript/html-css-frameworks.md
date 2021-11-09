@@ -95,7 +95,7 @@ For example, to use [Bootstrap](https://getbootstrap.com/), we must reference so
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 ```
 
-Now that we compared frameworks to fully functional pattern libraries, here’s another view. Frameworks can also be seen as just the style sheets and scripts they are, and external frameworks as _shared_ style sheets and scripts that get lifted to a higher status. We could indeed pick any style sheet or script or both and declare it a framework!
+Just as we compared frameworks to fully functional pattern libraries, here’s another view. Frameworks can also be seen as the style sheets and scripts they are, and external frameworks as _shared_ style sheets and scripts that get lifted to a higher status. We could indeed pick any style sheet or script or both and declare it a framework!
 
 The implications of this second insight are far-reaching. Although rather trivial, it’s one of the keys to understanding frameworks. We’ll keep the term “framework” to use common industry language but will at times look at the idea of elevated style sheets and scripts for guidance.
 
@@ -325,7 +325,7 @@ To make frameworks more extensible:
 
 D> Please note that despite all my experience and convictions, I’ve phrased these rules as strong suggestions. I was tempted to say “must,” “must,” “must.” Whenever we like more dogma in our web development life, we use this verb.
 D>
-D> Another thing before we move on: no matter the quality of the framework, the _goal_ for its use is always on the owners and developers. Frameworks can be likened to cars: a good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored and usable and extensible. But just as we look at the driver to know the destination for their car, we look at the developer to know the goals for the framework they’re using. We can drive a framework against the wall just as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: a framework doesn’t drive itself.
+D> Another thing before we move on: no matter the quality of the framework, the _goal_ for its use is always on the owners and developers. Frameworks can be likened to cars: a good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored and usable and extensible. But just as we look at the driver to know the destination for their car, we look at the developer to know the goals for the framework they’re using. We can drive a framework against the wall as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: a framework doesn’t drive itself.
 
 {pagebreak}
 
