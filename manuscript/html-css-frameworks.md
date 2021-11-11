@@ -225,24 +225,24 @@ I> ### On Quality
 I>
 I> It’s easy to just say “quality,” and, “Yes, I’ll have that, too.” But what exactly _is_ quality? Or, for our purposes, what is quality code? When we think about it—consider lifting our eyes from these pages, and think code quality—we won’t struggle to find more than just the ideals of tailored, usable, and extensible. There’s also:
 I>
-I> * Fast
-I> * Accessible
-I> * Semantic
-I> * Robust
-I> * Scalable
-I> * Documented
-I> * Maintainable
-I> * Valid
-I> * Self-explaining
-I> * Consistent
-I> * State-of-the-art
-I> * Simple
-I> * Compact
-I> * Flexible
-I> * Tested
-I> * Fault-tolerant
-I> * Self-correcting
-I> * “Automagical”
+I> * fast
+I> * accessible
+I> * semantic
+I> * robust
+I> * scalable
+I> * documented
+I> * maintainable
+I> * valid
+I> * self-explaining
+I> * consistent
+I> * state-of-the-art
+I> * simple
+I> * compact
+I> * flexible
+I> * tested
+I> * fault-tolerant
+I> * self-correcting
+I> * “automagical”
 I>
 I> …and this doesn’t even include anything emotional we may want to attach to quality, like “pleasant” or “fun.” But what we see is that quality has many different faces.
 
@@ -431,15 +431,15 @@ A prototype is an irreplaceable testing ground that we need to obtain the end re
 
 Prototypes follow their own principles, however. They must be, as I [attempted to summarize](https://meiert.com/en/blog/requirements-for-website-prototypes/#toc-requirements) in earlier years (slightly reworded):
 
-* Complete
-* Current
-* Realistic
-* Focused
-* Accessible/available
-* Managed with discipline
-* Maintained
-* Communicated/promoted
-* Documented
+* complete
+* current
+* realistic
+* focused
+* accessible/available
+* managed with discipline
+* maintained
+* communicated/promoted
+* documented
 
 Each of these points is important, but the first three are critical. The prototype has to include everything (all document types and elements), it must be current (any functionality changes must be reflected immediately), and it needs to be realistic (the sample data must be an as-good-as-possible approximation of how the framework is going to be used outside of the prototype).
 
