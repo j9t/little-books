@@ -419,7 +419,7 @@ These shall serve as every framework’s core values (for which we can use the a
 
 Customization plays a special role here, for it is the secret weapon—and last line of defense—of the external framework developer. Offering framework customization options is the only way to get closer to tailoring for outside users, users whose projects we will never know.
 
-I decided against including a section about customization because it’s not a magic pill for external frameworks, and can stack the whole deck against the framework developer instead of the framework user. This is because the more customization options there are, the more complex the framework gets. Yet that’s still only talking framework development. The framework and all its customized subversions, as we’ll see shortly, still need to be tested, maintained, and optimized.
+I decided against including a section about customization because it’s not a magic pill for external frameworks, and can, in terms of challenges, stack the deck against the framework developers. This is because the more customization options there are, the more complex the framework gets. Yet that’s still only talking framework development. The framework and all its customized subversions, as we’ll see shortly, still need to be tested, maintained, and optimized.
 
 ### Prototype
 
@@ -427,7 +427,7 @@ The single most important thing we need to build a successful framework is a pro
 
 What do we mean by prototype? In its simplest form, it is a static (internal) website or demo site. It should contain all document types and elements we need in production: The prototype is where we code all the structure (HTML), presentation (CSS), and behavior (JavaScript). And the prototype should include realistic (occasionally intermingled with extreme) sample contents: That’s how we test that everything works.
 
-A prototype is an irreplaceable testing ground that we need to obtain the end result we want.
+A prototype is an irreplaceable testing ground, one we need in order to develop a framework effectively.
 
 Prototypes follow their own principles, however. They must be, as I [attempted to summarize](https://meiert.com/en/blog/requirements-for-website-prototypes/#toc-requirements) in earlier years (slightly reworded):
 
@@ -445,7 +445,7 @@ Each of these points is important, but the first three are critical. The prototy
 
 ### Quality Management
 
-In order to be sure that we deliver the quality we’re committing to as professionals, we need to verify it. This is done through quality assurance (which aims to prevent issues by focusing on the process), and quality control (which aims to find and fix issues in the end product).
+In order to be sure that we deliver the quality we’re committing to as professionals, we need to verify it. This is done through quality assurance (which aims to prevent issues by focusing on the process) as well as quality control (which aims to find and fix issues in the end product).
 
 Web development, as a still rather young discipline, knows more quality control than quality assurance. Good examples are [validation](https://uitest.com/analysis/#validation), [accessibility](https://uitest.com/analysis/#accessibility), and [performance checks](https://uitest.com/analysis/#performance), of which there are plenty. On the quality assurance end, the most prominent example is the enactment of coding guidelines, but more and more organizations and individuals use elaborate infrastructure to continuously test and improve their code. (This is all related to web rather than software development, since in software development, there is a longer history and strong tradition of working with tests.)
 
@@ -468,7 +468,7 @@ For quality control, test:
 
 (Incidentally, I run a website hub dedicated to web development testing tools. Check [uitest.com/analysis](https://uitest.com/analysis/) for a large selection of them.)
 
-To take a page out of Google’s book, it’s best to automate checks. Reviewing tool documentation can give valuable pointers, as a number of tools can be installed locally or come with an API. In addition, there are instruments like [Selenium](https://www.selenium.dev/) and [ChromeDriver](https://bugs.chromium.org/p/chromedriver/) that facilitate automated browser testing. As with many of the more complex topics, this book will resort to showing directions.
+To take a page out of Google’s book, it’s best to automate checks. Reviewing tool documentation can give valuable pointers, as a number of tools can be installed locally or come with an API. In addition, there are instruments like [Selenium](https://www.selenium.dev/) and [ChromeDriver](https://bugs.chromium.org/p/chromedriver/) that facilitate automated browser testing. As with many of the more complex topics, this book resorts to showing directions.
 
 ### Maintenance
 
