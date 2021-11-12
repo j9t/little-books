@@ -291,7 +291,7 @@ How do we then set up and promote coding guidelines?
 
 That approach is best based on the difference between reality and goals. How does our code currently look? How should it look going forward?
 
-We can learn from the approach taken by linguists: they call grammars prescribing how people ought to speak or write _prescriptive grammars_, and those describing what people actually say and write _descriptive grammars_.
+We can learn from the approach taken by linguists: They call grammars prescribing how people ought to speak or write _prescriptive grammars_, and those describing what people actually say and write _descriptive grammars_.
 
 Let’s see how this can be applied to coding guidelines, and what else is involved.
 
@@ -313,7 +313,7 @@ But isn’t that the same rule?
 
 It is the same rule on the surface, yet a different one when looking at the context. Whether we describe or prescribe coding standards doesn’t depend on the rule, but on the situation. In both cases, we want to anchor, in writing, what code we expect.
 
-The prescriptive approach, then, depends on enforcement: when everything’s good already and we only describe, there’s little need to enforce.
+The prescriptive approach, then, depends on enforcement: When everything’s good already and we only describe, there’s little need to enforce.
 
 Once there’s something to prescribe, there’s also something to enforce.
 
@@ -411,7 +411,7 @@ Correct:
 
 #### Use Only Lowercase
 
-Where possible, code should be lowercase: this includes HTML element names, attributes, attribute values (unless `text/CDATA`), CSS selectors, properties, and property values (with the exception of [strings](https://www.w3.org/TR/CSS21/syndata.html#strings), because case can be relevant here).
+Where possible, code should be lowercase: This includes HTML element names, attributes, attribute values (unless `text/CDATA`), CSS selectors, properties, and property values (with the exception of [strings](https://www.w3.org/TR/CSS21/syndata.html#strings), because case can be relevant here).
 
 Correct:
 
@@ -891,7 +891,7 @@ Coding guidelines help consistency, and through that, indirectly, impact usabili
 
 Coding guidelines are important.
 
-The main ingredients of a coding guideline are: what (not) to do within a particular scope, examples, and an explanation.
+The main ingredients of a coding guideline are what (not) to do within a particular scope, examples, and an explanation.
 
 Coding guidelines can target preference or quality.
 

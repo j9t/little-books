@@ -199,7 +199,7 @@ Today, test tools abound for performance measuring. Here are some of them:
 
 ### Functionality
 
-Another user-centered matter concerns site functionality and navigation: can we get from _A_ to _B_? Fortunately, even though this is important to ensure, it’s easy to verify—so easy in fact, that most of the time functionality testing is “implied.”
+Another user-centered matter concerns site functionality and navigation: Can we get from _A_ to _B_? Fortunately, even though this is important to ensure, it’s easy to verify—so easy in fact, that most of the time functionality testing is “implied.”
 
 How so? What have we just said? Essentially, when we build and extend our sites and their functionality, we know whether we can access what we just built and extended. For example, when we add a new registration page or post a new press release, we typically notice, as part of the testing and launch process, whether page or release actually made it live and can be found.
 
@@ -244,7 +244,7 @@ For semantics, we should look at where it’s coming from and what people mean w
 
 For new technology and techniques, we find ourselves in a conflict. The standards community has given in to a form of arms race against itself. After years of slow progress, low output, and seeming indifference to the user and vendor community, suddenly those involved in standards want to push _everything_ forward. This has led the specifications to grow in number and size, and we still haven’t been able to take inventory of everything we’re now capable of doing. With that growing complexity, we risk losing it all, or [so I feel](https://meiert.com/en/blog/fing-up-standards/). But with respect to semantics, we’re right at the seam, and things have become loose there. Few focus on the _meaning_ of what documents and templates describe anymore.
 
-Semantics will make it back to our agendas for the following reason: we can only get the most out of code and information within code, ensure best access to that code, and work best together on code if the code has meaning, or is used according to its assigned meaning.
+Semantics will make it back to our agendas for the following reason: We can only get the most out of code and information within code, ensure best access to that code, and work best together on code if the code has meaning, or is used according to its assigned meaning.
 
 There are a number of semantics checks and generators for enriched markup available:
 
@@ -303,7 +303,7 @@ We are in the envious situation of having a great many, good-quality validators 
 
 ### Layout and Design Consistency
 
-Normally filed under other categories, consistency-checking is also a key factor in website quality control. What is it normally filed under? Browser testing. That is, as we’ve just noticed, a misnomer: we’re not testing browsers, we’re testing the layout and design of our websites for consistency across browsers and devices.
+Normally filed under other categories, consistency-checking is also a key factor in website quality control. What is it normally filed under? Browser testing. That is, as we’ve just noticed, a misnomer: We’re not testing browsers, we’re testing the layout and design of our websites for consistency across browsers and devices.
 
 Making this little differentiation makes clear what tools we can use: browser and device emulators, of which there are plenty. The testing landscape has changed significantly over the years, and although it has become a challenge to test for the slew of devices, web-based tools that allow quick comparisons have matured to the extent that we have to install fewer user agents than we used to. (The normalization and unification of rendering engines has contributed to improvements, too, considering that [WebKit](https://www.webkit.org/) is now by far the most common engine.)
 
@@ -375,7 +375,7 @@ Linting comes out of computer programming, something we don’t file web develop
 
 ### Coding Standard Compliance
 
-Last but not least and not to be missed: we want to and we can measure the conformity and consistency of our code. For that—and you might remember _The Little Book of HTML/CSS Coding Guidelines_—we look at common coding practices, and, notably, our coding guidelines.
+Last but not least and not to be missed: We want to and we can measure the conformity and consistency of our code. For that—and you might remember _The Little Book of HTML/CSS Coding Guidelines_—we look at common coding practices, and, notably, our coding guidelines.
 
 The listed quality checks, now, look at compliance, comparing code strings against a predefined catalog of rules. Only lowercase element names in HTML? Only single quotes in CSS? No global variables in JavaScript, if the more experienced scripter fancies? No BOM in text files? This is done by website quality checks against code standards, such as the following:
 
@@ -416,7 +416,7 @@ The most important factor when it comes to quality in practice is the mindset. T
 
 Communication is the primary way to spread and instill a mindset of quality, with quality as the goal and guiding principle.
 
-This communication should sporadically be repeated, but doesn’t need to consist of overt reminders on why quality matters and how it benefits everybody. If we want to repeat the essence of both answers here, then: quality is important in order to deliver work that is good by professional standards and that benefits everyone, because products of quality are easier and more pleasant to consume and work with.
+This communication should sporadically be repeated, but doesn’t need to consist of overt reminders on why quality matters and how it benefits everybody. If we want to repeat the essence of both answers here, then: Quality is important in order to deliver work that is good by professional standards and that benefits everyone, because products of quality are easier and more pleasant to consume and work with.
 
 Communication is, for that reason, important because we all benefit from being reminded of our priorities.
 

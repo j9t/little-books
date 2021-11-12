@@ -133,7 +133,7 @@ Please note that developing an internal framework and making it public, as we co
 
 Reflected in the table is the idea that frameworks can be used and developed liberally, with two exceptions. One exception is that _experts shouldn’t use external frameworks_; the other is that _beginners shouldn’t develop external frameworks_.
 
-The two exceptions stem from a violation of quality standards: while the external framework violates the ideals of the expert (which I will later describe), it is the beginner who would not know the necessary ideals to create a quality framework.
+The two exceptions stem from a violation of quality standards: While the external framework violates the ideals of the expert (which I will later describe), it is the beginner who would not know the necessary ideals to create a quality framework.
 
 The internal framework is safe to use or develop in every case because that’s the preferred way of developing web documents and apps. Internal beats external every time because external cannot, by definition, know all the needs of the organization and fails many quality standards. Second, internal solutions are the better route for both experts and beginners to stay sharp and to learn, since their mistakes have a smaller impact.
 
@@ -143,7 +143,7 @@ I> ### Compilation Frameworks
 I>
 I> Compilation frameworks are frameworks that include third-party style sheets and scripts. These may be public reset style sheets, but can extend to elaborate UI elements. Skeleton, for example, [used to build on Normalize.css](https://web.archive.org/web/20151207011926/http://responsive.vermilion.com/compare.php?framework=skeleton), while Blueprint is thought to incorporate [Eric Meyer’s CSS reset](https://meyerweb.com/eric/tools/css/reset/). [WrapBootstrap](https://wrapbootstrap.com/) and [Flat UI Pro](https://designmodo.com/flat/) are arguably compilation frameworks because they extend Bootstrap, but we typically find the compilation framework species internally, when institutions build their own frameworks based on existing public ones.
 I>
-I> We don’t cover compilation frameworks in more detail because they expand on the external frameworks we do cover. But to err on the safe side: composite frameworks mean composite problems, and there’s extra work involved in testing and maintaining. Special attention is in order.
+I> We don’t cover compilation frameworks in more detail because they expand on the external frameworks we do cover. But to err on the safe side: Composite frameworks mean composite problems, and there’s extra work involved in testing and maintaining. Special attention is in order.
 
 ### Popular Frameworks
 
@@ -217,7 +217,7 @@ We can get one such safety if we can curb the bloat that external frameworks in 
 
 If we assume a complex project, we’re likely not alone working with or on the framework; and if it’s an external one, we have no idea whether the developers of that framework speak our language (literally and metaphorically). What helps here is usability. A good framework should be usable.
 
-And then, requirements change just as the times: how do we work with the framework going forward? What if we need to add something, perhaps in a pinch? What helps with that is extensibility. And thus a framework should also be extensible. At least we or the framework should be clear how to extend it.
+And then, requirements change just as the times: How do we work with the framework going forward? What if we need to add something, perhaps in a pinch? What helps with that is extensibility. And thus a framework should also be extensible. At least we or the framework should be clear how to extend it.
 
 We’re just being professional and reasonable when we demand quality. We gain extra confidence, then, by wanting frameworks that are also tailored, usable, and extensible. Let’s look at these three special attributes a little closer and point out the options developers have to get frameworks to that state.
 
@@ -254,15 +254,15 @@ One view of tailored code is to compare needed code with overall code. That can 
 
 What can we do to tailor? The approach depends on the origin of the framework, and that origin makes for a big difference.
 
-An internal framework is relatively simple to tailor: We develop to the needs of our project from the beginning. These needs may be defined by comps (comprehensive layouts) and mocks (mock-ups) or, better, a style guide. Once all needed page types and elements have been specified, they’re coded up. If they’re all used by the later site or app, the code cannot be anything but tailored (although it can possibly still be optimized and compressed).
+An internal framework is relatively simple to tailor: We develop to the needs of our project from the beginning. These needs may be defined by comps (comprehensive layouts) and mocks (mock-ups) or, better, a style guide. Once all needed page types and elements have been specified, they’re coded up. If they’re all used by the later site or app, the code cannot be anything but tailored (although it may still be possible to optimize and compress it).
 
-An external framework, however, is much more difficult to tailor (by the receiving side, because it’s impossible for the originator). In a basic sense, we need to deduct all needed functionality from all offered functionality, and then remove the code that remains. That leads us to the key issues with external frameworks: removing code may not even be possible, and tailoring then depends on the quality of the framework code and its documentation (e.g., tailoring will require testing, might break the framework, and could make the same work necessary for later updates, if not outright thwarting the ability to move to newer frameworks).
+An external framework, however, is much more difficult to tailor (by the receiving side, because it’s impossible for the originator). In a basic sense, we need to deduct all needed functionality from all offered functionality, and then remove the code that remains. That leads us to the key issues with external frameworks: Removing code may not be feasible, and tailoring then depends on the quality of the framework code and its documentation (e.g., tailoring will require testing, might break the framework, and could make the same work necessary for later updates, if not outright thwarting the ability to move to newer frameworks).
 
 These are big issues that make for good reasons why few people actually go to the length of customizing or tailoring external frameworks (or any external code, for that matter). Yet the outcome—non-tailored and lower-quality code—is not expert-like, but inferior. And so we see with more clarity why in a professional context, external frameworks shouldn’t be preferred. They promise to save cost, only to come with a stiff hidden tax—or to bring down the quality of our work.
 
 Now, some frameworks like Bootstrap or Gumby have begun to address these problems by offering sophisticated customization wizards. This is smart, because it significantly alleviates the issues of non-tailored solutions. Framework developers should offer and users use such functionality.
 
-By the way, there’s another problem we need to consider: while we’re benefiting from either our decision to save cost or to improve quality, our end users benefit mostly from quality. Technically speaking, they are rarely on the list of beneficiaries if we decide to deploy a framework that’s easy to ship but bloated.
+By the way, there’s another problem we need to consider: While we’re benefiting from either our decision to save cost or to improve quality, our end users benefit mostly from quality. Technically speaking, they are rarely on the list of beneficiaries if we decide to deploy a framework that’s easy to ship but bloated.
 
 To tailor internal frameworks:
 
@@ -276,7 +276,7 @@ To tailor external frameworks:
 
 ### 2. A Framework Should Be Usable
 
-A good framework is not only tailored but also usable. But what is usability for frameworks? It starts with applying the [common definition of usability](https://en.wikipedia.org/wiki/Usability): ease of use and learnability. And with a universal rule: keep it simple. Simplicity helps everything.
+A good framework is not only tailored but also usable. But what is usability for frameworks? It starts with applying the [common definition of usability](https://en.wikipedia.org/wiki/Usability): ease of use and learnability. And with a universal rule: Keep it simple. Simplicity helps everything.
 
 But that’s not quite a complete answer, and so we need to differentiate again. The distinction that serves us is not one between frameworks, but between roles: framework users and framework developers.
 
@@ -306,7 +306,7 @@ Provide documentation for framework developers.
 
 The final attribute is extensibility. Extensibility for a framework means that it’s not just possible, but well-defined and easy to extend it.
 
-Extensibility is necessary for two reasons. First, external frameworks in particular won’t offer everything we need, so there needs to be a way to add functionality. Second, especially in large projects, there’s a tendency for new patterns to pop up. The problem with these is their uncertainty and uniqueness: they may only be used once or twice and don’t warrant a place in the framework core or even near more common extensions. Both their location and handling have to be thought of.
+Extensibility is necessary for two reasons. First, external frameworks in particular won’t offer everything we need, so there needs to be a way to add functionality. Second, especially in large projects, there’s a tendency for new patterns to pop up. The problem with these is their uncertainty and uniqueness: They may only be used once or twice and don’t warrant a place in the framework core or even near more common extensions. Both their location and handling have to be thought of.
 
 To make up for lacking functionality in a framework, users typically help themselves by pretending they don’t use a framework in the first place. That is, they have a style sheet or script that handles everything the framework doesn’t cover. That’s actually quite okay; the point here is to _be clear_ about how such “non-framework functionality” or extensions are handled (and we notice how extensibility is also a user responsibility). If nothing else, extensibility stresses the need for the most basic of all code safeties: a namespace (a framework-specific ID and class name prefix, and the same namespace in JavaScript).
 
@@ -314,7 +314,7 @@ Next, new and rarely used patterns are a challenge that runs in the best familie
 
 Though I could give a longer dissertation about the matter, an effective counter-practice is to either designate style sheet and script sections for new and experimental code, as well as rare elements—or to even put aside a separate style sheet and script for such purposes. The framework developers should anticipate this and make recommendations, but users should come up with their own guidelines if this piece has not been covered. A documented standard for new code allows better monitoring and better decisions on whether to keep (and relocate) the code, or to remove it.
 
-We’ve successfully applied this principle with Google’s HTML/CSS framework Go—not to be confused with the programming language, which was conceived two years later. Go came with a “backpack” library, Go X, which included elements that we used only occasionally. This kept the core very small—[4,250 bytes](https://www.google.com/css/go.css) including the Google logo—but offered the use of additional, common-enough elements. Project-specific code made for a third layer that had to be carried by each project style sheet itself.
+We’ve successfully applied this principle with Google’s HTML/CSS framework Go—not to be confused with the programming language, which was conceived two years later. Go came with a “backpack” library, Go X, which included elements that we used only occasionally. This kept the core small—[4,250 bytes](https://www.google.com/css/go.css) including the Google logo—but offered the use of additional, common-enough elements. Project-specific code made for a third layer that had to be carried by each project style sheet itself.
 
 To make frameworks more extensible:
 
@@ -325,7 +325,7 @@ To make frameworks more extensible:
 
 D> Please note that despite all my experience and convictions, I’ve phrased these rules as strong suggestions. I was tempted to say “must,” “must,” “must.” Whenever we like more dogma in our web development life, we use this verb.
 D>
-D> Another thing before we move on: no matter the quality of the framework, the _goal_ for its use is always on the owners and developers. Frameworks can be likened to cars: a good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored and usable and extensible. But just as we look at the driver to know the destination for their car, we look at the developer to know the goals for the framework they’re using. We can drive a framework against the wall as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: a framework doesn’t drive itself.
+D> Another thing before we move on: No matter the quality of the framework, the _goal_ for its use is always on the owners and developers. Frameworks can be likened to cars: A good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored and usable and extensible. But just as we look at the driver to know the destination for their car, we look at the developer to know the goals for the framework they’re using. We can drive a framework against the wall as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: A framework doesn’t drive itself.
 
 {pagebreak}
 
@@ -352,7 +352,7 @@ And of _any_ framework at that. These two rules are golden:
 
 Whether internal or external framework, whether expert or beginner, read and follow the documentation.
 
-This rule is paramount because the second source of quality issues with frameworks and the works created with them (after framework bloat) is user and developer error. Or user and developer misconduct! Some scenarios that illustrate this are when a pattern is hacked to work, when something has been developed that’s actually already part of the framework, or when things get overwritten without regard for framework updates.
+This rule is paramount because the second source of quality issues with frameworks and the works created with them (after framework bloat) is user and developer error. Or user and developer misconduct! Some scenarios that illustrate this are when a pattern is hacked to work, when something is being developed that’s already part of the framework, or when things get overwritten without regard for framework updates.
 
 When using frameworks, always follow the documentation.
 
@@ -391,13 +391,13 @@ header {
 
 The example, simplified as it is, shows how a seemingly innocent change can have acute consequences. Here, a header is moved by one em. (Note that the example constitutes an overwrite because the framework header is inherently “positioned” and also rests on the initial values for `position` and `top`.) The next framework update, however, switches to absolute positioning. As the overwriting rules come later in the cascade, they prevent the update from working (with the exception of `left: 0;`). In cases like this, overwrites are unpredictable. Overwrites should hence be avoided where possible.
 
-The remedy: For internal frameworks, update the framework, or leave things as they are (as in, no overwriting). For external frameworks, leave things as they are, or create a separate pattern that does the job (like an alternative header, with different markup). Stay away from forking or “patch improvements”; solve issues at the core, or not at all.
+The remedy: For internal frameworks, update the framework, or leave things as they are (as in, no overwriting). For external frameworks, leave things as they are, or create a separate pattern that does the job (like an alternative header, with different markup). Stay away from forking or “patch improvements”; solve issues at the core, or not at all (that is, live with what the framework offers).
 
 D> The more complex the project and the bigger the organization, the harder it can be to exercise the necessary discipline. Everyone working with a framework needs to follow these two rules, however, to achieve the highest levels of quality and consistency.
 
 I> [This used to be a longer section about overwriting vs. extending. An edited conclusion seems to suffice:]
 I>
-I> Overwriting styling in other places of our style sheets can not only have side effects and introduce inconsistencies, but make our work extremely complicated. We may face two challenges on debugging: first, what happens exactly, and second, where does it happen?
+I> Overwriting styling in other places of our style sheets can not only have side effects and introduce inconsistencies, but make our work extremely complicated. We may face two challenges on debugging: First, what happens exactly, and second, where does it happen?
 
 {pagebreak}
 
@@ -425,7 +425,7 @@ I decided against including a section about customization because it’s not a m
 
 The single most important thing we need to build a successful framework is a prototype. Here we benefit from our recognition that we’re really only talking about plain-vanilla style sheets and scripts. Large projects—projects like those for which we now talk frameworks—have always benefited from prototypes.
 
-What do we mean by prototype? In its simplest form, it is a static (internal) website or demo site. It should contain all document types and elements we need in production: the prototype is where we code all the structure (HTML), presentation (CSS), and behavior (JavaScript). And the prototype should include realistic (occasionally intermingled with extreme) sample contents: that’s how we test that everything works.
+What do we mean by prototype? In its simplest form, it is a static (internal) website or demo site. It should contain all document types and elements we need in production: The prototype is where we code all the structure (HTML), presentation (CSS), and behavior (JavaScript). And the prototype should include realistic (occasionally intermingled with extreme) sample contents: That’s how we test that everything works.
 
 A prototype is an irreplaceable testing ground that we need to obtain the end result we want.
 
@@ -482,7 +482,7 @@ A framework, solving widespread and complex development and design issues, comes
 
 I> ### Maintaining and Breaking
 I>
-I> A word of caution: while we, as framework developers, need to show responsibility and exercise thorough care not to break anything with framework updates, we must also not worry too much about breaking something. On the question what the most important thing was when creating and maintaining frameworks, I [responded a few years ago](https://plus.google.com/+JensOMeiert/posts/4aVAQhJvnh6):
+I> A word of caution: While we, as framework developers, need to show responsibility and exercise thorough care not to break anything with framework updates, we must also not worry too much about breaking something. On the question what the most important thing was when creating and maintaining frameworks, I [responded a few years ago](https://plus.google.com/+JensOMeiert/posts/4aVAQhJvnh6):
 I>
 I> > The more used and hence successful a framework is, the more likely it is that things will break over regular maintenance. […] maintenance is key, yet avoiding things to break is impossible, and the attempt alone unbelievably expensive. And then, while things go wrong, things never go wrong badly. And that leads back to setting expectations: […] people should embrace, not fear, updates to them.
 I>
