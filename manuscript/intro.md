@@ -11,6 +11,6 @@ This _Little Book of Little Books_ does not mean new editions of the three books
 
 When I say “start” I cannot yet promise where the journey goes. I’m likely to improve this three-in-one book a little further, and maintain it as mentioned. (On some platforms where you get this book you will be able to download updated versions, if not receive them automatically.) What’s likely is that at some point, I’ll rewrite and republish one, two, or all three of the _Little Books_. I admit that I hadn’t done my best with _The Little Book of Website Quality Control_, which has turned into a badly aging replica of [UITest.com](https://uitest.com/). On the other hand I believe that _The Little Book of HTML/CSS Frameworks_ is an underrated book on the topic of frameworks that deserves sustenance and additional pages.
 
-I like to offer my books liberally and freely, so I’m sure you won’t mind the uncertainty; I thank you for picking up this book—these books—now, a few years after their release. Please enjoy.
+With all three books it will show that they were written years ago. They’ve all aged. Yet while it seems like the world of web development has moved on, I like to offer the following view: What has changed the most are our standards (and their features), as well as our tooling. When you look at the craft, however, not that much is different. And here, from a craft point of view, you may find the most value in this book.
 
 —Jens
