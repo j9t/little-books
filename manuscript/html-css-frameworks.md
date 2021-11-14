@@ -30,20 +30,15 @@ Before we dive into frameworks, let’s first go over a few general ideas. We do
 
 First, there are a handful of terms that may be used differently in other contexts:
 
-External (also known as public or open)
-: Anything that comes from outside ourselves or our organization and is out of our control. In web development, social site widgets or frameworks are often external.
+* External (also known as public or open): Anything that comes from outside ourselves or our organization and is out of our control. In web development, social site widgets or frameworks are often external.
 
-Internal (or in-house)
-: Anything that originates from within our organization and is within our control. In web development, site designs, or site style sheets, are often internal.
+* Internal (or in-house): Anything that originates from within our organization and is within our control. In web development, site designs, or site style sheets, are often internal.
 
-Pattern
-: A classical [design pattern](https://en.wikipedia.org/wiki/Design_pattern). In web development, the individual elements of a document or app are patterns, but so are document types like a three-column article page.
+* Pattern: A classical [design pattern](https://en.wikipedia.org/wiki/Design_pattern). In web development, the individual elements of a document or app are patterns, but so are document types like a three-column article page.
 
-Cost
-: A measure of any negative consequence. Typically expenditures of work, time, or money, but possibly negative changes in, for example, perception, satisfaction, or reputation. In web development, for instance, any element added to a page has a cost in terms of reduced page performance.
+* Cost: A measure of any negative consequence. Typically expenditures of work, time, or money, but possibly negative changes in, for example, perception, satisfaction, or reputation. In web development, for instance, any element added to a page has a cost in terms of reduced page performance.
 
-Tailoring
-: The producing and adjusting to precise dimensions and needs. In web development, tailored code is all code that’s needed—or going to be needed—by a project, but not more.
+* Tailoring: The producing and adjusting to precise dimensions and needs. In web development, tailored code is all code that’s needed—or going to be needed—by a project, but not more.
 
 Second, some assumptions:
 

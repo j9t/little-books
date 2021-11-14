@@ -452,17 +452,17 @@ At the same firm at another time, managers called out the importance of quality 
 
 In broad terms, our efforts around quality require logistics. These might consist of the following, listed briefly for inspiration:
 
-* Standards and guidelines documentation: No quality effort can succeed without standards and guidelines. These can be external, but wherever they can be found, they must be documented.
+Standards and guidelines documentation: No quality effort can succeed without standards and guidelines. These can be external, but wherever they can be found, they must be documented.
 
-* Meta documentation: What our quality efforts entail and require must also be documented. That…
+Meta documentation: What our quality efforts entail and require must also be documented. That…
 
-* Internal websites or wikis: …is best done on some internal website or wiki. Here, we should gather everything we want, know, do, and plan.
+Internal websites or wikis: …is best done on some internal website or wiki. Here, we should gather everything we want, know, do, and plan.
 
-* Dedicated contacts: Quality stands and falls with people. At least one among them should serve as a contact, and that person must not just be responsible and accountable, but also discoverable and available.
+Dedicated contacts: Quality stands and falls with people. At least one among them should serve as a contact, and that person must not just be responsible and accountable, but also discoverable and available.
 
-* Mailing lists: To coordinate quality efforts, communicate new and updated documentation, and so on, mailing lists are a crucial tool. There can be lists for quality-focused teams, as well as lists open to the entire enterprise.
+Mailing lists: To coordinate quality efforts, communicate new and updated documentation, and so on, mailing lists are a crucial tool. There can be lists for quality-focused teams, as well as lists open to the entire enterprise.
 
-* Events: Google has a practice to host “fixits” or “fixlets,” events that let the company or departments clean up and improve their work and code base, but quality events can range from a toast on quality at the daily Scrum meeting to company representatives speaking about quality at industry conferences.
+Events: Google has a practice to host “fixits” or “fixlets,” events that let the company or departments clean up and improve their work and code base, but quality events can range from a toast on quality at the daily Scrum meeting to company representatives speaking about quality at industry conferences.
 
 The more a quality initiative grows and matures, the more tools and methods it may employ. This here describes our basic options.
 
