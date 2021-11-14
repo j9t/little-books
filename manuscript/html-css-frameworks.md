@@ -109,7 +109,7 @@ Apart from suggesting that we do the math and _think_ through every project, the
 
 ### Types and Uses of Frameworks
 
-While all frameworks provide patterns, we must note general distinctions. For one, there is a difference between internal and external frameworks—the external ones are those that typically get referred to as frameworks. Then, there is a difference between using and developing a framework (note that developers can be users, which makes for some blurriness). And finally, there is a difference between experts and amateurs.
+While all frameworks provide patterns, we must note general distinctions. For one, there is a difference between internal and external frameworks—the external ones are those that typically get referred to as frameworks. Then, there is a difference between using and developing a framework (although developers can be users, which makes for some blurriness). And finally, there is a difference between experts and amateurs.
 
 Let’s chart this up.
 
@@ -129,7 +129,7 @@ Here’s what I think. Let’s compare.
 | Internal framework | ✅ yes | ✅ yes | ✅ yes | ✅ yes |
 | External framework | ⛔ no | ✅ yes | ✅ yes | ⛔ no |
 
-Please note that developing an internal framework and making it public, as we could even apply to blog themes, is here not considered _developing_ an external framework. The decisive factor is the goal during the initial development process. A thorough revision and overhaul of an framework to make it external or internal-only, however, constitutes a development phase, and would be acceptable.
+Developing an internal framework and making it public, as we could even apply to blog themes, is not considered _developing_ an external framework here. The decisive factor is the goal during the initial development process. A thorough revision and overhaul of an framework to make it external or internal-only, however, constitutes a development phase, and would be acceptable.
 
 Reflected in the table is the idea that frameworks can be used and developed liberally, with two exceptions. One exception is that _experts shouldn’t use external frameworks_; the other is that _beginners shouldn’t develop external frameworks_.
 
@@ -323,7 +323,7 @@ To make frameworks more extensible:
 * Specify where new and rarely used code should be located (also a framework user responsibility).
 * Regularly review new and rarely used code, to either make part of framework or remove (also a framework user responsibility).
 
-D> Please note that despite all my experience and convictions, I’ve phrased these rules as strong suggestions. I was tempted to say “must,” “must,” “must.” Whenever we like more dogma in our web development life, we use this verb.
+D> Despite all my experience and convictions, I’ve phrased these rules as strong suggestions. I was tempted to say “must,” “must,” “must.” Whenever we like more dogma in our web development life, we use this verb.
 D>
 D> Another thing before we move on: No matter the quality of the framework, the _goal_ for its use is always on the owners and developers. Frameworks can be likened to cars: A good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored and usable and extensible. But just as we look at the driver to know the destination for their car, we look at the developer to know the goals for the framework they’re using. We can drive a framework against the wall as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: A framework doesn’t drive itself.
 
@@ -389,7 +389,7 @@ header {
 }
 ```
 
-The example, simplified as it is, shows how a seemingly innocent change can have acute consequences. Here, a header is moved by one em. (Note that the example constitutes an overwrite because the framework header is inherently “positioned” and also rests on the initial values for `position` and `top`.) The next framework update, however, switches to absolute positioning. As the overwriting rules come later in the cascade, they prevent the update from working (with the exception of `left: 0;`). In cases like this, overwrites are unpredictable. Overwrites should hence be avoided where possible.
+The example, simplified as it is, shows how a seemingly innocent change can have acute consequences. Here, a header is moved by one em. (The example constitutes an overwrite because the framework header is inherently “positioned” and also rests on the initial values for `position` and `top`.) The next framework update, however, switches to absolute positioning. As the overwriting rules come later in the cascade, they prevent the update from working (with the exception of `left: 0;`). In cases like this, overwrites are unpredictable. Overwrites should hence be avoided where possible.
 
 The remedy: For internal frameworks, update the framework, or leave things as they are (as in, no overwriting). For external frameworks, leave things as they are, or create a separate pattern that does the job (like an alternative header, with different markup). Stay away from forking or “patch improvements”; solve issues at the core, or not at all (that is, live with what the framework offers).
 

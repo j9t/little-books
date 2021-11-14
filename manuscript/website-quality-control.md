@@ -8,11 +8,11 @@
 
 —Colonel Pickering, in George Bernard Shaw’s _Pygmalion_
 
-What is a good website? For us web professionals, this is a most important question. Building good websites is part of our professional ethics, stemming from a code of honor that asserts that we can be professionals only if our work is good.
+What is a good website? For us web professionals, this is an important question. Building good websites is part of our professional ethics, stemming from a code of honor that asserts that we can be professionals only if our work is good.
 
 But how do we know that our work—that our websites—are good? Many criteria and examinations come to mind, but there’s an entire field dedicated to informing us: _quality management._
 
-Quality management, which can be broken down into quality planning, quality assurance, quality control, and quality improvement, comes with a host of methods to not just identify (control) and fix (improvement) defects, but to avoid them systematically (planning, assurance).
+Quality management, which can be broken down into quality planning, quality assurance, quality control, and quality improvement, comes with a host of methods not just to identify (control) and fix (improvement) defects, but to avoid them systematically (planning, assurance).
 
 This little book focuses mostly on the quality control piece, for if we can’t “see” what’s wrong, we won’t fix or plan to avoid what’s wrong. Still, it’s going to share advice on how to tie quality to our processes, for it _is_ more useful to learn how to fish than to hope to be fed every day. The book will do all of this in a loose and relaxed manner, however, and not to the extent ISO standards would cover quality.
 
@@ -30,17 +30,17 @@ Many more people inspired my work, and many more people helped make this book re
 
 ## What Is Quality Control?
 
-Wikipedia defines [quality control](https://en.wikipedia.org/wiki/Quality_control) (often abbreviated as “QC,” but rarely in this book) as “a process by which entities review the quality of all factors involved in production.” ISO 9000, also through Wikipedia, is said to define quality control as “a part of quality management focused on fulfilling quality requirements.” Google, without attribution, understands quality control to be “a system of maintaining standards in manufactured products by testing a sample of the output against the specification.”
+Wikipedia defines [quality control](https://en.wikipedia.org/wiki/Quality_control) (often abbreviated as “QC,” but rarely in this book) as “a process by which entities review the quality of all factors involved in production.” [ISO 9000](https://en.wikipedia.org/wiki/ISO_9000), also through Wikipedia, is said to define quality control as “a part of quality management focused on fulfilling quality requirements.” Google, without attribution, understands quality control to be “a system of maintaining standards in manufactured products by testing a sample of the output against the specification.”
 
 We want to use a definition that is stricter on the one end and more lenient on the other: “Website quality control entails the means to determine (a) whether our websites meet our expectations and (b) to what degree they meet professional best practices.”
 
-“Means,” then, will refer largely to infrastructure—that is, tools. Also, as stated a moment ago, we’ll look at some processes and methods useful to improve, not just measure, the quality of our work.
+“Means,” then, will refer largely to infrastructure—that is, tools. As stated a moment ago, we’ll also look at processes and methods useful to improve, not just measure, the quality of our work.
 
 {pagebreak}
 
 ## Why Is Quality Control Important?
 
-Quality control is—for that decisive reason—important, because we need to be able to determine whether what we do and produce is any good.
+Quality control is important, because we need to be able to determine whether what we do and produce is any good.
 
 Quality control, therefore, is a key differentiator between professional and amateur work. Consistent quality is the mark of the professional.
 
@@ -56,9 +56,11 @@ When _you_ think about the quality of websites, what comes to your mind? How wou
 
 We may readily recall _some_ tools and tests known to us from our everyday work. Some of us will think of validators; some may think of linters; and for others, security tests come to mind.
 
-What do we test for? Not only spec compliance, as with validation, or code formatting, as with linters; we can—and should, as professionals—test for everything we can get our hands on. Going through what we can get our hands on and showing what tools we have at our disposal is the purpose of this section. For each area, in descending order of importance, we’ll go over why quality control matters and look at available tools and automation options.
+What do we test for? Not only spec compliance, as with validation, or code formatting, as with linters; we can—and probably should, as professionals—test for everything we can get our hands on. Going through what we can get our hands on and showing what tools we have at our disposal is the purpose of this section. For each area, in descending order of importance, we’ll go over why quality control matters and look at available tools and automation options.
 
-The tools are mostly web-based; applications have been left out, and exceptions noted. The idea was not to shoulder the probably impossible task of listing and evaluating “all” tools, but to provide a starting point to evaluate production sites instantly. (Note that despite all diligence exercised in retrieving and evaluating these tools, neither author nor publisher assumes responsibility for the usefulness, reliability, or accuracy of the tools listed.)
+The tools are mostly web-based; applications have been left out, and exceptions noted. The idea was not to shoulder the probably impossible task of listing and evaluating “all” tools, but to provide a starting point to evaluate production sites instantly.
+
+(Despite all diligence exercised in retrieving and evaluating these tools, neither author nor publisher assumes responsibility for the usefulness, reliability, or accuracy of the tools listed.)
 
 ### Security
 
@@ -66,7 +68,7 @@ Security can be considered the most important thing to test for. Whatever it is 
 
 Security is critical, but it’s also tricky in the light of website quality control. For one, websites—rather than apps—may or may not deal with personal and sensitive information, or ask their users to give such information. For another, security is not trivial to test and not necessarily to be evaluated all from the outside. This leads us to the situation in which, although security is so crucial, there’s not that much to add outside the context of dedicated information security.
 
-Let’s go over some tools that are available to us (again primarily with a focus on web-based tools). The responsible website owner should employ additional, notably inner-organizational means to ensure that their services and the data those services gather are secure.
+Let’s go over some tools that are available to us (primarily with a focus on those that are web-based). The responsible website owner should employ additional, notably inner-organizational means to ensure that their services and the data those services gather are secure.
 
 W> These tools were collected in 2016. Some of them are not around anymore. Where possible, links have been corrected, otherwise restored to point to a previous version available on the [Internet Archive](https://archive.org/). You find similar and more tools on the author’s website, [UITest.com](https://uitest.com/), or on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
 
@@ -132,11 +134,11 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 
 [Per Wikipedia](https://en.wikipedia.org/wiki/Accessibility), accessibility “refers to the design of products, devices, services, or environments for people with disabilities”; “the concept of accessible design ensures both ‘direct access’ (i.e., unassisted) and ‘indirect access,’ meaning compatibility with a person’s assistive technology (for example, computer screen readers).”
 
-Accessibility is one of the most important ideas to understand, for the Web is all about accessibility. Accessibility is, in fact, the Web’s biggest promise. Accessibility has often been linked to making data available to machines—like search engine bots—but it is, first and foremost, about making information available to _people_.
+Accessibility is one of the most important ideas to understand, for the Web is all about accessibility. Accessibility is the Web’s biggest promise. Accessibility has often been linked to making data available to machines—like search engine bots—but it is, first and foremost, about making information available to _people_.
 
 Accessibility legislation exists in many countries, like [Section 508](https://www.section508.gov/) in the United States, [BITV](https://www.gesetze-im-internet.de/bitv_2_0/) in Germany, or [RGAA](https://web.archive.org/web/20151122054135/http://references.modernisation.gouv.fr/rgaa-3-0) in France. The key standards, the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/), published by the World Wide Web Consortium (W3C), have gone through two versions and are, though not perfect, robust. There are a good number of tools, as we shall see. And still, accessibility remains one of the industry’s stepchildren.
 
-Independent of whether we would be held accountable legally, accessibility is one of the most important things that we should cater to on our sites.
+Independent of whether we would be held accountable legally, accessibility is one of the most impactful things that we should cater to on our sites.
 
 * [Accessibility Analysis (Gecko browser extension)](https://web.archive.org/web/20150604084239/https://addons.mozilla.org/en-US/firefox/addon/juicy-studio-accessibility-too/)
 * [Accessibility Check (AATT; automated; command-line tool)](https://github.com/paypal/AATT)
@@ -168,13 +170,13 @@ Independent of whether we would be held accountable legally, accessibility is on
 
 ### Usability
 
-Usability is one of the most critical areas to focus on when running a website, hence it deserves special mention. Because it is not a technical concern, however, it’s only mentioned in passing. If you are interested in this and not already familiar with designing and ensuring a usable website, you want to check out some key resources for further information, like [Usability.gov](https://www.usability.gov/), [Nielsen Norman Group](https://www.nngroup.com/articles/), or [UXmatters](https://www.uxmatters.com/).
+Usability is also a critical area to focus on when running a website, hence it deserves special mention. Because it is not a technical concern, however, it’s only mentioned in passing. If you are interested in this and not already familiar with designing and ensuring a usable website, you want to check out some key resources for further information, like [Usability.gov](https://www.usability.gov/), the [Nielsen Norman Group](https://www.nngroup.com/articles/), or [UXmatters](https://www.uxmatters.com/).
 
 ### Performance
 
 For the longest time, Google has worked following the mantras, [“every millisecond counts”](https://www.youtube.com/watch?v=aXJklICrFJI) as well as [“fast is better than slow.”](https://web.archive.org/web/20150823063537/https://www.google.com/about/company/philosophy/) And for good reason! Speed is a key factor for a positive user experience—so crucial, in fact, that it’s one of the determinants for customer satisfaction and conversion.
 
-There are many studies that back performance up as important for quality websites, and Six Revisions (with [_Why Website Speed is Important_](https://www.webfx.com/blog/web-design/why-website-speed-is-important/)), Impressive Webs (with [_The Importance of Page Speed_](https://www.impressivewebs.com/importance-of-page-speed-sources/)), and WebSiteOptimization.com (with [_Empirical Study of Web Site Speed on Search Engine Rankings_](http://www.websiteoptimization.com/speed/tweak/website-speed-search-rankings-study/)) provide pointers for a good number of them.
+There are many studies that back performance up as important for quality websites, and Six Revisions (with [_Why Website Speed is Important_](https://www.webfx.com/blog/web-design/why-website-speed-is-important/)), Impressive Webs (with [_The Importance of Page Speed_](https://www.impressivewebs.com/importance-of-page-speed-sources/)), and WebSiteOptimization.com (with [_Empirical Study of Web Site Speed on Search Engine Rankings_](http://www.websiteoptimization.com/speed/tweak/website-speed-search-rankings-study/)) provide pointers for a number of them.
 
 Today, test tools abound for performance measuring. Here are some of them:
 
@@ -201,9 +203,9 @@ Today, test tools abound for performance measuring. Here are some of them:
 
 Another user-centered matter concerns site functionality and navigation: Can we get from _A_ to _B_? Fortunately, even though this is important to ensure, it’s easy to verify—so easy in fact, that most of the time functionality testing is “implied.”
 
-How so? What have we just said? Essentially, when we build and extend our sites and their functionality, we know whether we can access what we just built and extended. For example, when we add a new registration page or post a new press release, we typically notice, as part of the testing and launch process, whether page or release actually made it live and can be found.
+How so? What have I just said? Essentially, when we build and extend our sites and their functionality, we know whether we can access what we just built and extended. For example, when we add a new registration page or post a new press release, we typically notice, as part of the testing and launch process, whether page or release actually made it live and can be found.
 
-Thus, it’s advantageous to tell whether everything’s where we expect it to be, and whether it works as we expect it to work. Here are some tools to do that:
+It’s advantageous to tell whether everything’s where we expect it to be, and whether it works as we expect it to work. Here are some tools to do that:
 
 * [Accessibility, HTML, and Link Check (WebKit and Gecko browser extension)](http://www.totalvalidator.com/)
 * [Browser Test Automation (Sahi; browser extension)](https://resources.sahipro.com/alldocs/v9.5.0/introduction/)
@@ -228,7 +230,7 @@ The first technical item to watch out and test for is maintainability. Maintaina
 
 What is maintainability, what does this ability and efficiency refer to? That is a valid question given that many long years of neglect have yielded little documentation and few best practices pertaining to maintainability and maintenance. [“One cannot not maintain”](https://meiert.com/en/blog/law-of-maintainability/)—that is the “law” I’ve coined in despair. One cannot not maintain originates in the fact that anything we produce must at some point be dealt with again, whether by us or by others.
 
-(As for tools, we’re in need of more of them.)
+As for tools, we’re in need of more of them:
 
 * [QA Style Sheet (bookmarklet)](https://github.com/j9t/qa-style-sheet)
 
@@ -242,7 +244,7 @@ Is this all justified? No. But the situation is complex. To make more sense of i
 
 For semantics, we should look at where it’s coming from and what people mean when they talk about it. [Semantics in HTML](https://meiert.com/en/blog/on-semantics-in-html/) refers to authority—and consensus-based meaning. The W3C or the WHATWG—the authorities—define in specifications what each element and attribute means. Vendors and the web development community buy into these definitions. Sometimes, as for consensus, they disagree (voiced in standard controversies) or they add their own solutions (as with [microformats](http://microformats.org/)). ID and class names represent the most minimal form of consensus on meaning, sometimes only by a single developer.
 
-For new technology and techniques, we find ourselves in a conflict. The standards community has given in to a form of arms race against itself. After years of slow progress, low output, and seeming indifference to the user and vendor community, suddenly those involved in standards want to push _everything_ forward. This has led the specifications to grow in number and size, and we still haven’t been able to take inventory of everything we’re now capable of doing. With that growing complexity, we risk losing it all, or [so I feel](https://meiert.com/en/blog/fing-up-standards/). But with respect to semantics, we’re right at the seam, and things have become loose there. Few focus on the _meaning_ of what documents and templates describe anymore.
+For new technology and techniques, we find ourselves in a conflict. The standards community has given in to a form of arms race against itself. After years of slow progress, low output, and seeming indifference to the user and vendor community, suddenly those involved in standards want to push _everything_ forward. This has led the specifications to grow in number and size, and we still haven’t been able to take inventory of everything we’re now capable of doing. With that growing complexity, we risk losing it all, or [so I feel](https://meiert.com/en/blog/fing-up-standards/). But with respect to semantics, we’re right at the seam, and things have become loose there. Few focus on the _meaning_ of what documents and templates describe anymore. Divitis everywhere.
 
 Semantics will make it back to our agendas for the following reason: We can only get the most out of code and information within code, ensure best access to that code, and work best together on code if the code has meaning, or is used according to its assigned meaning.
 
@@ -265,9 +267,9 @@ There are a number of semantics checks and generators for enriched markup availa
 
 ### Validation
 
-Validation as a measurable priority had peaked, too, before falling from grace. But popularity does not correlate with validity (hah), accuracy, or quality, and one can argue well how validation is a relevant factor for website quality. It is such an important factor for that reason that only validation ensures we’ve been coding according to the different specs—a condition that corresponds with professionalism, or at least professional ethics.
+Validation as a measurable priority had peaked, too, before falling from grace. But popularity does not correlate with validity, accuracy, or quality, and one can argue how validation is a relevant factor for website quality. It is such an important factor for that reason that only validation ensures we’ve been coding according to the different specs—a condition that corresponds with professionalism, or at least professional ethics.
 
-Although this is almost all there is to say about validation, the web development landscape begs to differ, notably when it comes to HTML and CSS. HTML is more stable and used in more places than CSS. CSS is under heavier development and occasionally experimental, yet style sheets live in relatively few places (CSS being “orthogonal” to HTML makes for its significance around maintainability). That means that validation for HTML is far more important than for CSS. Because HTML is stable, it’s easier to validate, and because it’s so ubiquitous, it’s also more critical to validate.
+Although these are powerful arguments for validation, the web development landscape begs to differ, notably when it comes to HTML and CSS. HTML is more stable and used in more places than CSS. CSS is under heavier development and occasionally experimental, yet style sheets live in relatively few places (CSS being “orthogonal” to HTML makes for its significance around maintainability). That means that validation for HTML is far more important than for CSS. Because HTML is stable, it’s easier to validate, and because it’s so ubiquitous, it’s also more critical to validate.
 
 We are in the envious situation of having a great many, good-quality validators at our disposal:
 
@@ -305,13 +307,13 @@ We are in the envious situation of having a great many, good-quality validators 
 
 Normally filed under other categories, consistency-checking is also a key factor in website quality control. What is it normally filed under? Browser testing. That is, as we’ve just noticed, a misnomer: We’re not testing browsers, we’re testing the layout and design of our websites for consistency across browsers and devices.
 
-Making this little differentiation makes clear what tools we can use: browser and device emulators, of which there are plenty. The testing landscape has changed significantly over the years, and although it has become a challenge to test for the slew of devices, web-based tools that allow quick comparisons have matured to the extent that we have to install fewer user agents than we used to. (The normalization and unification of rendering engines has contributed to improvements, too, considering that [WebKit](https://www.webkit.org/) is now by far the most common engine.)
+Making this little differentiation makes clear what tools we can use: browser and device emulators, of which there are plenty. The testing landscape has changed significantly over the years, and although it has become a challenge to test for the slew of devices, web-based tools that allow quick comparisons have matured to the extent that we have to install fewer user agents than we used to. (The normalization and unification of rendering engines has contributed to improvements, too, considering that [WebKit](https://www.webkit.org/) ~~is~~ was by far the most common engine [nowadays, it’s Blink].)
 
 To test layout and design, we can use tools and services like the following:
 
 * [Android Emulators](https://web.archive.org/web/20160624025405/http://www.manymo.com/emulators)
-* [Browser Screenshots (Windows, Mac OS, Android, iOS)](https://www.browserstack.com/screenshots)
-* [Browser Screenshots (Windows, Mac OS, Linux)](http://browsershots.org/)
+* [Browser Screenshots (Windows, macOS, Android, iOS)](https://www.browserstack.com/screenshots)
+* [Browser Screenshots (Windows, macOS, Linux)](http://browsershots.org/)
 * [Browser Test Automation (Sahi; browser extension)](https://resources.sahipro.com/alldocs/v9.5.0/introduction/)
 * [Browser Test Automation (Selenium; browser extension)](https://www.selenium.dev/projects/)
 * [Browser Test Automation (Squish)](http://www.froglogic.com/)
@@ -332,7 +334,7 @@ To test layout and design, we can use tools and services like the following:
 
 ### Typography
 
-Typography is not what the common website owner will connect to website quality—and neither might every designer—but it is an important aspect of every website. Typography is all the more important, as the amount of content a website actually has increases—we remind ourselves of Robert Bringhurst, who taught us that “typography exists to honor content.”
+Typography is not what the common website owner will connect to website quality—and neither might every designer—but it is an important aspect of every website. Typography is all the more important, as the amount of content a website has increases—we remind ourselves of Robert Bringhurst, who taught us that “typography exists to honor content.”
 
 But why test? Obviously, for the reasons that typography matters—and so we’re not merely running into William Bruce Cameron’s (not Albert Einstein’s) famous statement, “Not everything that counts can be counted, and not everything that can be counted counts.” Typography can be counted, and typography does count. Not many tools are available to test for good typography, but still there are some that make our typographic jobs easier:
 
@@ -352,7 +354,7 @@ But why test? Obviously, for the reasons that typography matters—and so we’r
 
 Venturing again into the realm that’s invisible to the users of our sites, code quality has many attributes, some of which we’ve already addressed. Here, code quality will touch on general overall checks, as well as on _linting_—that is, analyzing code for potential programmatic and stylistic errors (which we’ll focus on separately in the next section).
 
-Linting comes out of computer programming, something we don’t file web development under, but linters are by now available for pretty much anything, including CSS. Some general quality-related tools include the following:
+Linting comes out of computer programming, something we haven’t always filed web development under, but linters are by now available for pretty much anything, including CSS. Some general quality-related tools include the following:
 
 * [Accessibility Linter](https://accesslint.com/)
 * [CMS Detector](https://web.archive.org/web/20160714054200/http://guess.scritch.org/)
@@ -375,9 +377,9 @@ Linting comes out of computer programming, something we don’t file web develop
 
 ### Coding Standard Compliance
 
-Last but not least and not to be missed: We want to and we can measure the conformity and consistency of our code. For that—and you might remember _The Little Book of HTML/CSS Coding Guidelines_—we look at common coding practices, and, notably, our coding guidelines.
+Last but not least and not to be missed: We want to and we can measure the conformity and consistency of our code. For that—and you may remember _The Little Book of HTML/CSS Coding Guidelines_—we look at common coding practices, and, notably, our coding guidelines.
 
-The listed quality checks, now, look at compliance, comparing code strings against a predefined catalog of rules. Only lowercase element names in HTML? Only single quotes in CSS? No global variables in JavaScript, if the more experienced scripter fancies? No BOM in text files? This is done by website quality checks against code standards, such as the following:
+The listed quality checks, now, look at compliance, comparing code strings against a predefined catalog of rules. Only lowercase element names in HTML? Only single quotes in CSS? No global variables in JavaScript? No BOM in text files? This is done by website quality checks against code standards, such as the following:
 
 * [Code Formatter (Code Beautifier)](https://ctrlq.org/beautifier/)
 * [Code Formatter (Pretty Printer)](http://prettyprinter.de/)
@@ -385,8 +387,8 @@ The listed quality checks, now, look at compliance, comparing code strings again
 * [CSS Formatter (Lonnie Best)](http://www.lonniebest.com/FormatCSS/)
 * [CSS Optimizer and Formatter (CSS Beautifier)](https://www.cleancss.com/css-beautify/)
 * [CSS Optimizer and Formatter (CSScomb)](https://web.archive.org/web/20160719231432/http://csscomb.com/online/)
-* [HTML Formatter](https://www.freeformatter.com/html-formatter.html)
 * [HTML, CSS, and JS Formatter](https://www.10bestdesign.com/dirtymarkup/)
+* [HTML Formatter](https://www.freeformatter.com/html-formatter.html)
 * [JSON Formatter](https://jsonformatter.curiousconcept.com/)
 
 After we have properly formatted our code and made it consistent, we still want to make it production-ready by compressing and minifying it. Our work files should be easy (to understand) for us, and our production files should be easy (to parse and transfer) for others. For this there are additional tools.
@@ -400,7 +402,7 @@ After we have properly formatted our code and made it consistent, we still want 
 
 ## Quality Control in Practice
 
-With the overview and tools we’ve now gathered, what does quality control of websites look like in practice? Is this all we need? What pitfalls are there? What do we need to watch out for? There are indeed a few things to consider.
+With the overview and tools we’ve gathered, what does quality control of websites look like in practice? Is this all we need? What pitfalls are there? What do we need to watch out for? There are indeed a few things to consider.
 
 ### Training
 
@@ -424,15 +426,15 @@ Based on this, communication can now range from bylines in regular team and comp
 
 #### Rewards
 
-Rewards, then, are _no_ key for a quality mindset. We should avoid rewards. Rewards might compel people to participate in quality-related events, but they don’t necessarily compel people to embrace quality (in fact, they rarely do). They seem to distract from, rather than point to the message.
+Rewards, then, are _no_ key for a quality mindset. We should avoid rewards. Rewards can compel people to participate in quality-related events, but they don’t necessarily compel people to embrace quality (they can have the opposite effect). They seem to distract from, rather than point to the message.
 
-I’ve had some such experiences with international teams, whereby rewards did help draw attention to quality-related initiatives, but they didn’t lead to a better understanding of, or a higher motivation, for more quality. What was more effective was communication, notably through managers. Hierarchy and authority can, of course, be great facilitators in our quest to improve the quality of our work.
+I’ve had some such experiences with international teams, whereby rewards did help draw attention to quality-related initiatives, but they didn’t lead to a better understanding of, or a higher motivation, for more quality. What was more effective was communication, notably through managers. Hierarchy and authority can be facilitators in our quest to improve the quality of our work.
 
 ### Automation
 
 Insist on automation. Insist—on automation. _Of course_, we’re inclined to say—once we’ve automated all quality-relevant tasks and processes, what’s there to be missed, how could we get anything wrong? But we haven’t progressed quite yet to the point that we’re able to automate everything. Our reality is that not enough is being automated, and sensitizing for that is what this very practical recommendation aims at. We must automate as much as we can; we must insist on automation.
 
-We have discussed many tools so far and we’re going to summarize them. Some of the tools are easy to implement and automate, but others, per our goal to automate and _insist_ to automate, will require a bit of an effort. A discussion on how to write and run automation scripts on different platforms is beyond the scope of this little book, but if you’d like to see what that can look like, check out complementary books like [_Learning Linux Shell Scripting_](https://www.amazon.com/dp/B013WWYVHK/?tag=j9t-21-20), [_Network Programmability and Automation_](https://www.amazon.com/dp/1491931256/?tag=j9t-21-20), or [_Learn AppleScript_](https://www.amazon.com/dp/1430223618/?tag=j9t-21-20).
+We have discussed many tools so far and we’re going to summarize them. Some of the tools are easy to implement and automate, but others, per our goal to automate and _insist_ to automate, will require a bit of an effort. A discussion on how to write and run automation scripts on different platforms is beyond the scope of this little book, but if you’d like to see what that can look like, check out complementary books like [_Learning Linux Shell Scripting_](https://www.amazon.com/dp/B013WWYVHK/?tag=j9t-21-20), [_Network Programmability and Automation_](https://www.amazon.com/dp/1491931256/?tag=j9t-21-20), as well as [_Learn AppleScript_](https://www.amazon.com/dp/1430223618/?tag=j9t-21-20).
 
 ### Enforcement
 
@@ -444,29 +446,23 @@ Enforcement happens top-down. Executives and managers are to emphasize and _live
 
 Two anecdotes illustrate that approach. There’s one tale of a manager who has, despite efforts of their team to up the ante and increase quality in their department, never endorsed, let alone supported or encouraged those team members’ efforts in team communications or goals. That quality initiative’s efforts, witnessed at one point at a major corporation, suffered a significant blowback.
 
-At the same firm at another time, managers called out the importance of quality and used available data points, like performance scores as measured by [Google’s PageSpeed tools](https://developers.google.com/speed), accessibility problems as measured by [Sidar’s HERA](https://web.archive.org/web/20150726041535/http://www.sidar.org/hera/), or the number of validation errors as measured by [W3C’s Link Checker](https://validator.w3.org/checklink). Although the team in question never got to tie metrics like these to performance evaluations, that precise step was on the table as to have strong encouragement and—ultimately enforce—higher quality.
+At the same firm at another time, managers called out the importance of quality and used available data points, like performance scores as measured by [Google’s PageSpeed tools](https://developers.google.com/speed), accessibility problems as measured by [Sidar’s HERA](https://web.archive.org/web/20150726041535/http://www.sidar.org/hera/), or the number of validation errors as measured by [W3C’s Link Checker](https://validator.w3.org/checklink). Although the team in question never got to tie metrics like these to performance evaluations, that precise step was anticipated to have strong encouragement and lead to—enforce—higher quality.
 
 ### Logistics
 
 In broad terms, our efforts around quality require logistics. These might consist of the following, listed briefly for inspiration:
 
-Standards and guidelines documentation
-: No quality effort can succeed without standards and guidelines. These can be external, but wherever they can be found, they must be documented.
+* Standards and guidelines documentation: No quality effort can succeed without standards and guidelines. These can be external, but wherever they can be found, they must be documented.
 
-Meta documentation
-: What our quality efforts entail and require must also be documented. That…
+* Meta documentation: What our quality efforts entail and require must also be documented. That…
 
-Internal websites or wikis
-: …is best done on some internal website or wiki. Here, we should gather everything we want, know, do, and plan.
+* Internal websites or wikis: …is best done on some internal website or wiki. Here, we should gather everything we want, know, do, and plan.
 
-Dedicated contacts
-: Quality stands and falls with people. At least one among them should serve as a contact, and that person must not just be responsible and accountable, but also discoverable and available.
+* Dedicated contacts: Quality stands and falls with people. At least one among them should serve as a contact, and that person must not just be responsible and accountable, but also discoverable and available.
 
-Mailing lists
-: To coordinate quality efforts, communicate new and updated documentation, and so on, mailing lists are a crucial tool. There can be lists for quality-focused teams, as well as lists open to the entire enterprise.
+* Mailing lists: To coordinate quality efforts, communicate new and updated documentation, and so on, mailing lists are a crucial tool. There can be lists for quality-focused teams, as well as lists open to the entire enterprise.
 
-Events
-: Google has a practice to host “fix-its” or “fixlets,” events that let the company or departments clean up and improve their work and code base, but quality events can range from a toast on quality at the daily Scrum meeting to company representatives speaking about quality at industry conferences.
+* Events: Google has a practice to host “fixits” or “fixlets,” events that let the company or departments clean up and improve their work and code base, but quality events can range from a toast on quality at the daily Scrum meeting to company representatives speaking about quality at industry conferences.
 
 The more a quality initiative grows and matures, the more tools and methods it may employ. This here describes our basic options.
 
@@ -498,8 +494,8 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 * [Availability Check (Regional; Site24x7)](https://www.site24x7.com/check-website-availability.html)
 * [Bandwidth Speed Test](http://www.bandwidthplace.com/)
 * [Blowfish Hash Generator](http://hash.online-convert.com/blowfish-generator)
-* [Browser Screenshots (Windows, Mac OS, Android, iOS)](https://www.browserstack.com/screenshots)
-* [Browser Screenshots (Windows, Mac OS, Linux)](http://browsershots.org/)
+* [Browser Screenshots (Windows, macOS, Android, iOS)](https://www.browserstack.com/screenshots)
+* [Browser Screenshots (Windows, macOS, Linux)](http://browsershots.org/)
 * [Browser Test Automation (Sahi; browser extension)](https://resources.sahipro.com/alldocs/v9.5.0/introduction/)
 * [Browser Test Automation (Selenium; browser extension)](https://www.selenium.dev/projects/)
 * [Browser Test Automation (Squish)](http://www.froglogic.com/)
@@ -508,12 +504,12 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 * [Code Formatter (Code Beautifier)](https://ctrlq.org/beautifier/)
 * [Code Formatter (Pretty Printer)](http://prettyprinter.de/)
 * [“Cognitive Walkthrough for the Web” Tools](https://web.archive.org/web/20150924073807/http://autocww.colorado.edu/HomePage.html)
-* [Colorblind Web Page Filter](http://colorfilter.wickline.org/)
 * [Color Contrast Analysis (Jonathan Snook)](https://snook.ca/technical/colour_contrast/colour.html)
 * [Color Contrast Analysis (WCAG Contrast Checker; Gecko browser extension)](http://mzl.la/2cmVY1A)
 * [Color Contrast Analysis (WebAIM)](http://webaim.org/resources/contrastchecker/)
 * [Color Deficit Emulation](http://www.vischeck.com/vischeck/vischeckURL.php)
 * [Color Selector](https://web.archive.org/web/20200328084352/https://gmazzocato.altervista.org/en/colorwheel/wheel.php)
+* [Colorblind Web Page Filter](http://colorfilter.wickline.org/)
 * [Cookie Editor (WebKit browser extension)](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)
 * [CSR Decoder](http://www.sslshopper.com/csr-decoder.html)
 * [CSS Accessibility Analysis](https://web.archive.org/web/20150419215647/https://juicystudio.com/services/csstest.php)
@@ -549,9 +545,9 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 * [HTML Compatibility Check for XHTML](https://web.archive.org/web/20101120133016/http://qa-dev.w3.org/appc/)
 * [HTML Compressor](http://htmlcompressor.com/compressor/)
 * [HTML Compressor (html-minifier)](https://npm.runkit.com/html-minifier)
-* [HTML Formatter](https://www.freeformatter.com/html-formatter.html)
 * [HTML, CSS, and Conformance Validator](https://validator.w3.org/unicorn/)
 * [HTML, CSS, and JS Formatter](https://www.10bestdesign.com/dirtymarkup/)
+* [HTML Formatter](https://www.freeformatter.com/html-formatter.html)
 * [HTML Outline Extractor](http://gsnedders.html5.org/outliner/)
 * [HTML Validator (W3C)](https://validator.w3.org/)
 * [HTML Validator (WDG)](https://web.archive.org/web/20150721050450/http://www.htmlhelp.com/tools/validator/)
@@ -709,7 +705,7 @@ Quality control is important because otherwise we would have no way of knowing w
 
 Quality control entails and must include a great number of tests, covering security, accessibility, usability, performance, functionality, maintainability, semantics, validation, layout and design consistency, typography, (general) code quality, and coding standard compliance.
 
-In practice, quality control requires training, depends on our mindsets, stands and falls with automation, and needs enforcement.
+In practice, quality control requires training, depends on our mindsets, profits from automation, and needs enforcement.
 
 And, finally, there are a gazillion tools for quality control and assurance.
 
