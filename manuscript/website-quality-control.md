@@ -343,6 +343,7 @@ We are in the envious situation of having a great many, good-quality validators 
 * [XML Schema Validator](https://schneegans.de/sv/)
 * [XML Validator](https://www.xmlvalidation.com/)
 * [XML Well-Formedness Check and Validator](https://www.cogsci.ed.ac.uk/~richard/xml-check.html)
+* [XML-RPC Validator](https://webdogs.com/xml-rpc-validator/)
 
 ### Layout and Design Consistency @@
 
@@ -786,6 +787,7 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 * [XML Schema Validator](https://schneegans.de/sv/)
 * [XML Validator](https://www.xmlvalidation.com/)
 * [XML Well-Formedness Check and Validator](https://www.cogsci.ed.ac.uk/~richard/xml-check.html)
+* [XML-RPC Validator](https://webdogs.com/xml-rpc-validator/)
 * [Yandex Structured Data Test](https://web.archive.org/web/20150319181926/https://webmaster.yandex.com/microtest.xml)
 
 {pagebreak}
