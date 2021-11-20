@@ -308,7 +308,7 @@ There are a number of semantics checks and generators for enriched markup availa
 
 (Some accessibility and validation tools cover aspects of semantics, too; to avoid repetition and not distort the view on the “purely semantic” testing options, these have not been duplicated here.)
 
-### Validation
+### Validation @@
 
 Validation as a measurable priority had peaked, too, before falling from grace. But popularity does not correlate with validity, accuracy, or quality, and one can argue how validation is a relevant factor for website quality. It is such an important factor for that reason that only validation ensures we’ve been coding according to the different specs—a condition that corresponds with professionalism, or at least professional ethics.
 
@@ -344,7 +344,7 @@ We are in the envious situation of having a great many, good-quality validators 
 * [XML Validator](https://www.xmlvalidation.com/)
 * [XML Well-Formedness Check and Validator](https://www.cogsci.ed.ac.uk/~richard/xml-check.html)
 
-### Layout and Design Consistency
+### Layout and Design Consistency @@
 
 Normally filed under other categories, consistency-checking is also a key factor in website quality control. What is it normally filed under? Browser testing. That is, as we’ve just noticed, a misnomer: We’re not testing browsers, we’re testing the layout and design of our websites for consistency across browsers and devices.
 
@@ -379,19 +379,26 @@ Typography is not what the common website owner will connect to website quality�
 
 But why test? Obviously, for the reasons that typography matters—and so we’re not merely running into William Bruce Cameron’s (not Albert Einstein’s) famous statement, “Not everything that counts can be counted, and not everything that can be counted counts.” Typography can be counted, and typography does count. Not many tools are available to test for good typography, but still there are some that make our typographic jobs easier:
 
+* [Font Capability Check](https://wakamaifondue.com/)
 * [Font Combinator](https://web.archive.org/web/20160708165032/http://font-combinator.com/)
-* [Font Comparison](https://www.typetester.org/)
+* [Font Comparison](https://www.fontcomparer.com/)
 * [Font Determiner (WhatFont; WebKit browser extension)](http://www.chengyinliu.com/whatfont.html)
 * [Font Determiner (WhatTheFont)](https://www.myfonts.com/WhatTheFont/)
+* [Font Determiner, Live](https://qwerty.dev/)
+* [Font Diff](https://tiff.herokuapp.com/)
 * [Font Fallback Determiner (bookmarklet)](http://www.hotelscrete.net/ffffallbackcom/)
+* [Font Family Support Check](http://fontfamily.io/)
+* [Font Pairing Test](https://fontjoy.com/)
+* [Font Style Matcher](https://meowni.ca/font-style-matcher/)
+* [Font Test](https://play.typedetail.com/)
 * [Golden Ratio Typography Calculator](https://grtcalculator.com/)
-* [Type Diff](https://tiff.herokuapp.com/)
+* [Text Decoration Generator](https://yaytext.com/)
 * [Type Live Test](https://web.archive.org/web/20160617205754/http://typewonder.com/)
-* [Type Scale](https://type-scale.com/)
-* [Type Scale (Modular)](https://www.modularscale.com/)
+* [Type Scale Generator (Jeremy Church)](https://type-scale.com/)
+* [Type Scale Generator (Tim Brown)](https://www.modularscale.com/)
 * [Web Font Generator](https://www.fontsquirrel.com/tools/webfont-generator)
 
-### Code Quality
+### Code Quality @@
 
 Venturing again into the realm that’s invisible to the users of our sites, code quality has many attributes, some of which we’ve already addressed. Here, code quality will touch on general overall checks, as well as on _linting_—that is, analyzing code for potential programmatic and stylistic errors (which we’ll focus on separately in the next section).
 
@@ -417,7 +424,7 @@ Linting comes out of computer programming, something we haven’t always filed w
 * [Website Grader](https://website.grader.com/)
 * [Website Review](https://www.valuemyweb.com/reviewmyweb/reviewmyweb)
 
-### Coding Standard Compliance
+### Coding Standard Compliance @@
 
 Last but not least and not to be missed: We want to and we can measure the conformity and consistency of our code. For that—and you may remember _The Little Book of HTML/CSS Coding Guidelines_—we look at common coding practices, and, notably, our coding guidelines.
 
@@ -587,11 +594,18 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 * [Edge Compatibility Test](http://doesitworkonedge.com/)
 * [Email Blacklist Check](http://mxtoolbox.com/blacklists.aspx)
 * [Facebook Validator](https://developers.facebook.com/tools/debug/)
+* [Font Capability Check](https://wakamaifondue.com/)
 * [Font Combinator](https://web.archive.org/web/20160708165032/http://font-combinator.com/)
-* [Font Comparison](https://www.typetester.org/)
+* [Font Comparison](https://www.fontcomparer.com/)
 * [Font Determiner (WhatFont; WebKit browser extension)](http://www.chengyinliu.com/whatfont.html)
 * [Font Determiner (WhatTheFont)](https://www.myfonts.com/WhatTheFont/)
+* [Font Determiner, Live](https://qwerty.dev/)
+* [Font Diff](https://tiff.herokuapp.com/)
 * [Font Fallback Determiner (bookmarklet)](http://www.hotelscrete.net/ffffallbackcom/)
+* [Font Family Support Check](http://fontfamily.io/)
+* [Font Pairing Test](https://fontjoy.com/)
+* [Font Style Matcher](https://meowni.ca/font-style-matcher/)
+* [Font Test](https://play.typedetail.com/)
 * [FTP Server Test](http://www.dotcom-tools.com/ftp-server-test.aspx)
 * [Golden Ratio Typography Calculator](https://grtcalculator.com/)
 * [Google Structured Data Test](https://developers.google.com/search/docs/advanced/structured-data)
@@ -703,14 +717,14 @@ W> These tools were collected in 2016. Some of them are not around anymore. Wher
 * [SSL Client Check](http://www.howsmyssl.com/)
 * [SSL Scanner (command-line tool)](http://github.com/iSECPartners/sslyze)
 * [SSL Server Test](http://www.ssllabs.com/ssltest/)
-* [Traceroute Tool](https://web.archive.org/web/20150627073214/https://cloudmonitor.ca.com/en/traceroute.php)
 * [SVG Validator](https://web.archive.org/web/20050306190554/http://jiggles.w3.org/svgvalidator/ValidatorURI.html)
+* [Text Decoration Generator](https://yaytext.com/)
+* [Traceroute Tool](https://web.archive.org/web/20150627073214/https://cloudmonitor.ca.com/en/traceroute.php)
 * [Traceroute Tool (Visualized)](https://web.archive.org/web/20140628001934/http://traceroute.monitis.com/)
 * [Twitter Card Test](http://cards-dev.twitter.com/validator)
-* [Type Diff](https://tiff.herokuapp.com/)
 * [Type Live Test](https://web.archive.org/web/20160617205754/http://typewonder.com/)
-* [Type Scale](https://type-scale.com/)
-* [Type Scale (Modular)](https://www.modularscale.com/)
+* [Type Scale Generator (Jeremy Church)](https://type-scale.com/)
+* [Type Scale Generator (Tim Brown)](https://www.modularscale.com/)
 * [UI Test Automation (Ghost Inspector; browser extension)](https://ghostinspector.com/)
 * [UI Test Automation (Screenster)](https://screenster.io/)
 * [User Agent Detector](http://ua.met.cz/)
