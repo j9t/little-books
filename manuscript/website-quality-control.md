@@ -70,7 +70,7 @@ Security is critical, but it’s also tricky in the light of website quality con
 
 Let’s go over some tools that are available to us (primarily with a focus on those that are web-based). The responsible website owner should employ additional, notably inner-organizational means to ensure that their services and the data those services gather are secure.
 
-W> These tools were collected in 2016. Some of them are not around anymore. Where possible, links have been corrected, otherwise restored to point to a previous version available on the [Internet Archive](https://archive.org/). You find similar and more tools on the author’s website, [UITest.com](https://uitest.com/), or on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
+I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on the author’s website, [UITest.com](https://uitest.com/), and on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
 
 * [Abuse Contact Lookup](https://viewdns.info/abuselookup/)
 * [AES Encrypter](https://www.infoencrypt.com/)
@@ -509,9 +509,7 @@ The more a quality initiative grows and matures, the more tools and methods it m
 
 The following serves as an overview of web-based tools, browser extensions, command-line tools, scripts, and bookmarklets. It is not complete; it will lack important tools; but many tools come with my endorsement, and the promise to serve you.
 
-(By the way, my [UITest.com](https://uitest.com/) site is a hub for web-based and free tools for web development and design. You find many of the tools listed in this book over there, too.)
-
-W> These tools were collected in 2016. Some of them are not around anymore. Where possible, links have been corrected, otherwise restored to point to a previous version available on the [Internet Archive](https://archive.org/). You find similar and more tools on the author’s website, [UITest.com](https://uitest.com/), or on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
+I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on the author’s website, [UITest.com](https://uitest.com/), and on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
 
 * [Abuse Contact Lookup](https://viewdns.info/abuselookup/)
 * [Accessibility Check (AATT; automated; command-line tool)](http://github.com/paypal/AATT)
