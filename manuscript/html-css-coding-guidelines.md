@@ -235,23 +235,17 @@ These are the main ingredients of a coding guideline.
 
 Let’s have a closer look at this structure:
 
-What (not) to do
-: We’ve seen the key part of a guideline with the question whether “do _x_” suffices. We cannot do without it.
+What (not) to do: We’ve seen the key part of a guideline with the question whether “do _x_” suffices. We cannot do without it.
 
-Scope
-: Knowing what the guideline applies to is sometimes evident (“sort all CSS declarations alphabetically” already clarifies the scope), sometimes not (“indent by two spaces”—indent what, when, where?). Because of that uncertainty the scope is generally important, too.
+Scope: Knowing what the guideline applies to is sometimes evident (“sort all CSS declarations alphabetically” already clarifies the scope), sometimes not (“indent by two spaces”—indent what, when, where?). Because of that uncertainty the scope is generally important, too.
 
-Examples
-: Here things get more blurry in that a well-written rule may not need examples; however, in practice we observe that examples do help. Glancing at a rule and an example clarifies and helps colleagues with less experience to get an understanding when to apply a rule “when they see it.” Examples may need counter-examples—that is, we should show what is expected and correct according to the rule, and then what would be incorrect.
+Examples: Here things get more blurry in that a well-written rule may not need examples; however, in practice we observe that examples do help. Glancing at a rule and an example clarifies and helps colleagues with less experience to get an understanding when to apply a rule “when they see it.” Examples may need counter-examples—that is, we should show what is expected and correct according to the rule, and then what would be incorrect.
 
-Implementation help
-: Ideally, a coding guideline comes with a tip on how to use it, to make following it easier. For example, “use configuration file _x_ for your editor to enforce indentation,” “include script _y_ to have your code validated,” or “covered by linter.” Although this is a very useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
+Implementation help: Ideally, a coding guideline comes with a tip on how to use it, to make following it easier. For example, “use configuration file _x_ for your editor to enforce indentation,” “include script _y_ to have your code validated,” or “covered by linter.” Although this is a very useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
 
-Explanation
-: Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitates improving or vetoing the rule in question. In an authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
+Explanation: Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitates improving or vetoing the rule in question. In an authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
 
-What else
-: Finally, a complete coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it’s better to err on the side of adding detail so that the team can understand the guideline and its rationale.
+What else: Finally, a complete coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it’s better to err on the side of adding detail so that the team can understand the guideline and its rationale.
 
 With that, we should have an idea of the _minima_ and _maxima_ of a coding guideline:
 
