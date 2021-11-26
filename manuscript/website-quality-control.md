@@ -32,7 +32,7 @@ Many more people inspired my work, and many more people helped make this book re
 
 Wikipedia defines [quality control](https://en.wikipedia.org/wiki/Quality_control) (often abbreviated as “QC,” but rarely in this book) as “a process by which entities review the quality of all factors involved in production.” [ISO 9000](https://en.wikipedia.org/wiki/ISO_9000), also through Wikipedia, is said to define quality control as “a part of quality management focused on fulfilling quality requirements.” Google, without attribution, understands quality control to be “a system of maintaining standards in manufactured products by testing a sample of the output against the specification.”
 
-We want to use a definition that is stricter on the one end and more lenient on the other: “Website quality control entails the means to determine (a) whether our websites meet our expectations and (b) to what degree they meet professional best practices.”
+We want to use a definition that is stricter on the one end and more lenient on the other: “Website quality control entails the means to determine a) whether our websites meet our expectations and b) to what degree they meet professional best practices.”
 
 “Means,” then, will refer largely to infrastructure—that is, tools. As stated a moment ago, we’ll also look at processes and methods useful to improve, not just measure, the quality of our work.
 
@@ -775,7 +775,7 @@ This was a brief treatise on the subject of website quality control. What have w
 
 Quality management consists of quality planning, quality assurance, quality control, and quality improvement. It comes with a number of methods to identify (control), fix (improvement), and avoid defects (planning, assurance).
 
-Website quality control entails the means to determine (a) whether websites meet our own expectations and (b) to what degree our websites meet professional best practices.
+Website quality control entails the means to determine a) whether websites meet our own expectations and b) to what degree our websites meet professional best practices.
 
 Quality control is important because otherwise we would have no way of knowing whether what we do and produce is any good. Quality control is professional; quality control saves time and money and sometimes nerves.
 
