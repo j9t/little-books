@@ -12,4 +12,4 @@ Official description:
 >
 > _The Little Book of Website Quality Control_ reviews quality assurance and control and offers a comprehensive collection of tools. The author believes this has been one of his weakest books, ponders why he didn’t do better, but likes the idea that, over time, he can make updates that make it a little less shallow.
 >
-> 👉 This is the book if you want to travel back in time for a complementary perspective on frameworks, coding guidelines, quality control—and the craft of web development.
+> → This is the book if you want to travel back in time for a complementary perspective on frameworks, coding guidelines, quality control—and the craft of web development.
