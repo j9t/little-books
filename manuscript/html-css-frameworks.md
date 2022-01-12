@@ -339,7 +339,7 @@ The “pro-quality” choice has been explained as using or developing an _inter
 
 These questions underline the importance of knowing our precise needs. It is even important in order to _pick_ a framework, as knowing our needs helps determine which framework fits better (tailoring) and comes closer to our extensibility needs (though simple needs don’t require extensibility as much as comprehensive needs).
 
-### The Two Ground Rules of Using a Framework
+### The Two Ground Rules for Using a Framework
 
 And of _any_ framework at that. These two rules are golden:
 
