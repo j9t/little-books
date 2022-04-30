@@ -230,7 +230,6 @@ It’s advantageous to tell whether everything’s where we expect it to be, and
 * [Browser Test Automation (Sahi; browser extension)](https://resources.sahipro.com/alldocs/v9.5.0/introduction/)
 * [Browser Test Automation (Selenium; browser extension)](https://www.selenium.dev/projects/)
 * [Browser Test Automation (Squish)](http://www.froglogic.com/)
-* [Code, Link, and Content Check](http://watson.addy.com/)
 * [Design Responsiveness Test (Am I Responsive)](http://ami.responsivedesign.is/)
 * [Design Responsiveness Test (Website Planet)](https://www.websiteplanet.com/webtools/responsive-checker/)
 * [Link Analysis](http://juicystudio.com/services/linktest.php)
@@ -320,7 +319,7 @@ We are in the envious situation of having a great many, good-quality validators 
 * [XML Schema Validator](https://schneegans.de/sv/)
 * [XML Validator](https://www.xmlvalidation.com/)
 * [XML Well-Formedness Check and Validator](https://www.cogsci.ed.ac.uk/~richard/xml-check.html)
-* [XML-RPC Validator](https://webdogs.com/xml-rpc-validator/)
+* [XML-RPC Validator](http://scripting.com/code/xmlrpcbrowserclient/)
 
 ### Layout and Design Consistency
 
@@ -544,7 +543,6 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [CMS Detector](https://whatcms.org/)
 * [Code Formatter (Code Beautifier)](https://ctrlq.org/beautifier/)
 * [Code Formatter (Pretty Printer)](http://prettyprinter.de/)
-* [Code, Link, and Content Check](http://watson.addy.com/)
 * [Color Contrast Analysis (Jonathan Snook)](https://snook.ca/technical/colour_contrast/colour.html)
 * [Color Contrast Analysis (WCAG Contrast Checker; Gecko browser extension)](http://mzl.la/2cmVY1A)
 * [Color Contrast Analysis (WebAIM)](http://webaim.org/resources/contrastchecker/)
@@ -764,7 +762,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [XML Schema Validator](https://schneegans.de/sv/)
 * [XML Validator](https://www.xmlvalidation.com/)
 * [XML Well-Formedness Check and Validator](https://www.cogsci.ed.ac.uk/~richard/xml-check.html)
-* [XML-RPC Validator](https://webdogs.com/xml-rpc-validator/)
+* [XML-RPC Validator](http://scripting.com/code/xmlrpcbrowserclient/)
 * [YAML Linter](https://codebeautify.org/yaml-validator)
 
 {pagebreak}
