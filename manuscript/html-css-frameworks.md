@@ -82,7 +82,7 @@ For example, [YAML](http://www.yaml.de/) requires the following HTML code for a 
 </nav>
 ```
 
-The only missing piece or, literally, link, is connecting the library so to have it apply the functionality to the chosen patterns, on basis of the mandated markup.
+The only missing piece or, literally, link, is connecting the library so as to have it apply the functionality to the chosen patterns, on basis of the mandated markup.
 
 For example, to use [Bootstrap](https://getbootstrap.com/), we must reference something like:
 
@@ -98,7 +98,7 @@ The implications of this second insight are far-reaching. Although rather trivia
 
 Frameworks promise to save both development and design time. The thinking goes that many of the things site owners and developers want have been done a thousand times, and thus there is no need to reinvent the wheel. Internal frameworks commonly enjoy a more sober regard, so this particularly applies to external frameworks.
 
-If frameworks come with this promise, the question arises whether or not they live up to it. The answer boils down to a cost calculation that is, unfortunately, different for every framework and project. How much development cost was saved? How much was, in turn, spent on training, customization, and upgrades?
+If frameworks come with this promise, the question arises whether they live up to it. The answer boils down to a cost calculation that is, unfortunately, different for every framework and project. How much development cost was saved? How much was, in turn, spent on training, customization, and upgrades?
 
 Apart from suggesting that we do the math and _think_ through every project, the following pages cover frameworks in the necessary detail to empower everyone to form their own theory about the _raisons d’être_ of frameworks.
 
@@ -273,7 +273,7 @@ To tailor external frameworks:
 
 A good framework is not only tailored but also usable. But what is usability for frameworks? It starts with applying the [common definition of usability](https://en.wikipedia.org/wiki/Usability): ease of use and learnability. And with a universal rule: Keep it simple. Simplicity helps everything.
 
-But that’s not quite a complete answer, and so we need to differentiate again. The distinction that serves us is not one between frameworks, but between roles: framework users and framework developers.
+But that’s not a complete answer, and so we need to differentiate again. The distinction that serves us is not one between frameworks, but between roles: framework users and framework developers.
 
 For the framework user (who may be a developer himself but is now concerned with working _with_ the framework), a usable framework is also easy to understand. That ease of understanding is primarily achieved through clear framework documentation and, where applicable, concise code.
 
@@ -303,7 +303,7 @@ The final attribute is extensibility. Extensibility for a framework means that i
 
 Extensibility is necessary for two reasons. First, external frameworks in particular won’t offer everything we need, so there needs to be a way to add functionality. Second, especially in large projects, there’s a tendency for new patterns to pop up. The problem with these is their uncertainty and uniqueness: They may only be used once or twice and don’t warrant a place in the framework core or even near more common extensions. Both their location and handling have to be thought of.
 
-To make up for lacking functionality in a framework, users typically help themselves by pretending they don’t use a framework in the first place. That is, they have a style sheet or script that handles everything the framework doesn’t cover. That’s actually quite okay; the point here is to _be clear_ about how such “non-framework functionality” or extensions are handled (and we notice how extensibility is also a user responsibility). If nothing else, extensibility stresses the need for the most basic of all code safeties: a namespace (a framework-specific ID and class name prefix, and the same namespace in JavaScript).
+To make up for lacking functionality in a framework, users typically help themselves by pretending they don’t use a framework in the first place. That is, they have a style sheet or script that handles everything the framework doesn’t cover. That’s okay; the point here is to _be clear_ about how such “non-framework functionality” or extensions are handled (and we notice how extensibility is also a user responsibility). If nothing else, extensibility stresses the need for the most basic of all code safeties: a namespace (a framework-specific ID and class name prefix, and the same namespace in JavaScript).
 
 Next, new and rarely used patterns are a challenge that runs in the best families. There tends to always be a need for something new, and there are always document types or elements that are used infrequently. They’re one of the biggest contributing factors to code bloat. They are hard to control if they don’t get watched and reigned in vigorously.
 
