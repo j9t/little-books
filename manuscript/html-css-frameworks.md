@@ -309,7 +309,7 @@ Next, new and rarely used patterns are a challenge that runs in the best familie
 
 Though I could give a longer dissertation about the matter, an effective counter-practice is to either designate style sheet and script sections for new and experimental code, as well as rare elements—or to even put aside a separate style sheet and script for such purposes. The framework developers should anticipate this and make recommendations, but users should come up with their own guidelines if this piece has not been covered. A documented standard for new code allows better monitoring and better decisions on whether to keep (and relocate) the code, or to remove it.
 
-We’ve successfully applied this principle with Google’s HTML/CSS framework Go—not to be confused with the programming language, which was conceived two years later. Go came with a “backpack” library, Go X, which included elements that we used only occasionally. This kept the core small—[4,250 bytes](https://www.google.com/css/go.css) including the Google logo—but offered the use of additional, common-enough elements. Project-specific code made for a third layer that had to be carried by each project style sheet itself.
+We’ve successfully applied this principle with Google’s HTML/CSS framework Go—not to be confused with the programming language, which was conceived two years later. Go came with a “backpack” library, Go X, which included elements that we used only occasionally. This kept the core small—[4,250 bytes](https://www.google.com/css/go.css) including the Google logo—and also offered the use of additional, common-enough elements. Project-specific code made for a third layer that had to be carried by each project style sheet itself.
 
 To make frameworks more extensible:
 
