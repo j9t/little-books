@@ -38,7 +38,7 @@ First, there are a handful of terms that may be used differently in other contex
 
 * Cost: A measure of any negative consequence. Typically expenditures of work, time, or money, but possibly negative changes in, for example, perception, satisfaction, or reputation. In web development, for instance, any element added to a page has a cost in terms of reduced page performance.
 
-* Tailoring: The producing and adjusting to precise dimensions and needs. In web development, tailored code is all code that’s needed—or going to be needed—by a project, but not more.
+* Tailoring: The producing and adjusting to precise dimensions and needs. In web development, tailored code is the code that’s needed by a project, but not more.
 
 Second, some assumptions:
 
@@ -128,9 +128,9 @@ Developing an internal framework and making it public, as we could even apply to
 
 Reflected in the table is the idea that frameworks can be used and developed liberally, with two exceptions. One exception is that _experts shouldn’t use external frameworks_; the other is that _beginners shouldn’t develop external frameworks_.
 
-The two exceptions stem from a violation of quality standards: While the external framework violates the ideals of the expert (which I will later describe), it is the beginner who would not know the necessary ideals to create a quality framework.
+The two exceptions stem from a violation of quality standards: While the external framework violates the ideals of the expert (which I will later describe), it is the beginner who would not yet know the necessary ideals to create a quality framework.
 
-The internal framework is safe to use or develop in every case because that’s the preferred way of developing web documents and apps. Internal beats external every time because external cannot, by definition, know all the needs of the organization and fails many quality standards. Second, internal solutions are the better route for both experts and beginners to stay sharp and to learn, since their mistakes have a smaller impact.
+The internal framework is safe to use or develop in every case because that’s the preferred way of developing websites and apps. Internal beats external every time because external cannot, by definition, know all the needs of the organization, and therefore fails many quality standards. Second, internal solutions are the better route for both experts and beginners to stay sharp and to learn, since their mistakes have a smaller impact.
 
 The development of an external framework is safest only with an experienced web developer, who can, following the principles outlined in this book, skillfully build and document it so that it has a better chance to be useful, at a low cost-benefit ratio. For the less experienced developer or the one in a hurry, use of an external framework is thought to be more viable simply because things matter a lot less for him; they may discern few impacts in quality, and they may not yet have a long-term vision for their project.
 
@@ -142,14 +142,18 @@ I> We don’t cover compilation frameworks in more detail because they expand on
 
 ### Popular Frameworks
 
-There are many dozens of HTML/CSS frameworks that developers have found useful. Here is a selection, to give you an impression of what the world of external frameworks feels like:
+There are many dozens of HTML/CSS frameworks that developers have found useful. Here is a selection, to give an impression of what the world of external frameworks feels like:
 
-* [960 Grid System](https://960.gs/)
 * [1140 CSS Grid](https://www.ramotion.com/agency/web-design/cssgrid/)
+* [960 Grid System](https://960.gs/)
 * [Base](https://getbase.org/)
+* [Basscss](https://basscss.com/)
+* [Beard](https://web.archive.org/web/20190302021244/http://buildwithbeard.com/)
 * [Bijou](https://andhart.github.io/bijou/)
 * [Blueprint](http://www.blueprintcss.org/)
 * [Bootstrap](https://getbootstrap.com/)
+* [Brutalist Framework](http://www.brutalistframework.com/)
+* [Bulma](https://bulma.io/)
 * [Cascade Framework](https://web.archive.org/web/20150810101841/http://www.cascade-framework.com/)
 * [Columnal](https://web.archive.org/web/20141219115531/http://www.columnal.com/)
 * [Compass](http://compass-style.org/)
@@ -164,6 +168,7 @@ There are many dozens of HTML/CSS frameworks that developers have found useful. 
 * [Gridlock](https://web.archive.org/web/20140314154038/http://www.benplum.com/projects/gridlock/)
 * [Groundwork](https://web.archive.org/web/20130525142949/http://groundwork.sidereel.com/)
 * [Gumby](https://web.archive.org/web/20150205011420/http://gumbyframework.com/)
+* [HiQ](https://jonathanharrell.github.io/hiq/)
 * [HTML KickStart](http://www.99lime.com/elements/)
 * [HTML5 Boilerplate](https://html5boilerplate.com/)
 * [IceCream](http://html5-ninja.com/icecream/)
@@ -175,8 +180,14 @@ There are many dozens of HTML/CSS frameworks that developers have found useful. 
 * [Kube](https://imperavi.com/kube/)
 * [Layers CSS](http://labs.jerryjappinen.com/layers/)
 * [Less Framework](https://lessframework.com/)
-* [Metro UI CSS](https://metroui.org.ua/)
+* [Materialize](https://materializecss.com/)
+* [Metro](https://metroui.org.ua/)
+* [Milligram](https://milligram.io/)
+* [mini.css](https://minicss.org/)
 * [Mueller Grid System](https://muellergridsystem.com/)
+* [new.css](https://github.com/xz/new.css)
+* [Picnic CSS](https://picnicss.com/)
+* [Pico.css](https://picocss.com/)
 * [Profound Grid](https://www.profoundgrid.com/)
 * [Pure](https://purecss.io/)
 * [Responsee](https://www.myresponsee.com/)
@@ -186,17 +197,23 @@ There are many dozens of HTML/CSS frameworks that developers have found useful. 
 * [Semantic Grid System](https://web.archive.org/web/20150316133000/http://semantic.gs/)
 * [Simple Grid](https://thisisdallas.github.io/Simple-Grid/)
 * [Skeleton](http://getskeleton.com/)
+* [Spectre.css](https://picturepan2.github.io/spectre/)
 * [Susy](https://www.oddbird.net/susy/)
+* [Tachyons](http://tachyons.io/)
+* [Tacit](https://yegor256.github.io/tacit/)
+* [Tailwind](https://tailwindcss.com/)
 * [Titan](https://web.archive.org/web/20130511013059/http://titanthemes.com/titan-framework-a-css-framework-for-responsive-web-designs)
 * [Toast](https://daneden.github.io/Toast/)
 * [Tuktuk](https://web.archive.org/web/20150613115431/http://tuktuk.tapquo.com/)
+* [turretcss](https://turretcss.com/)
+* [UIkit](https://getuikit.com/)
 * [YAML](http://www.yaml.de/)
 
-(Some readers will remember [Choke](https://meiert.com/en/blog/choke/), too, although that humor may have been rather crude.)
+(Some readers may remember [Choke](https://meiert.com/en/blog/choke/), too, although that humor may have been rather crude.)
 
 These frameworks all vary in functionality and scope. Some focus on base layouts, while others go all the way into comprehensive print and mobile themes.
 
-Such a list of frameworks is the type of information that goes stale quickly. While some frameworks, most notably YAML (not to be confused with [YAML Ain’t Markup Language](https://en.wikipedia.org/wiki/YAML)), have been around for many years, other frameworks come and go. It’s more useful to obtain said impression from this list, regard it as a snapshot, and, perhaps, make it a starting point to experiment.
+Such a list of frameworks is the type of information that goes stale quickly. While some frameworks, most notably YAML (not to be confused with [YAML Ain’t Markup Language](https://en.wikipedia.org/wiki/YAML)), have been around for many years, other frameworks have withered, like 15 out of the above list that live on in the Internet Archive. It’s more useful to obtain said impression from this list, understand it as a snapshot, and, perhaps, make it a starting point to experiment.
 
 {pagebreak}
 
