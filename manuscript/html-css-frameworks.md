@@ -489,7 +489,7 @@ The handling of framework updates deserves a separate section. Updates are gener
 
 Here are a few tricks to make framework updates easier:
 
-* Try to avoid HTML changes because of their comparatively high cost. An update should only consist of styling or scripting changes and impart _no_ actual work for users (which, to counter the aforementioned definition blurriness, also means developers who work with the framework). The update of framework references can be okay.
+* Try to avoid HTML changes because of their comparatively high cost. An update should only consist of styling or scripting changes and impart _no_ actual work for users (which, to counter the aforementioned definition blurriness, also means developers who work with the framework). The update of framework references (and packages—this book was written when the JavaScript ecosystem wasn’t as strong as it is today) can be okay.
 
 * Announce updates in advance.
 
