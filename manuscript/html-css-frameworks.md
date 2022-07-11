@@ -229,13 +229,13 @@ We can get one such safety if we can curb the bloat that external frameworks in 
 
 If we assume a complex project, we’re likely not alone working with or on the framework; and if it’s an external one, we have no idea whether the developers of that framework speak our language (literally and metaphorically). What helps here is usability. A good framework should be usable.
 
-And then, requirements change just as the times: How do we work with the framework going forward? What if we need to add something, perhaps in a pinch? What helps with that is extensibility. And thus a framework should also be extensible. At least we or the framework should be clear how to extend it.
+And then, requirements change just as the times: How do we work with the framework going forward? What if we need to add something, perhaps in a pinch? What helps with that is extensibility. And thus a framework should also be extensible. We and the framework should be clear about how to extend it.
 
-We’re just being professional and reasonable when we demand quality. We gain extra confidence, then, by wanting frameworks that are also tailored, usable, and extensible. Let’s look at these three special attributes a little closer and point out the options developers have to get frameworks to that state.
+We’re being professional and reasonable when we demand quality. We gain extra confidence, then, by wanting frameworks that are also tailored, usable, and extensible. Let’s look at these three special attributes a little closer and point out the options developers have to get a framework to that state.
 
 I> ### On Quality
 I>
-I> It’s easy to just say “quality,” and, “Yes, I’ll have that, too.” But what exactly _is_ quality? Or, for our purposes, what is quality code? When we think about it—consider lifting our eyes from these pages, and think code quality—we won’t struggle to find more than just the ideals of tailored, usable, and extensible. There’s also:
+I> It’s easy to just say “quality,” and, “yes, I’ll have that, too.” But what exactly _is_ quality? Or, for our purposes, what is quality code? When we think about it—consider lifting our eyes from these pages, and think code quality—we won’t struggle to find more than just the ideals of tailored, usable, and extensible. There’s also:
 I>
 I> * fast
 I> * accessible
@@ -268,13 +268,13 @@ What can we do to tailor? The approach depends on the origin of the framework, a
 
 An internal framework is relatively simple to tailor: We develop to the needs of our project from the beginning. These needs may be defined by comps (comprehensive layouts) and mocks (mock-ups) or, better, a style guide. Once all needed page types and elements have been specified, they’re coded up. If they’re all used by the later site or app, the code cannot be anything but tailored (although it may still be possible to optimize and compress it).
 
-An external framework, however, is much more difficult to tailor (by the receiving side, because it’s impossible for the originator). In a basic sense, we need to deduct all needed functionality from all offered functionality, and then remove the code that remains. That leads us to the key issues with external frameworks: Removing code may not be feasible, and tailoring then depends on the quality of the framework code and its documentation (e.g., tailoring will require testing, might break the framework, and could make the same work necessary for later updates, if not outright thwarting the ability to move to newer frameworks).
+An external framework, however, is much more difficult to tailor (by the recipient, because it’s already impossible for the originator). In a basic sense, we need to deduct all needed functionality from all offered functionality, and then remove the code that remains. That leads us to the key issues with external frameworks: Removing code may not be feasible, and tailoring then depends on the quality of the framework code and its documentation (e.g., tailoring will require testing, might break the framework, and could make the same work necessary for later updates, if not outright thwarting the ability to move to a newer version of the framework).
 
-These are big issues that make for good reasons why few people actually go to the length of customizing or tailoring external frameworks (or any external code, for that matter). Yet the outcome—non-tailored and lower-quality code—is not expert-like, but inferior. And so we see with more clarity why in a professional context, external frameworks shouldn’t be preferred. They promise to save cost, only to come with a stiff hidden tax—or to bring down the quality of our work.
+These are big issues that make for good reasons why few people actually go to the length of customizing or tailoring external frameworks (or any external code, for that matter). Yet the outcome—non-tailored and lower-quality code—is not expert-like, but inferior. And so we see why in a professional context, external frameworks shouldn’t be preferred. They promise to save cost, only to come with a hidden tax—or to bring down the quality of our work.
 
-Now, some frameworks like Bootstrap or Gumby have begun to address these problems by offering sophisticated customization wizards. This is smart, because it significantly alleviates the issues of non-tailored solutions. Framework developers should offer and users use such functionality.
+Now, some frameworks like Bootstrap or Gumby have begun to address these problems by offering sophisticated customization wizards. This is smart, because it alleviates the issues of non-tailored solutions. Framework developers should offer and users use such functionality.
 
-By the way, there’s another problem we need to consider: While we’re benefiting from either our decision to save cost or to improve quality, our end users benefit mostly from quality. Technically speaking, they are rarely on the list of beneficiaries if we decide to deploy a framework that’s easy to ship but bloated.
+By the way, there’s another problem to consider: While we’re benefiting from either our decision to save cost or to improve quality, our end users benefit mostly from quality. Technically speaking, they are rarely on the list of beneficiaries if we decide to deploy a framework that’s easy to ship but bloated.
 
 To tailor internal frameworks:
 
@@ -290,11 +290,11 @@ To tailor external frameworks:
 
 A good framework is not only tailored but also usable. But what is usability for frameworks? It starts with applying the [common definition of usability](https://en.wikipedia.org/wiki/Usability): ease of use and learnability. And with a universal rule: Keep it simple. Simplicity helps everything.
 
-But that’s not a complete answer, and so we need to differentiate again. The distinction that serves us is not one between frameworks, but between roles: framework users and framework developers.
+But that’s not a complete answer, and so we need to differentiate again. Let’s make a distinction not between frameworks, but between roles: framework users and framework developers.
 
 For the framework user (who may be a developer himself but is now concerned with working _with_ the framework), a usable framework is also easy to understand. That ease of understanding is primarily achieved through clear framework documentation and, where applicable, concise code.
 
-For the framework developer, there’s much more emphasis on usable code. Luckily, there are two things we can link with helping code usability: [maintainability practices](https://meiert.com/en/blog/maintainability-guide/) and code conventions (coding guidelines). Adherence to maintainability practices and consistent style are the backbone for usable code.
+For the framework developer, there’s much more emphasis on usable code. Luckily, there are two things linked with helping code usability: [maintainability practices](https://meiert.com/en/blog/maintainability-guide/) and code conventions (coding guidelines). Adherence to maintainability practices and consistent style are the backbone for usable code.
 
 With slightly smaller boundaries than [developer experience](https://web.archive.org/web/20150801063134/http://developerexperience.org/), I generally believe there is a subfield of usability: _developer usability._ It could be defined as “the ease of use and learnability of code.” Yet perhaps usable code goes under different names.
 
@@ -320,7 +320,7 @@ The final attribute is extensibility. Extensibility for a framework means that i
 
 Extensibility is necessary for two reasons. First, external frameworks in particular won’t offer everything we need, so there needs to be a way to add functionality. Second, especially in large projects, there’s a tendency for new patterns to pop up. The problem with these is their uncertainty and uniqueness: They may only be used once or twice and don’t warrant a place in the framework core or even near more common extensions. Both their location and handling have to be thought of.
 
-To make up for lacking functionality in a framework, users typically help themselves by pretending they don’t use a framework in the first place. That is, they have a style sheet or script that handles everything the framework doesn’t cover. That’s okay; the point here is to _be clear_ about how such “non-framework functionality” or extensions are handled (and we notice how extensibility is also a user responsibility). If nothing else, extensibility stresses the need for the most basic of all code safeties: a namespace (a framework-specific ID and class name prefix, and the same namespace in JavaScript).
+To make up for lacking functionality in a framework, users typically help themselves by pretending they don’t use a framework in the first place. That is, they have a style sheet or script that handles everything the framework doesn’t cover. That’s okay; the point here is to _be clear_ about how such “non-framework functionality” or extensions are handled (we notice how extensibility is also a user responsibility). If nothing else, extensibility stresses the need for the most basic of all code safeties: a namespace (a framework-specific ID and class name prefix, and the same namespace in JavaScript).
 
 Next, new and rarely used patterns are a challenge that runs in the best families. There tends to always be a need for something new, and there are always document types or elements that are used infrequently. They’re one of the biggest contributing factors to code bloat. They are hard to control if they don’t get watched and reigned in vigorously.
 
@@ -335,9 +335,9 @@ To make frameworks more extensible:
 * Specify where new and rarely used code should be located (also a framework user responsibility).
 * Regularly review new and rarely used code, to either make part of framework or remove (also a framework user responsibility).
 
-D> Despite all my experience and convictions, I’ve phrased these rules as strong suggestions. I was tempted to say “must,” “must,” “must.” Whenever we like more dogma in our web development life, we use this verb.
+D> Despite all my experience and convictions, I’ve phrased these rules as strong recommendations. I was tempted to say “must,” “must,” “must.” Whenever we like more dogma in our web development life, we use this verb.
 D>
-D> Another thing before we move on: No matter the quality of the framework, the _goal_ for its use is always on the owners and developers. Frameworks can be likened to cars: A good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored and usable and extensible. But just as we look at the driver to know the destination for their car, we look at the developer to know the goals for the framework they’re using. We can drive a framework against the wall as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: A framework doesn’t drive itself.
+D> Another thing before we move on: No matter the quality of the framework, the _goal_ for its use is always on the owners and developers. Frameworks can be likened to cars: A good car should be, say, safe, easy to handle, and economical. And so a good framework should be tailored, usable, and extensible. But just as we look at the driver to know the destination for their car, we look at the developer to know the goals for the framework they’re using. We can drive a framework against the wall as we can a car, which is the reason we differentiate between experts and novices. Just to get this out there: A framework doesn’t drive itself.
 
 {pagebreak}
 
