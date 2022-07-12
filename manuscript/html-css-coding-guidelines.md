@@ -350,15 +350,15 @@ Second, we need to _enforce_ the code style we want to see. Here, too, automatio
 
 ### Reviews
 
-Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so, too, should we review our guidelines from time to time—it’s important to update the documentation to reflect changes to guidelines as they arise.
+Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so, too, should we occasionally review our guidelines. It’s best to update the documentation as changes arise. (The same goes for the respective code examples—when guidelines change, we must not forget to update these, either.)
 
-It is something that gets maintained (as much as the affected code—we should not forget to update it when guidelines change). It is therefore recommended not only to assign a primary contact (or a small team of volunteers) to be guideline owners, but to also schedule at least quarterly reviews that check whether updates are needed.
+As something that gets maintained, it’s recommended not only to assign a primary contact (an individual, or a team of volunteers) to be guideline owners, but also to schedule at least quarterly reviews to confirm and perform updates.
 
 ### Automation
 
 Lastly, a particularly useful habit—and a key for future handling of coding guidelines—is automation. The assessment of code quality should be automated as much as possible. We should also automate fixing and improving code.
 
-At the moment, there is no single out-of-the-box solution for this (only [small scripts](https://robertnyman.com/2010/01/19/tools-for-concatenating-and-minifying-css-and-javascript-files-in-different-development-environments/) abound), but our vision should be that our development environment shows us local coding preferences, highlights violations and fixes them for us; that then, when we stage our code, additional checks are run that likewise report issues and fix them, and that at the end, optimized, minified, compressed, our code goes live in the shape we envision it.
+At the moment, there’s no single out-of-the-box solution for this (only [small scripts](https://robertnyman.com/2010/01/19/tools-for-concatenating-and-minifying-css-and-javascript-files-in-different-development-environments/) abound), but our vision should be that our development environment shows us local coding preferences, highlights violations and fixes them for us; that then, when we stage our code, additional checks are run that likewise report issues and fix them, and that at the end, optimized, minified, compressed, our code goes live in the shape we envision it.
 
 {pagebreak}
 
@@ -493,7 +493,7 @@ Strictly keep structure (markup), presentation (styling), and behavior (scriptin
 
 That is, make sure documents and templates contain only HTML, and HTML that is solely serving structural purposes. Move everything presentational into style sheets, and everything behavioral into scripts. Link as few style sheets and scripts as possible from documents and templates.
 
-Separating structure from presentation from behavior is important for maintenance reasons. It is always more expensive to change HTML documents and templates than it is to update style sheets and scripts.
+Separating structure from presentation from behavior is important for maintenance reasons. It’s always more expensive to change HTML documents and templates than it is to update style sheets and scripts.
 
 #### Do Not Use Entity References
 

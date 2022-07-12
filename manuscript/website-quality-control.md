@@ -176,7 +176,7 @@ Independent of whether we would be held accountable legally, accessibility is on
 
 ### Usability
 
-Usability is also a critical area to focus on when running a website, hence it deserves special mention. Because it is not a technical concern, however, it’s only mentioned in passing. If you are interested in this and not already familiar with designing and ensuring a usable website, you want to check out some key resources for further information, like [Usability.gov](https://www.usability.gov/), the [Nielsen Norman Group](https://www.nngroup.com/articles/), or [UXmatters](https://www.uxmatters.com/).
+Usability is also a critical area to focus on when running a website, hence it deserves special mention. Because it’s not a technical concern, however, it’s only mentioned in passing. If you are interested in this and not already familiar with designing and ensuring a usable website, you want to check out some key resources for further information, like [Usability.gov](https://www.usability.gov/), the [Nielsen Norman Group](https://www.nngroup.com/articles/), or [UXmatters](https://www.uxmatters.com/).
 
 ### Performance
 
@@ -289,7 +289,7 @@ There are a number of semantics checks and generators for enriched markup availa
 
 ### Validation
 
-Validation as a measurable priority had peaked, too, before falling from grace. But popularity does not correlate with validity, accuracy, or quality, and one can argue how validation is a relevant factor for website quality. It is such an important factor for that reason that only validation ensures we’ve been coding according to the different specs—a condition that corresponds with professionalism, or at least professional ethics.
+Validation as a measurable priority had peaked, too, before falling from grace. But popularity doesn’t correlate with validity, accuracy, or quality, and one can argue how validation is a relevant factor for website quality. It’s such an important factor for that reason that only validation ensures we’ve been coding according to the different specs—a condition that corresponds with professionalism, or at least professional ethics.
 
 Although these are powerful arguments for validation, the web development landscape begs to differ, notably when it comes to HTML and CSS. HTML is more stable and used in more places than CSS. CSS is under heavier development and occasionally experimental, yet style sheets live in relatively few places (CSS being “orthogonal” to HTML makes for its significance around maintainability). That means that validation for HTML is far more important than for CSS. Because HTML is stable, it’s easier to validate, and because it’s so ubiquitous, it’s also more critical to validate.
 
@@ -351,7 +351,7 @@ To test layout and design, we can use tools and services like the following:
 
 ### Typography
 
-Typography is not what the common website owner will connect to website quality—and neither might every designer—but it is an important aspect of every website. Typography is all the more important, as the amount of content a website has increases—we remind ourselves of Robert Bringhurst, who taught us that “typography exists to honor content.”
+Typography is not what the common website owner will connect to website quality—and neither might every designer—but it’s an important aspect of every website. Typography is all the more important, as the amount of content a website has increases—we remind ourselves of Robert Bringhurst, who taught us that “typography exists to honor content.”
 
 But why test? Obviously, for the reasons that typography matters—and so we’re not merely running into William Bruce Cameron’s (not Albert Einstein’s) famous statement, “Not everything that counts can be counted, and not everything that can be counted counts.” Typography can be counted, and typography does count. Not many tools are available to test for good typography, but still there are some that make our typographic jobs easier:
 
@@ -505,7 +505,7 @@ The more a quality initiative grows and matures, the more tools and methods it m
 
 ## Tools Overview
 
-The following serves as an overview of web-based tools, browser extensions, command-line tools, scripts, and bookmarklets. It is not complete; it will lack important tools; but many tools come with my endorsement, and the promise to serve you.
+The following serves as an overview of web-based tools, browser extensions, command-line tools, scripts, and bookmarklets. It’s not complete; it lacks important tools; but many tools come with my endorsement, and the promise to serve you.
 
 I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on the author’s website, [UITest.com](https://uitest.com/), and on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
 
