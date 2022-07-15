@@ -32,7 +32,7 @@ Many more people inspired my work, and many more people helped make this book re
 
 Wikipedia defines [quality control](https://en.wikipedia.org/wiki/Quality_control) (often abbreviated as “QC,” but rarely in this book) as “a process by which entities review the quality of all factors involved in production.” [ISO 9000](https://en.wikipedia.org/wiki/ISO_9000), also through Wikipedia, is said to define quality control as “a part of quality management focused on fulfilling quality requirements.” Google, without attribution, understands quality control to be “a system of maintaining standards in manufactured products by testing a sample of the output against the specification.”
 
-We want to use a definition that is stricter on the one end and more lenient on the other: “Website quality control entails the means to determine a) whether our websites meet our expectations and b) to what degree they meet professional best practices.”
+We want to use a definition that’s stricter on the one end and more lenient on the other: “Website quality control entails the means to determine a) whether our websites meet our expectations and b) to what degree they meet professional best practices.”
 
 “Means,” then, will refer largely to infrastructure—that is, tools. As stated a moment ago, we’ll also look at processes and methods useful to improve, not just measure, the quality of our work.
 
@@ -246,7 +246,7 @@ It’s advantageous to tell whether everything’s where we expect it to be, and
 
 The first technical item to watch out and test for is maintainability. Maintainability? Yes, our ability to efficiently make changes to our design and code. This degree, this efficiency, makes for one of the most crucial aspects of web development—and at the same time it’s regularly among the most neglected ones.
 
-What is maintainability, what does this ability and efficiency refer to? That is a valid question given that many long years of neglect have yielded little documentation and few best practices pertaining to maintainability and maintenance. [“One cannot not maintain”](https://meiert.com/en/blog/law-of-maintainability/)—that is the “law” I’ve coined in despair. One cannot not maintain originates in the fact that anything we produce must at some point be dealt with again, whether by us or by others.
+What is maintainability, what does this ability and efficiency refer to? That’s a valid question given that many long years of neglect have yielded little documentation and few best practices pertaining to maintainability and maintenance. [“One cannot not maintain”](https://meiert.com/en/blog/law-of-maintainability/)—that’s the “law” I’ve coined in despair. One cannot not maintain originates in the fact that anything we produce must at some point be dealt with again, whether by us or by others.
 
 As for tools, we’re in need of more of them:
 
@@ -322,7 +322,7 @@ We are in the envious situation of having a great many, good-quality validators 
 
 ### Layout and Design Consistency
 
-Normally filed under other categories, consistency-checking is also a key factor in website quality control. What is it normally filed under? Browser testing. That is, as we’ve just noticed, a misnomer: We’re not testing browsers, we’re testing the layout and design of our websites for consistency across browsers and devices.
+Normally filed under other categories, consistency-checking is also a key factor in website quality control. What is it normally filed under? Browser testing. That’s, as we’ve noticed, a misnomer: We’re not testing browsers, we’re testing the layout and design of our websites for consistency across browsers and devices.
 
 Making this little differentiation makes clear what tools we can use: browser and device emulators, of which there are plenty. The testing landscape has changed significantly over the years, and although it has become a challenge to test for the slew of devices, web-based tools that allow quick comparisons have matured to the extent that we have to install fewer user agents than we used to. (The normalization and unification of rendering engines has contributed to improvements, too, considering that [WebKit](https://www.webkit.org/) ~~is~~ was by far the most common engine [nowadays, it’s Blink].)
 
@@ -453,7 +453,7 @@ The most important factor when it comes to quality in practice is the mindset. T
 
 Communication is the primary way to spread and instill a mindset of quality, with quality as the goal and guiding principle.
 
-This communication should sporadically be repeated, but doesn’t need to consist of overt reminders on why quality matters and how it benefits everybody. If we want to repeat the essence of both answers here, then: Quality is important in order to deliver work that is good by professional standards and that benefits everyone, because products of quality are easier and more pleasant to consume and work with.
+This communication should sporadically be repeated, but doesn’t need to consist of overt reminders on why quality matters and how it benefits everybody. If we want to repeat the essence of both answers here, then: Quality is important in order to deliver work that’s good by professional standards and that benefits everyone, because products of quality are easier and more pleasant to consume and work with.
 
 Communication is, for that reason, important because we all benefit from being reminded of our priorities.
 

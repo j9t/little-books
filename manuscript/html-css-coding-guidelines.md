@@ -12,13 +12,13 @@ C> “Organization is not everything, but without organization, everything is no
 
 —Douglas Crockford
 
-Coding guidelines govern how we write code. Throughout this book, I keep with the term _coding guidelines_, and use it liberally. I also apply it holistically—that is, I use the term to denote sets of guidelines that try to comprehensively define the formatting of all respective code, and not just represent a weak recommendation to “please indent.” Normally, coding guidelines will apply to non-minified, non-compressed working code. Live code (i.e., production code) constitutes an exception to some formatting guidelines.
+Coding guidelines govern how we write code. Throughout this book, I keep with the term _coding guidelines_, and use it liberally. I also apply it holistically—that is, I use the term to denote sets of guidelines that try to comprehensively define the formatting of all respective code, and not just represent a weak recommendation to “please indent.” Normally, coding guidelines will apply to non-minified, non-compressed working code. Live code (i.e., production code) constitutes an exception to formatting guidelines.
 
 Sometimes called standards, sometimes conventions, they can govern many code-related things. Wikipedia, for example, [tells us that](https://en.wikipedia.org/wiki/Coding_conventions)
 
 > Coding conventions are a set of guidelines for a specific programming language that recommend programming style, practices, and methods for each aspect of a piece program written in this language. These conventions usually cover file organization, indentation, comments, declarations, statements, whitespace, naming conventions, programming practices, programming principles, programming rules of thumb, architectural best practices, etc.
 
-Most of the time, we find coding guidelines in big organizations and large projects. As individual developers, perhaps even hobbyist developers, we don’t need and perhaps appreciate them that much. But in those big organizations and large projects, coding guidelines are critical. Software and web development leave a lot of room for preference, and preference makes for inconsistency and confusion, if not kept at bay.
+Most of the time, we find coding guidelines in big organizations and large projects. As individual developers, perhaps hobbyist developers, we don’t need and perhaps appreciate them that much. But in those big organizations and large projects, coding guidelines are critical. Software and web development leave a lot of room for preference, and preference makes for inconsistency and confusion, if not kept at bay.
 
 As Wikipedia suggests, coding guidelines go beyond formatting; they can also cover development principles and, with that, direct development with an even firmer grip.
 
@@ -118,15 +118,15 @@ to the code shown here:
 }
 ```
 
-That is code from the same person: the author in 2002, and the author in 2005.
+That’s code from the same person: the author in 2002, and the author in 2005.
 
 What do we notice? The first thing we see is that the code is written completely differently. It’s inconsistent. Would we be able to work on it? Probably. Would we want to work on it? Probably not.
 
-What would change this? Focusing on high quality and an intelligible, consistent formatting of all this code.
+What would change this? High quality and an intelligible, consistent formatting of all this code.
 
-That is the job of coding guidelines.
+That’s the job of coding guidelines.
 
-Coding guidelines should yield quality, produce consistency, and through that, indirectly, assist usability, collaboration, and maintainability. They may not need to do all of this—and they may not succeed, but that’s their purpose.
+Coding guidelines should yield quality, produce consistency, and through that assist usability, collaboration, and maintainability. They may not need to do all of this (and they may not succeed), but that’s their purpose.
 
 Let’s look at all of these points in detail.
 
@@ -150,7 +150,7 @@ Consider this example:
 
 Suppose you need to edit this style sheet. How do you specify and order the colors for a new “author” section? Meet _inconsistency_.
 
-While one might argue that keeping the guidelines in mind makes the process of writing code itself a little slower, locating and refactoring code still becomes easier and faster.
+While one can argue that keeping the guidelines in mind makes the process of writing code itself a little slower, locating and refactoring code still becomes easier and faster.
 
 ### Usability
 
@@ -158,7 +158,7 @@ An indirect benefit that follows consistency is improved usability. Improved dev
 
 ### Collaboration
 
-More importantly, yet also consequentially, coding guidelines facilitate collaboration. They make it easier for you to understand your colleagues’ code (and vice versa), and to hand over code to someone you haven’t worked with previously. They don’t require as much time adjusting to someone else’s coding style, especially not when one follows the otherwise laudable habit of sticking to the code style a given project is using.
+More importantly—and necessarily—, coding guidelines facilitate collaboration. They make it easier for you to understand your colleagues’ code (and vice versa), and to hand over code to someone you haven’t previously worked with. They don’t require as much time adjusting to someone else’s coding style, especially not when following the otherwise laudable habit of sticking to the code style a given project is using.
 
 ### Maintainability
 
@@ -224,7 +224,7 @@ And for WordPress, [vendor-specific extensions](https://developer.wordpress.org/
 
 (Legal note: This coding guideline has been quoted from the [CSS Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/) by [WordPress](https://wordpress.org/), used under [GPLv2](https://wordpress.org/about/license/).)
 
-These guidelines, and guidelines in general, are very differently written, but we find similarities:
+These guidelines, and guidelines in general, are written quite differently, but we find similarities:
 
 * What (not) to do
 * Scope
@@ -237,11 +237,11 @@ Let’s have a closer look at this structure:
 
 What (not) to do: We’ve seen the key part of a guideline with the question whether “do _x_” suffices. We cannot do without it.
 
-Scope: Knowing what the guideline applies to is sometimes evident (“sort all CSS declarations alphabetically” already clarifies the scope), sometimes not (“indent by two spaces”—indent what, when, where?). Because of that uncertainty the scope is generally important, too.
+Scope: Knowing what the guideline applies to is sometimes evident (“sort all CSS declarations alphabetically” already clarifies the scope), sometimes not (“indent by two spaces”—indent what, when, where?). Because of that uncertainty the scope is important, too.
 
-Examples: Here things get more blurry in that a well-written rule may not need examples; however, in practice we observe that examples do help. Glancing at a rule and an example clarifies and helps colleagues with less experience to get an understanding when to apply a rule “when they see it.” Examples may need counter-examples—that is, we should show what is expected and correct according to the rule, and then what would be incorrect.
+Examples: Here things get more blurry in that a well-written rule may not need examples; however, in practice we observe that examples help. A rule accompanied by an example allows peers with less experience to get an understanding when to apply a rule “when they see it.” Examples may need counter-examples—that is, we should show what is expected and correct according to the rule, and also what is incorrect.
 
-Implementation help: Ideally, a coding guideline comes with a tip on how to use it, to make following it easier. For example, “use configuration file _x_ for your editor to enforce indentation,” “include script _y_ to have your code validated,” or “covered by linter.” Although this is a very useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
+Implementation support: Ideally, a coding guideline comes with tips on how to use it, to make following it easier. For example, “use configuration file _x_ for your editor to enforce indentation,” “include script _y_ to have your code validated,” or “covered by linter.” Although this is a useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
 
 Explanation: Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitates improving or vetoing the rule in question. In an authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
 
@@ -491,7 +491,7 @@ Correct:
 
 Strictly keep structure (markup), presentation (styling), and behavior (scripting) apart, and keep the interaction between the three to an absolute minimum.
 
-That is, make sure documents and templates contain only HTML, and HTML that is solely serving structural purposes. Move everything presentational into style sheets, and everything behavioral into scripts. Link as few style sheets and scripts as possible from documents and templates.
+That is, make sure documents and templates contain only HTML, and HTML that’s solely serving structural purposes. Move everything presentational into style sheets, and everything behavioral into scripts. Link as few style sheets and scripts as possible from documents and templates.
 
 Separating structure from presentation from behavior is important for maintenance reasons. It’s always more expensive to change HTML documents and templates than it is to update style sheets and scripts.
 
@@ -720,7 +720,7 @@ Correct:
 
 #### Alphabetize Declarations
 
-Put declarations in alphabetical order in order to achieve consistent code in a way that is easy to remember and maintain.
+Put declarations in alphabetical order in order to achieve consistent code in a way that’s easy to remember and maintain.
 
 Ignore vendor-specific prefixes for sorting purposes. However, multiple vendor-specific prefixes for a certain CSS property should be kept sorted as well (e.g., the `-moz` prefix comes before `-webkit`).
 

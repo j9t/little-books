@@ -48,7 +48,7 @@ Second, some assumptions:
 
 * Tailoring code means removing or, better, not even writing or embedding unnecessary code.
 
-* Good code is code that is of measurably or arguably high quality, where arguably means conforming to common best practices.
+* Good code is code that’s of measurably or arguably high quality, where arguably means conforming to common best practices.
 
 High-quality code can be said to be tailored, but it doesn’t follow that high-quality code saves cost, at least not as a general rule. Tailored code itself, however, always saves cost. With this first insight, let’s begin.
 
@@ -415,7 +415,7 @@ I> Overwriting styling in other places of our style sheets can not only have sid
 
 ## Developing Frameworks
 
-Developing frameworks is an art form that comes with a lot of responsibility. For external frameworks, it comes with the aura of a daredevil (and a bit of _naïveté_). As we’ve seen throughout this book, it’s by necessity most difficult to build an external framework because we _cannot_ know the needs of other projects. And hence, we can hardly avoid shipping something that is incomplete—or that is bloated.
+Developing frameworks is an art form that comes with a lot of responsibility. For external frameworks, it comes with the aura of a daredevil (and a bit of _naïveté_). As we’ve seen throughout this book, it’s by necessity most difficult to build an external framework because we _cannot_ know the needs of other projects. And hence, we can hardly avoid shipping something that’s incomplete—or that’s bloated.
 
 The following pages describe the basics of writing a framework. The ideas relate to experienced web developers leading a framework effort in a large organization.
 
