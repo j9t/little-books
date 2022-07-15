@@ -241,13 +241,13 @@ Scope: Knowing what the guideline applies to is sometimes evident (“sort all C
 
 Examples: Here things get more blurry in that a well-written rule may not need examples; however, in practice we observe that examples help. A rule accompanied by an example allows peers with less experience to get an understanding when to apply a rule “when they see it.” Examples may need counter-examples—that is, we should show what is expected and correct according to the rule, and also what is incorrect.
 
-Implementation support: Ideally, a coding guideline comes with tips on how to use it, to make following it easier. For example, “use configuration file _x_ for your editor to enforce indentation,” “include script _y_ to have your code validated,” or “covered by linter.” Although this is a useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
+Implementation support: Ideally, a coding guideline comes with tips on how to use it, to make following it easier. For example, “use configuration file _x_ to enforce indentation,” “include script _y_ to for validation,” or “install linter _z_.” Although this is a useful component of a well-written coding guideline, it is often overlooked (even in this booklet).
 
-Explanation: Although this is not always required, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitates improving or vetoing the rule in question. In an authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
+Explanation: Although this is not always needed, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitates improving or vetoing the rule in question. In an authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
 
-What else: Finally, a complete coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it’s better to err on the side of adding detail so that the team can understand the guideline and its rationale.
+What else: Finally, a comprehensive coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it’s better to err on the side of adding detail so that the team can understand the guideline and its rationale.
 
-With that, we should have an idea of the _minima_ and _maxima_ of a coding guideline:
+With that, we can tell the _minima_ and _maxima_ of a coding guideline:
 
 #### Minima
 
@@ -271,11 +271,11 @@ Is this structure all that makes a coding guideline? Let’s consider the ever-p
 
 The indentation rule is first and foremost preference, especially when considering that tab characters can be configured to be displayed with _n_ spaces, meaning that every team member could produce code that’s indented the same way while still enjoying their own individual preferences.
 
-The semantic markup rule, however, has a qualitative bearing, for if we understand the use of markup according to its meaning paramount to it being parsed correctly and accessibly, then this rule results in a difference in _quality_ of code.
+The semantic markup rule, however, has a qualitative bearing: If we understand the use of markup according to its meaning paramount to it being parsed correctly and accessibly, then this rule results in a difference in _quality_ of code.
 
 For coding guidelines, then, this lends a sense of priority. Though preference-based rules are still relevant because they lead to consistency, which in turn gives us all the benefits we discussed earlier (usability, collaboration, maintainability), the quality rules, when sound, make code more consistent _and_ better.
 
-We may suspect that preference rules are easier to define and spot than quality rules, but the jury’s still out on that.
+We may think that preference rules are easier to define and spot than quality rules, but the jury’s still out on that.
 
 {pagebreak}
 
@@ -291,7 +291,7 @@ Let’s see how this can be applied to coding guidelines, and what else is invol
 
 ### Descriptive
 
-The descriptive approach works if the difference between code reality and our goals is minor. Then we can outline how things are done now, let the whole _mélange_ sit, and reap the reward when we onboard new team members.
+The descriptive approach works if the difference between code reality and our goals is small. Then we can outline how things are done now, let the whole _mélange_ sit, and reap the reward when we onboard new team members.
 
 For example, if everyone on the team is validating their HTML code, as it [should be done](https://meiert.com/en/blog/the-frontend-developer-test/) (there’s no need and no excuse for not using HTML correctly), we say:
 
@@ -313,44 +313,44 @@ Once there’s something to prescribe, there’s also something to enforce.
 
 ### Descriptive and Prescriptive
 
-Yet then, in everyday coding life, we face coding practices we want to document (describe), and others we want to achieve (prescribe). This means that most coding guidelines and standards include rules that are mixed, using both approaches.
+In everyday coding life, we face coding practices we want to document (describe), and others we want to achieve (prescribe). This means that most coding guidelines and standards include rules that are mixed, using both approaches.
 
 {pagebreak}
 
 ## Decision Process
 
-How do we decide when to use which coding guidelines? The following flowchart can help us:
+How do we decide when to use which type of guideline? Consult the following flowchart:
 
 {width: 66%}
-![A flowchart for choosing the approach to coding guidelines.](resources/images/guideline-decision-making.png)
+![An aid for approaching coding guidelines.](resources/images/guideline-decision-making.png)
 
-What we can see is that for a team of one, we don’t strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) (personally, even after leaving Google I follow these guidelines for my own projects).
+For a team of one, we don’t strictly need coding guidelines. It is recommended, however, to look into using coding guidelines even in this case—perhaps making use of public ones, such as the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) (personally, even after leaving Google I follow these guidelines for my own projects).
 
-Whenever two or more people work together, however, coding guidelines become useful, and really important. And there the question is one of goals, and existing quality, to say whether for a given guideline, we need a descriptive or a prescriptive approach.
+Whenever two or more people work together, however, coding guidelines are useful, and become quickly important. And there the question is one of goals, and existing quality, to say whether for a given guideline, we need a descriptive or a prescriptive approach.
 
 {pagebreak}
 
 ## Coding Guidelines in Practice
 
-This section outlines special aspects of coding guidelines that we must consider for setting them up.
+This section outlines special aspects of coding guidelines that must be considered, too.
 
 ### Communication
 
 The larger the organization we’re working in, the more important is the point of _communicating_ our guidelines: Everyone writing code should know about them.
 
-Fortunately, in most modern companies, teams have mailing lists to communicate guidelines to. It makes sense to share updates the same way, or to add all relevant people to a special mailing list related to coding style.
+Fortunately, in most modern companies, teams have mailing lists to communicate guidelines to. It makes sense to share updates the same way, and to add all relevant people to a special mailing list related to coding style.
 
 ### Compliance
 
 The next important aspect is achieving compliance—that is, enforcing the guidelines. This is normally a two-fold process.
 
-First, we need to _measure_ whether coding guidelines are followed or not. For that, we need to set up the necessary infrastructure and tools. Manually probing for compliance, as with code reviews, does work, too. In practice, this piece is frequently neglected, and organizations don’t know much about their actual compliance rates. Automation, which we will look at momentarily, is crucial here. _How_ to automate the whole compliance part is not subject of this booklet, however.
+First, we need to _measure_ whether coding guidelines are being followed or not. For that, we need to set up the necessary infrastructure and tools. Manually probing for compliance, as with code reviews, does work, too. In practice, this piece is frequently neglected, and organizations don’t know much about their actual compliance rates. Automation, which we will look at momentarily, is crucial here. _How_ to automate the whole compliance part is not subject of this booklet, however.
 
-Second, we need to _enforce_ the code style we want to see. Here, too, automation is desirable, but we also need a way to track and score offenders. Tying coding style compliance to performance metrics that got communicated in advance is an effective approach. For example, a team member who repeatedly violates coding standards could get a lower performance rating than one who does keep with it.
+Second, we need to _enforce_ the code style we want to see. Here, too, automation is desirable, but we also need a way to track and score offenders. Tying coding style compliance to performance metrics that are communicated in advance is an effective approach. For example, a team member who repeatedly violates coding standards could get a lower performance rating than one who does keep with it.
 
 ### Reviews
 
-Our coding guidelines should not be considered a one-off effort. Just as we must maintain our code, so, too, should we occasionally review our guidelines. It’s best to update the documentation as changes arise. (The same goes for the respective code examples—when guidelines change, we must not forget to update these, either.)
+Our coding guidelines should not be deemed a one-off effort. Just as we must maintain our code, so, too, should we occasionally review our guidelines. It’s best to update the documentation as changes arise. (The same goes for the respective code examples—when guidelines change, we must not forget to update these, either.)
 
 As something that gets maintained, it’s recommended not only to assign a primary contact (an individual, or a team of volunteers) to be guideline owners, but also to schedule at least quarterly reviews to confirm and perform updates.
 
@@ -358,7 +358,7 @@ As something that gets maintained, it’s recommended not only to assign a prima
 
 Lastly, a particularly useful habit—and a key for future handling of coding guidelines—is automation. The assessment of code quality should be automated as much as possible. We should also automate fixing and improving code.
 
-At the moment, there’s no single out-of-the-box solution for this (only [small scripts](https://robertnyman.com/2010/01/19/tools-for-concatenating-and-minifying-css-and-javascript-files-in-different-development-environments/) abound), but our vision should be that our development environment shows us local coding preferences, highlights violations and fixes them for us; that then, when we stage our code, additional checks are run that likewise report issues and fix them, and that at the end, optimized, minified, compressed, our code goes live in the shape we envision it.
+At the moment, there’s no single out-of-the-box solution for this (only [small scripts](https://robertnyman.com/2010/01/19/tools-for-concatenating-and-minifying-css-and-javascript-files-in-different-development-environments/) abound), but our vision should be that our development environment shows us local coding preferences, highlights violations and fixes them for us; that then, when we stage our code, additional checks are run that likewise report issues and fix them, and that at the end, optimized, minified, compressed, our code goes live in the shape and quality we had envisioned it.
 
 {pagebreak}
 
