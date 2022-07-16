@@ -407,7 +407,7 @@ Correct:
 
 #### Use Only Lowercase
 
-Where possible, code should be lowercase: This includes HTML element names, attributes, attribute values (unless `text/CDATA`), CSS selectors, properties, and property values (with the exception of [strings](https://www.w3.org/TR/CSS21/syndata.html#strings), because case can be relevant here).
+Where possible, code should be lowercase: This includes HTML element names, attributes, attribute values (unless `text/CDATA`), CSS selectors, properties, and property values (with the exception of [strings](https://www.w3.org/TR/CSS22/syndata.html#strings), because case can be relevant here).
 
 Correct:
 
@@ -745,7 +745,7 @@ text-indent: 2em;
 
 #### Indent All Block Content
 
-Indent all [block](https://www.w3.org/TR/CSS21/syndata.html#block) content—that is, rules within rules as well as declarations, so as to reflect hierarchy and improve understanding.
+Indent all [block](https://www.w3.org/TR/CSS22/syndata.html#block) content—that is, rules within rules as well as declarations, so as to reflect hierarchy and improve understanding.
 
 Correct:
 
@@ -865,7 +865,7 @@ body {
 
 Use single (`''`) rather than double (`""`) quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (`url()`).
 
-Exception: If you do need to use the `@charset` rule (generally it’s superfluous), use double quotation marks, as [single quotation marks are not permitted](https://www.w3.org/TR/CSS21/syndata.html#charset).
+Exception: If you do need to use the `@charset` rule (generally it’s superfluous), use double quotation marks, as [single quotation marks are not permitted](https://www.w3.org/TR/CSS22/syndata.html#charset).
 
 Correct:
 
