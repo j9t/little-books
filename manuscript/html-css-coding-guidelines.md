@@ -364,11 +364,11 @@ At the moment, there’s no single out-of-the-box solution for this (only [small
 
 ## Proven HTML/CSS Coding Guidelines
 
-After this short run through coding guidelines, I want to make recommendations for what I consider solid, useful, proven coding guidelines. Much of what follows can also be found in the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html), but that shouldn’t be surprising given Google’s care in most matters engineering.
+After this short run through coding guidelines, I want to make recommendations for what I consider solid, useful, proven guidelines. Much of what follows can also be found in the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html), but that shouldn’t be surprising given Google’s care in most matters engineering.
 
-Many of these guidelines are quality rather than preference guidelines. We’ll keep with a bit more than just the minima: with what (not) to do in what scope, examples that illustrate each point, a rationale, and that with just the detail we need.
+Many of these guidelines are quality rather than preference guidelines. We’ll often work with the minima: with what (not) to do in what scope, examples that illustrate each point, a rationale, and some detail.
 
-(Legal note: The following guidelines are a derivative of the [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) by [Google](https://www.google.com/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).)
+(Legal note: The following guidelines are a lightly edited and commented derivative of the [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) by [Google](https://www.google.com/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).)
 
 ### General
 
@@ -379,6 +379,8 @@ Make sure your editor uses UTF-8 as character encoding, without a byte order mar
 Specify the encoding in HTML templates and documents via `<meta charset="utf-8">`. Do not specify the encoding of stylesheets, for these assume UTF-8 by default.
 
 #### Omit the Protocol from Embedded Resources
+
+[The usefulness of this guideline can be questioned. You want to ensure all traffic is and stays on https.]
 
 Omit the protocol portion (`http:`, `https:`) from URLs unless the respective files are not available over both protocols.
 
@@ -421,7 +423,7 @@ Incorrect:
 
 #### Remove Trailing Whitespace
 
-Trailing whitespace is unnecessary, as it can complicate diffs.
+Trailing whitespace is unnecessary, and can complicate diffs.
 
 Incorrect:
 
@@ -448,15 +450,17 @@ Correct:
 
 #### Use HTML 5
 
+[Today, no one speaks of “HTML 5” anymore. Use HTML.]
+
 Use HTML 5 (HTML syntax) for all HTML documents: `<!DOCTYPE html>` (this spelling is for historical reasons).
 
-Although this works, do not close void elements—write `<br>`, not `<br />`.
+Although this is supported, do not “close” void elements—write `<br>`, not `<br />`.
 
 #### Use HTML According to Purpose
 
 Use elements for what they have been designed for. For example, use heading elements for headings, `p` elements for paragraphs, `a` elements for anchors, and so on.
 
-Using HTML according to its purpose is important for accessibility, reuse, and code efficiency reasons.
+Using HTML according to its purpose is important for accessibility, reuse, and efficiency reasons.
 
 #### Use Valid HTML
 
@@ -464,7 +468,7 @@ Dto.: Use valid HTML.
 
 Use tools such as the [W3C HTML validator](https://validator.w3.org/) to test.
 
-Using valid HTML is a baseline quality attribute that ensures proper HTML use and contributes to learning about technical constraints.
+Using valid HTML is a baseline quality attribute that ensures proper HTML use, and that contributes to understanding technical requirements and constraints.
 
 Correct:
 
@@ -477,7 +481,7 @@ Correct:
 
 #### Provide Alternative Contents for Multimedia
 
-For multimedia, such as images, videos and animated objects via `canvas`, make sure to offer alternative access. For images, that means use of meaningful alternative text (`alt`); video and audio transcripts or captions should also be provided, if available.
+For multimedia, such as images, videos, and animated objects via `canvas`, make sure to offer alternative access. For images, provide [meaningful alternative text](https://html.spec.whatwg.org/multipage/images.html#general-guidelines). For video and audio, offer captions and transcripts.
 
 Providing alternative contents is important for accessibility reasons, for not all multimedia contents are equally accessible to users.
 
@@ -489,17 +493,17 @@ Correct:
 
 #### Separate Structure from Presentation from Behavior
 
-Strictly keep structure (markup), presentation (styling), and behavior (scripting) apart, and keep the interaction between the three to an absolute minimum.
+Strictly keep structure (markup), presentation (styling), and behavior (scripting) apart, and limit intersections between the three to an absolute minimum.
 
 That is, make sure documents and templates contain only HTML, and HTML that’s solely serving structural purposes. Move everything presentational into style sheets, and everything behavioral into scripts. Link as few style sheets and scripts as possible from documents and templates.
 
-Separating structure from presentation from behavior is important for maintenance reasons. It’s always more expensive to change HTML documents and templates than it is to update style sheets and scripts.
+Separating structure from presentation from behavior is important for maintenance reasons. It’s more expensive to change HTML documents and templates than it is to update style sheets and scripts.
 
 #### Do Not Use Entity References
 
 There is no need to use entity references like `&mdash;`, `&rdquo;`, or `&#x263a;`, assuming the same encoding (UTF-8) is used for files and editors as well as among teams.
 
-The only exceptions apply to characters with special meaning in HTML (like `<` […]) as well as control or “invisible” characters (like no-break spaces).
+The only exceptions apply to characters with special meaning in HTML (like `<`) as well as control or “invisible” characters (like no-break spaces).
 
 Correct:
 
@@ -561,7 +565,7 @@ Use double (`""`), not single quotation marks (`''`), around attribute values.
 Correct:
 
 ```html
-<a class="action promo">Sign in</a>
+<a class="action login">Sign in</a>
 ```
 
 ### CSS
@@ -572,7 +576,7 @@ Unless dealing with CSS validator bugs or relying on proprietary syntax, use val
 
 Use tools such as the [W3C CSS validator](https://jigsaw.w3.org/css-validator/) to test.
 
-Using valid CSS is a baseline quality attribute that allows us to spot CSS code that may not have an effect and that can be removed. It ensures proper CSS usage.
+Using valid CSS is a baseline quality attribute that allows to spot CSS code that may not have an effect, and that can be removed. It ensures proper CSS usage.
 
 #### Avoid User Agent Detection and CSS “Hacks”
 
@@ -582,7 +586,7 @@ It’s tempting to address styling differences over user agent detection or spec
 
 Instead of presentational or cryptic names, always use ID and class names that reflect the purpose of the element in question, or that are otherwise generic.
 
-Names that are specific and reflect the purpose of the element should be preferred, as these are most understandable and the least likely to change.
+Names that are specific and reflect the purpose of the element should be preferred, as these are most understandable and least likely to change.
 
 Generic names are a fallback for elements that have no particular or no meaning different from their siblings. They are typically needed as “helpers.”
 
@@ -603,7 +607,7 @@ Correct:
 
 ```css
 /* Specific */
-#login {}
+#account {}
 .video {}
 
 /* Generic */
@@ -861,7 +865,7 @@ body {
 
 Use single (`''`) rather than double (`""`) quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (`url()`).
 
-Exception: If you do need to use the `@charset` rule (generally it’s not needed), use double quotation marks, as [single quotation marks are not permitted](https://www.w3.org/TR/CSS21/syndata.html#charset).
+Exception: If you do need to use the `@charset` rule (generally it’s superfluous), use double quotation marks, as [single quotation marks are not permitted](https://www.w3.org/TR/CSS21/syndata.html#charset).
 
 Correct:
 
@@ -887,7 +891,7 @@ Coding guidelines are important.
 
 The main ingredients of a coding guideline are what (not) to do within a particular scope, examples, and an explanation.
 
-Coding guidelines can target preference or quality.
+Coding guidelines can support preference or quality.
 
 Coding guidelines can be descriptive, prescriptive, or both.
 
