@@ -16,7 +16,7 @@ While the book attempts to cover all bases, it glosses over some of them, too. W
 
 Although written in simple language, the book is geared toward expert web developers; the people who decide whether to use a framework, how to use it, and whether to develop one.
 
-It has likewise been written by a web developer. I, Jens, have during my career architected frameworks for [OpenKnowledge](https://www.openknowledge.de/), [GMX](https://www.gmx.net/), [Aperto](https://www.aperto.com/) with their government and business clients, as well as [Google](https://www.google.com/). In that time, I haven’t managed to outwit the fast pace of our industry, but I’ve found that some principles, methods, and practices contribute to longer-lasting code. That has benefited the frameworks I wrote, and I hope it will benefit you through this book, too.
+It has likewise been written by a web developer. I, Jens, have during my career architected frameworks for [OPEN KNOWLEDGE](https://www.openknowledge.de/), [GMX](https://www.gmx.net/), [Aperto](https://www.aperto.com/) with their government and business clients, as well as [Google](https://www.google.com/). In that time, I haven’t managed to outwit the fast pace of our industry, but I’ve found that some principles, methods, and practices contribute to longer-lasting code. That has benefited the frameworks I wrote, and I hope it will benefit you through this book, too.
 
 ### Acknowledgments
 
@@ -128,7 +128,7 @@ Developing an internal framework and making it public, as we could even apply to
 
 Reflected in the table is the idea that frameworks can be used and developed liberally, with two exceptions. One exception is that _experts shouldn’t use external frameworks_; the other is that _beginners shouldn’t develop external frameworks_.
 
-The two exceptions stem from a violation of quality standards: While the external framework violates the ideals of the expert (which I will describe later), it’s the beginner who would not yet know the necessary ideals to create a quality framework.
+The two exceptions stem from a violation of quality standards: While the external framework violates the ideals of the expert (which I’ll describe later), it’s the beginner who would not yet know the necessary ideals to create a quality framework.
 
 The internal framework is safe to use or develop in every case because that’s the preferred way of developing websites and apps. Internal beats external every time because external cannot, by definition, know all the needs of the organization, and therefore fails many quality standards. Second, internal solutions are the better route for both experts and beginners to stay sharp and to learn, since their mistakes have a smaller impact.
 
@@ -268,7 +268,7 @@ What can we do to tailor? The approach depends on the origin of the framework, a
 
 An internal framework is relatively simple to tailor: We develop to the needs of our project from the beginning. These needs may be defined by comps (comprehensive layouts) and mocks (mock-ups) or, better, a style guide. Once all needed page types and elements have been specified, they’re coded up. If they’re all used by the later site or app, the code cannot be anything but tailored (although it may still be possible to optimize and compress it).
 
-An external framework, however, is much more difficult to tailor (by the recipient, because it’s already impossible for the originator). In a basic sense, we need to deduct all needed functionality from all offered functionality, and then remove the code that remains. That leads us to the key issues with external frameworks: Removing code may not be feasible, and tailoring then depends on the quality of the framework code and its documentation (e.g., tailoring will require testing, might break the framework, and could make the same work necessary for later updates, if not outright thwarting the ability to move to a newer version of the framework).
+An external framework, however, is much more difficult to tailor (by the recipient, because it’s already impossible for the originator). In a basic sense, we need to deduct all needed functionality from all offered functionality, and then remove the code that remains. That leads us to the key issues with external frameworks: Removing code may not be feasible, and tailoring then depends on the quality of the framework code and its documentation (i.e., tailoring requires testing, might break the framework, and can make the same work necessary for later updates, if not outright thwart the ability to move to a newer version of the framework).
 
 These are big issues that make for good reasons why few people actually go to the length of customizing or tailoring external frameworks (or any external code, for that matter). Yet the outcome—non-tailored and lower-quality code—is not expert-like, but inferior. And so we see why in a professional context, external frameworks shouldn’t be preferred. They promise to save cost, only to come with a hidden tax—or to bring down the quality of our work.
 
@@ -370,7 +370,7 @@ When using frameworks, always follow the documentation.
 
 #### 2. Don’t Overwrite Framework Code
 
-For reasons that will become clearer in the next section, never overwrite framework code.
+For reasons to become clearer in the next section, never overwrite framework code.
 
 Contributing to the expert’s dilemma with external frameworks, overwriting framework code can have unforeseen consequences and break things with future updates. Here’s an example:
 
@@ -488,7 +488,7 @@ We’ve noted how principles, a prototype, and quality management are important 
 
 For one, in the case of external frameworks, maintenance is crucial because publishing a framework is a promise to the user base. That promise is precisely that it’s going to be maintained. It’s also a promise in _how_ it’s going to be maintained, in that we do everything in our power not to change any structure, but only the framework style sheets and scripts.
 
-For another, in any framework, a commitment to maintenance acts like another form of safety. The general idea in web development is that the [HTML is most important to get right](https://meiert.com/en/blog/get-the-html-right/), because it’s more expensive—think our cost definition—to change than style sheets and scripts. An explicit commitment to maintenance will keep us from discarding a framework to just “build another,” and thus lives up to the vision of CSS-only design iterations and refactorings. (Of course, true structural changes will still require HTML changes, and with that, eventually, CSS and JavaScript edits.)
+For another, in any framework, a commitment to maintenance acts like another form of safety. The general idea in web development is that the [HTML is most important to get right](https://meiert.com/en/blog/get-the-html-right/), because it’s more expensive—think our cost definition—to change than style sheets and scripts. An explicit commitment to maintenance keeps us from discarding a framework just to “build another,” and thus supports the vision of CSS-only design iterations and refactorings. (Of course, true structural changes still require HTML changes, and with that, eventually, CSS and JavaScript edits.)
 
 A framework, solving widespread and complex development and design issues, comes with an express obligation to maintenance.
 

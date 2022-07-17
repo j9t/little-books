@@ -12,7 +12,7 @@ C> “Organization is not everything, but without organization, everything is no
 
 —Douglas Crockford
 
-Coding guidelines govern how we write code. Throughout this book, I keep with the term _coding guidelines_, and use it liberally. I also apply it holistically—that is, I use the term to denote sets of guidelines that try to comprehensively define the formatting of all respective code, and not just represent a weak recommendation to “please indent.” Normally, coding guidelines will apply to non-minified, non-compressed working code. Live code (i.e., production code) constitutes an exception to formatting guidelines.
+Coding guidelines govern how we write code. Throughout this book, I keep with the term _coding guidelines_, and use it liberally. I also apply it holistically—that is, I use the term to denote sets of guidelines that try to comprehensively define the formatting of all respective code, and not just represent a weak recommendation to “please indent.” Normally, coding guidelines apply to non-minified, non-compressed working code. Live code (i.e., production code) constitutes an exception to formatting guidelines.
 
 Sometimes called standards, sometimes conventions, they can govern many code-related things. Wikipedia, for example, [tells us that](https://en.wikipedia.org/wiki/Coding_conventions)
 
@@ -162,7 +162,7 @@ More importantly—and necessarily—, coding guidelines facilitate collaboratio
 
 ### Maintainability
 
-Lastly, coding guidelines and the consistency they bring to our code help maintainability. They do so because guidelines mean organization, a lower degree of entropy, which also means it’s easier to order, and to keep things in order. Although often neglected, maintainability is important, as there’s no code in existence that will only be touched once. Even if it’s not going to be edited or updated again, eventually it must be decommissioned. And that falls under maintenance, too.
+Lastly, coding guidelines and the consistency they bring to our code help maintainability. They do so because guidelines mean organization, a lower degree of entropy, which also means it’s easier to order, and to keep things in order. Although often neglected, maintainability is important, as there’s no code in existence that’s only touched once. Even if it’s not going to be edited or updated again, eventually it must be decommissioned. And that falls under maintenance, too.
 
 {pagebreak}
 
@@ -344,7 +344,7 @@ Fortunately, in most modern companies, teams have mailing lists to communicate g
 
 The next important aspect is achieving compliance—that is, enforcing the guidelines. This is normally a two-fold process.
 
-First, we need to _measure_ whether coding guidelines are being followed or not. For that, we need to set up the necessary infrastructure and tools. Manually probing for compliance, as with code reviews, does work, too. In practice, this piece is frequently neglected, and organizations don’t know much about their actual compliance rates. Automation, which we will look at momentarily, is crucial here. _How_ to automate the whole compliance part is not subject of this booklet, however.
+First, we need to _measure_ whether coding guidelines are being followed or not. For that, we need to set up the necessary infrastructure and tools. Manually probing for compliance, as with code reviews, does work, too. In practice, this piece is frequently neglected, and organizations don’t know much about their actual compliance rates. Automation, which we’ll look at momentarily, is crucial here. _How_ to automate the whole compliance part is not subject of this booklet, however.
 
 Second, we need to _enforce_ the code style we want to see. Here, too, automation is desirable, but we also need a way to track and score offenders. Tying coding style compliance to performance metrics that are communicated in advance is an effective approach. For example, a team member who repeatedly violates coding standards could get a lower performance rating than one who does keep with it.
 
@@ -580,7 +580,7 @@ Using valid CSS is a baseline quality attribute that allows to spot CSS code tha
 
 #### Avoid User Agent Detection and CSS “Hacks”
 
-It’s tempting to address styling differences over user agent detection or special CSS filters, workarounds, and hacks. Both approaches should be considered as a last resort in order to achieve and maintain an efficient and manageable code base. Put another way, giving detection and hacks a free pass will hurt projects in the long run as projects tend to take the way of least resistance. That is, allowing and making it easy to use detection and hacks means using detection and hacks more frequently—and more frequently is too frequently.
+It’s tempting to address styling differences over user agent detection or special CSS filters, workarounds, and hacks. Both approaches should be considered as a last resort in order to achieve and maintain an efficient and manageable code base. Put another way, giving detection and hacks a free pass hurts projects in the long run as projects tend to take the way of least resistance. That is, allowing and making it easy to use detection and hacks means using detection and hacks more frequently—and more frequently is too frequently.
 
 #### Use Functional or Generic ID and Class Names
 
