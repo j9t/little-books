@@ -70,7 +70,7 @@ Security is critical, but it’s also tricky in the light of website quality con
 
 Let’s go over some tools that are available to us (primarily with a focus on those that are web-based). The responsible website owner should employ additional, notably inner-organizational means to ensure that their services and the data those services gather are secure.
 
-I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on the author’s website, [UITest.com](https://uitest.com/), and on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
+I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [UITest.com](https://uitest.com/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
 
 * [Abuse Contact Lookup](https://viewdns.info/abuselookup/)
 * [AES Encrypter](https://www.infoencrypt.com/)
@@ -291,7 +291,7 @@ There are a number of semantics checks and generators for enriched markup:
 
 Validation as a measurable priority had peaked, too, before [falling from grace](https://meiert.com/en/blog/valid-html-2021/). But popularity doesn’t correlate with quality, and one can build a strong case for validation—conformance—as a fundamental factor for website quality. It’s such an important factor for that reason that only validation ensures that we’ve been producing code according to the specs (and that we know our business).
 
-Although this is a powerful argument for validation, the web development landscape begs to differ—particularly when it comes to HTML and CSS.
+Although this is a powerful argument for validation, the web development landscape begs to differ—especially when it comes to HTML and CSS.
 
 HTML, then, is more stable and used in more places than CSS. CSS is under heavier development and occasionally experimental, yet style sheets live in relatively few places (CSS being “orthogonal” to HTML makes for its significance around maintainability). That means that HTML validation is more important than CSS validation. Because HTML is stable, it’s easier to validate, and because it’s so ubiquitous, it’s also more critical to validate.
 
@@ -447,33 +447,33 @@ With the overview and tools we’ve gathered, what does quality control of websi
 
 Training is an important first step toward successfully implementing quality control practices. Training should be understood generally here, for any professional training that teaches people how to produce better work benefits quality, too. In that sense, training will not be elaborated on here.
 
-However, training can also be offered and attended specifically to establish a quality mindset, to improve the associated skills, and to promote tools that measure and improve quality. (As such, training is also linked to the following points, but won’t be called out again.)
+However, training can also be offered and attended specifically to promote attention to quality, to learn about quality-related processes, and to master tools that measure and improve quality. (As such, training is also linked to the following points, but won’t be called out again.)
 
 ### Mindset
 
-The most important factor when it comes to quality in practice is the mindset. The greatest quality initiative is not worth much if it’s not clear to the team and enterprise why quality matters, and how quality is beneficial for them. The key to a conducive mindset is communication; a potential trap are rewards.
+The most important factor when it comes to quality in practice is the mindset. The greatest quality initiative is not worth much if it’s not clear to the team and enterprise why quality matters, and how quality is beneficial everyone. The key to a quality mindset is communication; a potential trap are rewards.
 
 #### Communication
 
-Communication is the primary way to spread and instill a mindset of quality, with quality as the goal and guiding principle.
+Communication is the primary way to spread and instill quality as a goal and guiding principle.
 
-This communication should sporadically be repeated, but doesn’t need to consist of overt reminders on why quality matters and how it benefits everybody. If we want to repeat the essence of both answers here, then: Quality is important in order to deliver work that’s good by professional standards and that benefits everyone, because products of quality are easier and more pleasant to consume and work with.
+This communication should sporadically be repeated, but doesn’t need to solely consist of reminders on why quality matters and how it benefits everybody. If we want to repeat the essence of both answers here, then: Quality is important in order to deliver work that’s good by professional standards and that benefits everyone, because products of quality are easier and more pleasant to consume and work with.
 
-Communication is, for that reason, important because we all benefit from being reminded of our priorities.
+Communication is, for that reason, important because we benefit from being reminded of our priorities.
 
 Based on this, communication can now range from bylines in regular team and company communications, thanking everyone for the vigilance to produce good work, to dedicated emails emphasizing the goal and importance of quality.
 
 #### Rewards
 
-Rewards, then, are _no_ key for a quality mindset. We should avoid rewards. Rewards can compel people to participate in quality-related events, but they don’t necessarily compel people to embrace quality (they can have the opposite effect). They seem to distract from, rather than point to the message.
+Rewards, then, are _no_ key for a quality mindset. We should avoid rewards. As with any form of extrinsic motivation, rewards can compel people to participate in quality-related events, but they don’t necessarily compel people to embrace quality. They can instead have the opposite effect and distract from, rather than point to the message.
 
-I’ve had some such experiences with international teams, whereby rewards did help draw attention to quality-related initiatives, but they didn’t lead to a better understanding of, or a higher motivation, for more quality. What was more effective was communication, notably through managers. Hierarchy and authority can be facilitators in our quest to improve the quality of our work.
+I’ve had some such experiences with international teams, when rewards helped draw attention to quality programs, but didn’t lead to a better understanding of quality, or a higher motivation to achieve high quality. What was more effective was communication, particularly through managers. Hierarchy and authority can be facilitators in our quest to improve the quality of our work.
 
 ### Automation
 
 Insist on automation. Insist—on automation. _Of course_, we’re inclined to say—once we’ve automated all quality-relevant tasks and processes, what’s there to be missed, how could we get anything wrong? But we haven’t progressed yet to the point that we’re able to automate everything. Our reality is that not enough is being automated, and sensitizing for that is what this very practical recommendation aims at. We must automate as much as we can; we must insist on automation.
 
-We have discussed many tools so far and we’re going to summarize them. Some of the tools are easy to implement and automate, but others, per our goal to automate and _insist_ to automate, require a bit of an effort. A discussion on how to write and run automation scripts on different platforms is beyond the scope of this little book, but if you’d like to see what that can look like, check out complementary books like [_Learning Linux Shell Scripting_](https://www.amazon.com/dp/B013WWYVHK/?tag=j9t-21-20), [_Network Programmability and Automation_](https://www.amazon.com/dp/1491931256/?tag=j9t-21-20), as well as [_Learn AppleScript_](https://www.amazon.com/dp/1430223618/?tag=j9t-21-20).
+We have discussed many tools, and we’re going to summarize them. Some of the tools are easy to implement and automate, but others, per our goal to automate and _insist_ to automate, require a bit of an effort. A discussion on how to write and run automation scripts on different platforms is beyond the scope of this little book, but if you’d like to see what that can look like, check out complementary books like [_Learning Linux Shell Scripting_](https://www.amazon.com/dp/B013WWYVHK/?tag=j9t-21-20), [_Network Programmability and Automation_](https://www.amazon.com/dp/1491931256/?tag=j9t-21-20), or [_Learn AppleScript_](https://www.amazon.com/dp/1430223618/?tag=j9t-21-20).
 
 ### Enforcement
 
@@ -483,27 +483,27 @@ How do we enforce quality? This is still a difficult question; so difficult, in 
 
 Enforcement happens top-down. Executives and managers are to emphasize and _live_ quality, to reward good quality, and to—in one way or another—discourage poor quality. How? By doing what we frequently miss: measuring quality and tying related metrics to performance evaluations.
 
-Two anecdotes illustrate that approach. There’s one tale of a manager who has, despite efforts of their team to up the ante and increase quality in their department, never endorsed, let alone supported or encouraged those team members’ efforts in team communications or goals. That quality initiative’s efforts, witnessed at one point at a major corporation, suffered a significant blowback.
+Two anecdotes illustrate that approach. There’s one tale of a manager who has, despite efforts of their team to up the ante and increase quality in their department, never endorsed, let alone supported or encouraged those team members’ efforts in team communications or goals. That quality initiative’s efforts, witnessed at one point at a major corporation, never felt like they gained the traction they could have gained.
 
-At the same firm at another time, managers called out the importance of quality and used available data points, like performance scores as measured by [Google’s PageSpeed tools](https://developers.google.com/speed), accessibility problems as measured by [Sidar’s HERA](https://web.archive.org/web/20150726041535/http://www.sidar.org/hera/), or the number of validation errors as measured by [W3C’s Link Checker](https://validator.w3.org/checklink). Although the team in question never got to tie metrics like these to performance evaluations, that precise step was anticipated to have strong encouragement and lead to—enforce—higher quality.
+At the same firm at another time, managers called out the importance of quality and used available data points, like performance scores as measured by [Google’s PageSpeed tools](https://developers.google.com/speed), accessibility problems as measured by [Sidar’s HERA](https://web.archive.org/web/20150726041535/http://www.sidar.org/hera/), or the number of validation errors as measured by [W3C’s Link Checker](https://validator.w3.org/checklink). Although the team in question never got to tie metrics like these to performance evaluations, that precise step was anticipated to encourage and lead to—enforce—higher quality.
 
 ### Logistics
 
 In broad terms, our efforts around quality require logistics. These might consist of the following, listed briefly for inspiration:
 
-Standards and guidelines documentation: No quality effort can succeed without standards and guidelines. These can be external, but wherever they can be found, they must be documented.
+Standards and guidelines documentation: No quality effort can succeed without standards and guidelines. These can be external, but wherever they can be found, they must be linked or spelled out.
 
 Meta documentation: What our quality efforts require and entail must also be documented. That…
 
 Internal websites or wikis: …is best done on some internal website or wiki. Here, we should gather everything we want, know, do, and plan.
 
-Dedicated contacts: Quality stands and falls with people. At least one among them should serve as a contact, and that person must not just be responsible and accountable, but also discoverable and available.
+Dedicated contacts: Quality stands and falls with people. At least one person should serve as a contact, and they must not only be responsible and accountable, but also discoverable and available.
 
 Mailing lists: To coordinate quality efforts, communicate new and updated documentation, and so on, mailing lists are a crucial tool. There can be lists for quality-focused teams, as well as lists open to the entire enterprise.
 
 Events: Google has a practice to host “fixits” or “fixlets,” events that let the company or departments clean up and improve their work and code base, but quality events can range from a toast on quality at the daily Scrum meeting to company representatives speaking about quality at industry conferences.
 
-The more a quality initiative grows and matures, the more tools and methods it may employ. This here describes our basic options.
+The more a quality initiative grows and matures, the more tools and methods it may employ. This here describes the basic options.
 
 {pagebreak}
 
@@ -511,7 +511,7 @@ The more a quality initiative grows and matures, the more tools and methods it m
 
 The following serves as an overview of web-based tools, browser extensions, command-line tools, scripts, and bookmarklets. It’s not complete; it lacks important tools; but many tools come with my endorsement, and the promise to serve you.
 
-I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on the author’s website, [UITest.com](https://uitest.com/), and on Stefan Judis’s website, [Tiny Helpers](https://tiny-helpers.dev/).
+I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [UITest.com](https://uitest.com/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
 
 * [Abuse Contact Lookup](https://viewdns.info/abuselookup/)
 * [Accessibility Check (AATT; automated; command-line tool)](http://github.com/paypal/AATT)
