@@ -324,9 +324,11 @@ We are in the envious situation of having a great many, good-quality validators 
 
 ### Layout and Design Consistency
 
-Normally filed under other categories, consistency-checking is also a key factor in website quality control. What is it normally filed under? Browser testing. That’s, as we’ve noticed, a misnomer: We’re not testing browsers, we’re testing the layout and design of our websites for consistency across browsers and devices.
+Normally filed under other categories, consistency-checking is also a factor in website quality control. What is it normally filed under? Browser testing. That’s, as we’ve noticed, a misnomer: We’re not testing browsers, we’re testing the layout and design of our websites for consistency across browsers and devices.
 
-Making this little differentiation makes clear what tools we can use: browser and device emulators, of which there are plenty. The testing landscape has changed significantly over the years, and although it has become a challenge to test for the slew of devices, web-based tools that allow quick comparisons have matured to the extent that we have to install fewer user agents than we used to. (The normalization and unification of rendering engines has contributed to improvements, too, considering that [WebKit](https://www.webkit.org/) ~~is~~ was by far the most common engine [nowadays, it’s Blink].)
+The differentiation makes clear what tools we can use: browser and device emulators, of which there are plenty. That testing landscape has changed significantly over the years. Although it has become a challenge to test for the slew of devices, web-based tools that allow quick comparisons have matured to the extent that we have to install fewer user agents than we used to.
+
+(The change to always up-to-date, evergreen browsers as well as “consolidation” of rendering engines have led to improvements, too. For example, consider how [WebKit](https://www.webkit.org/) ~~is~~ was by far the most common engine [nowadays, it’s [Blink](https://en.wikipedia.org/wiki/Blink_(browser_engine))].)
 
 To test layout and design, we can use tools and services like the following:
 
@@ -353,9 +355,9 @@ To test layout and design, we can use tools and services like the following:
 
 ### Typography
 
-Typography is not what the common website owner may connect to website quality—and neither might every designer—but it’s an important aspect of every website. Typography is all the more important, as the amount of content a website has increases—we remind ourselves of Robert Bringhurst, who taught us that “typography exists to honor content.”
+Typography is not what the common website owner may connect with website quality—and neither may every designer—but it’s an important aspect of every website. Typography is all the more important as the amount of website content increases—think of Robert Bringhurst, who taught that “typography exists to honor content.”
 
-But why test? Obviously, for the reasons that typography matters—and so we’re not merely running into William Bruce Cameron’s (not Albert Einstein’s) famous statement, “Not everything that counts can be counted, and not everything that can be counted counts.” Typography can be counted, and typography does count. Not many tools are available to test for good typography, but still there are some that make our typographic jobs easier:
+But why test? Obviously, for the reasons that typography matters—and so we’re not merely running into William Bruce Cameron’s (not Albert Einstein’s) famous statement, “Not everything that counts can be counted, and not everything that can be counted counts.” Typography can be counted, and typography does count. Not many tools are available to test for good typography, but still there are some that make our typographic work easier:
 
 * [Font Capability Check](https://wakamaifondue.com/)
 * [Font Comparison](https://www.fontcomparer.com/)
@@ -376,9 +378,9 @@ But why test? Obviously, for the reasons that typography matters—and so we’r
 
 ### Code Quality
 
-Venturing again into the realm that’s invisible to the users of our sites, code quality has many attributes, some of which we’ve already addressed. Here, code quality touches on general overall checks, as well as on _linting_—that is, analyzing code for potential programmatic and stylistic errors (which we’ll focus on separately in the next section).
+Venturing again into the realm that’s invisible to the users of our sites, code quality has many attributes, some of which we’ve already addressed. Here, code quality touches on general overall checks, as well as on _linting_—that is, analyzing code for potential programmatic and stylistic errors (which we’ll focus on separately, in the next section).
 
-Linting comes out of computer programming, something we haven’t always filed web development under, but linters are by now available for pretty much anything, including CSS. Some general quality-related tools include the following:
+Linting comes out of computer programming—something we haven’t traditionally filed web development under—but linters are by now available for pretty much anything, including CSS. Quality-related tools include the following:
 
 * [Accessibility Linter](https://accesslint.com/)
 * [Content-to-Code Ratio Calculator](https://www.duplichecker.com/code-to-text-ratio-checker.php)
@@ -408,9 +410,9 @@ Linting comes out of computer programming, something we haven’t always filed w
 
 ### Coding Standard Compliance
 
-Last but not least and not to be missed: We want to and we can measure the conformity and consistency of our code. For that—and you may remember _The Little Book of HTML/CSS Coding Guidelines_—we look at common coding practices, and, notably, our coding guidelines.
+Last but not least and not to be missed: We want to and we can measure the conformity and consistency of our code. For that—you may remember _The Little Book of HTML/CSS Coding Guidelines_—we look at common coding practices, and, notably, our coding guidelines.
 
-The listed quality checks, now, look at compliance, comparing code strings against a predefined catalog of rules. Only lowercase element names in HTML? Only single quotes in CSS? No global variables in JavaScript? No BOM in text files? This is done by website quality checks against code standards, such as the following:
+The listed quality checks look at compliance, comparing code strings against predefined catalogs of rules. Only lowercase element names in HTML? Only single quotes in CSS? No global variables in JavaScript? No BOM in text files? This is done by website quality checks against code standards, such as the following:
 
 * [Code Formatter (Code Beautifier)](https://ctrlq.org/beautifier/)
 * [Code Formatter (Pretty Printer)](http://prettyprinter.de/)
