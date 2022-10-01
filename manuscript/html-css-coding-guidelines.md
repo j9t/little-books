@@ -177,35 +177,35 @@ At this point, we should work with a few examples. Let’s look at a few random 
 Harry Roberts’ CSS Guidelines [recommend hyphens](https://cssguidelin.es/#hyphen-delimited):
 
 > ### Hyphen Delimited
-> 
+>
 > All strings in classes are delimited with a hyphen (-), like so:
-> 
+>
 > ```css
 > .page-head {}
-> 
+>
 > .sub-content {}
 > ```
 >
 > Camel case and underscores are not used for regular classes; the following are incorrect:
-> 
+>
 > ```css
 > .pageHead {}
-> 
+>
 > .sub_content {}
 > ```
 
 Dan Hay’s coding standards say the following [about “verbose” HTML code](http://www.onepointed.com/dan/computing/CodeStandard/htmlStandard.shtml#html-stadn):
 
 > ### Don’t use tags that STADN (sit there and do nothing)
-> 
+>
 > STADN tags do just that—they don’t actually contribute much to the content or layout of a page. An example of a STADN tag would be:
-> 
+>
 > ```html
 > <FONT SIZE=2><B>&nbsp;</B></FONT>
 > ```
-> 
+>
 > The bold and font tags do not contribute to the layout or appearance of the non-breaking space. We could add as many surrounding tags to the non-breaking space and it still wouldn’t affect the appearance of the page.
-> 
+>
 > Most HTML editors liberally insert STADN tags. This behavior is yet another reason why HTML editors must not be used.
 
 (“Tag” means “element” here.)
@@ -213,7 +213,7 @@ Dan Hay’s coding standards say the following [about “verbose” HTML code](h
 And for WordPress, [vendor-specific extensions](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/#vendor-prefixes) are worth special attention:
 
 > We use grunt-autoprefixer as a pre-commit tool to easily manage necessary browser prefixes, thus making the majority of this section moot. For those interested in following that output without using Grunt, vendor prefixes should go longest (`-webkit-`) to shortest (unprefixed). All other spacing remains as per the rest of standards.
-> 
+>
 > ```css
 > .sample-output {
 >   -webkit-box-shadow: inset 0 0 1px 1px #eee;
