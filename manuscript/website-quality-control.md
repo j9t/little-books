@@ -432,7 +432,7 @@ After we have properly formatted our code and made it consistent, we still want 
 
 * [CSS Minifier](https://hell.meiert.org/aux/compress/css/gui/)
 * [HTML Minifier](http://htmlcompressor.com/compressor/)
-* [HTML Minifier and Optimizer](https://kangax.github.io/html-minifier/)
+* [HTML Optimizer and Minifier](https://kangax.github.io/html-minifier/)
 * [JavaScript Minifier](https://jscompress.com/)
 
 {pagebreak}
@@ -599,9 +599,9 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [HTML, CSS, and JS Formatter](https://www.10bestdesign.com/dirtymarkup/)
 * [HTML Formatter](https://www.freeformatter.com/html-formatter.html)
 * [HTML Minifier](http://htmlcompressor.com/compressor/)
-* [HTML Minifier and Optimizer](https://kangax.github.io/html-minifier/)
 * [HTML Optimizer (HTML De-crapulator)](https://lloydi.com/a11y-tools/markup-de-crapulator/)
 * [HTML Optimizer (HtmlWasher)](https://www.htmlwasher.com/)
+* [HTML Optimizer and Minifier](https://kangax.github.io/html-minifier/)
 * [HTML Outline Extractor](http://gsnedders.html5.org/outliner/)
 * [HTML Validator](https://validator.w3.org/)
 * [HTTP Header Editor (WebKit browser extension)](https://chrome.google.com/webstore/detail/request-maker/kajfghlhfkcocafkcjlajldicbikpgnp)
