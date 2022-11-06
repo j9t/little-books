@@ -9,6 +9,6 @@ While author and publisher have used good faith efforts to ensure that the infor
 
 Contact +1-754-400-0999 or press@meiert.com for more information.
 
-Follow Jens Oliver Meiert on Mastodon: [@j9t@mastodon.social](https://mastodon.social/@j9t)
+Follow Jens Oliver Meiert on Mastodon: [@j9t@mas.to](https://mas.to/@j9t)
 
-[1.6.13]
+[1.6.14]
