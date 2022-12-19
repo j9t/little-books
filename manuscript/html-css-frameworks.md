@@ -459,7 +459,7 @@ Each of these points is important, but the first three are critical. The prototy
 
 In order to be sure that we deliver the quality we’re committing to as professionals, we need to verify it. This is done through quality assurance (which aims to prevent issues by focusing on the process) as well as quality control (which aims to find and fix issues in the end product).
 
-Web development, as a still rather young discipline, knows more quality control than quality assurance. Good examples are [validation](https://uitest.com/analysis/#validation), [accessibility](https://uitest.com/analysis/#accessibility), and [performance checks](https://uitest.com/analysis/#performance), of which there are plenty. On the quality assurance end, the most prominent example is the enactment of coding guidelines, but more and more organizations and individuals use elaborate infrastructure to continuously test and improve their code. (This is all related to web rather than software development, since in software development, there’s a longer history and a stronger tradition of working with tests.)
+Web development, as a still rather young discipline, knows more quality control than quality assurance. Good examples are [validation](https://frontenddogma.com/tools/#analysis-conformance), [accessibility](https://frontenddogma.com/tools/#analysis-accessibility), and [performance checks](https://frontenddogma.com/tools/#analysis-performance), of which there are plenty. On the quality assurance end, the most prominent example is the enactment of coding guidelines, but more and more organizations and individuals use elaborate infrastructure to continuously test and improve their code. (This is all related to web rather than software development, since in software development, there’s a longer history and a stronger tradition of working with tests.)
 
 For quality assurance, it’s useful to:
 
@@ -478,7 +478,7 @@ For quality control, test:
 * Linting
 * Formatting
 
-(Incidentally, I run a website hub dedicated to web development testing tools. Check [uitest.com/analysis](https://uitest.com/analysis/) for a large selection of them.)
+(Incidentally, I run a website hub dedicated to web development testing tools. Check [Frontend Dogma](https://frontenddogma.com/tools/) for a large selection of them.)
 
 To take a page out of Google’s book, it’s best to automate checks. Reviewing tool documentation can give valuable pointers, as a number of tools can be installed locally or come with an API. In addition, there are instruments like [Selenium](https://www.selenium.dev/) and [ChromeDriver](https://bugs.chromium.org/p/chromedriver/) that facilitate automated browser testing. As with many of the more complex topics, this book resorts to showing directions.
 

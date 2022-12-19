@@ -70,7 +70,7 @@ Security is critical, but it’s also tricky in the light of website quality con
 
 Let’s go over some tools that are available to us (primarily with a focus on those that are web-based). The responsible website owner should employ additional, notably inner-organizational means to ensure that their services and the data those services gather are secure.
 
-I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [UITest.com](https://uitest.com/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
+I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [Frontend Dogma](https://frontenddogma.com/tools/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
 
 * [Abuse Contact Lookup](https://viewdns.info/abuselookup/)
 * [AES Encrypter](https://www.infoencrypt.com/)
@@ -93,8 +93,8 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [HTTP Header Tester](https://www.rexswain.com/httpview.html)
 * [HTTP Header Tester (Advanced)](https://www.askapache.com/online-tools/http-headers-tool/)
 * [IP Address Trace](https://www.ip-tracker.org/)
+* [IP Detector (Frontend Dogma)](https://frontenddogma.com/tools/helpers/ip-detector/)
 * [IP Detector (ipleak.net)](https://ipleak.net/)
-* [IP Detector (UITest.com)](https://uitest.com/helpers/ip-detector/)
 * [IP History Checker](https://viewdns.info/iphistory/)
 * [Malware and Security Scanner](https://sitecheck.sucuri.net/)
 * [MD5 Hash Generator](https://www.md5online.org/md5-encrypt.html)
@@ -391,12 +391,12 @@ Linting comes out of computer programming—something we haven’t traditionally
 * [Website Analyzer (Accessify)](https://www.accessify.com/)
 * [Website Analyzer (Easy Counter)](https://www.easycounter.com/)
 * [Website Analyzer (Fagan Finder)](http://www.faganfinder.com/urlinfo/)
+* [Website Analyzer (Frontend Dogma)](https://frontenddogma.com/tools/check/)
 * [Website Analyzer (Mozilla)](https://observatory.mozilla.org/)
 * [Website Analyzer (Nibbler)](https://nibbler.silktide.com/)
 * [Website Analyzer (Open Admin Tools)](https://www.openadmintools.com/)
 * [Website Analyzer (Site Analyzer)](https://www.site-analyzer.com/)
 * [Website Analyzer (StatsCrop)](https://www.statscrop.com/)
-* [Website Analyzer (UITest.com)](https://uitest.com/check/)
 * [Website Analyzer (Yellow Lab Tools)](https://yellowlab.tools/)
 * [Website Grader](https://website.grader.com/)
 * [Website Review](https://www.valuemyweb.com/reviewmyweb/reviewmyweb)
@@ -505,7 +505,7 @@ The more a quality initiative grows and matures, the more tools and methods it m
 
 The following serves as an overview of web-based tools, browser extensions, command-line tools, scripts, and bookmarklets. It’s not complete; it lacks important tools; but many tools come with my endorsement, and the promise to serve you.
 
-I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [UITest.com](https://uitest.com/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
+I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [Frontend Dogma](https://frontenddogma.com/tools/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
 
 * [Abuse Contact Lookup](https://viewdns.info/abuselookup/)
 * [Accessibility Checker (AATT; automated; command-line tool)](https://github.com/paypal/AATT)
@@ -609,8 +609,8 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Internet Explorer Viewer (IE NetRenderer)](http://netrenderer.com/)
 * [Internet Explorer Viewer (URL2PNG)](https://www.url2png.com/)
 * [IP Address Trace](http://www.ip-tracker.org/)
+* [IP Detector (Frontend Dogma)](https://frontenddogma.com/tools/helpers/ip-detector/)
 * [IP Detector (ipleak.net)](https://ipleak.net/)
-* [IP Detector (UITest.com)](https://uitest.com/helpers/ip-detector/)
 * [IP History Checker](https://viewdns.info/iphistory/)
 * [JavaScript Linter (JSHint)](https://jshint.com/)
 * [JavaScript Linter (JSLint)](https://www.jslint.com/)
@@ -709,12 +709,12 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Website Analyzer (Accessify)](https://www.accessify.com/)
 * [Website Analyzer (Easy Counter)](https://www.easycounter.com/)
 * [Website Analyzer (Fagan Finder)](http://www.faganfinder.com/urlinfo/)
+* [Website Analyzer (Frontend Dogma)](https://frontenddogma.com/tools/check/)
 * [Website Analyzer (Mozilla)](https://observatory.mozilla.org/)
 * [Website Analyzer (Nibbler)](https://nibbler.silktide.com/)
 * [Website Analyzer (Open Admin Tools)](https://www.openadmintools.com/)
 * [Website Analyzer (Site Analyzer)](https://www.site-analyzer.com/)
 * [Website Analyzer (StatsCrop)](https://www.statscrop.com/)
-* [Website Analyzer (UITest.com)](https://uitest.com/check/)
 * [Website Analyzer (Yellow Lab Tools)](https://yellowlab.tools/)
 * [Website Batch Performance Analyzer](https://batchspeed.com/)
 * [Website Blockade Checker for China (Comparitech)](https://www.comparitech.com/privacy-security-tools/blockedinchina/)
