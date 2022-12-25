@@ -193,7 +193,6 @@ Today, test tools abound for performance measuring. Here are some of them:
 * [Availability Checker, Regional (Uptime.com)](https://uptime.com/freetools/global-uptime-test)
 * [CDN Use Checker](https://seositecheckup.com/tools/cdn-usage-test)
 * [Image Performance Analyzer](https://webspeedtest.cloudinary.com/)
-* [JavaScript Savings Analyzer](https://estimator.dev/)
 * [Load Time and Object Checker](https://www.websiteoptimization.com/services/analyze/)
 * [Load Time Checker](http://www.1-hit.com/all-in-one/tool.loading-time-checker.htm)
 * [Mobile Readiness Tester](https://ready.mobi/)
