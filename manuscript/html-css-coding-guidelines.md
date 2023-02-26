@@ -368,7 +368,7 @@ After this short run through coding guidelines, I want to make recommendations f
 
 Many of these guidelines are quality rather than preference guidelines. We’ll often work with the minima: with what (not) to do in what scope, examples that illustrate each point, a rationale, and some detail.
 
-(Legal note: The following guidelines are a lightly edited and commented derivative of the [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) by [Google](https://www.google.com/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).)
+(Legal note: The following guidelines are a lightly edited and commented derivative of the [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) by [Google](https://www.google.com/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).)
 
 ### General
 
