@@ -160,7 +160,7 @@ Independent of whether we would be held legally accountable, accessibility is on
 * [Accessibility Linter](https://accesslint.com/)
 * [Accessibility Visualization (script)](https://github.com/Khan/tota11y)
 * [ARIA Validator (WebKit browser extension)](https://chrome.google.com/webstore/detail/aria-validator/oigghlanfjgnkcndchmnlnmaojahnjoc)
-* [Breakpoint Viewer](http://www.responsivepx.com/)
+* [Breakpoint Viewer](https://www.responsivepx.com/)
 * [Colorblind Web Page Filter](https://www.toptal.com/designers/colorfilter)
 * [Color Contrast Analyzer (Jonathan Snook)](https://snook.ca/technical/colour_contrast/colour.html)
 * [Color Contrast Analyzer (WCAG Contrast Checker; Gecko browser extension)](https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/)
@@ -259,7 +259,7 @@ Today, the hype has moved on to web apps, and tolerance has stretched again to �
 
 Is this all justified? No. But the situation is complex. To make more sense of it, let’s break things up.
 
-For semantics, we should look at where it’s coming from and what people mean when they talk about it. [Semantics in HTML](https://meiert.com/en/blog/on-semantics-in-html/) refers to authority—and consensus-based meaning. The W3C or the WHATWG—the authorities—define in specifications what each element and attribute means. Vendors as well as community buy into these definitions. Sometimes they disagree (voiced in standard controversies), or push their own solutions (as with [microformats](http://microformats.org/)). ID and class names represent the most minimal form of consensus on meaning (well by a single developer).
+For semantics, we should look at where it’s coming from and what people mean when they talk about it. [Semantics in HTML](https://meiert.com/en/blog/on-semantics-in-html/) refers to authority—and consensus-based meaning. The W3C or the WHATWG—the authorities—define in specifications what each element and attribute means. Vendors as well as community buy into these definitions. Sometimes they disagree (voiced in standard controversies), or push their own solutions (as with [microformats](https://microformats.org/)). ID and class names represent the most minimal form of consensus on meaning (well by a single developer).
 
 For new technology and techniques, we find ourselves in a conflict. The standards community has given in to a form of arms race against itself. After years of slow progress, low output, and seeming indifference to the user and vendor community, suddenly those involved in standards want to push _everything_ forward. This has led the specifications to grow in number and size, and we still haven’t been able to take inventory of everything we’re now capable of doing. With that growing complexity, we risk losing it all, or [so I feel](https://meiert.com/en/blog/fing-up-standards/). But with respect to semantics, we’re right at the seam, and things have become loose there. Few focus on the _meaning_ of what documents and templates describe anymore. Divitis everywhere.
 
@@ -269,8 +269,8 @@ There are a number of semantics checks and generators for enriched markup:
 
 * [Facebook Validator](https://developers.facebook.com/tools/debug/)
 * [Google Structured Data Tester](https://developers.google.com/search/docs/advanced/structured-data)
-* [hCalendar Generator](http://microformats.org/code/hcalendar/creator)
-* [hCard Generator](http://microformats.org/code/hcard/creator)
+* [hCalendar Generator](https://microformats.org/code/hcalendar/creator)
+* [hCard Generator](https://microformats.org/code/hcard/creator)
 * [HTML Outline Extractor](https://gsnedders.html5.org/outliner/)
 * [LinkedIn Validator](https://www.linkedin.com/post-inspector/)
 * [Metadata Viewer](https://www.extractmetadata.com/)
@@ -336,14 +336,14 @@ To test layout and design, we can use tools and services like the following:
 * [Browser Test Automator (Squish)](http://www.froglogic.com/)
 * [Design Diff (script)](https://percy.io/)
 * [Edge Compatibility Tester](http://doesitworkonedge.com/)
-* [Internet Explorer Viewer (IE NetRenderer)](http://netrenderer.com/)
+* [Internet Explorer Viewer (IE NetRenderer)](https://netrenderer.com/)
 * [Internet Explorer Viewer (URL2PNG)](https://www.url2png.com/)
 * [Layout Bug Tester (script)](https://code.google.com/archive/p/fighting-layout-bugs/)
 * [Lynx Viewer](http://www.delorie.com/web/lynxview.html)
 * [Mobile Emulator](http://mtld.mobi/emulator.php)
 * [Opera Mini Emulator](http://opr.as/2cKpahy)
 * [Progressive Web App Feature Detector](https://tomayac.github.io/pwa-feature-detector/)
-* [User Agent Detector](http://ua.met.cz/)
+* [User Agent Detector](https://ua.met.cz/)
 * [Viewport Emulator](http://www.viewportemulator.com/)
 * [Viewport Size Determiner](https://www.internetmarketingninjas.com/tools/whats-my-browser-size/)
 
@@ -389,7 +389,7 @@ Linting comes out of computer programming—something we haven’t traditionally
 * [Reputation and Safety Checker](https://www.mywot.com/)
 * [Website Analyzer (Accessify)](https://www.accessify.com/)
 * [Website Analyzer (Easy Counter)](https://www.easycounter.com/)
-* [Website Analyzer (Fagan Finder)](http://www.faganfinder.com/urlinfo/)
+* [Website Analyzer (Fagan Finder)](https://www.faganfinder.com/urlinfo/)
 * [Website Analyzer (Frontend Dogma)](https://frontenddogma.com/tools/check/)
 * [Website Analyzer (Mozilla)](https://observatory.mozilla.org/)
 * [Website Analyzer (Nibbler)](https://nibbler.silktide.com/)
@@ -426,7 +426,7 @@ The listed quality checks look at compliance, comparing code strings against pre
 After we have properly formatted our code and made it consistent, we still want to make it production-ready by compressing and minifying it. Our work files should be easy (to understand) for us, and our production files should be easy (to parse and transfer) for others. For this there are additional tools.
 
 * [CSS Minifier](https://hell.meiert.org/aux/compress/css/gui/)
-* [HTML Minifier](http://htmlcompressor.com/compressor/)
+* [HTML Minifier](https://htmlcompressor.com/compressor/)
 * [HTML Optimizer and Minifier](https://kangax.github.io/html-minifier/)
 * [JavaScript Minifier](https://jscompress.com/)
 
@@ -525,7 +525,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Availability Checker, Regional (Uptime.com)](https://uptime.com/freetools/global-uptime-test)
 * [Bandwidth Speed Tester](http://www.bandwidthplace.com/)
 * [Blowfish Hash Generator](http://hash.online-convert.com/blowfish-generator)
-* [Breakpoint Viewer](http://www.responsivepx.com/)
+* [Breakpoint Viewer](https://www.responsivepx.com/)
 * [Browser Details Checker](https://yourbrowser.is/)
 * [Browser Screenshots for Windows and Android](https://www.browserling.com/)
 * [Browser Screenshots for Windows, macOS, and Linux](https://browsershots.org/)
@@ -586,15 +586,15 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Golden Ratio Typography Calculator](https://grtcalculator.com/)
 * [Google Structured Data Tester](https://developers.google.com/search/docs/advanced/structured-data)
 * [Hash Generator](https://hashgenerator.de/)
-* [hCalendar Generator](http://microformats.org/code/hcalendar/creator)
-* [hCard Generator](http://microformats.org/code/hcard/creator)
+* [hCalendar Generator](https://microformats.org/code/hcalendar/creator)
+* [hCard Generator](https://microformats.org/code/hcard/creator)
 * [hCard Validator](https://indiewebify.me/validate-h-card/)
 * [.htaccess Validator](https://shop.alterlinks.com/htaccess-validator/htaccess-validator.php)
 * [HTML 5 Validator](https://html5.validator.nu/)
 * [HTML, CSS, and Conformance Validator](https://validator.w3.org/unicorn/)
 * [HTML, CSS, and JS Formatter](https://www.10bestdesign.com/dirtymarkup/)
 * [HTML Formatter](https://www.freeformatter.com/html-formatter.html)
-* [HTML Minifier](http://htmlcompressor.com/compressor/)
+* [HTML Minifier](https://htmlcompressor.com/compressor/)
 * [HTML Optimizer (HTML De-crapulator)](https://lloydi.com/a11y-tools/markup-de-crapulator/)
 * [HTML Optimizer (HtmlWasher)](https://www.htmlwasher.com/)
 * [HTML Optimizer and Minifier](https://kangax.github.io/html-minifier/)
@@ -605,7 +605,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [HTTP Header Tester (Advanced)](https://www.askapache.com/online-tools/http-headers-tool/)
 * [Image Performance Analyzer](https://webspeedtest.cloudinary.com/)
 * [Internationalization Checker](https://validator.w3.org/i18n-checker/)
-* [Internet Explorer Viewer (IE NetRenderer)](http://netrenderer.com/)
+* [Internet Explorer Viewer (IE NetRenderer)](https://netrenderer.com/)
 * [Internet Explorer Viewer (URL2PNG)](https://www.url2png.com/)
 * [IP Address Trace](http://www.ip-tracker.org/)
 * [IP Detector (Frontend Dogma)](https://frontenddogma.com/tools/helpers/ip-detector/)
@@ -691,7 +691,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Type Scale Generator (Tim Brown)](https://www.modularscale.com/)
 * [UI Test Automator (Ghost Inspector; browser extension)](https://ghostinspector.com/)
 * [UI Test Automator (Screenster)](https://screenster.io/)
-* [User Agent Detector](http://ua.met.cz/)
+* [User Agent Detector](https://ua.met.cz/)
 * [User Identity Generator](https://www.fakenamegenerator.com/gen-random-us-us.php)
 * [Viewport Emulator](http://www.viewportemulator.com/)
 * [Viewport Size Determiner](https://www.internetmarketingninjas.com/tools/whats-my-browser-size/)
@@ -707,7 +707,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Web Font Generator](https://www.fontsquirrel.com/tools/webfont-generator)
 * [Website Analyzer (Accessify)](https://www.accessify.com/)
 * [Website Analyzer (Easy Counter)](https://www.easycounter.com/)
-* [Website Analyzer (Fagan Finder)](http://www.faganfinder.com/urlinfo/)
+* [Website Analyzer (Fagan Finder)](https://www.faganfinder.com/urlinfo/)
 * [Website Analyzer (Frontend Dogma)](https://frontenddogma.com/tools/check/)
 * [Website Analyzer (Mozilla)](https://observatory.mozilla.org/)
 * [Website Analyzer (Nibbler)](https://nibbler.silktide.com/)
