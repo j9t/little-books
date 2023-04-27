@@ -321,7 +321,7 @@ Normally filed under other categories, consistency-checking is also a factor in 
 
 The differentiation makes clear what tools we can use: browser and device emulators, of which there are plenty. That testing landscape has changed significantly over the years. Although it has become a challenge to test for the slew of devices, web-based tools that allow quick comparisons have matured to the extent that we have to install fewer user agents than we used to.
 
-(The change to always up-to-date, evergreen browsers as well as “consolidation” of rendering engines have led to improvements, too. For example, consider how [WebKit](https://www.webkit.org/) ~~is~~ was by far the most common engine [nowadays, it’s [Blink](https://en.wikipedia.org/wiki/Blink_(browser_engine))].)
+(The change to always up-to-date, evergreen browsers as well as “consolidation” of rendering engines have led to improvements, too. For example, consider how [WebKit](https://webkit.org/) ~~is~~ was by far the most common engine [nowadays, it’s [Blink](https://en.wikipedia.org/wiki/Blink_(browser_engine))].)
 
 To test layout and design, we can use tools and services like the following:
 
