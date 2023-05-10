@@ -433,7 +433,7 @@ Incorrect:
 
 (…where “_” signifies a space character.)
 
-#### Mark TODOs and Action Items with `TODO`
+#### Mark TODOs and Action Items With `TODO`
 
 Highlight TODOs by using the keyword `TODO` only.
 
@@ -635,7 +635,7 @@ Correct:
 .author {}
 ```
 
-#### Prefix Selectors with an Application-Specific Prefix Where Safer
+#### Prefix Selectors With an Application-Specific Prefix Where Safer
 
 In large projects and for all code that gets embedded in other projects or on external sites, use prefixes (as namespaces) for ID and class names. Use short, unique identifiers followed by a dash.
 
