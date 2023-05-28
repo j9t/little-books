@@ -411,7 +411,7 @@ The listed quality checks look at compliance, comparing code strings against pre
 * [CSS Formatter (Dan’s Tools)](https://www.cleancss.com/css-beautify/)
 * [CSS Formatter (Lonnie Best)](http://www.lonniebest.com/FormatCSS/)
 * [CSS Formatter and Minifier](https://www.cssportal.com/css-formatter/index.php)
-* [CSS Formatter and Optimizer](https://hell.meiert.org/aux/optimize/css/)
+* [CSS Formatter and Optimizer](https://www.tenman.info/csstidy/css_optimiser.php)
 * [HTML, CSS, and JS Formatter](https://www.10bestdesign.com/dirtymarkup/)
 * [HTML Formatter](https://www.freeformatter.com/html-formatter.html)
 * [HTML Optimizer (HTML De-crapulator)](https://lloydi.com/a11y-tools/markup-de-crapulator/)
@@ -424,7 +424,7 @@ The listed quality checks look at compliance, comparing code strings against pre
 
 After we have properly formatted our code and made it consistent, we still want to make it production-ready by compressing and minifying it. Our work files should be easy (to understand) for us, and our production files should be easy (to parse and transfer) for others. For this there are additional tools.
 
-* [CSS Minifier](https://hell.meiert.org/aux/compress/css/gui/)
+* [CSS Minifier](https://csscompressor.net/)
 * [HTML Minifier](https://htmlcompressor.com/compressor/)
 * [HTML Optimizer and Minifier](https://kangax.github.io/html-minifier/)
 * [JavaScript Minifier](https://jscompress.com/)
@@ -553,9 +553,9 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [CSS Formatter (Dan’s Tools)](https://www.cleancss.com/css-beautify/)
 * [CSS Formatter (Lonnie Best)](http://www.lonniebest.com/FormatCSS/)
 * [CSS Formatter and Minifier](https://www.cssportal.com/css-formatter/index.php)
-* [CSS Formatter and Optimizer](https://hell.meiert.org/aux/optimize/css/)
+* [CSS Formatter and Optimizer](https://www.tenman.info/csstidy/css_optimiser.php)
 * [CSS Linter](http://csslint.net/)
-* [CSS Minifier](https://hell.meiert.org/aux/compress/css/gui/)
+* [CSS Minifier](https://csscompressor.net/)
 * [CSS Validator (W3C)](https://jigsaw.w3.org/css-validator/)
 * [CSS Validator (WDG)](https://www.htmlhelp.com/tools/csscheck/)
 * [DAML Validator](http://www.daml.org/validator/)
