@@ -326,7 +326,6 @@ The differentiation makes clear what tools we can use: browser and device emulat
 To test layout and design, we can use tools and services like the following:
 
 * [Android and iOS Emulators](https://appetize.io/)
-* [Browser Details Checker](https://yourbrowser.is/)
 * [Browser Screenshots for Windows and Android](https://www.browserling.com/)
 * [Browser Screenshots for Windows, macOS, and Linux](https://browsershots.org/)
 * [Browser Screenshots for Windows, macOS, Android, and iOS](https://www.browserstack.com/screenshots)
@@ -524,7 +523,6 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Bandwidth Speed Tester](http://www.bandwidthplace.com/)
 * [Blowfish Hash Generator](http://hash.online-convert.com/blowfish-generator)
 * [Breakpoint Viewer](https://www.responsivepx.com/)
-* [Browser Details Checker](https://yourbrowser.is/)
 * [Browser Screenshots for Windows and Android](https://www.browserling.com/)
 * [Browser Screenshots for Windows, macOS, and Linux](https://browsershots.org/)
 * [Browser Screenshots for Windows, macOS, Android, and iOS](https://www.browserstack.com/screenshots)
