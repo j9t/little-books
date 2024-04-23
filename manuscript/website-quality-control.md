@@ -363,7 +363,7 @@ But why test? Obviously, for the reasons that typography matters—and so we’r
 * [Font Tester](https://play.typedetail.com/)
 * [Golden Ratio Typography Calculator](https://grtcalculator.com/)
 * [Text Decoration Generator](https://yaytext.com/)
-* [Type Scale Generator (Jeremy Church)](https://type-scale.com/)
+* [Type Scale Generator (Jeremy Church)](https://typescale.com/)
 * [Type Scale Generator (Tim Brown)](https://www.modularscale.com/)
 * [Web Font Generator](https://www.fontsquirrel.com/tools/webfont-generator)
 
@@ -680,7 +680,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Text Decoration Generator](https://yaytext.com/)
 * [Traceroute Tool](https://tools.keycdn.com/traceroute)
 * [Twitter Card Tester](http://cards-dev.twitter.com/validator)
-* [Type Scale Generator (Jeremy Church)](https://type-scale.com/)
+* [Type Scale Generator (Jeremy Church)](https://typescale.com/)
 * [Type Scale Generator (Tim Brown)](https://www.modularscale.com/)
 * [UI Test Automator (Ghost Inspector; browser extension)](https://ghostinspector.com/)
 * [UI Test Automator (Screenster)](https://screenster.io/)
