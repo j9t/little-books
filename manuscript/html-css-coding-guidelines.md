@@ -378,7 +378,7 @@ Make sure your editor uses UTF-8 as character encoding, without a byte order mar
 
 Specify the encoding in HTML templates and documents via `<meta charset="utf-8">`. Do not specify the encoding of stylesheets, for these assume UTF-8 by default.
 
-#### Omit the Protocol from Embedded Resources
+#### Omit the Protocol From Embedded Resources
 
 [The usefulness of this guideline can be questioned. You want to ensure all traffic is and stays on https.]
 
@@ -491,7 +491,7 @@ Correct:
 <img src="muscles.jpg" alt="Medical illustration of the muscles in the leg.">
 ```
 
-#### Separate Structure from Presentation from Behavior
+#### Separate Structure From Presentation From Behavior
 
 Strictly keep structure (markup), presentation (styling), and behavior (scripting) apart, and limit intersections between the three to an absolute minimum.
 
