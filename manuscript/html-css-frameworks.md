@@ -150,7 +150,7 @@ There are many dozens of HTML/CSS frameworks that developers have found useful. 
 * [Basscss](https://basscss.com/)
 * [Beard](https://web.archive.org/web/20190302021244/http://buildwithbeard.com/)
 * [Bijou](https://andhart.github.io/bijou/)
-* [Blueprint](http://www.blueprintcss.org/)
+* [Blueprint](https://web.archive.org/web/20231225134452/http://www.blueprintcss.org/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Brutalist Framework](https://web.archive.org/web/20210729180857/http://brutalistframework.com/)
 * [Bulma](https://bulma.io/)
