@@ -250,7 +250,7 @@ As for tools, we’re in need of more of them:
 
 Semantics was one of the hot topics of the last decade, when the field of web development went through its first stage of maturation and developed a better sense for how HTML markup should be written. This awareness was motivated in part by a higher regard for web standards—largely in relation to the underlying specifications—and in part by stronger emphasis on the need for websites to be more accessible.
 
-Today, the hype has moved on to web apps, and tolerance has stretched again to “anything goes.” [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) has grown and matured as both tool and excuse. [Microdata](https://html.spec.whatwg.org/multipage/microdata.html) and [web components](https://www.webcomponents.org/) have, so far, also contributed to a flourishing mindset of “semantics is not important anymore.”
+Today, the hype has moved on to web apps, and tolerance has stretched again to “anything goes.” [WAI–ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) has grown and matured as both tool and excuse. [Microdata](https://html.spec.whatwg.org/multipage/microdata.html) and [web components](https://www.webcomponents.org/) have, so far, also contributed to a flourishing mindset of “semantics is not important anymore.”
 
 Is this all justified? No. But the situation is complex. To make more sense of it, let’s break things up.
 
