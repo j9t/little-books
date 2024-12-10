@@ -13,3 +13,13 @@ Official description:
 > _The Little Book of Website Quality Control_ reviews quality assurance and control and offers a comprehensive collection of tools. It was written during a time when there were few automated testing options, with a focus on web-based manual testing. The author believes this has been one of his weakest books, ponders why he didn’t do better, but likes the idea that, over time, he can make updates that make it a little less shallow.
 >
 > → This is the book if you want to travel back in time for a complementary perspective on frameworks, coding guidelines, quality control—and the craft of web development.
+
+## Table of Contents
+
+* [Introduction](manuscript/intro.md)
+* [_The Little Book of HTML and CSS Frameworks_ (2015)](manuscript/html-css-frameworks.md)
+* [_The Little Book of HTML/CSS Coding Guidelines_ (2015)](manuscript/html-css-coding-guidelines.md)
+* [_The Little Book of Website Quality Control_ (2016)](manuscript/website-quality-control.md)
+* [Feedback](manuscript/feedback.md)
+* [About the Author](manuscript/author.md)
+* [About _The Little Book of Little Books_](manuscript/book.md)
