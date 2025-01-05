@@ -152,7 +152,7 @@ Accessibility legislation exists in many countries, like [Section 508](https://
 Independent of whether we would be held legally accountable, accessibility is one of the most impactful things to cater to on our sites.
 
 * [Accessibility Checker (AATT; automated; command-line tool)](https://github.com/paypal/AATT)
-* [Accessibility Checker (FAE)](https://fae.disability.illinois.edu/)
+* [Accessibility Checker (PowerMapper)](https://www.powermapper.com/products/sortsite/checks/accessibility-checks/)
 * [Accessibility Checker (WAVE)](https://wave.webaim.org/)
 * [Accessibility Developer Tools (Blink browser extension)](https://web.archive.org/web/https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
 * [Accessibility, HTML, and Link Checker (Blink and Gecko browser extension)](https://www.totalvalidator.com/)
@@ -494,7 +494,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 
 * [Abuse Contact Lookup](https://viewdns.info/abuselookup/)
 * [Accessibility Checker (AATT; automated; command-line tool)](https://github.com/paypal/AATT)
-* [Accessibility Checker (FAE)](https://fae.disability.illinois.edu/)
+* [Accessibility Checker (PowerMapper)](https://www.powermapper.com/products/sortsite/checks/accessibility-checks/)
 * [Accessibility Checker (WAVE)](https://wave.webaim.org/)
 * [Accessibility Developer Tools (Blink browser extension)](https://web.archive.org/web/https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
 * [Accessibility, HTML, and Link Checker (Blink and Gecko browser extension)](https://www.totalvalidator.com/)
