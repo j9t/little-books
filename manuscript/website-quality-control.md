@@ -272,7 +272,7 @@ There are a number of semantics checks and generators for enriched markup:
 * [Microformats Analyzer](https://php.microformats.io/)
 * [Schema Generator](https://seoscout.com/tools/schema-generator)
 * [Semantics Parser and Extractor](http://buzzword.org.uk/swignition/try)
-* [Twitter Card Tester](https://cards-dev.twitter.com/validator)
+* [Twitter Card Tester](https://cards-dev.x.com/validator)
 
 (Some accessibility and validation tools cover aspects of semantics, too; to avoid repetition and not distort the view on the “purely semantic” testing options, these have not been duplicated here.)
 
@@ -660,7 +660,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [SVG Validator](http://steltenpower.com/svgref.php)
 * [Text Decoration Generator](https://yaytext.com/)
 * [Traceroute Tool](https://tools.keycdn.com/traceroute)
-* [Twitter Card Tester](http://cards-dev.twitter.com/validator)
+* [Twitter Card Tester](https://cards-dev.x.com/validator)
 * [Type Scale Generator (Jeremy Church)](https://typescale.com/)
 * [Type Scale Generator (Tim Brown)](https://www.modularscale.com/)
 * [UI Test Automator (Ghost Inspector; browser extension)](https://ghostinspector.com/)
