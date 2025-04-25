@@ -1,7 +1,7 @@
 {sample: true}
 # About _The Little Book of Little Books_
 
-Written and published by [Jens Oliver Meiert](https://meiert.com/en/), Apartado de correos 3, 36070 Pontevedra, Spain.
+Written and published by [Jens Oliver Meiert](https://meiert.com/), Apartado de correos 3, 36070 Pontevedra, Spain.
 
 Editor: Kirsty MacRae
 
@@ -9,6 +9,6 @@ While this book has been produced with great care, the author, publisher, and co
 
 Contact +34-610859489 or press@meiert.com for questions and more information.
 
-Follow [Jens Oliver Meiert on Mastodon](https://mas.to/@j9t) ([and other networks](https://meiert.com/en/contact/)).
+Follow [Jens Oliver Meiert on Mastodon](https://mas.to/@j9t) ([and other networks](https://meiert.com/contact/)).
 
-[1.6.67]
+[1.6.68]
