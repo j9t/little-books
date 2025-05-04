@@ -1,6 +1,6 @@
 # The Little Book of Little Books: HTML and CSS Frameworks, Coding Guidelines, Quality Control
 
-This is the source of [_The Little Book of Little Books_](https://meiert.com/en/blog/the-little-book-of-little-books/).
+This is the source of [_The Little Book of Little Books_](https://meiert.com/blog/the-little-book-of-little-books/).
 
 Official description:
 

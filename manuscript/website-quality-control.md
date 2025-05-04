@@ -16,7 +16,7 @@ Quality management, which can be broken down into quality planning, quality assu
 
 This little book focuses mostly on the quality control piece, for if we can’t “see” what’s wrong, we won’t fix or plan to avoid what’s wrong. Still, it’s going to share advice on how to tie quality to our processes, for it _is_ more useful to learn how to fish than to hope to be fed every day. The book does all of this in a loose and relaxed manner, however, and not to the extent ISO standards would cover quality.
 
-Finally, and although this should matter only in few instances, the book hinges more on websites than web apps. That [distinction](https://meiert.com/en/blog/docs-and-apps/) is usually relevant when it comes to standards and development best practices, but there are some differences in how one should go about quality checking of sites as opposed to apps. What follows works better and allows for more complete quality control of _websites_.
+Finally, and although this should matter only in few instances, the book hinges more on websites than web apps. That [distinction](https://meiert.com/blog/docs-and-apps/) is usually relevant when it comes to standards and development best practices, but there are some differences in how one should go about quality checking of sites as opposed to apps. What follows works better and allows for more complete quality control of _websites_.
 
 This is a little book, then, because it’s short. Let’s leave the intro behind.
 
@@ -235,7 +235,7 @@ It’s advantageous to tell whether everything’s where we expect it to be, and
 
 The first technical priority to watch out for is maintainability. Maintainability? Yes, our ability to efficiently make changes to our design and code. This degree, this efficiency, makes for one of the most crucial aspects of web development—and at the same time it’s regularly among the most neglected ones.
 
-What is maintainability, what does this ability and efficiency refer to? That’s a valid question given that many long years of neglect have yielded little documentation and few best practices pertaining to maintainability and maintenance. [“One cannot not maintain”](https://meiert.com/en/blog/law-of-maintainability/)—that’s a “law” I once coined in despair. “One cannot not maintain” originates in the fact that anything we produce must at some point be dealt with again, whether by us or by others.
+What is maintainability, what does this ability and efficiency refer to? That’s a valid question given that many long years of neglect have yielded little documentation and few best practices pertaining to maintainability and maintenance. [“One cannot not maintain”](https://meiert.com/blog/law-of-maintainability/)—that’s a “law” I once coined in despair. “One cannot not maintain” originates in the fact that anything we produce must at some point be dealt with again, whether by us or by others.
 
 As for tools, we’re in need of more of them:
 
@@ -254,9 +254,9 @@ Today, the hype has moved on to web apps, and tolerance has stretched again to �
 
 Is this all justified? No. But the situation is complex. To make more sense of it, let’s break things up.
 
-For semantics, we should look at where it’s coming from and what people mean when they talk about it. [Semantics in HTML](https://meiert.com/en/blog/on-semantics-in-html/) refers to authority—and consensus-based meaning. The W3C or the WHATWG—the authorities—define in specifications what each element and attribute means. Vendors as well as community buy into these definitions. Sometimes they disagree (voiced in standard controversies), or push their own solutions (as with [microformats](https://microformats.org/)). ID and class names represent the most minimal form of consensus on meaning (well by a single developer).
+For semantics, we should look at where it’s coming from and what people mean when they talk about it. [Semantics in HTML](https://meiert.com/blog/on-semantics-in-html/) refers to authority—and consensus-based meaning. The W3C or the WHATWG—the authorities—define in specifications what each element and attribute means. Vendors as well as community buy into these definitions. Sometimes they disagree (voiced in standard controversies), or push their own solutions (as with [microformats](https://microformats.org/)). ID and class names represent the most minimal form of consensus on meaning (well by a single developer).
 
-For new technology and techniques, we find ourselves in a conflict. The standards community has given in to a form of arms race against itself. After years of slow progress, low output, and seeming indifference to the user and vendor community, suddenly those involved in standards want to push _everything_ forward. This has led the specifications to grow in number and size, and we still haven’t been able to take inventory of everything we’re now capable of doing. With that growing complexity, we risk losing it all, or [so I feel](https://meiert.com/en/blog/fing-up-standards/). But with respect to semantics, we’re right at the seam, and things have become loose there. Few focus on the _meaning_ of what documents and templates describe anymore. Divitis everywhere.
+For new technology and techniques, we find ourselves in a conflict. The standards community has given in to a form of arms race against itself. After years of slow progress, low output, and seeming indifference to the user and vendor community, suddenly those involved in standards want to push _everything_ forward. This has led the specifications to grow in number and size, and we still haven’t been able to take inventory of everything we’re now capable of doing. With that growing complexity, we risk losing it all, or [so I feel](https://meiert.com/blog/fing-up-standards/). But with respect to semantics, we’re right at the seam, and things have become loose there. Few focus on the _meaning_ of what documents and templates describe anymore. Divitis everywhere.
 
 Semantics will make it back to our agendas for the following reason: We can only get the most out of code and information within code, ensure best access to that code, and work best together on code if the code has meaning, or is used according to its assigned meaning.
 
@@ -278,7 +278,7 @@ There are a number of semantics checks and generators for enriched markup:
 
 ### Validation
 
-Validation as a measurable priority had peaked, too, before [falling from grace](https://meiert.com/en/blog/valid-html-2021/). But popularity doesn’t correlate with quality, and one can build a strong case for validation—conformance—as a fundamental factor for website quality. It’s such an important factor for that reason that only validation ensures that we’ve been producing code according to the specs (and that we know our business).
+Validation as a measurable priority had peaked, too, before [falling from grace](https://meiert.com/blog/valid-html-2021/). But popularity doesn’t correlate with quality, and one can build a strong case for validation—conformance—as a fundamental factor for website quality. It’s such an important factor for that reason that only validation ensures that we’ve been producing code according to the specs (and that we know our business).
 
 Although this is a powerful argument for validation, the web development landscape begs to differ—especially when it comes to HTML and CSS.
 

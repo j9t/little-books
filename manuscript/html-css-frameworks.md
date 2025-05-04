@@ -208,7 +208,7 @@ There are many dozens of HTML/CSS frameworks that developers have found useful. 
 * [UIkit](https://getuikit.com/)
 * [YAML](http://www.yaml.de/)
 
-(Some readers may remember [Choke](https://meiert.com/en/blog/choke/), too, although that humor may have been rather crude.)
+(Some readers may remember [Choke](https://meiert.com/blog/choke/), too, although that humor may have been rather crude.)
 
 These frameworks all vary in functionality and scope. Some focus on base layouts, while others go all the way into comprehensive print and mobile themes.
 
@@ -293,7 +293,7 @@ But that’s not a complete answer, and so we need to differentiate again. Let�
 
 For the framework user (who may be a developer himself but is now concerned with working _with_ the framework), a usable framework is also easy to understand. That ease of understanding is primarily achieved through clear framework documentation and, where applicable, concise code.
 
-For the framework developer, there’s much more emphasis on usable code. Luckily, there are two things linked with helping code usability: [maintainability practices](https://meiert.com/en/blog/maintainability-guide/) and code conventions (coding guidelines). Adherence to maintainability practices and consistent style are the backbone for usable code.
+For the framework developer, there’s much more emphasis on usable code. Luckily, there are two things linked with helping code usability: [maintainability practices](https://meiert.com/blog/maintainability-guide/) and code conventions (coding guidelines). Adherence to maintainability practices and consistent style are the backbone for usable code.
 
 With slightly smaller boundaries than [developer experience](https://web.archive.org/web/20150801063134/http://developerexperience.org/), I generally believe there’s a subfield of usability: _developer usability._ It could be defined as “the ease of use and learnability of code.” Yet perhaps usable code goes under different names.
 
@@ -440,7 +440,7 @@ What do we mean by prototype? In its simplest form, it’s a static (internal) w
 
 A prototype is an irreplaceable testing ground, one we need in order to develop a framework effectively.
 
-Prototypes follow their own principles, however. They must be, as I [attempted to summarize](https://meiert.com/en/blog/requirements-for-website-prototypes/#toc-requirements) in earlier years (slightly reworded):
+Prototypes follow their own principles, however. They must be, as I [attempted to summarize](https://meiert.com/blog/requirements-for-website-prototypes/#toc-requirements) in earlier years (slightly reworded):
 
 * complete
 * current
@@ -487,7 +487,7 @@ We’ve noted how principles, a prototype, and quality management are important 
 
 For one, in the case of external frameworks, maintenance is crucial because publishing a framework is a promise to the user base. That promise is precisely that it’s going to be maintained. It’s also a promise in _how_ it’s going to be maintained, in that we do everything in our power not to change any structure, but only the framework style sheets and scripts.
 
-For another, in any framework, a commitment to maintenance acts like another form of safety. The general idea in web development is that the [HTML is most important to get right](https://meiert.com/en/blog/get-the-html-right/), because it’s more expensive—think our cost definition—to change than style sheets and scripts. An explicit commitment to maintenance keeps us from discarding a framework just to “build another,” and thus supports the vision of CSS-only design iterations and refactorings. (Of course, true structural changes still require HTML changes, and with that, eventually, CSS and JavaScript edits.)
+For another, in any framework, a commitment to maintenance acts like another form of safety. The general idea in web development is that the [HTML is most important to get right](https://meiert.com/blog/get-the-html-right/), because it’s more expensive—think our cost definition—to change than style sheets and scripts. An explicit commitment to maintenance keeps us from discarding a framework just to “build another,” and thus supports the vision of CSS-only design iterations and refactorings. (Of course, true structural changes still require HTML changes, and with that, eventually, CSS and JavaScript edits.)
 
 A framework, solving widespread and complex development and design issues, comes with an express obligation to maintenance.
 
@@ -515,7 +515,7 @@ Here are a few tricks to make framework updates easier:
 
 * Communicate the status of ongoing updates.
 
-What we’re assuming here is that we’re not continuously “versioning” frameworks (a note that predates not only frontend packages, but also [semantic versioning](https://semver.org/)). That’s the practice of shipping a framework—let’s say, _foo_—and when the first changes come, not updating _foo_, but shipping _foo-2_. And then _foo-3_. And so on. This practice may be an _option_ for us, but not a rule. The rule should be to update the framework itself, per the ideas listed here. The reason is that versioning defeats the purpose and [advantage of CSS](https://meiert.com/en/blog/advantage-of-css/) (similarly for JavaScript), which are immediate changes, supported by separation of concerns (HTML for structure, CSS for presentation, and JavaScript for behavior). We’ll touch on the vision behind this shortly, but we should strive to do all updates through what we already have. And only for major changes do we look into our toolbox and, always carefully, reconsider versioning.
+What we’re assuming here is that we’re not continuously “versioning” frameworks (a note that predates not only frontend packages, but also [semantic versioning](https://semver.org/)). That’s the practice of shipping a framework—let’s say, _foo_—and when the first changes come, not updating _foo_, but shipping _foo-2_. And then _foo-3_. And so on. This practice may be an _option_ for us, but not a rule. The rule should be to update the framework itself, per the ideas listed here. The reason is that versioning defeats the purpose and [advantage of CSS](https://meiert.com/blog/advantage-of-css/) (similarly for JavaScript), which are immediate changes, supported by separation of concerns (HTML for structure, CSS for presentation, and JavaScript for behavior). We’ll touch on the vision behind this shortly, but we should strive to do all updates through what we already have. And only for major changes do we look into our toolbox and, always carefully, reconsider versioning.
 
 I> ### Test Bookmarklets
 I>

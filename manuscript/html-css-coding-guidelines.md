@@ -245,7 +245,7 @@ Implementation support: Ideally, a coding guideline comes with tips on how to us
 
 Explanation: Although this is not always needed, an explanation allows us to help our colleagues _understand_ what the context and purpose is, and facilitates improving or vetoing the rule in question. In an authoritative setting, explanations may not be as welcome, but in a cooperative one, they are. As domain experts, we should be able to explain _why_ we do what we do, as with imposing guidelines.
 
-What else: Finally, a comprehensive coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/en/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it’s better to err on the side of adding detail so that the team can understand the guideline and its rationale.
+What else: Finally, a comprehensive coding guideline should include an appropriate level of detail. I’d like to keep with the idea of the [ideal ID or class name](https://meiert.com/blog/best-practice-ids-and-classes/)—as long as necessary and as short as possible. Bearing this in mind, when working on a coding standard, it’s better to err on the side of adding detail so that the team can understand the guideline and its rationale.
 
 With that, we can tell the _minima_ and _maxima_ of a coding guideline:
 
@@ -293,7 +293,7 @@ Let’s see how this can be applied to coding guidelines, and what else is invol
 
 The descriptive approach works if the difference between code reality and our goals is small. Then we can outline how things are done now, let the whole _mélange_ sit, and reap the reward when we onboard new team members.
 
-For example, if everyone on the team is validating their HTML code, as it [should be done](https://meiert.com/en/blog/the-frontend-developer-test/) (there’s no need and no excuse for not using HTML correctly), we say:
+For example, if everyone on the team is validating their HTML code, as it [should be done](https://meiert.com/blog/the-frontend-developer-test/) (there’s no need and no excuse for not using HTML correctly), we say:
 
 > Release only valid HTML code
 
