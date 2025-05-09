@@ -179,7 +179,7 @@ Usability is also a critical area to focus on when running a website. Because it
 
 For the longest time, Google has worked following the mantras, [“every millisecond counts”](https://www.youtube.com/watch?v=aXJklICrFJI) as well as [“fast is better than slow.”](https://web.archive.org/web/20150823063537/https://www.google.com/about/company/philosophy/) And for good reason! Speed is a key factor for a positive user experience—so crucial, in fact, that it’s one of the determinants for customer satisfaction and conversion.
 
-There are many studies that back performance up as important for quality websites, and Six Revisions (with [_Why Website Speed is Important_](https://www.webfx.com/blog/web-design/why-website-speed-is-important/)), Impressive Webs (with [_The Importance of Page Speed_](https://www.impressivewebs.com/importance-of-page-speed-sources/)), and WebSiteOptimization.com (with [_Empirical Study of Web Site Speed on Search Engine Rankings_](http://www.websiteoptimization.com/speed/tweak/website-speed-search-rankings-study/)) provide pointers for a number of them.
+There are many studies that back performance up as important for quality websites, and Six Revisions (with [_Why Website Speed is Important_](https://www.webfx.com/blog/web-design/why-website-speed-is-important/)), Impressive Webs (with [_The Importance of Page Speed_](https://www.impressivewebs.com/importance-of-page-speed-sources/)), and WebSiteOptimization.com (with [_Empirical Study of Web Site Speed on Search Engine Rankings_](https://www.websiteoptimization.com/speed/tweak/website-speed-search-rankings-study/)) provide pointers for a number of them.
 
 Today, test tools abound for performance measuring. Here are some of them:
 
