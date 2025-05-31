@@ -30,7 +30,7 @@ The two most fundamental lessons I learned were that coding guidelines absolutel
 
 ### Acknowledgments
 
-I’d like to thank [Tony Ruscoe](http://ruscoe.net/) for his always friendly and professional help checking and improving my technical writing. I thank the O’Reilly team, notably Simon St. Laurent and Meg Foley, for their advice and help on getting another _Little Book_ out (following _The Little Book of HTML/CSS Frameworks_ [part of this larger book]). And, regarding the matter at hand, I like to thank all the many people I’ve worked with who showed and taught me how (not) to work with coding standards.
+I’d like to thank [Tony Ruscoe](https://ruscoe.net/) for his always friendly and professional help checking and improving my technical writing. I thank the O’Reilly team, notably Simon St. Laurent and Meg Foley, for their advice and help on getting another _Little Book_ out (following _The Little Book of HTML/CSS Frameworks_ [part of this larger book]). And, regarding the matter at hand, I like to thank all the many people I’ve worked with who showed and taught me how (not) to work with coding standards.
 
 Thanks, too, go to [Harry Roberts](https://csswizardry.com/), [Dan Hay](http://www.onepointed.com/dan/), as well as [Google’s](https://www.google.com/) and [WordPress’s](https://wordpress.org/) developers for all their work on coding standards (and permission to quote within this book).
 
