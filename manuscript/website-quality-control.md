@@ -207,6 +207,7 @@ Today, test tools abound for performance measuring. Here are some of them:
 * [Website Performance Analyzer (wattspeed)](https://www.wattspeed.com/)
 * [Website Performance Analyzer (WebPageTest)](https://www.webpagetest.org/)
 * [Website Performance Analyzer (YSlow; browser extension)](https://yslow.org/)
+* [Website Performance Comparer](https://www.peakhour.io/pages/website-competitor-speed-test)
 
 ### Functionality
 
@@ -619,7 +620,6 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Network Intrusion Prevention and Analyzer (Snort; command-line tool)](https://www.snort.org/)
 * [Opera Mini Emulator](http://opr.as/2cKpahy)
 * [P3P Validator](https://www.w3.org/P3P/validator.html)
-* [PageSpeed Results Comparer](https://pagespeed.compare/)
 * [Password Generator (Arantius.com)](https://tools.arantius.com/password)
 * [Password Generator (GRC)](https://www.grc.com/passwords.htm)
 * [Password Generator (Packetizer)](https://secure.packetizer.com/pwgen/)
@@ -708,6 +708,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Website Performance Analyzer (wattspeed)](https://www.wattspeed.com/)
 * [Website Performance Analyzer (WebPageTest)](https://www.webpagetest.org/)
 * [Website Performance Analyzer (YSlow; browser extension)](https://yslow.org/)
+* [Website Performance Comparer](https://www.peakhour.io/pages/website-competitor-speed-test)
 * [Website Privacy Checker](https://webbkoll.dataskydd.net/)
 * [Website Review](https://www.valuemyweb.com/reviewmyweb/reviewmyweb)
 * [Website Scam Checker](https://www.scamadviser.com/)
