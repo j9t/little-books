@@ -522,7 +522,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Code Formatter (Pretty Printer)](http://prettyprinter.de/)
 * [Color Contrast Analyzer (Jonathan Snook)](https://snook.ca/technical/colour_contrast/colour.html)
 * [Color Contrast Analyzer (WCAG Contrast Checker; Gecko browser extension)](http://mzl.la/2cmVY1A)
-* [Color Contrast Analyzer (WebAIM)](http://webaim.org/resources/contrastchecker/)
+* [Color Contrast Analyzer (WebAIM)](https://webaim.org/resources/contrastchecker/)
 * [Color Deficit Emulation](https://web.archive.org/web/20061116012718/http://www.vischeck.com/vischeck/vischeckURL.php)
 * [Colorblind Web Page Filter](https://www.toptal.com/designers/colorfilter)
 * [Content Security Policy Validator (CSP Validator)](https://cspvalidator.org/)
