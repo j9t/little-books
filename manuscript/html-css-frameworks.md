@@ -549,7 +549,7 @@ I>   width: 90%;
 I> }
 I> ```
 I>
-I> We’re simplifying here by assuming that `<article>` doesn’t pick up margin values from anywhere else. `margin` has to be set because while it’s been removed from the new framework, it would still be applied through the old framework, which is in effect on the pages where we want to test the new code. So the test style sheet needs to neutralize all old code—something we could in really tricky cases, as a last resort, also attempt through [the `all` property](https://www.w3.org/TR/css3-cascade/#all-shorthand).
+I> We’re simplifying here by assuming that `<article>` doesn’t pick up margin values from anywhere else. `margin` has to be set because while it has been removed from the new framework, it would still be applied through the old framework, which is in effect on the pages where we want to test the new code. So the test style sheet needs to neutralize all old code—something we could in really tricky cases, as a last resort, also attempt through [the `all` property](https://www.w3.org/TR/css3-cascade/#all-shorthand).
 I>
 I> Jesse Ruderman’s [bookmarklet generator](https://www.squarefree.com/userstyles/make-bookmarklet.html) is a fine little tool to turn test code into a bookmarklet (by pasting the test CSS and copying bookmarklet code). That bookmarklet can then be provided to any framework user, along with a way to report problems.
 
