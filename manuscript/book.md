@@ -11,4 +11,4 @@ Contact +34-610859489 or press@meiert.com for questions and more information.
 
 Follow [Jens Oliver Meiert on Mastodon](https://mas.to/@j9t) ([and other networks](https://meiert.com/contact/)).
 
-[1.7.0]
+[1.7.1]
