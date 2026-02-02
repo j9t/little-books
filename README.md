@@ -1,8 +1,10 @@
 # The Little Book of Little Books: HTML and CSS Frameworks, Coding Guidelines, Quality Control
 
-<a href="https://meiert.com/blog/the-little-book-of-little-books/"><img src="https://meiert.com/de/publications/books/the-little-book-of-little-books/cover-s.png" alt="Cover of The Little Book of Little Books" style="float: right; margin: 0 0 1em 1em; max-width: 150px;"></a>
-
 This is the source of [_The Little Book of Little Books_](https://meiert.com/blog/the-little-book-of-little-books/).
+
+<div style="text-align: center;">
+	<a href="https://meiert.com/blog/the-little-book-of-little-books/"><img src="https://meiert.com/de/publications/books/the-little-book-of-little-books/cover-s.png" alt="Cover of The Little Book of Little Books" style="margin: auto;"></a>
+</div>
 
 Official description:
 
