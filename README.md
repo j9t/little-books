@@ -2,7 +2,9 @@
 
 This is the source of [_The Little Book of Little Books_](https://meiert.com/blog/the-little-book-of-little-books/).
 
-<a href="https://meiert.com/blog/the-little-book-of-little-books/"><img src="https://meiert.com/de/publications/books/the-little-book-of-little-books/cover-s.png" alt="Cover of The Little Book of Little Books" style="margin: auto;"></a>
+<div style="text-align: center;">
+	<a href="https://meiert.com/blog/the-little-book-of-little-books/"><img src="https://meiert.com/de/publications/books/the-little-book-of-little-books/cover-s.png" alt="Cover of The Little Book of Little Books"></a>
+</div>
 
 Official description:
 
