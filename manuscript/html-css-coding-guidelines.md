@@ -580,7 +580,7 @@ Using valid CSS is a baseline quality attribute that allows to spot CSS code tha
 
 #### Avoid User Agent Detection and CSS “Hacks”
 
-It’s tempting to address styling differences over user agent detection or special CSS filters, workarounds, and hacks. Both approaches should be considered as a last resort in order to achieve and maintain an efficient and manageable code base. Put another way, giving detection and hacks a free pass hurts projects in the long run as projects tend to take the way of least resistance. That is, allowing and making it easy to use detection and hacks means using detection and hacks more frequently—and more frequently is too frequently.
+It’s tempting to address styling differences over user agent detection or special CSS filters, workarounds, and hacks. Both approaches should be considered as a last resort in order to achieve and maintain an efficient and manageable codebase. Put another way, giving detection and hacks a free pass hurts projects in the long run as projects tend to take the way of least resistance. That is, allowing and making it easy to use detection and hacks means using detection and hacks more frequently—and more frequently is too frequently.
 
 #### Use Functional or Generic ID and Class Names
 

@@ -481,7 +481,7 @@ Dedicated contacts: Quality stands and falls with people. At least one person sh
 
 Mailing lists: To coordinate quality efforts, communicate new and updated documentation, and so on, mailing lists are a crucial tool. There can be lists for quality-focused teams, as well as lists open to the entire enterprise.
 
-Events: Google has a practice to host “fixits” or “fixlets,” events that let the company or departments clean up and improve their work and code base, but quality events can range from a toast on quality at the daily Scrum meeting to company representatives speaking about quality at industry conferences.
+Events: Google has a practice to host “fixits” or “fixlets,” events that let the company or departments clean up and improve their work and codebase, but quality events can range from a toast on quality at the daily Scrum meeting to company representatives speaking about quality at industry conferences.
 
 The more a quality initiative grows and matures, the more tools and methods it may employ. This here describes the basic options.
 
