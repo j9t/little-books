@@ -2,7 +2,7 @@
 
 This is the source of [_The Little Book of Little Books_](https://meiert.com/blog/the-little-book-of-little-books/).
 
-<!-- Seriously, GitHub? -->
+<!-- Really, GitHub? -->
 <div align="center">
 	<a href="https://meiert.com/blog/the-little-book-of-little-books/"><img src="https://meiert.com/de/publications/books/the-little-book-of-little-books/cover-s.png" alt="The cover of “The Little Book of Little Books.”"></a>
 </div>
