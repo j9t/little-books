@@ -222,7 +222,7 @@ It’s advantageous to tell whether everything’s where we expect it to be, and
 * [Browser Test Automator (Squish)](http://www.froglogic.com/)
 * [Design Responsiveness Tester (Am I Responsive)](https://ui.dev/amiresponsive)
 * [Design Responsiveness Tester (Website Planet)](https://www.websiteplanet.com/webtools/responsive-checker/)
-* [Link and Image Checker](https://www.internetmarketingninjas.com/tools/broken-links-tool/)
+* [Link and Image Checker](https://tools.internetmarketingninjas.com/broken-links-tool/)
 * [Link Checker (Dead Link Checker)](https://www.deadlinkchecker.com/)
 * [Link Checker (Dr. Link Check)](https://www.drlinkcheck.com/)
 * [Link Checker (LinkTiger)](http://www.linktiger.com/)
@@ -335,7 +335,7 @@ To test layout and design, we can use tools and services like the following:
 * [Progressive Web App Feature Detector](https://tomayac.github.io/pwa-feature-detector/)
 * [User Agent Detector](https://ua.met.cz/)
 * [Viewport Emulator](http://www.viewportemulator.com/)
-* [Viewport Size Determiner](https://www.internetmarketingninjas.com/tools/whats-my-browser-size/)
+* [Viewport Size Determiner](https://tools.internetmarketingninjas.com/whats-my-browser-size/)
 
 ### Typography
 
@@ -601,7 +601,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [JSON Validator (FreeFormatter.com)](https://www.freeformatter.com/json-validator.html)
 * [JSON Validator (JSON Compare)](https://jsoncompare.com/)
 * [Layout Bug Tester (script)](https://code.google.com/archive/p/fighting-layout-bugs/)
-* [Link and Image Checker](https://www.internetmarketingninjas.com/tools/broken-links-tool/)
+* [Link and Image Checker](https://tools.internetmarketingninjas.com/broken-links-tool/)
 * [Link Checker (Dead Link Checker)](https://www.deadlinkchecker.com/)
 * [Link Checker (Dr. Link Check)](https://www.drlinkcheck.com/)
 * [Link Checker (LinkTiger)](http://www.linktiger.com/)
@@ -668,7 +668,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [User Agent Detector](https://ua.met.cz/)
 * [User Identity Generator](https://www.fakenamegenerator.com/gen-random-us-us.php)
 * [Viewport Emulator](http://www.viewportemulator.com/)
-* [Viewport Size Determiner](https://www.internetmarketingninjas.com/tools/whats-my-browser-size/)
+* [Viewport Size Determiner](https://tools.internetmarketingninjas.com/whats-my-browser-size/)
 * [Virus Scanner](https://www.virustotal.com/gui/home/upload)
 * [Wake-on-LAN Helper](https://www.depicus.com/wake-on-lan/woli)
 * [WCAG 2.0 and 2.1 Checker](https://mauve.isti.cnr.it/singleValidation.jsp)
