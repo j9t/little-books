@@ -9,28 +9,28 @@ Other titles by Jens Oliver Meiert:
 
 > What is 3P? Afferent coupling? Strict evaluation? What are CPH, cHTML, and CMF? How about Vanadium, OPcache, or Auto Forms Mode? Covering more than 4,000 terms and concepts, and including explanations from Wikipedia and MDN Web Docs, _The Web Development Glossary 4K_ provides an overview of web development unlike any other book or site.
 
-Available at [Apple Books](https://books.apple.com/us/book/the-web-development-glossary-4k/id6760966634), [Google Play Books](https://play.google.com/store/books/details?id=WuDKEQAAQBAJ), and [Leanpub](https://leanpub.com/web-development-glossary-4k). (Try the glossary online at [WebGlossary.info](https://webglossary.info/)!)
+Available on [Apple Books](https://books.apple.com/us/book/the-web-development-glossary-4k/id6760966634), [Google Play Books](https://play.google.com/store/books/details?id=WuDKEQAAQBAJ), and [Leanpub](https://leanpub.com/web-development-glossary-4k). (Try the glossary online at [WebGlossary.info](https://webglossary.info/)!)
 
 ## [_On Web Development II_](https://meiert.com/blog/on-web-development-2/) (2025)
 
 > A comprehensive ebook marking another 10 years of meiert.com, featuring 180 curated articles on web development from 2015 to 2025.
 
-Available at [Amazon](https://www.amazon.com/dp/B0G15TM2XL/), [Apple Books](https://books.apple.com/us/book/on-web-development-ii/id6755723929), [Kobo](https://www.kobo.com/us/en/ebook/on-web-development-ii), [Google Play Books](https://play.google.com/store/books/details?id=ruaVEQAAQBAJ), and [Leanpub](https://leanpub.com/on-web-development-2).
+Available on [Amazon](https://www.amazon.com/dp/B0G15TM2XL/), [Apple Books](https://books.apple.com/us/book/on-web-development-ii/id6755723929), [Kobo](https://www.kobo.com/us/en/ebook/on-web-development-ii), [Google Play Books](https://play.google.com/store/books/details?id=ruaVEQAAQBAJ), and [Leanpub](https://leanpub.com/on-web-development-2).
 
 ## _Upgrade Your HTML_ (2019–2024)
 
 > The _Upgrade Your HTML_ series is about one thing: Picking examples of HTML in the wild, and explaining how to make that code better. Kindly. Constructively. Thoroughly, as finding a balance between detail and brevity permits.
 
-Available at [Amazon](https://www.amazon.com/dp/B0B4SD84B2/), [Apple Books](https://books.apple.com/us/book-series/upgrade-your-html/id1569607037), [Kobo](https://www.kobo.com/us/en/series/upgrade-your-html), [Google Play Books](https://play.google.com/store/books/series?id=5AksGwAAABDJEM), and [Leanpub](https://leanpub.com/b/upgrade-your-html-1-5).
+Available on [Amazon](https://www.amazon.com/dp/B0B4SD84B2/), [Apple Books](https://books.apple.com/us/book-series/upgrade-your-html/id1569607037), [Kobo](https://www.kobo.com/us/en/series/upgrade-your-html), [Google Play Books](https://play.google.com/store/books/series?id=5AksGwAAABDJEM), and [Leanpub](https://leanpub.com/b/upgrade-your-html-1-5).
 
 ## [_CSS Optimization Basics_](https://meiert.com/blog/css-optimization-basics/) (2018)
 
 > Are you unsure about your style sheets’ quality, or whether you’ve maxed out your options? _CSS Optimization Basics_ covers the necessary mindsets, discusses the main optimization methods, and presents useful resources to write higher-quality CSS.
 
-Available at [Amazon](https://www.amazon.com/dp/B07TVW1ZT8/), [Apple Books](https://books.apple.com/us/book/css-optimization-basics/id1571260941), [Kobo](https://www.kobo.com/us/en/ebook/css-optimization-basics), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_CSS_Optimization_Basics?id=xgTfDwAAQBAJ), and [Leanpub](https://leanpub.com/css-optimization-basics).
+Available on [Amazon](https://www.amazon.com/dp/B07TVW1ZT8/), [Apple Books](https://books.apple.com/us/book/css-optimization-basics/id1571260941), [Kobo](https://www.kobo.com/us/en/ebook/css-optimization-basics), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_CSS_Optimization_Basics?id=xgTfDwAAQBAJ), and [Leanpub](https://leanpub.com/css-optimization-basics).
 
 ## [_The Little Book of HTML/CSS Frameworks_](https://meiert.com/blog/the-book-of-frameworks/) (2015)
 
 > With the speed of web development today, it’s little wonder that so many frameworks are available, since they come with a promise of saving development and design time. But using the wrong framework, or wrongly using the right framework, can be costly. This concise book shares higher-level ideas around web development frameworks that govern HTML and CSS code, whether you’re looking at an external option or planning to build your own.
 
-Available at [O’Reilly](https://www.oreilly.com/library/view/the-little-book/9781492048121/).
+Available on [O’Reilly](https://www.oreilly.com/library/view/the-little-book/9781492048121/).
