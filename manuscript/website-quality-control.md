@@ -70,7 +70,7 @@ Security is critical, but it’s also tricky in the light of website quality con
 
 Let’s go over some tools that are available to us (primarily with a focus on those that are web-based). The responsible website owner should employ additional, notably inner-organizational means to ensure that their services and the data those services gather are secure.
 
-I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [Frontend Dogma](https://frontenddogma.com/tools/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
+I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [dxsrc](https://dxsrc.org/tools/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
 
 * [Abuse Contact Lookup](https://viewdns.info/abuselookup/)
 * [AES Encrypter and Decrypter](https://www.devglan.com/online-tools/aes-encryption-decryption)
@@ -93,7 +93,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [HTTP Header Tester](https://www.rexswain.com/httpview.html)
 * [HTTP Header Tester (Advanced)](https://www.askapache.com/online-tools/http-headers-tool/)
 * [IP Address Trace](https://www.ip-tracker.org/)
-* [IP Detector (Frontend Dogma)](https://frontenddogma.com/tools/ip-detector/)
+* [IP Detector (dxsrc)](https://dxsrc.org/tools/ip-detector/)
 * [IP Detector (ipleak.net)](https://ipleak.net/)
 * [IP History Checker](https://viewdns.info/iphistory/)
 * [Malware and Security Scanner](https://sitecheck.sucuri.net/)
@@ -377,7 +377,7 @@ Linting comes out of computer programming—something we haven’t traditionally
 * [Reputation and Safety Checker](https://web.archive.org/web/https://www.mywot.com/)
 * [Website Analyzer (Accessify)](https://www.accessify.com/)
 * [Website Analyzer (Easy Counter)](https://web.archive.org/web/https://www.easycounter.com/)
-* [Website Analyzer (Frontend Dogma)](https://frontenddogma.com/tools/check/)
+* [Website Analyzer (Frontend Dogma)](https://dxsrc.org/tools/check/)
 * [Website Analyzer (Mozilla)](https://observatory.mozilla.org/)
 * [Website Analyzer (Nibbler)](https://web.archive.org/web/20170218201838/https://nibbler.silktide.com/)
 * [Website Analyzer (Open Admin Tools)](https://www.openadmintools.com/)
@@ -491,7 +491,7 @@ The more a quality initiative grows and matures, the more tools and methods it m
 
 The following serves as an overview of web-based tools, browser extensions, command-line tools, scripts, and bookmarklets. It’s not complete; it lacks important tools; but many tools come with my endorsement, and the promise to serve you.
 
-I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [Frontend Dogma](https://frontenddogma.com/tools/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
+I> These resources had been collected in 2016. They were updated and augmented in 2021 with a focus on web-based tools, which is why you now find few extensions, CLI tools, and scripts, as well as no packages. If you like web-based tools, you find even more on one of my websites, [Frontend Dogma](https://dxsrc.org/tools/), and on one by Stefan Judis, [Tiny Helpers](https://tiny-helpers.dev/).
 
 * [Abuse Contact Lookup](https://viewdns.info/abuselookup/)
 * [Accessibility Checker (AATT; automated; command-line tool)](https://github.com/paypal/AATT)
@@ -588,7 +588,7 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Internet Explorer Viewer (IE NetRenderer)](https://netrenderer.com/)
 * [Internet Explorer Viewer (URL2PNG)](https://www.url2png.com/)
 * [IP Address Trace](https://www.ip-tracker.org/)
-* [IP Detector (Frontend Dogma)](https://frontenddogma.com/tools/ip-detector/)
+* [IP Detector (dxsrc)](https://dxsrc.org/tools/ip-detector/)
 * [IP Detector (ipleak.net)](https://ipleak.net/)
 * [IP History Checker](https://viewdns.info/iphistory/)
 * [JavaScript Linter (JSHint)](https://jshint.com/)
@@ -680,8 +680,8 @@ I> These resources had been collected in 2016. They were updated and augmented i
 * [Web App Test Automator (command-line tool)](https://github.com/svenfuchs/steam)
 * [Web Font Generator](https://www.fontsquirrel.com/tools/webfont-generator)
 * [Website Analyzer (Accessify)](https://www.accessify.com/)
+* [Website Analyzer (dxsrc)](https://dxsrc.org/tools/check/)
 * [Website Analyzer (Easy Counter)](https://web.archive.org/web/https://www.easycounter.com/)
-* [Website Analyzer (Frontend Dogma)](https://frontenddogma.com/tools/check/)
 * [Website Analyzer (Mozilla)](https://observatory.mozilla.org/)
 * [Website Analyzer (Nibbler)](https://web.archive.org/web/20170218201838/https://nibbler.silktide.com/)
 * [Website Analyzer (Open Admin Tools)](https://www.openadmintools.com/)
