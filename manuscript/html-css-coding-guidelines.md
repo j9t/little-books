@@ -158,7 +158,7 @@ An indirect benefit that follows consistency is improved usability. Improved dev
 
 ### Collaboration
 
-More importantly—and necessarily—, coding guidelines facilitate collaboration. They make it easier for you to understand your colleagues’ code (and vice versa), and to hand over code to someone you haven’t previously worked with. They don’t require as much time adjusting to someone else’s coding style, especially not when following the otherwise laudable habit of sticking to the code style a given project is using.
+More importantly—and necessarily—coding guidelines facilitate collaboration. They make it easier for you to understand your colleagues’ code (and vice versa), and to hand over code to someone you haven’t previously worked with. They don’t require as much time adjusting to someone else’s coding style, especially not when following the otherwise laudable habit of sticking to the code style a given project is using.
 
 ### Maintainability
 
